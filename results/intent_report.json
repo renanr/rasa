@@ -1,64 +1,557 @@
 {
-  "mood_great": {
+  "ask-for-feedback": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "close-bot": {
+    "precision": 0.9757575757575757,
+    "recall": 0.9938271604938271,
+    "f1-score": 0.9847094801223242,
+    "support": 162,
+    "confused_with": {
+      "no": 1
+    }
+  },
+  "aperitif": {
+    "precision": 0.9846153846153847,
+    "recall": 1.0,
+    "f1-score": 0.9922480620155039,
+    "support": 128,
+    "confused_with": {}
+  },
+  "why-this-wine": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 24,
+    "confused_with": {
+      "get-help": 1,
+      "how-wine": 1
+    }
+  },
+  "primeur-date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "region-choice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "appellation-similaire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 68,
+    "confused_with": {}
+  },
+  "quality-vintage": {
+    "precision": 0.9615384615384616,
+    "recall": 1.0,
+    "f1-score": 0.9803921568627451,
+    "support": 25,
+    "confused_with": {}
+  },
+  "recherche-vin": {
+    "precision": 0.9988109393579072,
+    "recall": 1.0,
+    "f1-score": 0.9994051160023795,
+    "support": 840,
+    "confused_with": {}
+  },
+  "bad-display": {
+    "precision": 1.0,
+    "recall": 0.926829268292683,
+    "f1-score": 0.9620253164556963,
+    "support": 41,
+    "confused_with": {
+      "close-bot": 3
+    }
+  },
+  "bien-notes": {
+    "precision": 1.0,
+    "recall": 0.9841269841269841,
+    "f1-score": 0.9919999999999999,
+    "support": 63,
+    "confused_with": {
+      "budget-color-appellation": 1
+    }
+  },
+  "scan-help": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "occasion-choice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "share": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "amateur": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "delivery": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "human-or-bot": {
+    "precision": 1.0,
+    "recall": 0.9555555555555556,
+    "f1-score": 0.9772727272727273,
+    "support": 45,
+    "confused_with": {
+      "bot-identity-1": 2
+    }
+  },
+  "wine-quote": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "impressionner": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 59,
+    "confused_with": {}
+  },
+  "what-wine-variety": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 8,
     "confused_with": {}
   },
-  "mood_unhappy": {
+  "shop-choice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "bot-creation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "change-shop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "more-wines": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47,
+    "confused_with": {}
+  },
+  "customer-service": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 67,
+    "confused_with": {}
+  },
+  "decouverte-choice": {
+    "precision": 0.9919354838709677,
+    "recall": 1.0,
+    "f1-score": 0.9959514170040485,
+    "support": 123,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9807692307692307,
+    "f1-score": 0.9760765550239234,
+    "support": 104,
+    "confused_with": {
+      "greetings": 1,
+      "good-feedback": 1
+    }
+  },
+  "vat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "no": {
+    "precision": 0.9714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.9855072463768115,
+    "support": 34,
+    "confused_with": {}
+  },
+  "cepage": {
+    "precision": 0.9886363636363636,
+    "recall": 1.0,
+    "f1-score": 0.9942857142857142,
+    "support": 87,
+    "confused_with": {}
+  },
+  "change-style": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "budget-change": {
+    "precision": 0.9629629629629629,
+    "recall": 1.0,
+    "f1-score": 0.9811320754716981,
+    "support": 26,
+    "confused_with": {}
+  },
+  "greetings": {
+    "precision": 0.9915966386554622,
+    "recall": 0.9672131147540983,
+    "f1-score": 0.979253112033195,
+    "support": 122,
+    "confused_with": {
+      "goodbye": 2,
+      "bot-identity-1": 1
+    }
+  },
+  "classique": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 58,
+    "confused_with": {}
+  },
+  "wine-fair": {
+    "precision": 0.95,
+    "recall": 1.0,
+    "f1-score": 0.9743589743589743,
+    "support": 19,
+    "confused_with": {}
+  },
+  "how-wine": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16,
+    "confused_with": {}
+  },
+  "sobriety": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "bot-identity-1": {
+    "precision": 0.8928571428571429,
+    "recall": 1.0,
+    "f1-score": 0.9433962264150945,
+    "support": 25,
+    "confused_with": {}
+  },
+  "grandes-occasions": {
+    "precision": 0.9558823529411765,
+    "recall": 1.0,
+    "f1-score": 0.9774436090225563,
+    "support": 130,
+    "confused_with": {}
+  },
+  "wish-choice": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "bot-performance": {
+    "precision": 0.92,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9387755102040817,
+    "support": 24,
+    "confused_with": {
+      "get-help": 1
+    }
+  },
+  "search-choice": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 10,
     "confused_with": {}
   },
-  "goodbye": {
+  "a-garder": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
+    "support": 71,
     "confused_with": {}
   },
-  "greet": {
+  "other-products": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "how-are-you": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 39,
     "confused_with": {}
   },
-  "deny": {
+  "best-deals": {
+    "precision": 0.984375,
+    "recall": 0.984375,
+    "f1-score": 0.984375,
+    "support": 64,
+    "confused_with": {
+      "wine-fair": 1
+    }
+  },
+  "reset": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9600000000000001,
+    "support": 52,
+    "confused_with": {
+      "get-help": 4
+    }
+  },
+  "coup-de-coeur": {
+    "precision": 1.0,
+    "recall": 0.9931506849315068,
+    "f1-score": 0.9965635738831615,
+    "support": 146,
+    "confused_with": {
+      "goodbye": 1
+    }
+  },
+  "get-help": {
+    "precision": 0.9380530973451328,
+    "recall": 0.9906542056074766,
+    "f1-score": 0.9636363636363636,
+    "support": 107,
+    "confused_with": {
+      "bot-performance": 1
+    }
+  },
+  "soiree": {
+    "precision": 1.0,
+    "recall": 0.9111111111111111,
+    "f1-score": 0.9534883720930233,
+    "support": 45,
+    "confused_with": {
+      "grandes-occasions": 4
+    }
+  },
+  "medium-feedback": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 30,
+    "confused_with": {}
+  },
+  "appellation-choice": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 17,
     "confused_with": {}
   },
-  "affirm": {
+  "au-verre": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 19,
     "confused_with": {}
   },
-  "bot_challenge": {
+  "petrus": {
+    "precision": 1.0,
+    "recall": 0.9777777777777777,
+    "f1-score": 0.9887640449438202,
+    "support": 45,
+    "confused_with": {
+      "recherche-vin": 1
+    }
+  },
+  "cellar-choice": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
+    "support": 26,
     "confused_with": {}
   },
-  "accuracy": 1.0,
+  "good-feedback": {
+    "precision": 0.9727891156462585,
+    "recall": 0.9862068965517241,
+    "f1-score": 0.9794520547945206,
+    "support": 145,
+    "confused_with": {
+      "budget-color-appellation": 1,
+      "yes": 1
+    }
+  },
+  "insult": {
+    "precision": 1.0,
+    "recall": 0.987012987012987,
+    "f1-score": 0.9934640522875817,
+    "support": 154,
+    "confused_with": {
+      "bad-feedback": 1,
+      "close-bot": 1
+    }
+  },
+  "yes": {
+    "precision": 0.9882352941176471,
+    "recall": 0.9767441860465116,
+    "f1-score": 0.9824561403508771,
+    "support": 86,
+    "confused_with": {
+      "good-feedback": 2
+    }
+  },
+  "budget-color-appellation": {
+    "precision": 0.998158379373849,
+    "recall": 0.9944954128440368,
+    "f1-score": 0.9963235294117647,
+    "support": 1635,
+    "confused_with": {
+      "best-deals": 1,
+      "everyday-wine": 1
+    }
+  },
+  "bons-millesimes": {
+    "precision": 1.0,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9803921568627451,
+    "support": 26,
+    "confused_with": {
+      "quality-vintage": 1
+    }
+  },
+  "what-primeur": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "more-info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "accords": {
+    "precision": 0.9990319457889641,
+    "recall": 0.9980657640232108,
+    "f1-score": 0.9985486211901307,
+    "support": 1034,
+    "confused_with": {
+      "budget-color-appellation": 1,
+      "aperitif": 1
+    }
+  },
+  "bad-feedback": {
+    "precision": 0.9926470588235294,
+    "recall": 0.9642857142857143,
+    "f1-score": 0.9782608695652174,
+    "support": 140,
+    "confused_with": {
+      "medium-feedback": 3,
+      "good-feedback": 1
+    }
+  },
+  "other-language": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "change-color": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "cadeau": {
+    "precision": 1.0,
+    "recall": 0.9809523809523809,
+    "f1-score": 0.9903846153846153,
+    "support": 105,
+    "confused_with": {
+      "grandes-occasions": 2
+    }
+  },
+  "change-profile": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "top-sales": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "everyday-wine": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1-score": 0.9836065573770492,
+    "support": 30,
+    "confused_with": {}
+  },
+  "accuracy": 0.9922218960962724,
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 43
+    "precision": 0.9865535665044135,
+    "recall": 0.9901824117107456,
+    "f1-score": 0.9880655413203777,
+    "support": 6814
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 43
+    "precision": 0.9924911061522976,
+    "recall": 0.9922218960962724,
+    "f1-score": 0.9922373214642243,
+    "support": 6814
   }
 }

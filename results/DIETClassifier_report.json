@@ -1,0 +1,338 @@
+{
+  "aperitif": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 154
+  },
+  "wine_fair": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 45
+  },
+  "decouverte": {
+    "precision": 0.9685863874345549,
+    "recall": 1.0,
+    "f1-score": 0.9840425531914894,
+    "support": 185
+  },
+  "top_sales": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34
+  },
+  "custom-money": {
+    "precision": 0.8944099378881988,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.8022284122562674,
+    "support": 198
+  },
+  "cave": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30
+  },
+  "deal": {
+    "precision": 0.9900990099009901,
+    "recall": 0.970873786407767,
+    "f1-score": 0.9803921568627452,
+    "support": 103
+  },
+  "condition": {
+    "precision": 0.9732142857142857,
+    "recall": 0.9849397590361446,
+    "f1-score": 0.9790419161676647,
+    "support": 664
+  },
+  "amateur": {
+    "precision": 0.9791666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9894736842105264,
+    "support": 47
+  },
+  "delivery": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24
+  },
+  "wine-name": {
+    "precision": 0.9993979530403372,
+    "recall": 0.9975961538461539,
+    "f1-score": 0.9984962406015038,
+    "support": 1664
+  },
+  "money_range": {
+    "precision": 0.9928057553956835,
+    "recall": 0.5130111524163569,
+    "f1-score": 0.676470588235294,
+    "support": 269
+  },
+  "dont-know": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 99
+  },
+  "impressionner": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 89
+  },
+  "scan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37
+  },
+  "shop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40
+  },
+  "vintage": {
+    "precision": 1.0,
+    "recall": 0.95,
+    "f1-score": 0.9743589743589743,
+    "support": 60
+  },
+  "plat": {
+    "precision": 0.9965111208024422,
+    "recall": 0.9921841076856275,
+    "f1-score": 0.9943429068755439,
+    "support": 2303
+  },
+  "number": {
+    "precision": 0.986763732627399,
+    "recall": 0.9656735751295337,
+    "f1-score": 0.9761047463175123,
+    "support": 1544
+  },
+  "non_catching_words": {
+    "precision": 0.96875,
+    "recall": 1.0,
+    "f1-score": 0.9841269841269841,
+    "support": 31
+  },
+  "tva": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13
+  },
+  "cepage": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 168
+  },
+  "classique": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 72
+  },
+  "award": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 108
+  },
+  "sobriety": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 81
+  },
+  "needs-more-info": {
+    "precision": 1.0,
+    "recall": 0.9344262295081968,
+    "f1-score": 0.9661016949152543,
+    "support": 61
+  },
+  "neg-wine-tag": {
+    "precision": 0.9331103678929766,
+    "recall": 1.0,
+    "f1-score": 0.9653979238754326,
+    "support": 279
+  },
+  "assurer": {
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.962962962962963,
+    "support": 14
+  },
+  "hello": {
+    "precision": 0.9693251533742331,
+    "recall": 0.9634146341463414,
+    "f1-score": 0.966360856269113,
+    "support": 164
+  },
+  "a-garder": {
+    "precision": 0.9821428571428571,
+    "recall": 1.0,
+    "f1-score": 0.9909909909909909,
+    "support": 165
+  },
+  "money": {
+    "precision": 0.9840764331210191,
+    "recall": 0.4967845659163987,
+    "f1-score": 0.6602564102564102,
+    "support": 622
+  },
+  "repas": {
+    "precision": 0.9859154929577465,
+    "recall": 0.9905660377358491,
+    "f1-score": 0.9882352941176472,
+    "support": 212
+  },
+  "surprendre": {
+    "precision": 0.95,
+    "recall": 0.95,
+    "f1-score": 0.9500000000000001,
+    "support": 20
+  },
+  "customer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 72
+  },
+  "bad-word": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9931506849315068,
+    "f1-score": 0.9797297297297298,
+    "support": 146
+  },
+  "reset": {
+    "precision": 1.0,
+    "recall": 0.9634146341463414,
+    "f1-score": 0.9813664596273292,
+    "support": 82
+  },
+  "wine-tag": {
+    "precision": 0.9971617786187322,
+    "recall": 0.9896713615023475,
+    "f1-score": 0.9934024505183788,
+    "support": 1065
+  },
+  "coup-de-coeur": {
+    "precision": 0.9950980392156863,
+    "recall": 1.0,
+    "f1-score": 0.9975429975429976,
+    "support": 203
+  },
+  "soiree": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 76
+  },
+  "wine-color": {
+    "precision": 1.0,
+    "recall": 0.9986962190352021,
+    "f1-score": 0.9993476842791911,
+    "support": 767
+  },
+  "au-verre": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 51
+  },
+  "petrus": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 51
+  },
+  "digestif": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7
+  },
+  "occasion": {
+    "precision": 0.9900990099009901,
+    "recall": 1.0,
+    "f1-score": 0.9950248756218906,
+    "support": 200
+  },
+  "appellation": {
+    "precision": 0.9920159680638723,
+    "recall": 0.994,
+    "f1-score": 0.993006993006993,
+    "support": 1000
+  },
+  "affordable": {
+    "precision": 0.9690265486725663,
+    "recall": 1.0,
+    "f1-score": 0.9842696629213482,
+    "support": 219
+  },
+  "bons-millesimes": {
+    "precision": 1.0,
+    "recall": 0.9875,
+    "f1-score": 0.9937106918238994,
+    "support": 80
+  },
+  "other-product": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "neg-wine-color": {
+    "precision": 1.0,
+    "recall": 0.8793103448275862,
+    "f1-score": 0.9357798165137614,
+    "support": 58
+  },
+  "similaire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 80
+  },
+  "cadeau": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 92
+  },
+  "appellation_word": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21
+  },
+  "everyday-wine": {
+    "precision": 1.0,
+    "recall": 0.9270833333333334,
+    "f1-score": 0.9621621621621621,
+    "support": 96
+  },
+  "micro avg": {
+    "precision": 0.9896034457151344,
+    "recall": 0.9534917000572409,
+    "f1-score": 0.9712120107863859,
+    "support": 13976
+  },
+  "macro avg": {
+    "precision": 0.9887140219829793,
+    "recall": 0.9597051792770304,
+    "f1-score": 0.9707156345524857,
+    "support": 13976
+  },
+  "weighted avg": {
+    "precision": 0.9894208215332568,
+    "recall": 0.9534917000572409,
+    "f1-score": 0.9661852478491737,
+    "support": 13976
+  }
+}

@@ -1,0 +1,426 @@
+[
+  {
+    "text": "stop",
+    "intent": "bad-display",
+    "intent_prediction": {
+      "name": "close-bot",
+      "confidence": 0.5750197768211365
+    }
+  },
+  {
+    "text": "degage",
+    "intent": "bad-display",
+    "intent_prediction": {
+      "name": "close-bot",
+      "confidence": 0.7348674535751343
+    }
+  },
+  {
+    "text": "enlevez cette pub !",
+    "intent": "bad-display",
+    "intent_prediction": {
+      "name": "close-bot",
+      "confidence": 0.9945577383041382
+    }
+  },
+  {
+    "text": "non !!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "intent": "close-bot",
+    "intent_prediction": {
+      "name": "no",
+      "confidence": 0.9900147914886475
+    }
+  },
+  {
+    "text": "pourquoi ce vin ?",
+    "intent": "why-this-wine",
+    "intent_prediction": {
+      "name": "how-wine",
+      "confidence": 0.7736678123474121
+    }
+  },
+  {
+    "text": "c' est quoi ce choix ?",
+    "intent": "why-this-wine",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.4383994936943054
+    }
+  },
+  {
+    "text": "petrus",
+    "intent": "petrus",
+    "intent_prediction": {
+      "name": "recherche-vin",
+      "confidence": 0.657224178314209
+    }
+  },
+  {
+    "text": "comment tu fais ?",
+    "intent": "bot-performance",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.7871225476264954
+    }
+  },
+  {
+    "text": "merci bien",
+    "intent": "yes",
+    "intent_prediction": {
+      "name": "good-feedback",
+      "confidence": 0.9746567010879517
+    }
+  },
+  {
+    "text": "Très bien !",
+    "intent": "yes",
+    "intent_prediction": {
+      "name": "good-feedback",
+      "confidence": 0.5249871611595154
+    }
+  },
+  {
+    "text": "trouver un vin",
+    "intent": "reset",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.9597163200378418
+    }
+  },
+  {
+    "text": "Trouver un vin",
+    "intent": "reset",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.9681922197341919
+    }
+  },
+  {
+    "text": "trouver une biere",
+    "intent": "reset",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.8734405636787415
+    }
+  },
+  {
+    "text": "trouver une bière",
+    "intent": "reset",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.9459247589111328
+    }
+  },
+  {
+    "text": "< 3",
+    "intent": "good-feedback",
+    "intent_prediction": {
+      "name": "budget-color-appellation",
+      "confidence": 0.9793412089347839
+    }
+  },
+  {
+    "text": "Ok !",
+    "intent": "good-feedback",
+    "intent_prediction": {
+      "name": "yes",
+      "confidence": 0.981140673160553
+    }
+  },
+  {
+    "text": "casse toi",
+    "intent": "insult",
+    "intent_prediction": {
+      "name": "close-bot",
+      "confidence": 0.9828222990036011
+    }
+  },
+  {
+    "text": "Tu es inutile",
+    "intent": "insult",
+    "intent_prediction": {
+      "name": "bad-feedback",
+      "confidence": 0.5746397376060486
+    }
+  },
+  {
+    "text": "Je suis super déçu",
+    "intent": "bad-feedback",
+    "intent_prediction": {
+      "name": "good-feedback",
+      "confidence": 0.4816627502441406
+    }
+  },
+  {
+    "text": "ca marche pas",
+    "intent": "bad-feedback",
+    "intent_prediction": {
+      "name": "bot-performance",
+      "confidence": 0.4385930299758911
+    }
+  },
+  {
+    "text": "Je ne suis pas convaincu",
+    "intent": "bad-feedback",
+    "intent_prediction": {
+      "name": "medium-feedback",
+      "confidence": 0.6185109615325928
+    }
+  },
+  {
+    "text": "Peut mieux faire",
+    "intent": "bad-feedback",
+    "intent_prediction": {
+      "name": "medium-feedback",
+      "confidence": 0.9752589464187622
+    }
+  },
+  {
+    "text": "bon jvais me debrouiller , cimer frère",
+    "intent": "bad-feedback",
+    "intent_prediction": {
+      "name": "medium-feedback",
+      "confidence": 0.9437964558601379
+    }
+  },
+  {
+    "text": "je comprends pas comment ça marche ...",
+    "intent": "get-help",
+    "intent_prediction": {
+      "name": "bot-performance",
+      "confidence": 0.49914464354515076
+    }
+  },
+  {
+    "text": "Mais t' es quoi toi ?",
+    "intent": "human-or-bot",
+    "intent_prediction": {
+      "name": "bot-identity-1",
+      "confidence": 0.540894627571106
+    }
+  },
+  {
+    "text": "qui est -ce que tu es ?",
+    "intent": "human-or-bot",
+    "intent_prediction": {
+      "name": "bot-identity-1",
+      "confidence": 0.5887263417243958
+    }
+  },
+  {
+    "text": "Je veux un whisky pour l' apéritif autour de 25 € !",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "aperitif",
+      "confidence": 0.9702919721603394
+    }
+  },
+  {
+    "text": "Original",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "decouverte-choice",
+      "confidence": 0.5146409273147583
+    }
+  },
+  {
+    "text": "vin aromatisé",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "other-products",
+      "confidence": 0.9545261263847351
+    }
+  },
+  {
+    "text": "vin rouge de tous les jours",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "everyday-wine",
+      "confidence": 0.5717921853065491
+    }
+  },
+  {
+    "text": "j' ai besoin d' un chenin",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "cepage",
+      "confidence": 0.7194534540176392
+    }
+  },
+  {
+    "text": "je veux un vin de lorraine",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "accords",
+      "confidence": 0.7253174781799316
+    }
+  },
+  {
+    "text": "Un vin avec un bon rapport qualité / prix",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "best-deals",
+      "confidence": 0.9860190153121948
+    }
+  },
+  {
+    "text": "c' est trop cher !",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "budget-change",
+      "confidence": 0.8337308168411255
+    }
+  },
+  {
+    "text": "au gout de fumé",
+    "intent": "budget-color-appellation",
+    "intent_prediction": {
+      "name": "wish-choice",
+      "confidence": 0.4529378116130829
+    }
+  },
+  {
+    "text": "bonne qualité à petit prix",
+    "intent": "coup-de-coeur",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6257243752479553
+    }
+  },
+  {
+    "text": "millésime 2009",
+    "intent": "bons-millesimes",
+    "intent_prediction": {
+      "name": "quality-vintage",
+      "confidence": 0.8186026215553284
+    }
+  },
+  {
+    "text": "whisky pour anniversaire",
+    "intent": "cadeau",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.5344766974449158
+    }
+  },
+  {
+    "text": "J' aimerais acheter un vin pour l' anniversaire de mon père",
+    "intent": "cadeau",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.9750205874443054
+    }
+  },
+  {
+    "text": "> 90",
+    "intent": "bien-notes",
+    "intent_prediction": {
+      "name": "budget-color-appellation",
+      "confidence": 0.9793412089347839
+    }
+  },
+  {
+    "text": "Je cherche un vin pour faire la fête",
+    "intent": "soiree",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.9871839880943298
+    }
+  },
+  {
+    "text": "Une bouteille de rouge du sud pour boire entre amis ?",
+    "intent": "soiree",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.48396986722946167
+    }
+  },
+  {
+    "text": "J' adore le champagne ! Je prends quoi pour un anniversaire ?",
+    "intent": "soiree",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.9664883613586426
+    }
+  },
+  {
+    "text": "J' aime bien faire la fête : vous avez des vins fruités pas cher pour ça ?",
+    "intent": "soiree",
+    "intent_prediction": {
+      "name": "grandes-occasions",
+      "confidence": 0.5320205092430115
+    }
+  },
+  {
+    "text": "champagne pour dessert",
+    "intent": "accords",
+    "intent_prediction": {
+      "name": "budget-color-appellation",
+      "confidence": 0.9936418533325195
+    }
+  },
+  {
+    "text": "des rillettes pour l' apéro",
+    "intent": "accords",
+    "intent_prediction": {
+      "name": "aperitif",
+      "confidence": 0.5576260089874268
+    }
+  },
+  {
+    "text": "Foire aux vins",
+    "intent": "best-deals",
+    "intent_prediction": {
+      "name": "wine-fair",
+      "confidence": 0.9460997581481934
+    }
+  },
+  {
+    "text": "Tu es vraiment génial ! Merci",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "good-feedback",
+      "confidence": 0.8429417610168457
+    }
+  },
+  {
+    "text": "bonsoir",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.6371824145317078
+    }
+  },
+  {
+    "text": "Hallo",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9899149537086487
+    }
+  },
+  {
+    "text": "comment t' appelles tu ?",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "bot-identity-1",
+      "confidence": 0.7593809962272644
+    }
+  },
+  {
+    "text": "Cordialement",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9888660907745361
+    }
+  },
+  {
+    "text": "je cherche un vin",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "get-help",
+      "confidence": 0.5059448480606079
+    }
+  }
+]

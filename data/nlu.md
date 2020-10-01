@@ -1,57 +1,7419 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-- henlo
+## intent:change-style
+- autres styles
+- Recherche par style
+- Je veux voir d' autres styles
+- Autres styles
+- changer le style
+- changer style
+- autre style
+- je veux changer le style de la bière
+- changer de style
+
+## intent:change-profile
+- autres profils
+- Recherche par profil
+- je veux [un](number) autre profil
+- changer le profil
+- changer de profil
+- changer profil
+- je veux changer le profil de la bière
+
+## intent:change-color
+- autres couleurs
+- Recherche par couleur
+- je veux [une](number) autre couleur
+- [une](number) autre couleur
+- autre couleur
+- je veux changer la [couleur de la](plat) [bière](wine-tag)
+- changer de couleur
+- changer la couleur
+- changer couleur
+
+## intent:wine-fair
+- je cherche [un](number) [blanc](wine-color) de [Loire](appellation) de la [foire aux vins](wine_fair) a [moins de](condition) [15 e](custom-money)
+- [foire au vins](wine_fair) [moins de](condition) [10 €](money)
+- [Un](number) [rouge](wine-color) [léger](wine-tag) [foire aux vins](wine_fair)
+- Je cherche [un](number) vin de la [Foire aux vins](wine_fair)
+- [foire aux vins](wine_fair)
+- [Foire aux vins](wine_fair)
+- [Sélection du jour](wine_fair)
+- je veux voir la selection de la [foire aux vins](wine_fair)
+- [foire aux vins](wine_fair)
+- vins de la [foire aux vins](wine_fair)
+- je veux faire la selection de la [foire aux vins](wine_fair)
+- c' est quoi tes vins pour la [foire aux vins](wine_fair)
+- t' as quoi de la [fav](wine_fair) ?
+- je veux la [FAV](wine_fair)
+- [foire au vin](wine_fair)
+- Je veux [FAV](wine_fair)
+- [rouge](wine-color) en [foire aux vins](wine_fair)
+- [blanc](wine-color) en [fav](wine_fair)
+- [rosé](wine-color) [FAV](wine_fair)
+- [FAV](wine_fair) [Rose](wine-color)
+
+## intent:ask-for-feedback
+- Donner mon avis
+- donner [un](number) avis
+- je veux donner mon avis
+- feedback
+- feedback
+- donner feedback
+- avis
+- donner avis
+- je veux vous faire [un](number) commentaire
+- mon retour
+- je veux vous dire [un](number) commentaire
+- donner mon avis sur les conseils
+- j' ai [une](number) remarque vous vous
+- je voudrais vous faire [une](number) remarque
+- voici mon avis sur les conseils
+- mon opinion
+
+## intent:bad-display
+- Fermer cet article
+- Fermer cette publication
+- fermez ce post
+- Votre icône bloque toujours tout
+- il y a toujours votre icone qui bloque tout
+- supprimer
+- je veux terminer mes courses
+- arretez avec vos pubs !
+- je veux que vous arretiez d' agacer et de gener les internautes avec cette fenetre ...
+- le petit pop-up reste toujours
+- le bouteille reapparait toujours et c' est ennuyeux !!!
+- Arretez avec vos pubs c' est penible
+- vous pouvez me laisser choisir seul svp ?
+- je veux choisir seule
+- Laissez moi faire mes achats sans vos conseils dont je n' ai pas besoin
+- Tu peux te retirer de ma page parce que tu fais tout beuger
+- merci de supprimer le " caviste virtuel " il apparait sur l' écran des mots de passe ... avez -vous testé votre site avant mise en production ??
+- Fout moi la paix je ne veux rien
+- Votre bouteille m' ennuie
+- je ne veux pas d' assistant et quand je ferme le petit onglet se met la premiere colonne que je choissi mes articles
+- vous pouvez me laisser faire seul svp ?
+- je veux faire seule
+- Je veux choisir seul .
+- Ne montrez pas votre annonce !
+- stop
+- Arrêtez votre annonce !
+- S' il vous plaît laissez -moi faire des courses sans vos conseils
+- Veuillez supprimer cette annonce .
+- Supprimer cette annonce !
+- degage
+- Tu peux te sortir de ma page parce que tu fais tout beuger
+- oust
+- je ne veux pas voir cette fenetre
+- tu me gene
+- ca me gene pour faire mes courses
+- rrrrrrr
+- stooooooop
+- Je ne veux pas voir cette fenêtre
+- je suis anti alcoolique !
+- enlevez cette pub !
+- !!!!!!!!!!
+
+## intent:medium-feedback
+- bif bof
+- pas top
+- bof
+- bif bof tout ca
+- bon jvais me debrouiller , cimer frère
+- Peut mieux faire
+- c' est assez bof
+- bof
+- c' est bof
+- c' est pas incroyable
+- très bof
+- vraiment bof
+- pas terrible
+- c' est pas terrible
+- tu peux mieux faire
+- Ca pourrait etre mieux
+- mouais bof
+- 😕
+- :-/
+- bof convaincu
+- Je suis pas très convaincu
+- c' est pas fou
+- pas ouf
+- pas fou
+- c' est pas ouf
+- dommage
+- je ne suis pas convaincu
+- Pas fou
+- Ce n' est pas fou .
+- Ce sera peut-être mieux .
+- Tu peux faire mieux .
+
+## intent:scan-help
+- [scan](scan)
+- [scanner](scan)
+- Comment [scanner](scan) ?
+- On peut [scanner](scan) ?
+- Je veux prendre [une](number) [photo de l' étiquette](scan)
+- [Photo](scan) vin
+- [Photo étiquette](scan)
+- [Image](scan) de vin
+- [Photo](scan) du vin
+- Peut -on [scanner](scan) ?
+- Je peux [scanner](scan) ?
+- Je veux faire [une](number) [photo](scan) de l' [étiquette](scan)
+- Je veux prendre l' [étiquette](scan) .
+- [Scan](scan)
+- [scanner](scan) [un](number) vin
+- [scanner](scan) du vin
+- Je veux prendre [une](number) image de l' [étiquette](scan)
+- [scanner étiquette](scan) vin
+- Je veux [scanner](scan)
+- [scan étiquette](scan)
+- laisse moi [scanner](scan)
+- Je veux faire comme vivino
+- Vivino
+- [etiquette](scan)
+- [image](scan)
+- [scan](scan)
+- [photo](scan)
+- je veux envoyer [une](number) [image](scan)
+- Je veux envoyer [une](number) [photo](scan)
+- [Étiquette](scan)
+- [Photo](scan)
+- [Scannez](scan) , pour en savoir plus
+- [Scannez](scan) pour en savoir plus
+
+## intent:change-shop
+- Changer Monoprix
+- Autres magasins s' il vous plaît
+- Je voudrais dans [un](number) autre magasin
+- changer magasin
+- Je veux changer de magasin
+- Je suis pas dans le bon magasin
+- Autre magasin
+- Autre Monoprix
+- Je ne suis pas dans le bon magasin
+- [Un](number) autre magasin
+- Changer de Monoprix
+- Plus de magasins
+- Autres magasins svp
+- Changer de magasin
+- ok je voudrais modifier mon magasin
+- Besoin de changer de magasin
+
+## intent:shop-choice
+- laroche
+- [Montparnasse](shop)
+- [Commerce](shop)
+- [Paris Commerce](shop)
+- [monoprix commerce](shop)
+- [Monoprix commerce](shop)
+- [Paris Montparnasse](shop)
+- [Monoprix Croisé Laroche](shop)
+- [Croisé Laroche](shop)
+- [Lille](shop)
+- [Marcq en Baroeul](shop)
+- [Monoprix montparnasse](shop)
+- [Monoprix Lille](shop)
+- [Lille Marcq en Baroeul](shop)
+- [Motte Picquet Grenelle](shop)
+- [Monoprix Montparnasse](shop)
+- [monoprix montparnasse](shop)
+- [Monoprix Commerce](shop)
+
+## intent:everyday-wine
+- vin de [tous les jours](everyday-wine)
+- Vin de [tous les jours](everyday-wine)
+- je veux un vin que je peux boire [tous les jours](everyday-wine)
+- [un](number) [rouge](wine-color) pour [tous les jours](everyday-wine)
+- Je veux du vin que je peux boire [tous les jours](everyday-wine) .
+- [un](number) vin de [tous les jours](everyday-wine)
+- je veux [un](number) [vin de table pour tous les jours](everyday-wine)
+- vin [rouge](wine-color) [passe partout](everyday-wine)
+- [Vin de table](everyday-wine)
+- [rouge](wine-color) [pour tous les jours](everyday-wine)
+- je souhaiterais boire [un](number) vin que je pourrais boire [tous les jours](everyday-wine)
+- [pour tous les jours](everyday-wine)
+- [passe partout](everyday-wine)
+- Je cherche un vin à [boire à tout moment](everyday-wine)
+- [un](number) vin [passe partout](everyday-wine) svp
+- je cherche un vin à [boire n' importe quand](everyday-wine)
+- vin [pour tous les jours](everyday-wine)
+- Je voudrais du vin pour [tous les jours](everyday-wine)
+- [rosé](wine-color) [pour tous les jours](everyday-wine)
+- Vin [quotidien](everyday-wine)
+- vin [blanc](wine-color) [pour tous les jours](everyday-wine)
+- un [vin de table](everyday-wine)
+- je voudrais [un](number) vin pour [tous les jours](everyday-wine)
+- Je cherche un vin que je peux [boire à tout moment .](everyday-wine)
+- du vin pour [tous les jours](everyday-wine)
+- je veux un vin pour [tous les jours](everyday-wine)
+- [un](number) vin pour [tous les jours](everyday-wine)
+- je veux du vin que je peux boire [un](number) peu [tous les jours](everyday-wine)
+- [Un](number) vin [rosé](wine-color) de bonne qualité pour le [quotidien](everyday-wine)
+- [Un](number) [merlot](cepage) [français](appellation) [pas très cher](affordable) pour [tous les jours](everyday-wine)
+
+## intent:close-bot
+- stop chatbot
+- stop c' est chiant !! ce chatbot me gène pour cliquer sur mes produits !!!
+- laissez moi
+- lachez moi quand je fais mes courses
+- x
+- je veux que tu sortes de la page
+- comment retirer votre affiche
+- disparaitre
+- vous bloquez ma navigation même quand je sors
+- je ne bois pas
+- je ne bois pas d' alcool
+- arretes de me souler
+- comment supprimer cette pub
+- pas interessé aurevoir
+- desactiver ce chatbot qui prend [1/4](number) de l ecran sur mobile
+- quitter
+- tire toi
+- Bouge de mon écran
+- Mais arrêtez bordel
+- NON MERCI JE N' AI PAS BESOIN DE VIN
+- je suis pas fan de vin
+- vas t en
+- partez
+- CE TRUC MEMPECHE
+- disparraissez
+- terminé
+- Partez
+- merci de fermer cette fenêtre
+- Fous moi la paix
+- Tu m enmerde je veux aller sur le drive
+- Tu me casse les bonbons
+- lache moi
+- Et si je ne veux plus te voir ?
+- Comment on ferme ?
+- Vous m' empêchez
+- yen a marre de vos pubs qui bloquent les pages
+- te fermer definitivement
+- ne plus te voir
+- quit
+- je veux pas de vin
+- fermer
+- Supprimer cette pub
+- Dégage bot
+- c' est très chiant votre truc pour le vin !!!!
+- Cette fenêtre me convient pas
+- je n' ai pas besoin de vin
+- laissez moi tranquille
+- je bois pas
+- désactiver ce truc
+- Disparais de ma vue
+- Bouge de là
+- Enlevez moi cette pub
+- exit
+- Votre pub m' empeche de faire mes courses tranquillment !! Pouriez vous l' enlevé merciiiiiii
+- il semblerait que vous perturbez ENORMEMENT mes achats en ligne . En espérant que ce message soit lu par [un](number) assistant technique
+- Tu me bloques
+- j' aime pas le vin
+- cassez vous
+- je ne veux rien
+- marre de vos pubs
+- Tu me gênes bcp là
+- fermer
+- lâche moi
+- désactiver
+- je veux rien
+- Arrêtez ce truc
+- DESACTIVER [MAGNUM](wine-tag)
+- pas interessé merci
+- virer le pop up
+- c' est possible de FERMER cette fenetre ?????????????
+- tu m' empeche de selectionner mes produits sur la droite , [connard](bad-word) !
+- echap
+- j' en veux pas
+- JE NE VEUX PAS
+- JE N' AI PAS BESOIN DE VIN MERCI
+- Ce truc me bloque !!!
+- comment on fait pour plus vous voir ?
+- stop
+- Plus de publicité merci
+- merci d' arrêter !
+- arreter
+- pas besoin
+- disparait
+- Vous dégagez votre publicité bloque mon drive
+- annuler
+- Je veux pas de vin je veux juste commander des frite alors laisser nous tranquille
+- supprimer l' encart
+- Vous dégagez .....
+- va t' en
+- Barre toi de ma vue
+- Fermer bot
+- chatbot inutile et désagréable gènant pendant les [commandes](customer) !!
+- Mais dégage !!!
+- Hors de ma vue
+- fermer Magnum
+- comment effacer ce messager merci
+- Casse toi !
+- j ai pas besoin de guide
+- arrêtez d' afficher ce message , c' est insupportable
+- Comment desactiver ce chatbot
+- non !!!!!!!!!!!!!!!!!!!!!!!!!!
+- arretez je ne veux pas de vin !!!!!
+- je n' ai pas besoin de vin
+- comment on fait pour plus vous voir
+- je bois pas
+- Ferme toi !!!!
+- je veux que disparaissiez , je ne peux pas coisir mon vin à cause de votre MAGNUM §
+- Fermer
+- Non merci je n' ai pas besoin d' aide
+- C' est infernal !!!!!!!
+- Retirez cette pub
+- JE NE VEUX PAS DE VIN MERCI
+- EST CE JE PEUX FAIRE MES COURSES SANS VIN ?? MERCI
+- Dégage de mon écran
+- casse toi
+- stop avec ce panneau
+- Je ne [bois](wine-tag) pas de vin
+- je veux sortir
+- quitter la page merci
+- NON MERCI JE VOUDRAIS SEULEMENT FAIRE MES COURSES
+- pas interessé
+- je [bois](wine-tag) pas
+- Tu me gênes
+- Arrête de me bloquer
+- STOOOOOP
+- stop je ne veux pas de vin
+- sortir
+- foutez moi la paix !!!!!!!!!!
+- degage
+- Je ne veux rien merci
+- ferme la fenetre
+- Enlever cette bulle qui empêche de faire les courses merci
+- xxxxxxx
+- Je veux simplement fermer ce truc nul
+- alors arretez de me demander si je veux du vin !!! merci
+- de fermer la fenetre car tu me saoules
+- foutez moi la paix pour faire mes courses tranquillement
+- Disparais
+- laisse tomber tu me saoules xD
+- pas besoin
+- je ne veux rien
+- Arrête ça
+- Il bloque
+- je men fou
+- comment faire degager magnum ?
+- pas de vin
+- barre toi
+- Ca bloque
+- casse toi
+- disparais
+- Enlever la pub
+- tu apparais en permanence grrrr
+- pub intempestive
+- vous m' empechez de faire mes courses avec votre fenetre !
+- enleve la fenetre
+- enlevez votre magnum
+- enlever magnum
+- le logo me gène
+- cache toi
+- l' assistant ne fait que s' afficher
+- J' en ai pas besoin du tout
+- je vais juste aller trouver mon vin ailleurs bien joué
+- Je ne bois pas
+- Pouvez vous vous enlever
+- Ne plus afficher
+- Pas interessé
+- chiant je ne peux pas cliquer sur le côté
+- c' est chiant d' avoir ce message qui bloque ma commande
+
+## intent:more-wines
+- je souhaiterai voir [plus de](condition) vin si possible
+- [plus de](condition) vin stp
+- [plus de](condition) vin
+- je veux [plus de](condition) vin
+- Plus de vin stp
+- plus de vins stp
+- je veux plus de vins !
+- [une](number) autre suggestion ?
+- autre proposition
+- autres propositions
+- Choix [original](decouverte) ?
+- je veux [plus de](condition) vin !
+- [plus de](condition) vin
+- [plus de](condition) vins
+- je veux [plus de](condition) vins !
+- [plus de](condition) vin
+- plus de résultats
+- autre
+- donne moi d' autres idees
+- autre chose ?
+- plus de vin
+- je souhaite avoir d' autres alternatives
+- autre sélection
+- autres propositions ?
+- sélection différente
+- je veux plus de vin
+- choix différents
+- tu as d' autres vin
+- autres résultats
+- [un](number) autre ?
+- PLUS DE CHOIX
+- autre
+- autres vins
+- autre option
+- une autre proposition
+- je veux [une](number) autre proposition
+- plus de [champagne](appellation)
+- Plus de vins
+- vous pouvez m' en montrer d' autres ?
+- d' autres vins
+- Plus de choix [créatifs](decouverte) ?
+- plus de [blancs](wine-color)
+- plus de [rouges](wine-color)
+- choix plus [original](decouverte) ?
+- et encore ?
+- Plus de choix
+- une autre proposition ?!
+- j' aimerais un autre conseil [au verre](au-verre) s' il vous plait
+- seulement 2 bouteilles à me proposer ?
+- [un](number) autre svp
+
+## intent:region-choice
+- Changer de région
+- région différente
+- par région
+- Région précise
+- Par région
+- Par région
+- [une](number) region en tête
+- Autre region
+- Par région
+
+## intent:au-verre
+- je cherche [un](number) [blanc](wine-color) [pas léger](neg-wine-tag) à mettre [au verre](au-verre)
+- [un](number) [bordeaux](appellation) [puissant](wine-tag) [au verre](au-verre) pour [environ](condition) [10 euros](money)
+- [vin au verre](au-verre)
+- t' as quoi comme [vin au verre](au-verre) en [bourgogne](appellation) ?
+- t' as [un](number) [vin au verre](au-verre) en [Alsace](appellation) ?
+- [Vin au verre](au-verre)
+- pour les [vins au verre](au-verre) ?
+- [Vin au verre](au-verre)
+- je suis a la recherche d' [un](number) [blanc](wine-color) [moelleux](wine-tag) [au verre](au-verre)
+- je cherche [un](number) [rosé](wine-color) [rond](wine-tag) [au verre](au-verre)
+- [un](number) [rouge](wine-color) [léger](wine-tag) pour servir [au verre](au-verre)
+- [Vin au verre](au-verre)
+- [un](number) [blanc](wine-color) [au verre](au-verre)
+- vous avez des [rouges](wine-color) [au verre](au-verre) pour [moins de](condition) [10 euros](money) svp
+- je veux des [vins au verre](au-verre)
+- [Au verre](au-verre)
+- [Vin au verre](au-verre)
+- je veux des [vins au verre](au-verre)
+- [vin au verre](au-verre)
+- [un](number) [vin au verre](au-verre) [autour de](condition) [20 €](money) .
+- est -ce que vous avez des [vins au verre](au-verre)
+- [un](number) [vin au verre](au-verre)
+- vous avez des conseils pour des [vins au verre](au-verre) ?
+- [Vin au verre](au-verre)
+- je cherche [un](number) [vin au verre](au-verre)
+- [Au verre](au-verre)
+- [Vin au verre](au-verre)
+
+## intent:classique
+- [une](number) cuvée [classique](classique) de [bourgogne](appellation)
+- [incontournable](classique) à [15 €](money)
+- [classiques](classique)
+- [un](number) [bordeaux](appellation) [classique](classique) sur [un](number) [millésime récent](vintage)
+- avez -vous des cuvées très [classiques](classique) ?
+- Les [classiques](classique)
+- je cherche [un](number) vin [classique](classique)
+- Je veux prendre 0 risque
+- [un](number) [incontournable](classique) pour [assurer](assurer)
+- je veux rester sur des [classiques](classique)
+- [un](number) vin [classique](classique)
+- je cherche [un](number) vin pour [assurer](assurer)
+- [blanc](wine-color) [classique](classique) [20 €](money) .
+- [une](number) cuvée [classique](classique) [max](condition) [30 euros](money) ht .
+- Des conseils pour [un](number) [rouge](wine-color) de [loire](appellation) [classique](classique) à - [20 €](money) ? .
+- [rouge](wine-color) [incontournable](classique) de [Loire](appellation) [30 eur](money) .
+- Je veux des [blancs](wine-color) [classiques](classique)
+- [un](number) vin [classique](classique)
+- [un](number) vin [rouge](wine-color) [incontournable](classique)
+- Vos conseils pour [un](number) [rouge](wine-color) [classique](classique) de [Bordeaux](appellation) à [10 €](money) .
+- les [classiques](classique)
+- est -ce que vous avez des vins [classiques](classique) ?
+- Les [Classiques](classique)
+- [un](number) [classique](classique) de [bordeaux](appellation) à [plus de](condition) [15 €](money) .
+- t' as des vins [classiques](classique) [autour de](condition) [30 €](money) .
+- [UN](number) [CLASSIQUE](classique)
+- [classique](classique)
+- Les [classiques](classique)
+- [un](number) vin [classique](classique)
+- t' as quoi comme vin [classic](classique)
+- Ne pas prendre de risque
+- [marque celebre](classique)
+- [marque connue](classique)
+- je vais faire [un](number) [cadeau](cadeau) d' [une](number) [marque connue](classique)
+- allons sur du [classique](classique)
+- [incontournable](classique) [autour de](condition) [12 €](money) .
+- des [classiques](classique) de [bordeaux stp](appellation)
+- [une](number) cuvée [classique](classique) [autour de](condition) [15 €](money) .
+- [Loire](appellation) [classique](classique) [min](condition) [10 eur](money) .
+- en [Bordeaux](appellation) [classique](classique) vous avez quoi ?
+- [un](number) [grand vin](wine-tag) [classique](classique) pour [assurer](assurer) stp
+- [incontournable](classique) en [rouge](wine-color)
+- [espagnol](appellation) [classique](classique) [plus de](condition) [10 euro](money) .
+- [incontournables](classique)
+- je cherche [un](number) vin très [classique](classique)
+- du vin [classique](classique)
+- [un](number) [rouge](wine-color) très [classique](classique) [min](condition) [30 euros](money) .
+- cuvée [classique](classique) de [Bordeaux](appellation)
+- [une](number) bonne bouteille [classique](classique)
+- vins [classiques](classique)
+- [un](number) vin [classique](classique)
+- les [classiques](classique)
+- Je veux que des [classiques](classique)
+- je souhaiterais [assurer](assurer) avec [un](number) vin [rouge](wine-color) [classique](classique)
+- des recommadations en vin [classique](classique) ?
+- du vin [blanc](wine-color) [classique](classique)
+- [une](number) idée de vin [incontournable](classique)
+- Des [valeurs sûres](classique) uniquement
+- t' as quoi comme vins [classiques](classique) ?
+- [une](number) cuvée [incontournable](classique) !!
+- des conseils pour [une](number) bouteille de [rouge](wine-color) [classique](classique) ?
+- en [Bourgogne](appellation) [classique](classique) tu proposes quoi ?
+- conseille moi pour [un](number) vin [incontournable](classique) [autour de](condition) [50e](custom-money) .
+
+## intent:why-this-wine
+- Pourquoi t’ as choisi ces vins-là
+- tu la sort d' où cet selection ?
+- D’ où elle sort cette sélection
+- comment la sélection a été faite
+- Très bien mais pourquoi t’ as choisi ces vins et pas d’ autres ?
+- Ok et pourquoi ces vins là ?
+- Tu m’ expliques comment vous sélectionnez les vins ?
+- De quelle manière tu as choisi ces [4](number) vins ?
+- Comment tu as fait cette sélection
+- pourquoi ce vin ?
+- comment vous avez choisi ce vin ?
+- très bien mais ils sortent d' où ces vins ?
+- Comment vous établissez cette selection de vins ?
+- Pourquoi ces vins ?
+- pourquoi ce vin en particulier
+- Pour quelles raisons tu as opté pour ces vins
+- comment t' as choisi ce vin en particulier ?
+- pourquoi ce vin et pas [un](number) autre ?
+- c' est quoi ce choix ?
+- [elle](non_catching_words) est bizarre ta selection
+- comment tu me donnes ces conseils ?
+- trop de la balle ces conseils , ils sortent d' ou
+- j' aime [bien ton](award) choix , tu l' as fait commen ?
+- tu choisis comment les vins ?
+
+## intent:other-language
+- autre langue
+- changer de langue
+- chicken
+- autres langues ?
+- sweet
+- semi-sweet
+- sweet white or sparkling wine
+- close page
+- sweet wine
+- Do you speak English ?
+- in english
+- just French ?
+- close session
+- [indian](appellation) [food](wine-name)
+- only french ??
+- dry
+- no english ?
+- other language
+- a light red
+- do you ship to the uk ?
+- switch in english
+- English ?
+- do you have wines from [germany](appellation) ?
+- fish
+- white wine
+- white
+- [prossecco](appellation) extra dry
+- meet and cheese tray
+- [sweet red](wine-name)
+- red
+- range of red wines please
+- chicken and rice
+- mixed grill
+- sparkling
+- looking to buy for my wedding
+- fruits and wine
+- Chicken fry
+
+## intent:appellation-choice
+- [appellation](appellation_word) autre
+- [Par appellation](appellation_word)
+- [Appellation](appellation_word)
+- [une](number) [appellation](appellation_word) précise
+- [appellation](appellation_word)
+- changer d’ [appellation](appellation_word)
+- [par appellation](appellation_word)
+- [apellation](appellation_word) différente
+- filtrer [par appelation](appellation_word)
+- [Par Appelation](appellation_word)
+- [appellation](appellation_word)
+- autre [apelation](appellation_word)
+- [Par appellation](appellation_word)
+- [appellation](appellation_word)
+- [Une](number) autre [appellation](appellation_word)
+- [Appellation](appellation_word)
+- [appellation](appellation_word)
+- nouvelle [appelation](appellation_word)
+- [apellation](appellation_word)
+- [appelation](appellation_word)
+- [appellation](appellation_word)
+- [appellation](appellation_word)
+- [APPELLATION](appellation_word)
+- [une](number) [appelation](appellation_word) en tête
+
+## intent:top-sales
+- Les vins les plus achetés svp
+- Je cherche les vins les plus achetés
+- Donnez moi les primeurs les plus tendances
+- Quels sont les vins les plus vendus de [St Emilion](appellation) ?
+- Top 10 primeurs
+- c' est quoi les [meilleures vente](top_sales) ?
+- [top vente](top_sales)
+- Ou puis -je vois les [meilleurs ventes](top_sales) ?
+- les vins les plus vendus cette année ?
+- ton top [dix](number) des [meilleures ventes](top_sales)
+- C' est quoi le [top ventes](top_sales) ?
+- [meilleures ventes](top_sales)
+- les [meilleures ventes](top_sales)
+- Top 5 des vins
+- C' est quoi le top 10
+- Top 3 des ventes
+- Je cherche les [meilleurs ventes](top_sales) mais je trouve pas
+- Indiquez moi les [meilleurs ventes](top_sales)
+- les [meilleurs ventes](top_sales) c' est quoi ??
+- Je ne veux que les vins dans le [top ventes](top_sales)
+- les [meilleures ventes](top_sales) en [saint estephe](appellation) ?
+- [Meilleures ventes](top_sales)
+- [meilleure vente](top_sales)
+- [Meilleures vente](top_sales)
+- Le [top vente](top_sales) de la [rive droite](appellation) vous avez ça ?
+- Les [meilleures ventes](top_sales) de la [rive gauche](appellation)
+- c' est quoi le top des ventes de vin
+- top des ventes
+- [Meilleures ventes](top_sales)
+- [Meilleures ventes](top_sales)
+- [Meilleures ventes](top_sales)
+- [Meilleures ventes](top_sales)
+
+## intent:customer-service
+- quel numéro pour vous appeler
+- Est -il possible de changer la date et d' adresse pour l' expédition de mes primeurs
+- ou se trouve le [formulaire de contact](customer) ?
+- comment je peux annuler ma [commande](customer) ?
+- j' ai [un](number) soucis avec mes [identifiants](customer)
+- je ne peux pas ré-initialiser mon [mot de passe](customer)
+- Pouvez vous me dire si ma [commande](customer) est toujours d’ actualité
+- pour vous joindre directement je fais comment ?
+- je voudrais suivre mes [commandes](customer)
+- pour ma [commande](customer) de vin , c' est quoi les types de carton ?
+- vous pouvez me donner votre numéro de [téléphone](customer)
+- le numéro pour vous joindre c’ est quoi ?
+- comment je peux faire pour te [contacter](customer) ?
+- mes [identifiants](customer) ne marche plus
+- formulaire de [contact](customer)
+- pour mes [commandes](customer) de primeurs
+- je voudrais vous [contacter](customer) directement
+- Bien que je sois inscrit à la rafale et client chez vous , je ne reçois [aucune](number) alerte
+- Je voulais savoir si vous aviez reçu mon règlement pour ma [commande](customer)
+- j’ aimerais vous [contacter](customer) par [mail](customer)
+- pour les commande de vins
+- quelle est l' adresse [mail](customer) du [service client](customer) ?
+- vos [coordonnées](customer) pour vous [contacter](customer)
+- je ne peux plus accéder à mon compte que dois -je faire ?
+- je ne reçois plus les [mails](customer) de la rafale
+- c’ est quoi votre [mail](customer) ?
+- pour les [commandes](customer) , qu' est -ce qu' [un](number) carton neutre ?
+- je veux annuler la [comande](customer)
+- Je reçois des [mails](customer) concernant des [factures](customer)
+- mon espace perso bug !!
+- j' ai [un](number) problème de connexion
+- quel est votre [email](customer) ?
+- merci de m' appeler
+- Pourriez vous modifier ma [commande](customer) svp ?
+- J’ ai reçu [un](number) [email](customer) me demandant d' acquitter la tva mais à priori je ne dois [aucune](number) tva
+- j' ai envoyé [un](number) [mail](customer) concernant [une](number) anomalie dans mes [commandes](customer)
+- Voilà [deux](number) fois que je reçois [un](number) [mail](customer) m' invitant à me connecter pour régler [une](number) [facture](customer)
+- Je souhaiterais modifier mon adresse de livraison
+- je cherche à vous joindre par [téléphone](customer)
+- c' est quoi tes [coordonnées](customer) ?
+- j' ai [un](number) pb avec mon [mdp](customer)
+- comment je peux vous [contacter](customer)
+- mon mpd ne marche plus et je n' arrive pas à le réinitialiser
+- je voudrais avoir le suivi de mes [commandes](customer)
+- vous ne reconnaissez plus mon adresse électronique
+- mon adresse [mail](customer) n' est plus reconnue
+- Bonjour , nous avons reçu [un](number) [mail](customer) nous demandant de régler les primeurs
+- vous avez [une](number) adresse [e-mail](customer) ?
+- il y t il [un](number) numéro à [contacter](customer) en cas de problèmes
+- je ne peux plus accéder à mon espace perso
+- mon compte ne marche plus
+- je souhaite annuler ma [commande](customer)
+- mon [mdp](customer) ne marche plus
+- Vous ne m’ avez pas envoyer d' [email](customer) de confirmation que pour mes [commandes](customer) , est -ce normal ?
+- suivi des [commandes](customer)
+- j' aimerai [contacter](customer) le [service client](customer)
+- je ne reçoit plus les alertes [mail](customer)
+- les [coordonnées](customer) du [service client](customer) ?
+- J' ai commandé des primeurs et je n' ai toujours pas reçu de [mail](customer) de votre part
+- c' est quoi le [mail](customer) pour vous [contacter](customer)
+- j' ai [un](number) pb avec mon compte
+- Pourrais avoir les [contact](customer) du services [email](customer)
+- J’ ai [un](number) soucis avec [une](number) [facture](customer)
+- envoyez moi [un](number) [mail](customer)
+- c' est quoi les [contacts](customer) du [srevice client](customer) ?
+- je veux changer ma [commende](customer)
+- je fais comment pour chnager ma [commande](customer) ?
+
+## intent:quality-vintage
+- Pourrais -je avoir ton avis sur le millésime [?](bons-millesimes)
+- Comment s’ annonce le [millésime](bons-millesimes) ?
+- Est -ce une bonne année ?
+- A ton avis c’ est [un](number) [grand millésime](bons-millesimes) ?
+- Je me demandais si le [millesime](bons-millesimes) était de qualité
+- [Un](number) [beau millesime](bons-millesimes) à vendre ?
+- C’ est [un](number) [bon millesime](bons-millesimes) ?
+- [Millésime exceptionnel](bons-millesimes) ou non ?
+- Comment se situe le [millésime](bons-millesimes) de cette année ?
+- C’ est [un](number) [millésime](bons-millesimes) reussi ou pas ?
+- La qualité du [millésime](bons-millesimes) est comment ?
+- C’ est quoi tes commentaires sur le [millésime](bons-millesimes) ?
+- Tu penses quoi du [millesime](bons-millesimes) ?
+- t' as des commentaires à faire sur le millésime [2017](vintage) ?
+- Puis -je avoir des info sur le [millésime](bons-millesimes) de cette année svp
+- t' en penses quoi du [millésime](bons-millesimes) ?
+- j' aimerais en savoir plus sur le milésime
+- vous pensez quoi du [millésime](bons-millesimes) ?
+- grand [milesime](bons-millesimes) ?
+- tu pense que c' est [une](number) [grand millésime](bons-millesimes) ou pas ?
+- bonjour j' ai acheté des canon [2016](vintage) , est -ce que [2017](vintage) est meilleur ?
+- qu' en est -il du millésime [2017](vintage)
+- avis sur les vins [2017](vintage)
+- avis millesime [2017](vintage)
+- qu' en est -il des vins [2017](vintage)
+
+## intent:vat
+- [taxe](tva) primeur
+- [TVA](tva)
+- [tva](tva)
+- comment payer la [tva](tva) ?
+- Quand devrai -je régler la [TVA](tva) ?
+- Comment s’ effectue le règlement de la [TVA](tva)
+- J’ ai passé commande , la [TVA](tva) devra être payer quand ?
+- C’ est quoi les modalités de paiement de la [TVA](tva) ?
+- Je n’ ai pas bien compris le système de règlement HT et [TVA](tva)
+- Peux -tu m’ expliquer les conditions de paiement ( HT et [TVA](tva) ) ?
+- Je ne paye que le montant HT pour l’ instant c’ est ça ?
+- Je viens de passer commande , vous allez donc me facturer en HT ?
+- Combien de temps ai -je pour payer ma facture [TVA](tva) ?
+- Quand recevrai -je la facture avec la [TVA](tva) ?
+- c' est quoi ce principe avec hors taxe et TVA
+- je paye la TVA avant la livraison c' est ça ?
+- c' est normal que je ne paye que le prix HT ?
+
+## intent:delivery
+- ma commande sera [livrée](delivery) dans combien de temps ?
+- peut -on se faire [livrer](delivery) à l' [étranger](wine-tag) ?
+- [Livrez](delivery) -vous en angleterre
+- Quand pourrais récupérer les [millésimes](bons-millesimes) que j’ ai acheté
+- j' ai [un](number) problème [de livraison](delivery)
+- est -ce c' est possible de [livrer](delivery) hors [france](appellation) ?
+- Quand les millésimes que j’ ai commandés seront -ils [expédiés](delivery) ?
+- les modalités de [livraison](delivery) ?
+- j' ai des questions au sujet de la [livraison](delivery)
+- quand vais -je être [livrer](delivery) ?
+- c' est quoi le délais de [livraison](delivery) ?
+- vous [livrez](delivery) en [suisse](appellation) ?
+- est -ce que vous [livrez](delivery) en [allemagne](appellation) ?
+- à partir de quand vais -je recevoir mes bouteilles ?
+- c' est quoi les [frais](wine-tag) de [livraison](delivery) ?
+- [livré](delivery) quand
+- [livraison](delivery)
+- les bouteilles achetées en primeur sont disponibles quand ?
+- date de [livraison](delivery) des primeurs SVP
+- a quelle date seront expédiés les primeurs
+- quand pourrais -je disposer des primeurs commandés ?
+- pouvez -vous m' indiquer avec [un](number) peu plus de précision quand la livraison des primeurs sera effectuée ?
+- pour les primeur , on va les recevoir a partir de quel mois
+- Bonjour , je voulais savoir si vous livrez aussi en Italie ?
+- Programmation de la [livraison](delivery) de la caisse primeur ?
+- j' aimerais connaitre le prix de [livraison](delivery) sur [une](number) caisse de [Calon Ségur](wine-name)
+- Pouvez vous me dire quand mes achats seront [livrés](delivery) svp ? merci d' avance
+- pour mes achats primeurs comment puis je faire [une](number) evaluation des frais de [livraison](delivery) ?
+- Auriez vous [une](number) date approximative de [livraison](delivery) ?
+- je viens de choisir quelques bouteilles , seront elles [livrées](delivery) toutes en même temps ?
+- quels sont les frais de [livraison](delivery) en France métropolitaine pour les vins primeurs ?
+
+## intent:petrus
+- Est -ce possible de réserver du [petrus](petrus) ?
+- du [petrus](petrus) t' en as ?
+- ai -je droit à [une](number) allocation [petrus](petrus)
+- je désire commander du [pétrus](petrus) en primeur , comment dois je m' y prendre ?
+- [Petrus](petrus) semble déjà épuisé . Cela est il le cas ?
+- comment pouvoir avoir du [Petrus](petrus) pour l' année prochaine ?
+- J’ aimerais acheter [une](number) caisse de [château petrus](petrus)
+- avez vous du [petrus](petrus) en primeur ?
+- [une](number) bouteille de [petrus](petrus) stp
+- je veux [une](number) cuvée de [petrus](petrus)
+- Je souhaiterais en acquérir du [petrus](petrus)
+- Bonjour [, Petrus](petrus) [2017](vintage) prix
+- prix [petrus](petrus) [2017](vintage)
+- comment ça se passe pour les allocation de [petrus](petrus)
+- Je fais partie des bons clients , est -ce que je peux bénéficier d’ [une](number) allocation [petrus](petrus) ?
+- j' ai habituellement le droit à [une](number) allocation de [Petrus](petrus) chaque année , savez vous si c' est le cas cette année ?
+- quoi faire pour commander [une](number) bouteille de [château petrus](petrus) ?
+- pour avoir [une](number) alloc [de Pétrus](petrus) je fais comment ?
+- [pétruce](petrus)
+- je cherche pretrus
+- [petrus](petrus) sort quand ?
+- t' as des bouteilles de [petrusse](petrus)
+- Est -il possible d’ obtenir [une](number) allocation pour des bouteilles de [petrus](petrus)
+- [petrus](petrus)
+- Comment fait -on pour pouvoir obtenir [1](number) bouteille de [Pétrus](petrus) en primeur ?
+- merci de m' indiquer la date de sortie de [PETRUS](petrus) [2017](vintage)
+- je voudrais [offrir](cadeau) [une](number) bouteille de [chateau petrus](petrus)
+- je veux [une](number) bouteille de [petrus](petrus)
+- Puis -je prétendre à [une](number) bouteille de [petrus](petrus) ?
+- je souhaite acheter du [pétrus](petrus)
+- Est -ce qu’ il me sera donné [une](number) allocation d’ [une](number) bouteille de [Petrus](petrus)
+- je voudrais [un](number) [petrus](petrus)
+- du [petrus](petrus) stp
+- est -ce que tu vends du [petrus](petrus) en primeur
+- savez vous si j' ai le droit à [une](number) allocation de [petrus](petrus) cette année ?
+- j' aimerais acquerir du [petrus](petrus)
+- Je cherche [un](number) [chateau petrus](petrus)
+- et des [petrus](petrus) en avez vous
+- Client chez Chateauprimeur , comment doit -on procéder pour obtenir [une](number) allocation [Château Petrus](petrus) ?
+- t' as [petrus](petrus)
+- [petrus](petrus) prix [2017](vintage)
+- Comment faire pour être allocataire de [Petrus](petrus)
+- J’ avais réussi à avoir [une](number) bouteille de [petrus](petrus) dans le passé mais on ne m’ en propose plus
+- Je veux postuler pour [une](number) bouteille de [petrus](petrus)
+- Je suis intéressé par [un](number) [petrus](petrus) en primeur
+
+## intent:primeur-date
+- quand ferme la vente
+- c' est quand les primeur ?
+- Les primeurs seront en vente jusqu' en décembre ? Merci
+- ça se termine quand les primeurs ?
+- Quand débute la campagne primeur ?
+- j' ai jusqu' à quand pour acheter mes vins en primeur ?
+- bonjour à quelle date devient il impossible de commander des vins en primeur svp ?
+- Les campagnes du millésime [2017](vintage) commence quand ?
+- est -il encore possible d' acheter des vins en primeur ?
+- primeurs quand
+- bonjour , je voudrais savoir jusqu' à quand je pourrais commander des vins en primeurs ?
+- A partir de quand peut on acheter les vins en primeur ?
+- vous avez [une](number) idée de la date pour [Margaux](appellation) ?
+- Bonjour , savez -vous quand aura lieux l' ouverture des primeurs ?
+- la campgane primeur commence quand ?
+- Bonjour , je voudrais savoir jusqu' à quelle date je peux acheter des vins en primeur ?
+- c' est quoi la date des primeurs
+- Seriez -vous en mesure de m' indiquer à partir de quel date je vais pouvoir passer commande des vins primeurs s' il vous plait ?
+- les primeurs c' est quand ?
+- Seriez -vous en mesure de m' indiquer à partir de quel date je vais pouvoir passer commande des vins primeurs s' il vous plait ?
+
+## intent:what-primeur
+- Acheter [un](number) vin en primeur ça veut dire quoi ?
+- [un](number) primeur c' est quoi ?
+- [Un](number) vin en primeur ça signifie quoi ?
+- Quel est l’ avantage de la vente en primeur ?
+- quoi primeurs
+- mais c' est quoi [un](number) primeur
+- c' est quoi les primeurs ?
+- je comprends pas ce que c' est la vente en primeur
+- Les primeurs c’ est quoi ?
+- Tu m’ expliques le concept des primeurs ?
+- qu' est -ce qu' [un](number) primeur ?
+- Je comprends rien aux primeurs tu m’ aides
+- [un](number) primeur qu' est -ce que c' est
+- Je suis perdu , pouvez -vous m’ éclairer sur le terme de « vente en primeur » svp ?
+- en primeur ça veut dire quoi ?
+- Concrètement ça marche comment le principe des primeurs ?
+- C’ est quoi la vente en primeur ?
+- Pourriez vous me décrire ce que sont les primeurs
+
+## intent:share
+- Vas-y fait profiter les copains !
+- Partage
+- Partager Magnum
+- Je peux l' envoyer à quelqu' un ?
+- Share
+- J' aimerais partager
+- Y' a moyen de partager Magnum ?
+- Partager
+- Comment on te partage ?
+- On peut te copier / coller ?
+- Je veux partager !
+- Envoyer à [un](number) ami
+- Je peux te partager ?
+- Partagez -moi !
+
+## intent:sobriety
+- Mon objectif : [avoir 3 grammes](sobriety) dans chaque bras ! Un [rouge](wine-color) pour moi ?
+- J' aimerais bien boire [des litres et des litres](sobriety) de vin
+- Pour [picoler](sobriety)
+- j' ai soif
+- Repartir bourré
+- J' ai [un](number) [coup dans le nez](sobriety) , je continue avec quoi ?
+- Je cherche le [black out](sobriety)
+- Le vin idéal pour [être carpette](sobriety) ?
+- J' aime [boire beaucoup](sobriety) de [bulles](wine-tag)
+- ETHANOL
+- Quoi de mieux que d' être [ivre mort](sobriety) ! Des [rosés](wine-color) pour ça ?
+- Je veux [me saouler](sobriety)
+- Là maintenant , j' aimeras bien [un](number) [rosé](wine-color) pour [être pompette](sobriety)
+- Si j' ai envie de me [mettre une torche](sobriety) , je prends quoi ?
+- Je veux [me torcher](sobriety)
+- du vin pour [être pompette](sobriety)
+- Je veux une bouteille de [rouge](wine-color) qui [casse la tête](sobriety)
+- Ce soir je veux [être rébou](sobriety) , donne moi des idées !
+- je veux me murger
+- Tu as [un](number) [rouge](wine-color) qui te [fracasse la tête](sobriety) ?
+- Tu conseilles quoi pour se [mettre une mine](sobriety) ?
+- Je veux être [rond comme une queue de pelle](sobriety)
+- Me [bourrer la gueule](sobriety) avec mes potes , vaste programme ! On aime bien le [blanc](wine-color)
+- [une](number) bassine d' éthanol
+- Je veux me [mettre minable](sobriety) , tu dois pouvoir m' aider non ?
+- [Une](number) bonne bouteille pour les alcooliques ?
+- Des conseils de [blanc](wine-color) pour se [mettre une taule](sobriety) ?
+- il faut boire avec [modération](sobriety) ?
+- Repartir [torché](sobriety)
+- me metre [une](number) murge
+- La meilleur bouteille de [blanc](wine-color) pour [s' aviner](sobriety) ?
+- Faut -il boire avec [modération](sobriety) ?
+- Je veux être [en état d' ébriété](sobriety)
+- [un](number) [rouge](wine-color) qui bourre bien la gueule
+- [Finir torché](sobriety)
+- J' ai envie d' [être ivre](sobriety)
+- Je veux [boire énormément](sobriety)
+- [Finir bourré](sobriety)
+- Magnum vous avez bu trop de vin !
+- me mettre [une](number) bonne murge ?
+- Des idées pour me [torcher](sobriety) ?
+- J' aimerais bien me [mettre une taule](sobriety) au vin
+- je veux me [souler la gueule](sobriety)
+
+## intent:cellar-choice
+- j' aimerais enrichir ma [cave](cave)
+- si je veux du vin pour ma [cave](cave) ?
+- Je veux acheter pour ma [cave](cave)
+- pour renflouer la [cave](cave) ?
+- t' as quoi pour renflouer ma [cave](cave)
+- ma [cave](cave) est vide ! t' as quoi à me conseiller ?
+- Pour ma [cave](cave)
+- je dois renflouer ma [cave](cave) , tu proposes quoi ?
+- [un](number) vin [rouge](wine-color) pour ma [cave](cave) [autour de](condition) 30 euros
+- renflouer ma [cave](cave)
+- [un](number) vin [rouge](wine-color) pour mettre en [cave](cave)
+- des vins pour renflouer ma jolie [cave](cave)
+- Tu me trouves [un](number) vin pour ma [cave](cave)
+- J' aimerais du vin pour ma [cave](cave)
+- [un](number) [rouge](wine-color) pour compléter ma [cave](cave)
+- J' aimerais me faire une petite [cave](cave)
+- [une](number) petite bouteille pour mettre dans ma [cave](cave)
+- Pouvez -vous m' aider à trouver des vins pour ma [cave](cave) ?
+- je cherche [un](number) vin à mettre dans ma [cave](cave)
+- [un](number) vin [rouge](wine-color) pour ma [cave](cave) à [moins de](condition) 40 €
+- C' est pour enrichir ma [cave](cave)
+- t' aurais [une](number) bouteille pour ma [cave](cave) à me proposer ?
+- Je veux [un](number) vin pour ma [cave](cave)
+- [Un](number) vin pour ma [cave](cave)
+- [Cave](cave)
+- bichonner ma [cave](cave)
+
+## intent:search-choice
+- recherche précise
+- Tu connais de bons vignerons ?
+- Je suis à la recherche d' [un](number) vin précis
+- Je cherche [un](number) vin en particulier
+- [Un](number) vin précis
+- Quels sont les domaines que tu as ?
+- Par cuvée , appellation ou cépage
+- [une](number) bouteille précise
+- [une](number) bouteille en particulier
+- je veux quelque chose de précis
+
+## intent:wish-choice
+- [une](number) bière à mon goût
+- [un](number) [spiritueux](wine-tag) à mon gout
+- [un](number) vin pour mes goûts
+- Goûts
+- A partir de mes goûts
+- pour mes gouts
+- Avec mes goûts
+- [Un](number) vin à mon goût
+- Selon mes goûts
+- A mon goût
+- Selon mon goût
+- vin à mon gout
+- Selon mon goûts
+- DU vin à mon gout
+
+## intent:occasion-choice
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- pour [une](number) occasion
+- [une](number) occasion !
+- ocasion
+- pour [une](number) occasion
+- [un](number) occasion
+- pour [une](number) occasion
+- occasion
+- Pour [une](number) occasion
+- pour [une](number) occasion
+- Pour [une](number) occasion
+- pour une occasion
+- Pour [une](number) occasion
+- Pour [une](number) occasion
+- Pour [une](number) occasion
+- [une](number) occasion
+- Occasion
+- occasionn
+- occassion
+- ocasion
+- occasion
+- pour [une](number) occasion
+- Pour occasion
+- Pour [une](number) occasion
+- [une](number) occasion
+- je veux du vin pour [une](number) occasion
+- occasion
+- pour [une](number) occasion
+- occasion
+- ocasion
+- pour [une](number) occasion
+- Pour [une](number) occasion
+- occasion
+- ocasion
+- pour occasion
+- occasion
+- Pour [une](number) occasion
+- Pour [une](number) occasion
+- Pour [une](number) occasion
+- occasion
+- pour [un](number) occasion
+- pour [une](number) ocasion
+- occasion
+- occasion
+- Occasion
+- [un](number) occasion
+- ocasion
+
+## intent:budget-change
+- Je veux mettre moins
+- Je voudrais baisser mon budget
+- Moins cher
+- Et pour moins cher ?
+- moin cher stp
+- en fait je voudrais [un](number) vin moins cher
+- as tu quelque chose de moins cher
+- Modifier budget
+- Ajuster prix
+- pas assez cher mon fils
+- je cherche [une](number) bouteille plus cher
+- Je veux ajuster mon budget
+- autre budget
+- Changer budget
+- Quelque chose de plus cher
+- Et avec [un](number) autre budget ?
+- Et quelque chose de moins cher ?
+- plus cher
+- c' est trop cher !
+- et si je voulais mettre plus
+- Changer €
+- Changer prix
+- Changer €
+- je voudrais [un](number) vin [un](number) peu plus cher
+- Et pour [un](number) budget plus élevé ?
+- Et en moins onéreux ?
+- ajuster €
+
+## intent:how-are-you
+- tu vas bien ?
+- T' es en forme ?
+- wassup babygirl
+- ça va bot ?
+- ça va les robots ?
+- CA VA ?
+- Comment allez -vous ?
+- Ça carbure ?
+- ca va ?
+- ça va ?
+- Ça va comme tu veux ?
+- Ca va ?
+- ca va toi ?
+- Quoi de neuf docteur ?
+- ça va Magnum ?
+- ça biche ?
+- T' es en canne ?
+- ça va le bot ?
+- ça roule ?
+- ca va bien ?
+- T' as la patate ?
+- Je suis en super forme . Et toi ?
+- Bien ou bien ?
+- Alors , heureux ?
+- ça boum ?
+- ca boume
+- What 's up ?
+- ç va au top ?
+- Tranquille ?
+- wassup ?
+- Comment vas -tu ?
+- Comment va ?
+- La forme ?
+- Quoi de neuf ?
+- comment ça va ?
+- Ca va ?
+- Ca va ou quoi ?
+- Ca gaze ?
+- est -ce que ça va ?
+- La frite ?
+
+## intent:bot-performance
+- Pourquoi devrais -je te faire confiance ?
+- comment tu fais ?
+- tu marches comment ?
+- comment fais -tu tout ça ?
+- tu fais ça comment ?
+- Pourquoi je te fais confiance ?
+- tu fonctionne comment ?
+- mais tu fonctionne comment ?
+- Tu es [une](number) base de données ?
+- comment ça marche ?
+- Pourquoi tes conseils sont bons ?
+- en fait tu fonctionne comment
+- comment tu fonctionnes ?
+- Comment tu fonctionnes ?
+- Pourquoi es -tu pertinent ?
+- comment t' arrives à faire ça ?
+- Qui me dit que tes conseils sont bons ?
+- A quel point es -tu performant ?
+- En quoi tes réponses sont -elles véridiques ?
+- explique moi comment ça marche
+- comment t' arrives à faire ça ?
+- Comment as -tu créé ta base données ?
+- tu fonctionnes commebt ?
+- comment ça fonctionne
+- ca marche pas
+
+## intent:other-products
+- vetements enfants
+- je recherche [un](number) [thé](other-product)
+- Je recherche [un](number) alcool pas très fort du style [marquisette](other-product) ou [sangria](other-product) [pas très chère](affordable)
+- aimes -tu le [soda](other-product) ?
+- De l' [eau](other-product) ?
+- Qu' avez -vous en [soda](other-product) ?
+- [Cidre](other-product)
+- [harmonizaç ã o](other-product)
+- Rosé pamplemousse
+- est -ce que t' as du [cidre](other-product)
+- Rosé pamplemousse
+- vin aromatisé
+
+## intent:wine-quote
+- Donnez moi [une](number) citation sur le vin
+- t' as [une](number) citation sur le vin ?
+- Vous avez [une](number) citation connue sur le vin
+- t' as d' autres citation sur le vin
+- Je cherche [une](number) citation en lien avec le vin
+- autre citation
+- t' aurais pas d' autres citation à propos du vin
+- je veux des citations sur le vins
+- t' as d' autres citations comme celle-là ?
+- [Une](number) citation vin
+- d' autres citations stp
+- [Une](number) citation marrante sur le vin ?
+- citations sur le vin
+- et sinon , tu as [une](number) anecdote à me donner ?
+- citation
+- anecdote
+- histoire
+- raconte -moi [une](number) histoire
+
+## intent:what-wine-variety
+- Vous m' expliquez ce que c' est un cépage ?
+- C' est quoi un cépage ?
+- Je comprends pas ce qu' est un cépage ?
+- ca veut dire quoi cépage ?
+- ça veut dire quoi , cépage ?
+- c' est quoi [un](number) cépage
+- Expliquez moi les cépages
+- qu' est -ce qu' [un](number) cépage ?
+
+## intent:how-wine
+- Comment est produit le vin ?
+- Le vin c' est quoi ?
+- commen faire le vin
+- Ca vient d' ou le vin ?
+- C' est quoi le vin ?
+- Comment c' est fait le vin ?
+- Tu m' expliques ce que c' est que le vin ?
+- le vin c' est quoi
+- comment on fabrique du vin ?
+- Le vin , vaste sujet non ?
+- qu' est -ce que le vin ?
+- en fait le vin c' est fait comment ?
+- Comment est fabriqué le vin ?
+- Comment le vin ?
+- c' ets quoi le vin , en fait ?
+- Comment on fait du vin ?
+
+## intent:more-info
+- [Que sais -tu d' autre](needs-more-info) sur ce vin ?
+- Donne moi [plus d' info](needs-more-info)
+- [plus d' info](needs-more-info) : [1](number)
+- J' aimerais [davantage d' informations](needs-more-info) sur ce vin
+- [plus d' info](needs-more-info) sur le vin : 1555
+- [plus d' info](needs-more-info) : 2004
+- [plus d' info](needs-more-info) : [15](number)
+- Avez -vous [plus de détails](needs-more-info) ?
+- [plus d' info](needs-more-info) : 15126537613345
+- Tu as [+ d' infos](needs-more-info) ?
+- [plus d' info](needs-more-info) sur le vin : [15](number)
+- [prosecco](appellation) [composition](needs-more-info)
+- [Plus d' info](needs-more-info) sur le vin : [2344](number)
+- votre [avis](needs-more-info) sur les calandieres
+- [plus d' info](needs-more-info) : 15
+- [plus d' info](needs-more-info) : 2004
+- Je veux [plus d' infos](needs-more-info) sur cette cuvée
+- [Dis m' en plus](needs-more-info) sur ce vin
+- [plus d' info](needs-more-info) : [1512653](number)
+- [Plus d' infos](needs-more-info)
+- Tu peux [m' en dire plus](needs-more-info) ?
+- [+ d' infos](needs-more-info) stp
+
+## intent:no
+- non non non
+- Vraiment pas
+- non vas-y toi
+- Jamais !
+- Nope
+- nein
+- Pas du tout
+- nan nan
+- a mon avis non
+- non non
+- non , arrête
+- nan merci
+- niet
+- Non merci , je n' y tiens pas
+- non , sans façon
+- [mille](number) fois non
+- négatif
+- non je peux pas
+- En vrai non
+- Non c' est non
+- Jamais de la vie !
+- Clairement pas
+- Nan
+- nan nan nan
+- pas possible
+- Trop pas
+- No
+- Absolument pas
+- En fait non
+- nn
+- pas vraiment
+- Euh non
+- Non
+- non pas du tout
+
+## intent:yes
+- ok
+- Ok boy
+- Ok
+- Ok thx
+- Yes OK
+- Ok
+- Alright
+- Ok !
+- ok
+- OK
+- K
+- OK
+- merci bien
+- Je confirme
+- Je veux bien
+- Nickel
+- absolument !
+- évidemment
+- ça me convient
+- yup
+- yep
+- Volontier
+- Vendu !
+- Très bien !
+- tout a fait
+- Super , ca me va
+- s' il vous plait
+- pourquoi pas
+- Parfait !
+- ouui
+- Oui , s' il vous plait
+- Oui voila
+- Oui s' il vous-plait
+- oui je veux
+- on fait ça
+- okay
+- Ok pour moi
+- ok !
+- ok
+- Nickel
+- merci bien
+- k
+- Je veux bien
+- Je suis partant
+- je suis d' accord
+- Je confirme
+- evidement
+- d' accord
+- Certainement
+- carrément
+- Ca roule
+- Ca me va
+- C' est exact
+- C' est bon !
+- biensur
+- Bien volontier mon brave
+- Avec plaisir
+- Allé d' accord
+- Allez
+- ok
+- j' accepte
+- c' est d' accord
+- c' est bon pour moi
+- c' est tout bon
+- volontiers
+- affirmatif
+- oui oui
+- Oui , bien sur
+- evidamment
+- c' est ca
+- correct
+- c' est correct
+- a priori
+- ouep
+- ouais
+- Ok c' est ca
+- Ca marche
+- Oui d' accord
+- D' accord
+- D' acc
+- C' est parfait
+- Exactement
+- Oui c' est ca
+- yes
+- Yes
+- Bien sur
+- A priori oui
+- Oui je pense
+- Oui je crois
+- oui
+- oui bien sur
+- Ok ça marche !
+- OK
+- J' ai compris
+- ya
+- Ya !
+
+## intent:reset
+- trouver [un](number) vin
+- [Trouver un vin](reset)
+- trouver des [bières](wine-tag)
+- trouver des [bieres](wine-tag)
+- trouver [une](number) [biere](wine-tag)
+- trouver [une](number) bière
+- [reset](reset)
+- reset mon gars
+- [annule](reset)
+- Nouvelle cherche
+- Nouvelle cherche
+- Nouvelle cherche
+- Pas de souci
+- Stop !
+- ton disque est rayé
+- change de disque
+- [Autre recherche](reset)
+- C' est possible de [réinitialiser la conversation](reset) ?
+- Je fais comment pour te faire [oublier notre conversation](reset)
+- Je veux [recommencer](reset)
+- Tu peux [oublier](reset) ce que je viens de te dire ?
+- [Oublie](reset) ce que je t' ai dis , c' est [un](number) ordre
+- [Oublie](reset) , on [recommence](reset) !
+- [Oublie](reset) ce que j' ai dis , on [reprend de zéro](reset)
+- [Oublie tout](reset)
+- serait -ce possible de [recommencer](reset)
+- [restart](reset)
+- [rejouer](reset)
+- pourrais -je [recommencer](reset)
+- je souhaite [rejouer](reset)
+- j' aimerais [revenir au début](reset)
+- j' aimerais [recommencer](reset)
+- je veux [redémarrer la conversation](reset)
+- On peut [reprendre depuis le départ](reset) ?
+- On peut [recommencer à zéro](reset) ?
+- Je veux [recommencer cette conversation](reset)
+- [reset](reset)
+- je veux [commencer du début](reset)
+- [commencer a zéro](reset)
+- [redémarre](reset)
+- [recommencer](reset)
+- Est -ce qu' on peut [recommencer la conversation](reset) ?
+- [redémarre](reset)
+- [recommence](reset)
+- On peut [reprendre la conversation du début](reset) ?
+- On peut [reset](reset) ?
+- Je veux [reprendre du début](reset)
+- Je veux [recommencer](reset)
+- [Nouvelle recherche](reset)
+- [Recherchez à nouveau](reset)
+- Lancer [une](number) [nouvelle recherche](reset)
+- Je veux [autre chose](reset)
+- [Efface tout](reset)
+- [Tu remets à zéro](reset) stp
+- ?
+- Test bot finis
+- Reboot bot
+
+## intent:good-feedback
+- je tiens quand meme à vous remercier
+- merci mon pote
+- ok super mon frère a bientot
+- ok super mon ami a bientot
+- Pas si mal
+- je vois que vous connaissez bien les vins
+- Merci bcp
+- < 3
+- mazette
+- Ah ! Pas si mal en fait
+- Ah ! pas si limité
+- great !
+- Pas si limité
+- merci vous mavez bien conseillé pour le [rouge](wine-color)
+- tu es sexy
+- merci vous m' avez bien conseillé pour le [rouge](wine-color)
+- je regarde merci
+- mercii
+- cimer
+- nikel !
+- thank you
+- T' es mon sauveur mec !
+- Tu me sauves !
+- Magnifique !
+- Eh bien , je vous remercie !
+- Je suis si heureux
+- Beaucoup de bons conseils !
+- super , merci !
+- cool !
+- c' est cool
+- je suis content
+- content
+- ( Y )
+- Super conseil !
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19264228_10155526314398474_1969146394_o.jpg?_nc_ad=z-m&oh=169ed57fa54fcaf870696eb6006f5a16&oe=594E19DE
+- https://scontent.xx.fbcdn.net/v/t35.0-12/19449593_10155526417613474_370051837_o.jpg?_nc_ad=z-m&oh=ddb7c77d9f01bda999ca41af311a5c0c&oe=594DF31C
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&oh=65f8806bcfe45834eb50b60f51cb352d&oe=596142DC
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&oh=51f7030fcdd99dc871819c84a847931f&oe=59B05CDC
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- nice
+- au top !
+- génial
+- super
+- Fort aimable
+- Je t' aime bien tu sais
+- You rock
+- Je te kiffe grave
+- Tu déchires !
+- Je t' aime
+- 👊
+- 🙌
+- 🤘
+- 👌
+- 😉
+- 😍
+- 😋
+- 😁
+- 😃
+- 🤝
+- 🤗
+- 😉
+- ☺ ️
+- c' est bien aimable
+- Thank you
+- Merci du fond du coeur
+- Je vous remercie
+- Merci bien
+- Merciiiiiiii
+- remerciement
+- je te remercie
+- Merci , c' est bien urbain de ta part
+- Thanks
+- woaw merci
+- Vous etes bien bon
+- Vous etes bien aimable
+- Tu gères le fougère
+- Tu gères la Fougères !
+- tu gères
+- tu gere la fougere
+- Tres bien
+- Ok !
+- niquel merci
+- nickel merci
+- Nice tu est très gentil
+- Merciiiiiiiiii
+- Merciiiiiiii
+- Merci pour ton coup de main
+- merci pour l' aide
+- Merci mon brave
+- Merci Alfred
+- Je vous remercie
+- cimer ma gueule
+- C' est tres gentil
+- Au top merci !
+- [1000](number) mercis !
+- merci bien l' ami
+- Je te remercie
+- [Un](number) grand merci
+- [un](number) grand merci à toi
+- vraiment , merci
+- Merci , vraiment
+- franchement , merci beaucoup
+- Merci beaucoup
+- Merci bien
+- Merci infiniment
+- Merci merci
+- Génial merci
+- Parfait merci
+- T' es [un](number) amour , merci
+- Je vous remercie
+- Avec mes sincères remerciements
+- Je te remercie
+- Génial merci
+- Merciiiiiiii
+- C' est beaucoup trop bien merci
+- Trop bien merci
+- ok merci
+- merci .
+- cimer
+- Super , merci
+- Merci beaucoup
+- Trop cool merci
+- nice
+- cool
+- :)
+- ; )
+- 👍
+- 😀
+- 😄
+- trop bien
+- oh cool !
+- Mais non tu es très doué
+- yolo
+- merci , bye
+- stylé
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=9058fb52f628d0a6ab92f85ea310db0a&oe=5a9daadc
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/851557_369239266556155_759568595_n.png?_nc_ad=z-m&_nc_cid=0&oh=0ef8de1568b7089f8197a3edf15d8d71&oe=5AC537DC
+- Bravo !
+- Merci le robot
+- T' es au top
+- Azy nickel , cimer !
+- ok c' est cool
+- tu es bon
+- pas mal
+- pas mal pour [un](number) robot
+- merci magnum
+- thanks magnum
+- meci beaucoup !
+- Merki !
+- pas mal ce petit chatbot !
+- Pas mal du tout !
+- tu géres
+- Ok parfait merci et bon WE
+- t' es [une](number) crême
+- t' es [une](number) creme
+- Tu es la crème
+- t' es [une](number) crème
+
+## intent:insult
+- conseil de [merde](bad-word) ... tocard ce bot
+- [caca](bad-word)
+- casse toi
+- [prout](bad-word)
+- [pute](bad-word) à citrons
+- oui , vous vous [foutez de ma gueule](bad-word) !!!
+- sans [putain](bad-word) de [tanin](wine-tag) gros [con](bad-word)
+- meurt et meurt
+- JE TENCULE
+- ferme toi et ne reviens jamais
+- tu ouvres encore [ta gueule](bad-word) la
+- [suce](bad-word)
+- vous m' [emmerdez](bad-word)
+- [va te faire foutre](bad-word)
+- non va te faire
+- tocard
+- fils de moine
+- fils de chien
+- j' ai trop envie de t' [enculer](bad-word) sale homosexuel
+- tu me [suce la bite ducon](bad-word) ?
+- tu me [suce la bite](bad-word) ?
+- [fuck](bad-word) !
+- [Tg](bad-word) !
+- [caca prout](bad-word)
+- puit sans fond
+- sac à vin
+- pochtron
+- tu m' [emmerde](bad-word)
+- [connerie](bad-word)
+- [salop](bad-word)
+- [couille molle](bad-word)
+- pédé
+- [putain](bad-word) t' es [con](bad-word)
+- [couille](bad-word)
+- tu me soul
+- Tu es ennervanvt
+- grosse [merde](bad-word)
+- sac à [merde](bad-word)
+- [pétasse](bad-word)
+- bot de [merde](bad-word)
+- Tu es énervant
+- [trouduc](bad-word)
+- [trou duc](bad-word)
+- petit [con](bad-word)
+- Tu es ennervant
+- [abruti](bad-word) va
+- gros [con](bad-word)
+- [bougnoule](bad-word)
+- [bouffon](bad-word)
+- [abruti](bad-word)
+- [vas te faire voir](bad-word)
+- [vas te faire foutre](bad-word)
+- [va te faire foutre](bad-word)
+- va [niquer](bad-word) ta mère
+- va mourir
+- Va [chier](bad-word)
+- tu suces sinon batard ?
+- Tu me les brises
+- tu m' as saoulé
+- tu es trop [con](bad-word)
+- tu es [chiant](bad-word)
+- [trou du cul](bad-word) ?
+- [trou du cul](bad-word)
+- toi suce toi
+- [tarlouze](bad-word)
+- Ta race
+- [ta gueule](bad-word)
+- t' es trop pénible
+- t' es moche
+- [stupide](bad-word)
+- [Salope](bad-word)
+- Sale [pute](bad-word)
+- sale [merde](bad-word)
+- Sale [con](bad-word)
+- Sale bot
+- [salaud](bad-word)
+- [putin](bad-word) tu est trop nul
+- [putin](bad-word) de bot de merde
+- [pute](bad-word)
+- [Putain](bad-word) , tu sers à rien
+- Pff . , pas sympa
+- petit [pd](bad-word)
+- [pd](bad-word)
+- pauv [merde](bad-word)
+- [Niquez](bad-word) vous
+- [Nique](bad-word) toi
+- [nique](bad-word) ta mère
+- je te hais
+- je te déteste
+- je te [chie](bad-word) dans la bouche
+- Je t' [emmerde](bad-word)
+- je baise ta maman
+- J' en ai rien à branler moi [enculé](bad-word)
+- inutile
+- Insulte moi
+- [idiot](bad-word)
+- [Fuck you](bad-word)
+- [fuck](bad-word)
+- [fils de pute](bad-word)
+- [fdp](bad-word)
+- [enfoiré](bad-word)
+- [Enfoire](bad-word)
+- [enculé](bad-word)
+- [enculer](bad-word)
+- [Debile](bad-word)
+- [damn it](bad-word)
+- [damn](bad-word)
+- [Crétin](bad-word)
+- [connasse](bad-word)
+- [connard](bad-word)
+- [conar](bad-word)
+- [con](bad-word)
+- [bite](bad-word)
+- [bitch](bad-word)
+- [Batard](bad-word)
+- mais tu ne comprends vraiment rien ma parole !
+- tu fais [chier](bad-word)
+- Tu es vraiment [un](number) incapable
+- Tu es inutile
+- Incapable !
+- Tu es [un](number) incapable
+- Espèce d' [abruti](bad-word)
+- [Gros naze](bad-word)
+- T' es [un](number) [gros naze](bad-word)
+- J' en ai marre de toi
+- t' es vraiment [con](bad-word) comme bot
+- T' es stupide
+- [vachier](bad-word)
+- [Un](number) vin du domaine [fuck](bad-word)
+- tu es [une](number) grosse [merde](bad-word)
+- Espèce de robot de [merde](bad-word) qui va tuer tous les humains
+- [fdp](bad-word)
+- fils de bot
+- [va mourrir](bad-word)
+- [va chier](bad-word)
+- [jte deteste](bad-word)
+- [tu pues](bad-word)
+- Tu suces ?
+- [ingrat](bad-word)
+- [fuck you](bad-word) magnum
+- Fuck !
+- Fils de pute !
+- [Une](number) [chatte](plat)
+- Ta chatte
+- allez vous faire foutre
+- fdp
+- FDP
+- ntm
+- ferme la
+- [tg](bad-word)
+- je [m' en bat les nuts](bad-word)
+- ta bouche
+- pour [un](number) plan cul
+- sperme
+- ta mère dans mon clic clac
+- [ta gueule](bad-word) disparais
+
+## intent:bad-feedback
+- Non je vais chez leclerc
+- Bon je prefere le drive de leclerc moins compliqué
+- scandaleux
+- Je suis super déçu
+- j' ai pas de temps a perdre
+- pas de temps à perdre
+- ca marche pas
+- tu piges rien
+- tu es nulle
+- tu me casses les burnes
+- nul ce bot
+- Nul votre chat
+- tu n' es pas intelligent comme bot
+- tu es inutile
+- T' as rien compris
+- Pffffff ....
+- T' es tout de même [une](number) sacré daube !
+- T' es nul en fait !
+- t' es naze
+- c' est mauvais
+- t' es lourd
+- Je ne suis pas convaincu
+- Vraiment pas convaincu , c' est nul
+- Pas vraiment convaicu
+- Pas convaincu !
+- Pas convaincu
+- Pas satisfait
+- :(
+- :-(
+- Ce n' est pas ce que je veux ! 😤
+- Ce qui est loin de ce que je cherchais 😩
+- Je suis très insatisfait ☹ ️
+- T' es complètement à côté de la plaque ☹ ️
+- Beurk 😣
+- Plus nul , tu meurs 😣
+- Ohlalala 😩
+- Mais non , pas ça 😩
+- Pas très pertinent 😩
+- On est loin de ce que j' ai demandé 😩
+- Non , pas ça 😤
+- C' est pas ce que je te demande ! 😤
+- Sérieusement ? 😠
+- Relou 😠
+- T' es vraiment mauvais comme conseiller vin 😡
+- Tu me gaves 😡
+- 😡
+- 😠
+- 😤
+- 😩
+- 😫
+- 😣
+- 😖
+- ☹ ️
+- 🙁
+- nul
+- pas bien
+- Sache que tu me déçoit profondément
+- c' est pas bien
+- c' est très décevant
+- Comment te faire part de mon mécontentement ?
+- Affreux affreux affreux
+- c' est a chier ce truc
+- T' es sérieux ? C' est nul
+- Pfff
+- Pffff
+- Je suis frustré de l' apprendre
+- C' est juste naze
+- Hum tu me rends mécontent
+- j' aime pas ça
+- c' est vraiment décevant ..
+- C' est vraiment frustrant ce que tu me dis la
+- on est loin du top top la hein
+- Euh je suis totalement dépité
+- Voila [une](number) nouvelle qui me dépite
+- alors la je suis frustré de l' entendre
+- Pfffff
+- alors la je suis complètement insatisfait
+- et bien tu m' en vois tout a fais insatisfait
+- Je suis insatisfait par t' es réponse
+- Ohla je n' aime pas du tout ce que j' entends
+- Je suis vraiment décu de la nouvelle
+- je te fais part de mon mécontentement
+- euh je trouve que c' est vraiment de la merde
+- Pfffffffff
+- Tu essaie de me frustrer la ?
+- tu me déçois beaucoup
+- Je n' aime pas ça du tout
+- c' est franchement nul
+- c' est pas super du tout
+- c' est très nul
+- C' est franchement nul
+- C' est franchement pas top
+- c' est naze
+- c' est pas franchement génial
+- franchement nul
+- c' est nul
+- Je ne suis vraiment pas satisfait par la qualité de tes services
+- je suis pas content
+- Je ne suis pas content du tout
+- C' est dégueulasse ça
+- C' est pas bon
+- Beurk !
+- Mais c' est degueulasse comme truc !
+- t' es grave nul en fait !
+- en fait tu sers à rien ...
+- Pffffff
+- tu es vraiment nul
+- nul
+- tu es nul
+- tu ne sert à rien
+- tu ne comprends rien
+- mais c nul
+- t' es mauvais jack
+- Tes conseils sont à chier
+- conseils pourris
+- vous etes nul
+- Tu ne sers a rien
+- faudra faire quelques progrès
+- Va falloir bosser plus dur dis donc !
+- Tu me saoules
+- Le bot ne parait pas encore au point
+- Peut mieux faire
+- Je m' en fout !
+- Je quitte ce site à cause de vous
+- Vous ne répondez pas à ma question !
+- Vous faites les questions et les réponses ... rien d' autre . Vous m' avez fait perdre mon temps . Ridicule et très décevant
+- Magnum , tu triches
+- Tu te défiles là !
+- Ya [un](number) bug amigos 😉
+- [un](number) bon début ce magnum , mais [un](number) peu frustrant quand même
+- Tu es super frustrant
+- Je vous offre [un](number) tire-bouchon tellement vous me semblez bouché
+- Pas content
+- Je suis triste
+- Je vais porter plainte
+- Tu n’ es pas bien formé petit robot
+- bon jvais me debrouiller , cimer frère
+- je vais chercher seule merci car ca ne correspond pas à mes attentes
+- je suis pressé
+- mauvaise réponse
+- ça ira
+
+## intent:get-help
+- trouver [une](number) [bière](wine-tag)
+- Trouver [une](number) [biere](wine-tag)
+- Trouver [une](number) [bière](wine-tag)
+- VINS
+- vin
+- vins
+- je veux [un](number) bon vin
+- Aide moi à trouver le bon vin
+- Dis moi quel vin
+- J' aimerais trouver [une](number) bouteille de vin
+- vite un conseil vin
+- J' ai besoin de conseils
+- C' est ici pour [un](number) conseil vin ?
+- Je cherche tout simplement du vin
+- Tu as du vin ?
+- Je veux du vin
+- Aide moi à trouver une vin
+- Je voudrais trouver un vin
+- Je cherche du vin
+- Trouver [une](number) bouteille
+- Guidez -moi svp
+- Guide -moi
+- Chercher [un](number) vin
+- Trouver [un](number) vin
+- Je veux bien [un](number) coup de main
+- rep please
+- Je suis perdu
+- J' ai besoin d' [un](number) renseignement
+- Je ne suis pas contre [un](number) coup de main
+- Je ne suis pas contre [un](number) peu d' aide
+- Que proposez vous sur ce chat ?
+- Je suis largué
+- Je suis totalement paumé
+- tu sers à quoi ?
+- tu fait quoi ?
+- SOS
+- Quels sont les sujets couverts ?
+- Quelles sont tes fonctionnalités ?
+- que fais tu ?
+- Peux tu me lister tes services ?
+- on peut faire quoi ?
+- Menu
+- Je voudrais de l' aide
+- Je cherche de l' aide
+- j' ai besoin d' aide
+- help me
+- Comment ca marche ?
+- aidez moi svp
+- aidez moi
+- aide svp
+- aide moi sur les preferences
+- aide menu
+- / help
+- aide moi
+- j' aimerai bien que tu m' aides
+- Tu sais faire quoi , exactement ?
+- Salut , qu' est -ce que tu peux faire ?
+- Je suis largué
+- Je suis perdu
+- Qu' est -ce que je peux faire ?
+- A l' aide
+- Ca sert a quoi de t' utiliser ?
+- J' aimerais bien que tu m' explique a quoi tu sers
+- Tu veux pas m' aider ?
+- Aide
+- A quoi tu sers ?
+- Tu sers a quelque chose ?
+- Qu' est -ce que tu fais ?
+- Tu peux m' aider ?
+- Sur quel sujet pouvez -vous m' aider ?
+- En quoi vous pouvez m' aider ?
+- Donnez -moi des exemples
+- Quel type de question je peux poser ?
+- Est -ce que tu peux me donner des exemples ?
+- Au secours !
+- Exemples
+- Exemple stp
+- Tu as des exemples ?
+- : o
+- je n' y connais rien
+- Je veux du vin
+- Tu as du vin ?
+- tu sais faire quoi ?
+- je veux [un](number) vin
+- [un](number) petit vin stp
+- t' as quoi comme vin ?
+- t' as quoi comme pinard ?
+- t' as du pinard ?
+- je comprends rien
+- j' ai besoin de conseils
+- mais c' est quoi ton utilité ?
+- j' aimerais connaitre ton utilitée
+- en fait , tu sers à quoi ?
+- c' est quoi ton rôle , en fait ?
+- tu fais quoi ?
+- c' est quoi ton rôle ?
+- ton rôle c' est de faire quoi ?
+- je comprends pas comment ça marche ...
+- c' est quoi ton utilité ?
+- Conseille moi
+- Conseillez -moi
+- Etre conseillé
+- Du conseil stp
+- conseils
+- Me conseiller
+- Obtenir des conseils
+- Conseiller -moi
+- Conseillé -moi
+- Conseille
+- conseil
+- Conseil
+
+## intent:human-or-bot
+- c' est [un](number) tchat automatisé ?
+- ça sert à quoi [un](number) robot ?
+- Seriez -vous [un](number) chatbot ?
+- Je suis convaincu que tu es [un](number) bot
+- T' es né quand ?
+- tu es [un](number) etre vivant ?
+- Est ce que tu es [un](number) autobot ?
+- es tu [un](number) bot ?
+- T' es [un](number) chatbot , j' en suis sur
+- Tu fais quelle taille ?
+- C' est quoi ta date de naissance ?
+- Mais t' es quoi toi ?
+- t' es surement [un](number) bot
+- T' es [un](number) bot ?
+- C' est quoi ton lieu de résidence ?
+- T' es [un](number) autobot ?
+- Tu loges ou ?
+- es -tu intelligent ?
+- es -tu [une](number) machine ?
+- es -tu [un](number) être humain ?
+- T' es vieux ou t' es jeune ?
+- es -tu [un](number) robot ?
+- etes vous [un](number) bot ?
+- C' est quoi ton age ?
+- qui est -ce que tu es ?
+- Es tu [un](number) humain ?
+- etes vous [un](number) robot ?
+- t' es humain ?
+- c' est donc ca [un](number) chatbot ?
+- je veux savoir si tu es humain ou si tu es [un](number) bot
+- Tu es du genre robot ?
+- tu es [un](number) vrai bot ?
+- Tu es [un](number) chatbot ?
+- Est ce que tu es humain ?
+- Tu es quoi ?
+- est -ce que t' as des émotions ?
+- j' ai l' impression de parler à [une](number) machine
+- je parle à [une](number) machine là ?
+- humain ?
+- Est -ce que je peux parler à [un](number) humain ?
+- Je veux parler à [une](number) vrai personne
+- est -il possible de parler à [un](number) humain ?
+- t' es [une](number) machine
+- robot ?
+- je veux parler à [une](number) personne
+
+## intent:bot-identity-1
+- ton nom c' est quoi ?
+- tu t' appeles comment ?
+- tu t' apeles comment ?
+- c' est quoi ton nom ?
+- comment tu t' apelles ?
+- comment tu t' appel ?
+- T' es Terminator ?
+- comment tu t' appelles ?
+- qui es tu vraiment
+- té qui ?
+- DIs m' en plus sur toi
+- T ki ?
+- Qui es tu ?
+- comment tu t' intitules ?
+- Tu es qui ?
+- quel est ton nom ?
+- Dis moi ton nom
+- Qui êtes vous ?
+- C' est quoi votre petit nom ?
+- Tu t' appelles comment ?
+- qui es -tu ?
+- qui estu ?
+- qui es tu
+- c' est qui ?
+- t' es qui toi ?
+
+## intent:bot-creation
+- Qui est votre créateur ?
+- Qui est ton créateur ?
+- Qui est ton créateur
+- t' as quel age
+- qui t' a fait ?
+- dis m' en plus sur celui qui t' as créé
+- d' ou viens -tu ?
+- qui est ton père ?
+- comment es tu né ?
+- dis m' en plus sur celui qui t' a fait
+- dis moi qui t' as créé
+- parle moi de ton créateur
+- d' ou tu viens ?
+- qui t' as fait ?
+- Qui est ton créateur
+- c' est qui qui t' a fait ?
+- qui t' a construit ?
+- qui t' a conçu ?
+- tu as été conçu par quelqu' un ?
+- ton créateur est qui ?
+- ton père ou ton créateur c' est qui ?
+- Qui sont tes créateurs ?
+- Qui sont tes parents ?
+- Ok c' est cool , mais tu marches comment ?
+
+## intent:budget-color-appellation
+- [une](number) [blonde légère](wine-tag)
+- [une](number) [blonde legere](wine-tag)
+- Vin [sans alcool](wine-tag)
+- [Pas d' alcool](wine-tag)
+- Je veux [une](number) bière [sans alcool](wine-tag)
+- Je veux du vin [sans alcool](wine-tag)
+- [Une](number) bière [sans alcool](wine-tag)
+- [Un](number) vin [sans alcool](wine-tag)
+- Je cherche de la bière [sans alcool](wine-tag) , vous avez ça ?
+- Je cherche du vin [sans alcool](wine-tag) , vous avez ça ?
+- Je veux de la bière [sans alcool](wine-tag)
+- Je veux du vin [sans alcool](wine-tag)
+- de la bière [sans alcool](wine-tag)
+- du vin [sans alcool](wine-tag)
+- avez -vous des [bières sans alcool](wine-tag) ?
+- avez -vous des vins [sans alcool](wine-tag) ?
+- Je veux de la [bière](wine-tag)
+- Avez -vous de la [bière brune](wine-tag) ?
+- [Torréfiée](wine-tag) et [gourmande](wine-tag)
+- [ingrédient original](wine-tag)
+- [stout](wine-name)
+- T' as des [stouts](wine-tag) ?
+- je veux [une](number) [bière](wine-tag) genre [porter](wine-tag)
+- [- de](condition) [11](custom-money)
+- [moins de](condition) [11](custom-money) [euros](money)
+- [moins de](condition) [11](custom-money)
+- Quel est le vin [le moins cher](affordable)
+- vin de [gascogne](appellation)
+- genre [5](custom-money) si t' as
+- [Prêt](wine-tag) à boire [rouge](wine-color)
+- [léger mais pas trop](neg-wine-tag)
+- augmentons le budget
+- [moins cher](affordable)
+- [un](number) [rouge](wine-color) [prêt](wine-tag) à boire
+- Plutot [Alsacien](appellation)
+- [un](number) [mousseux](wine-tag) [fin de repas](repas)
+- vin [rouge](wine-color) [boisé](wine-tag)
+- [Rouge](wine-color) du [sud](wine-tag)
+- [Moins de](condition) [7](number) si ta g pa tro les moyen
+- Bouteille de [1 litre](wine-tag)
+- [lirac](appellation)
+- Bouteille [1 litre](wine-tag)
+- Je te laisse choisir mais je ne veux [pas de rosé](neg-wine-color) !
+- je sais pas moi entre [510](number)
+- vin [fumé](wine-tag)
+- [Pas moins de](condition) [7 €](custom-money)
+- [Pas moins de](condition) [6 eur](custom-money)
+- [Pas moins de](condition) [7 eur](custom-money)
+- [Plus que](condition) [8 eur](money)
+- [Plus que](condition) [3 eur](money)
+- [- de](condition) [20 €](money)
+- [Plus que](condition) [2 eur](money)
+- [moins de](condition) [20 €](money)
+- [Pas moins de](condition) [8 eur](custom-money)
+- je cherche [une](number) [vodka](wine-tag) a [moins de](condition) 100 euros
+- [Pas moins de](condition) [3 eur](custom-money)
+- [vodka](wine-tag) pre mium
+- [Pas moins de](condition) [2 eur](custom-money)
+- [whiskies](wine-tag)
+- Vins [rares](wine-tag) d' [environ](condition) [7 euros](custom-money)
+- [whisky](wine-tag)
+- [un](number) vin [rare](wine-tag) aux [alentours de](condition) [7 eur](custom-money)
+- [rhums](wine-tag)
+- Si possible , j' aimerais acheter du vin [rouge](wine-color) à [plus de](condition) [5 euros](custom-money) .
+- [rhum](wine-tag)
+- je voudrais [un](number) vin [rouge](wine-color) [léger](wine-tag) à [plus de](condition) [5 €](assurer) si possible
+- je cherche des [alcools](wine-tag) blancs
+- [Un](number) peu [moins de](condition) [9 €](custom-money) STP
+- Je veux du [whisky](wine-tag)
+- [un](number) truc à [moins de](condition) [9 €](custom-money) stp
+- je veux [un](number) [whisky](wine-tag)
+- [un](number) truc à [moins de](condition) [9 €](custom-money) stp
+- Je veux du [rhum blanc](wine-tag)
+- [moins de](condition) [5 euros](custom-money) .
+- je cherche [un](number) [whisky ambré](wine-tag)
+- [Blancs](wine-color) [plus de](condition) [9 euros](custom-money) .
+- je veux [un](number) [rhum](wine-tag) [blanc](wine-color)
+- [Blanc](wine-color) [plus de](condition) [9 euros](custom-money) .
+- t' as [un](number) bon [whisky](wine-tag) comme [digestif](digestif) ?
+- [un](number) [blanc](wine-color) [plus de](condition) [9 eur](custom-money) .
+- je veux [un digestif](digestif)
+- si tu as [un](number) [rouge](wine-color) à [moins de](condition) [5 euros](custom-money)
+- je cherche [un](number) bon [digestif](digestif)
+- vin [blanc](wine-color) [sucré](wine-tag) pour [moins de](condition) [10 €](money)
+- [Environ](condition) [6 euros](custom-money) [blanc](wine-color) [sec](wine-tag) .
+- [Jusqu' à](condition) [9 €](custom-money)
+- [9 euros](money) [ou moins](condition) .
+- [un](number) [blanc](wine-color) [sec](wine-tag) [autour de](condition) [6 €](custom-money) .
+- [pas plus de](condition) [9 euros](custom-money) .
+- Vin [inférieur](condition) à [8 euros](money) .
+- [rouge](wine-color) [plus de](condition) [7 €](custom-money) .
+- vin [moins de](condition) [8 eur](custom-money) .
+- [20 euros](money) .
+- tu as quoi en [rouge](wine-color) [pas trop puissant](neg-wine-tag) à [5e](custom-money) .
+- Pas de [whisky](wine-tag) ?
+- [16 €](money) vin [rouge](wine-color) .
+- [Cognac](wine-tag)
+- [doux](wine-tag) , [droit](wine-tag) et [dense](wine-tag) , voire [délicat](wine-tag) , [pas très costaud](neg-wine-tag) et surtout [pas corsé](neg-wine-tag)
+- [16 euros](money) vin [rouge](wine-color)
+- [Eau de vie](wine-tag)
+- plus [doux](wine-tag) pour [10 eur](money) .
+- [Armagnac](wine-tag)
+- [10 euros](money) vin [doux](wine-tag) .
+- Le [whisky](wine-tag)
+- [10 eur](money) de vin [doux](wine-tag) .
+- [whisky](wine-tag)
+- vin [rouge](wine-color) pour [16 €](money) .
+- [Vodka](wine-tag)
+- vin [doux](wine-tag) pour [10 eur](money) .
+- [Premier prix](affordable) du [rhum](wine-tag)
+- qu' est ce que tu as [autour de](condition) [12 eur](money)
+- et tu as quoi pour [4e](custom-money) .
+- [Vodka](wine-tag) de [base](affordable)
+- [Au moins](condition) [5](custom-money) .
+- je cherche [un](number) [rouge](wine-color) [en dessus de](condition) [15 euros](money) .
+- donc je voulais quelque chose de [vif](wine-tag) à [15e](custom-money) .
+- Je cherche [une](number) bouteille de [whisky](wine-tag) ou [armagnac](wine-tag) dans [une](number) bouteille jolie
+- [5](number) [ou plus](condition) .
+- jveux des [blancs](wine-color) à [50 balles](money) .
+- Je cherche [une](number) bouteille de [cognac](wine-tag) .
+- un [blanc](wine-color) [alsacien](appellation)
+- T' as quoi pour [moins de](condition) [12e](custom-money) .
+- [Jusqu' à](condition) [2](custom-money) .
+- [Pineau des charentes](wine-tag)
+- je veux [un](number) [rouge](wine-color) [léger](wine-tag) pour [10 euros](money) .
+- Je cherche du [mezcal](wine-tag) , vous en avez ?
+- [2](number) [ou moins](condition) .
+- [un](number) [rouge](wine-color) [puissant](wine-tag)
+- je cherche [un](number) [rouge](wine-color) [léger](wine-tag) pour [10 euros](money) .
+- Et de la [vodka](wine-tag) , vous faites ?
+- [blanc](wine-color) de [loire](appellation)
+- [7](number) [ou moins](condition) .
+- [Moins de](condition) [8 euros](custom-money) .
+- Et si je veux du [rhum](wine-tag) ou du [whisky](wine-tag) ?
+- [facile à boire](wine-tag) , expressif et équilibré , [pas trop tanique](neg-wine-tag) , [pas trop fort](neg-wine-tag)
+- [moins de](condition) [8 €](custom-money) .
+- [7](number) [ou plus](condition)
+- [Armagnac](wine-tag)
+- [2 - 4 €](money_range)
+- je veux [un](number) [rouge](wine-color) à [10 euros](money) [au moins](condition) .
+- [salut](hello) je veux [un](number) [gin](wine-tag) pour mon frere
+- [moins de](condition) [5 euros](custom-money)
+- [Au moins](condition) [8 euros](custom-money) .
+- Bonjour , je suis à la recherche de vin en [grands formats](wine-tag)
+- Je cherche [une](number) bouteille de [cognac](wine-tag) ou [armagnac](wine-tag) dans [une](number) bouteille jolie
+- [8](number) [ou moins](condition) .
+- [5-10 €](money_range)
+- [5-10](money_range)
+- [Au moins](condition) [8 euros](custom-money) .
+- [Cognac](wine-tag)
+- [Moins de](condition) [8](custom-money) .
+- [8 euros](money) [ou plus](condition) .
+- [un](number) bon [whiskey](wine-tag) stp
+- [Moins de](condition) [7 €](custom-money) .
+- [Plus de](condition) [8](custom-money) .
+- [un](number) [cognac](wine-tag)
+- [Plus que](condition) [8 euros](money) .
+- Et sinon tu as du [whisky](wine-tag) ?
+- [Plus de](condition) [7](custom-money) .
+- [bière belge](wine-tag)
+- [Pas plus de](condition) [30](number) .
+- [Un](number) [armagnac](wine-tag)
+- [moins de](condition) [7](custom-money) .
+- [15 litres](wine-tag) de vin [blanc](wine-color) [sec](wine-tag)
+- C' est [environ](condition) [12 euros](money) .
+- [biere sans alcool](wine-tag)
+- [Rhum , vodka , whisky](wine-tag)
+- je voulais [une](number) bière [belge](wine-tag) [pas trop chere](affordable)
+- t' as quoi comme bière [belge](wine-tag) ?
+- [autour de](condition) [6](custom-money) .
+- [8](number) .
+- [Plus de](condition) [8 euros](custom-money) .
+- [Poiré](wine-tag)
+- [0 et 10](money_range)
+- [Moins de](condition) [6](custom-money) .
+- [3](number) .
+- [3.50 Euro](money) .
+- Du [whisky](wine-tag)
+- [8](number)
+- tu as quoi à [2 €](money)
+- [Plus de](condition) [6](custom-money) .
+- tu as quoi à [20 euro](money)
+- [1](custom-money) .
+- [3,50 EUR](money) .
+- voire meme [rosée](wine-color)
+- Du [cognac](wine-tag)
+- [Moins de](condition) [5](custom-money) .
+- tu as quoi à [16 €](money) ?
+- [40](number) .
+- [Plus que](condition) [7 eur](money)
+- [Chardonnay](cepage) ou [Chablis](appellation) Vin [Blanc](wine-color) [Sec](wine-tag)
+- [Un](number) vin [sans alcool](wine-tag)
+- [un](number) bon [pastis](wine-tag)
+- T’ as [une](number) bière [sans alcool](wine-tag) ?
+- T’ as [un](number) vin [sans alcool](wine-tag) ?
+- Existe -t-il des [bières sans alcool](wine-tag) . ?
+- [Plus de](condition) [5](custom-money)
+- Existe -t-il des vins [sans alcool](wine-tag) . ?
+- Tu as de la [sans alcool](wine-tag) ?
+- [6](number) .
+- Tu as du [sans alcool](wine-tag) ?
+- [7 eur](money) [ou plus](condition) ..
+- Bière [0 degrés](wine-tag)
+- Vin [0 degrés](wine-tag)
+- [Whisky pur malt](wine-tag)
+- T’ as de la bière [sans alcool](wine-tag) ?
+- T’ as du vin [sans alcool](wine-tag) ?
+- [3.50](number)
+- [Sans alcool](wine-tag)
+- [Moins de](condition) [4](custom-money)
+- Bière [sans alcool](wine-tag) svp
+- [un](number) vin [fruité](wine-tag) et [souple](wine-tag)
+- Vin [sans alcool](wine-tag) svp
+- [7](number) .
+- Avez -vous de la bière [sans alcool](wine-tag) ?
+- Ok , [douze euros](money) [ou plus](condition)
+- Je veux de la bière mais [sans alcool](wine-tag)
+- Je veux du vin mais [sans alcool](wine-tag)
+- [Rhum](wine-tag) [1er prix](affordable)
+- Avoir [une](number) bière [sans alcool](wine-tag)
+- Avoir du vin [sans alcool](wine-tag)
+- je ne trouve [pas de mousseux](neg-wine-tag)
+- Je veux [une](number) [rousse sans alcool](wine-tag)
+- [Plus de](condition) [4](custom-money)
+- Je veux [un](number) [rouge](wine-color) [sans alcool](wine-tag)
+- Je veux [un](number) bière mais [sans alcool](wine-tag)
+- [cubis](wine-tag)
+- Je veux du vin mais [sans alcool](wine-tag)
+- [Plus de](condition) [8 €](custom-money) .
+- Je cherche des [bières sans alcool](wine-tag) , l’ avez -vous ?
+- Je cherche du vin [sans alcool](wine-tag) , l’ avez -vous ?
+- [Sky](wine-tag) [1er prix](affordable)
+- [Une](number) bière [sans alcool](wine-tag) svp
+- [Un](number) vin [sans alcool](wine-tag) svp
+- [rouge](wine-color) [voluptueux](wine-tag)
+- Bière [sans alcool](wine-tag)
+- [Moins de](condition) [3](custom-money) .
+- [auvergne](appellation)
+- [plus de](condition) [7 eur](custom-money) .
+- [Un](number) [digestif](digestif) ?
+- [Plus de](condition) [3](custom-money) .
+- [100 €](money) .
+- De l' [armagnac](wine-tag)
+- [Chassagne](appellation)
+- [Moins de](condition) [2](custom-money) .
+- Supposons que le budget [maximum](condition) soit de [15](number)
+- [spiritueux](wine-tag) quuoi
+- [plus de](condition) [2](custom-money) .
+- Disons que le budget [maximum](condition) est de [15e](custom-money) .
+- [cognac](wine-tag) ou [armagnac](wine-tag)
+- [moins de](condition) [1](custom-money) .
+- Qu’ est ce que tu as [autour de](condition) [12 eur](money) .
+- [vinho adocicado](wine-tag)
+- [Vodka](wine-tag) entrée de gamme
+- [6](number) .
+- [plus de](condition) [1](custom-money) .
+- je cherche [un](number) [chardonnay](cepage)
+- [-](condition) [6](number) .
+- [200 euros](money) .
+- [moins de](condition) [3](custom-money) .
+- du [blanc](wine-color) , du [rouge](wine-color) , du [rosé](wine-color) , j' ai soif
+- Bof , [autour de](condition) [12 eur](money) ? .
+- [200 euros](money) .
+- je voudrais [un](number) [rouge](wine-color) assez [complexe](wine-tag) , [pas trop rapeux](neg-wine-tag) et qui donne [chaud](wine-tag) au coeur
+- [moins de](condition) [12](number) .
+- [peu import](dont-know)
+- [Rouge](wine-color) [10e](custom-money) .
+- je voudrais [un](number) vin [blanc](wine-color) [demi sec](wine-tag) lequel vous me [conseillé](coup-de-coeur) ?
+- [500](number) .
+- [moins de](condition) [9](custom-money) .
+- [Pas plus de](condition) [30](number) je suis en galère en ce moment .
+- [400](number) .
+- [20](number) [ou moins](condition) .
+- dans les vins [blancs](wine-color)
+- [cubis](wine-tag)
+- T’ as quoi a [12 eur](money) ? .
+- [300](number) .
+- vin qui vient de la [roussette](appellation)
+- [Au moins](condition) [20 €](money) .
+- [3.50 euros](money) .
+- [200](number) .
+- [un](number) [rouge](wine-color) [épicé](wine-tag)
+- [20 €](money) [ou plus](condition) .
+- Supposons que le budget [maximum](condition) est de [15e](custom-money) .
+- [100](number) .
+- [moins de](condition) [20](number) .
+- [Champagne](appellation) traditionnel sous [30e](custom-money) .
+- [3000 euro](money)
+- [plus de](condition) [20 €](money) .
+- [30e](custom-money) ..
+- [2000 euros](custom-money)
+- [moins de](condition) [20 €](money) .
+- [1](custom-money)
+- [202 EUR](money)
+- [moins de](condition) [7 €](custom-money) .
+- [Environ](condition) [12 euros](money) .
+- [100 €](money)
+- [5](number) [ou moins](condition) .
+- a près de [5 euros](money) .
+- [202 euros](money)
+- [moins de](condition) [5](custom-money) .
+- [Jusqu' à](condition) [40](number) .
+- [300 euros](money)
+- [moins de](condition) [5 euros](custom-money) .
+- Supposons [un](number) budget [maximum](condition) de [30 euros](money) .
+- [200 €](money)
+- [Moins de](condition) [7 euros](custom-money) .
+- [9](number) [ou moins](condition) .
+- [200 euros](money)
+- [2010](vintage)
+- [Moins de](condition) [7 €](custom-money) ?
+- Budget [maximum](condition) est de [30 euros](money) .
+- [Clairet](appellation)
+- [moins de](condition) [20 €](money) .
+- Le budget [maximum](condition) est de [30 euros](money) .
+- Astrakhan
+- trouve moi [un](number) vin [blanc](wine-color) [moelleux](wine-tag) [pas trop sucré](neg-wine-tag)
+- [Environ](condition) [50 €](money) .
+- [1 euro 50](custom-money) [ou plus](condition) .
+- [moins de](condition) [10 euros](money) .
+- [moins de](condition) [12](number) .
+- [un](number) bon [blanc](wine-color)
+- ce [rose](wine-color) n' est [pas tres corse](neg-wine-tag)
+- [un](number) [blanc](wine-color) de [loire atlantique](appellation)
+- [20](number) [ou moins](condition) .
+- [lange d' oc](appellation)
+- [Moins de](condition) [20](number) .
+- [Trente](number) .
+- [5](number) [ou moins](condition) .
+- [3 litres](wine-tag) de vin
+- [alsace](appellation)
+- [100 €](money) .
+- vin en [3 litres](wine-tag)
+- Qu' est ce que tu as [autour de](condition) [12 eur](money) .
+- [8](number) .
+- [Pas plus de](condition) [30](number) je suis en [galere](non_catching_words) en ce moment .
+- [Mousseux](wine-tag)
+- [7](number) [max](condition) .
+- [fontaines](wine-tag)
+- Budget [max](condition) [30 euros](money) .
+- je cherche [un](number) vin en packaging [BIB](wine-tag) pour faire du kir cassis
+- [cubis](wine-tag) [moins de](condition) [20 €](money) ?
+- Supposons que le budget [maximum](condition) est de [30 euros](money) .
+- [8](number) .
+- [mousseux bio](wine-tag)
+- [cubis](wine-tag) [rosé](wine-color)
+- [un](number) [côte de provence](appellation) [rosé](wine-color)
+- Supposons que le budget [maximum](condition) est de [30 €](money) .
+- [nimporte](dont-know)
+- [cubis](wine-tag) [rouge](wine-color) [léger](wine-tag)
+- [un](number) [rosé](wine-color) [ni léger ni corsé](neg-wine-tag) mais [fruité](wine-tag)
+- [rouge](wine-color) [puissant](wine-tag) et compoté à [12 €](money) [max](condition) .
+- [4](number)
+- [15](number) .
+- [demi sec](wine-tag)
+- [cubis](wine-tag)
+- [20.30](money_range)
+- Des vins [étonnants](wine-tag) à [max](condition) [40e](custom-money) .
+- [20](number) .
+- [Larzac](appellation)
+- Je cherche des vins [rares](wine-tag) à [min](condition) [15 euros](money) .
+- [15](number) .
+- je veux [un](number) vin qui vient de [gascogne](appellation)
+- [Terrasses du Larzac](appellation)
+- [5](number) .
+- [Min](condition) [15e](custom-money) .
+- [30](number) .
+- Larzac [Rouge](wine-color)
+- [Min](condition) [50e](custom-money) .
+- [fruité souple](wine-tag)
+- [rouge](wine-color) [Larzac](appellation)
+- [20](number) .
+- [un](number) vin du [Larzac](appellation)
+- [10](number) .
+- [rouge](wine-color) [peu fruité](neg-wine-tag)
+- [Larzac](appellation)
+- [non gazeux](wine-tag)
+- [20](number) .
+- [valencia](appellation) [rosé](wine-color) gris
+- [10](number) [environ](condition) .
+- [10](number) .
+- [rouge](wine-color) [prononce](wine-tag)
+- [moins de](condition) [7 €](custom-money) .
+- je cherche [un](number) vin plutôt [boisé](wine-tag) mais [pas trop fort](neg-wine-tag)
+- [8](number) .
+- [Moins de](condition) [10 euros](money) .
+- [Cote de Gascogne](appellation)
+- [Moins de](condition) [10 €](money) .
+- [2,5](number) .
+- [moins de](condition) [7 €](custom-money) .
+- je demaindais justement [un](number) vin [peu sucré](neg-wine-tag)
+- [6](number)
+- [-](condition) [6](number) .
+- [Pas de rosé](neg-wine-tag) , comme vous le savez , mais le [blanc](wine-color) [doux](wine-tag) n' est [pas trop sucré](neg-wine-tag) .
+- Boisé [chêne subtil](wine-tag) [10 euros](money) ?
+- [un](number) [blanc](wine-color) [ardéchois](appellation) svp
+- [roussette](appellation)
+- [je](wine-tag) suis venu pour [un](number) vin [gras](plat)
+- je cherche [un](number) vin [gras](wine-tag) svp
+- des vins qui viennent d' [afrique](appellation)
+- vin [gras](wine-tag)
+- [blanc](wine-color) du loiré
+- [Saint Bris](appellation)
+- [5](number)
+- [demi-sec](wine-tag)
+- [Bourgueil](appellation)
+- [chateau neuf du pape](appellation)
+- Je ne veux [pas de vin rosé](neg-wine-tag) , mais [blanc](wine-color) , [pas minéral](neg-wine-tag) , pas végétarien , [un](number) peu [fruité](wine-tag) , [pas sucré](neg-wine-tag)
+- je ne veux [ni un vin rosé](neg-wine-color) , [ni un blanc](neg-wine-color) mais du [rouge](wine-color)
+- [pas un vin rouge](neg-wine-tag) , plutôt [un](number) [blanc](wine-color) , assez [acide](wine-tag)
+- [demi sec](wine-tag)
+- avec du [corps](wine-tag)
+- [375 ml](wine-tag)
+- [petites bouteilles](wine-tag)
+- [15](number)
+- [beurré](wine-tag)
+- Vin [blanc](wine-color) [minéral fleuri](wine-tag)
+- vin produit sur l' [ile de ré](appellation)
+- ile de ré
+- [un](number) vin [vegan](wine-tag)
+- [Cabernet](appellation) [rose](wine-color) [anjou](appellation)
+- je cherche [un](number) [rouge](wine-color) [pas trop puissant](neg-wine-tag)
+- [casher](wine-tag)
+- je souhaiterais commander [40](number) bouteilles mais n' y arrive pas
+- [eau-de-vie](wine-tag) de [fruit](wine-tag)
+- Vin [ile d' Oleron](appellation)
+- [eau-de-vie](wine-tag) de [fruits](wine-tag)
+- [Blanc](wine-color) [minéral](wine-tag) mais [pas trop sec](neg-wine-tag) ou prix [entre 20 et 50 euros](money_range)
+- [eau-de-vie](wine-tag)
+- je veux [un](number) [rosé](wine-color) gris
+- [eau de vie de fruit](wine-tag)
+- [Oleron](appellation)
+- [eaux de vie de fruits](wine-tag)
+- [blanc](wine-color) [moelleux](wine-tag)
+- eau-de-vie de fruits
+- [mousseux](wine-tag)
+- [5](number) .
+- [6](number) .
+- [5.10](money_range)
+- vin [rouge](wine-color) pinot
+- [muscat de rivesaltes](appellation)
+- je prefererais [un](number) [rosé](wine-color)
+- [un](number) [rosé](wine-color) [fleuri](wine-tag)
+- [5](number) .
+- [un](number) [rouge](wine-color) [puissant épicé](wine-tag) et [long en bouche](wine-tag)
+- je ne veux [pas de vin fruité](neg-wine-tag)
+- [gros plant](appellation) nantais
+- [un](number) vin [chilien](appellation) pour [ce soir](repas)
+- Je cherche du [rouge](wine-color) qui n' est [pas trop fort](neg-wine-tag) .
+- [roussette](appellation)
+- [2](number) .
+- [rosé](wine-color) [Varois](appellation)
+- je cherche [un](number) petit [blanc](wine-color) [frais](wine-tag) et [léger](wine-tag) pour [15 euros](money) [au plus](condition) .
+- [5](number) .
+- [cubi](wine-tag)
+- [mousseux](wine-tag)
+- [4](number) .
+- vin [rouge](wine-color) [syrah grenache](cepage)
+- conseillez moi sur [un](number) [blanc](wine-color)
+- peut etre [petillant](wine-tag)
+- en [fontaine](wine-tag) ?
+- [rouge](wine-color) [léger](wine-tag) pour tous les jours [pas tanique](neg-wine-tag)
+- j' aime [pas le vin rouge](neg-wine-color) , tu me conseille quoi d' autre
+- Pour me faire plaisir et [pas cher](affordable)
+- je veux [un](number) vin d' [occitanie](appellation) stp
+- [5](number) .
+- [un](number) vin à [au moins](condition) [10 euros](money) en [côte du rhone](appellation) .
+- [blanc](wine-color) [menetou](appellation)
+- en [fontaine](wine-tag) a vin
+- vin [parisien](appellation)
+- [st emilion](appellation)
+- de [france](appellation)
+- [10](number) .
+- je cherche [un](number) joli [rouge](wine-color) [frais](wine-tag) [pas épicé](neg-wine-tag)
+- en [fontaine](wine-tag)
+- [champagne](appellation) [demi sec](wine-tag)
+- je veux [un](number) vin [vegan](wine-tag)
+- [50](number)
+- [40](number) .
+- [un](number) [champagne](appellation) à [20 euros](money) [ou moins](condition) .
+- [Gascogne](appellation)
+- vin [cubi](wine-tag)
+- [vouvray](appellation) [demi sec](wine-tag)
+- [2](number) .
+- [rosé](wine-color) [pas trop fruité](neg-wine-tag) , [ni trop sucré](neg-wine-tag) mais [doux](wine-tag)
+- [20](number) .
+- [un](number) [blanc](wine-color) à [7 euros](money) [et moins](condition) .
+- [Moins](condition) [100](number)
+- [chateau neuf](appellation)
+- en [cubitenaire](wine-tag)
+- vin [vegan](wine-tag)
+- [rouge](wine-color) [10 e](custom-money)
+- en [cubi](wine-tag)
+- Du [Loiré](appellation)
+- [35](number) .
+- du [rosé](wine-color) de [Provence](appellation) à [7 €](money) [et plus](condition) .
+- [cretois](appellation)
+- [un](number) [blanc](wine-color) [pas floral](neg-wine-tag) mais [moelleux](wine-tag)
+- ce vin est [trop corse](neg-wine-tag) , je veux du [blanc](wine-color) [leger](wine-tag) mais [pas herbace](neg-wine-tag) et [pas vegetal](neg-wine-tag) , legerement fuite
+- Je n' aime [pas les vins légers](neg-wine-tag)
+- [un](number) truc à [8 euros](money) [ou plus](condition) [pas trop sucré](neg-wine-tag)
+- [cotes de gascogne](appellation)
+- [Côte de Gascogne](appellation)
+- [-](condition) [7](number)
+- Si possible , [pas de tanins](neg-wine-tag)
+- donne moi [un](number) [rouge](wine-color) [viril](wine-tag) mais [pas trop fort](neg-wine-tag)
+- [un](number) [pétillant](wine-tag) [pas moins de](condition) [20 euros](money) .
+- [Resling](cepage)
+- [menetou salon](appellation)
+- vin [rouge](wine-color)
+- j' ai dis [sec](wine-tag) [pas un moelleux](neg-wine-tag)
+- Vin [rose](wine-color) [sec](wine-tag) [et](condition) [fruité](wine-tag)
+- [Budget plus abordable](affordable)
+- [pas de rosé](neg-wine-color) comme tu sais mais [un](number) [blanc](wine-color) [moelleux](wine-tag) [pas très sucré](neg-wine-tag)
+- [un](number) [rouge](wine-color) [léger](wine-tag) à [8 euros](money) [pas plus](condition) .
+- [rose](wine-color) [clair](wine-tag)
+- [rosé](wine-color) [sec](wine-tag) mais [fruité](wine-tag) pour tous les jours en cub
+- [chateau neuf du pape](appellation)
+- [cote de gascogne](appellation)
+- un vin [vegan](wine-tag)
+- [bonjour](hello) je recherche [un](number) [rouge](wine-color) qui soit [doux](wine-tag) , la plupart sont piquants en bouche je n' aime pas trop
+- vin d' [auvergne](appellation)
+- [un](number) vin [non tanique](neg-wine-tag)
+- [blanc](wine-color) [demi-sec](wine-tag)
+- [rosé](wine-color) d' [aix](appellation)
+- t' as quoi en vin [pas en dessus de](condition) [16 eur](money) .
+- vin [rouge](wine-color) [occitanie](appellation)
+- [rosé](wine-color) gris
+- Je cherche [un](number) [rouge](wine-color) moins [intense](wine-tag) .
+- j' ai besoin que le vin soit [bio](wine-tag)
+- je veux [un](number) [champagne](appellation) [pas au dessus de](condition) [10 euros](money) .
+- [aix](appellation)
+- [un](number) vin de [gascogne](appellation)
+- [emilion](appellation)
+- [pas au dessous de](condition) [15 euros](money) pour mon [blanc](wine-color)
+- je voudrais avoir du [blanc](wine-color)
+- [Loiré](appellation)
+- cretois
+- [pas rosé](neg-wine-color)
+- [Menetou-Salon](appellation)
+- [0-6](money_range)
+- [Un](number) [Bordeaux](appellation) [rouge](wine-color) [en-dessous de](condition) [9 €](custom-money) .
+- [bordeaux](appellation) [vanille](wine-tag)
+- alors , voyons , eh bien j' aimerais bien [un](number) vin [pétillant](wine-tag) mais pas du [champagne](appellation) , vous voyez quelque chose ?
+- vin d' [aix](appellation)
+- [un](number) vin à [9 €](money) , [pas en dessous](condition) .
+- [blanc](wine-color) svp
+- aop [cote du rhone](appellation)
+- Donne -moi du [rouge](wine-color) , mais [pas trop fort](neg-wine-tag)
+- propose moi [un](number) [rouge](wine-color) [pas trop puissant](neg-wine-tag)
+- oui [entre 10&20](money_range)
+- [un](number) vin [blanc](wine-color) [chably](appellation)
+- [pas de blanc ni de rosé](neg-wine-color) , [peu tannique](neg-wine-tag)
+- [rouge](wine-color) [epicé](wine-tag)
+- j' aime [pas le vin rouge](neg-wine-color) , tu me conseille quoi d' autre
+- [Un](number) [blanc](wine-color) [léger](wine-tag) pour [environ](condition) [8 €](custom-money) ?
+- t' as quoi en vin [italien](appellation) [au dessus de](condition) [8e](custom-money)
+- [moins de](condition) [10](number) .
+- je ne veux [pas de blanc](neg-wine-color) c' est pas bon
+- Ce que tu as en [rouge](wine-color) , [pas trop mou](neg-wine-tag) , [pas trop acide](neg-wine-tag)
+- Pays de la [Loire](appellation)
+- Je veux du [rosé](wine-color) [au dessous](condition) de 4 eur stp
+- [Plus de](condition) [2500 euros](money)
+- vin de [roussette](appellation)
+- gris
+- dans les [bourgueil](appellation)
+- [bonjour](hello) , je cherche [un](number) vin [blanc](wine-color) [fruité](wine-tag) mais [pas sucré](neg-wine-tag)
+- qu' as -tu en [rouge](wine-color) , [pas trop tanique](neg-wine-tag) , et [pas très acide](neg-wine-tag)
+- je préfèrerais du [rosé](wine-color)
+- vin du [loiré](appellation)
+- Ok merci et sinon j' aime beaucoup la [tequila](wine-tag) , t' as ça en magasin ?
+- Ok merci et sinon j' aime beaucoup la [tequila](wine-tag) , t' as ça en magasin ?
+- [À partir de](condition) [5](custom-money) .
+- Sélectionne -moi [un](number) [gin fruité](wine-tag)
+- t' as du [rosé](wine-color) ?
+- Je cherche [un](number) [gin](wine-tag) [original](decouverte) à [moins de](condition) [20 €](money) .
+- je cherche [un](number) [rouge](wine-color) [tannique](wine-tag) [en dessous de](condition) 10 euros
+- Conseille -moi [un](number) [rhum](wine-tag) [classique](classique) pour boire en [digestif](digestif)
+- Sélectionne -moi [un](number) [rhum blanc fruité](wine-tag)
+- vin qui vient d' afrique
+- Je cherche [un](number) [rhum gourmand](wine-tag) à [moins de](condition) [25 €](money) !
+- Sélectionne -moi [un](number) [whisky tourbé](wine-tag)
+- Je cherche [un](number) [whisky léger](wine-tag) et [fruité](wine-tag) à [moins de](condition) [25 €](money) .
+- tu as du [casher](wine-tag)
+- et [un](number) [whisky écossais](wine-tag)
+- Je recherche [un](number) [whisky fruité léger](wine-tag) à [moins de](condition) [25 euros](money)
+- je prefere le [bordeaux](appellation) ...
+- du [vegan](wine-tag)
+- et si je préfère [un](number) [rhum blanc](wine-tag) ?
+- vin a [5,99 €](money) ?
+- Sélectionne -moi [un](number) [spiritueux](wine-tag) [blanc](wine-color) [original](decouverte)
+- [st emilion](appellation)
+- Je cherche [un](number) [whisky léger](wine-tag) et [fruité](wine-tag) à [moins de](condition) [25 €](money) .
+- Conseille -moi [un](number) [rhum](wine-tag) [classique](classique) à proposer en [digestif](digestif)
+- [spumante](wine-tag)
+- Je cherche [un](number) [Mezcal](wine-tag)
+- J' adore la [vodka légère](wine-tag)
+- as -tu des vins [légers](wine-tag) , assez [vifs](wine-tag) , [pas lourds](neg-wine-tag) et [pas trop passe partout](neg-wine-tag) ?
+- J' aime la [vodka douce](wine-tag) .
+- [moins de](condition) [10](number)
+- J' aime les [vodka légères](wine-tag)
+- je veux un [chateau neuf du pape](appellation)
+- selectionnez moi [une](number) bouteille de [rosé](wine-color)
+- [bonjour](hello) je recherche du [muscat de rivesaltes](appellation) en auriez vous svp
+- [Un](number) [gin](wine-tag) [insolite](decouverte) pour [un](number) [cadeau](cadeau) ?
+- Disons que mon budget [max](condition) est de [30 euros](money)
+- [Un](number) [gin](wine-tag) [insolite](decouverte) à me proposer
+- Conseille -moi [un](number) [whisky fumé](wine-tag)
+- bof , [autour de](condition) [12 eur](money)
+- Sélectionne -moi [une](number) [liqueur fruitée](wine-tag)
+- vin du [sud](appellation)
+- vin [africain](appellation)
+- [Un](number) [rhum gourmand](wine-tag) à [20 €](money)
+- [Blanc](wine-color) [sec](wine-tag)
+- Je veux [un](number) [whisky](wine-tag) pour l' [apéritif](aperitif) [autour de](condition) [25 €](money) !
+- [2,50](number)
+- [Gourmand](wine-tag) et [ample](wine-tag)
+- Bon Magnum , je cherche ton meilleur [champagne](appellation)
+- je veux du [rouge](wine-color) , [pas du blanc](neg-wine-tag) , [ni du rosé](neg-wine-tag) t' as compris ???
+- [Tourbé](wine-tag) et [fumé](wine-tag)
+- [eau de vie](wine-tag)
+- [venise](appellation)
+- [eaux de vie](wine-tag)
+- [eau-de-vie](wine-tag)
+- [eaux-de-vie](wine-tag)
+- J' aime le vin [rouge](wine-color) caractéristique , [pas fort](neg-wine-tag) , j' aime les [tanins](wine-tag) .
+- pour chaque jour , [un](number) vin [ros](wine-color) [pas fruité](neg-wine-tag)
+- [Anis](wine-tag) [étoilé](award)
+- t' as quoi vers [3 eur](money)
+- [Eaux-de-vie de fruits](wine-tag)
+- [blanc](wine-color) [fruité](wine-tag)
+- [pas de vin tanique](neg-wine-tag) si possible
+- [Anis](wine-tag)
+- [Anisés](wine-tag)
+- [vegan](wine-tag)
+- je veux [un](number) anisé pour [moins de](condition) [20 €](money) .
+- Trouver [un](number) [spiritueux](wine-tag)
+- [beaume de venise](appellation)
+- [Original](decouverte)
+- [Ages](wine-tag)
+- [Agés](wine-tag)
+- [10 à 20](money_range)
+- [Â gés](wine-tag)
+- [Eaux-de-vie](wine-tag)
+- vin [rosé](wine-color) [léger](wine-tag)
+- [Liqueurs](wine-tag)
+- Je rechercher [un](number) [Blanc](wine-color) [minérale](wine-tag) et avec des petites notes de [fruit](wine-tag) pour un week end entre copain
+- [Cognac](wine-tag) - [Armagnac](wine-tag)
+- [Eaux-de-vie de fruits](wine-tag)
+- [gascogne](appellation)
+- [Cointreau](wine-name) - [Grand Marnier](wine-name)
+- [Bon](coup-de-coeur) [blanc](wine-color) [Loiré](appellation)
+- [Anisés](wine-tag)
+- comme tu veux
+- [Calvados](wine-tag)
+- je ne veux [pas de blanc](neg-wine-color)
+- [17](number)
+- [Vodka](wine-tag)
+- Trouver [un](number) [spiritueux](wine-tag)
+- [10 à 15](money_range)
+- vin d' [occitanie](appellation)
+- Prix dans la gamme de [20-30 €](money_range)
+- vin de [clairet](appellation)
+- [moins de](condition) [5](custom-money)
+- [20-30 euros](money_range)
+- [À partir de](condition) [20 €](money)
+- [blanc](wine-color) [sec fleuri](wine-tag)
+- [Moins de](condition) [20 euros](money)
+- je veux [un](number) [blanc](wine-color) [léger](wine-tag) , [pas minéral](neg-wine-tag) et surtout [pas floral](neg-wine-tag)
+- [30-40 euros](money_range)
+- [Plus de](condition) [40 euros](money)
+- AOP [côtes du rhône](appellation)
+- [40 €](money) [ou plus](condition)
+- [boulaouane](appellation)
+- ok mais [pas rouge](neg-wine-color)
+- [blanc](wine-color) [pas sec](neg-wine-tag)
+- [+ de](condition) [40 €](money)
+- [30 - 40 €](money_range)
+- [5](number) .
+- [20 - 30 €](money_range)
+- [Entre 20 et 30 €](money_range)
+- [Bonjour](hello) , je cherche [un](number) vin [ni sec](neg-wine-tag) ni moeulleux
+- vin [emilion](appellation)
+- [a partir de](condition) [5](custom-money)
+- [4](number) .
+- vin [casher](wine-tag)
+- vin d' [afrique](appellation)
+- [Fruits rouge](wine-tag)
+- [plus de](condition) [2500 €](money) .
+- Je ne veux [pas de blanc](neg-wine-color) , ce n' est pas bon
+- [3](number) .
+- [Minervoix](appellation)
+- je ne veux [pas de vin rosé](neg-wine-color) mais [un](number) [blanc](wine-color) , [pas minéral](neg-wine-tag) , [pas végétal](neg-wine-tag) , plutôt [fruité](wine-tag) et [pas sucré](neg-wine-tag)
+- vin [aromatisé](wine-tag)
+- [raisonnable](affordable)
+- [rouge](wine-color) s' il vous plait
+- oui du bon [mousseux](wine-tag)
+- vin [toul](appellation)
+- je cherche un [saint nicolas](appellation)
+- [moins de](condition) [5 euros](custom-money)
+- [un](number) [cremant du jura](appellation) le [meilleur](coup-de-coeur) que vous conseille
+- [lalande pommerol](appellation)
+- [ripasso](appellation)
+- du [boulaouane](appellation)
+- je veux [un](number) [rouge](wine-color) [pas tannique](neg-wine-tag) stp
+- [champigny](appellation)
+- Je cherche du [rouge](wine-color) qui n' est [pas très puissant](neg-wine-tag)
+- [pa un blanc](neg-wine-tag)
+- je veux du [blanc](wine-color) [fruité](wine-tag)
+- [10](number)
+- [moins de](condition) [10](number)
+- du [blanc](wine-color) [fruité](wine-tag) [pas trop léger](neg-wine-tag)
+- [un](number) [rouge](wine-color)
+- extra [brut](wine-tag)
+- donne moi du [rouge](wine-color) et [non du rosé](neg-wine-color)
+- j' aime bien les [blancs](wine-color) [fruités](wine-tag) mais [pas herbacés](neg-wine-tag) et [pas trop jeunes](neg-wine-tag)
+- [rose](wine-color) [aix](appellation)
+- [pa fruité](neg-wine-tag) , [ni boisé](neg-wine-tag)
+- [cotes du rhone](appellation) [vieilles vignes](wine-tag)
+- [demi sec](wine-tag)
+- avez -vous du [coteau de layon](appellation)
+- [vanille](wine-tag) , [boise](wine-tag)
+- [boulaouane](appellation)
+- [un](number) [chateauneuf du pape](appellation) de qualité
+- [Moscato d' Asti](appellation)
+- [chateau neuf du pape](appellation) pour un [repas](repas)
+- j' aimerais [un](number) [mousseux](wine-tag) [pas trop pétillant](neg-wine-tag)
+- [un](number) [rosé](wine-color) [clair](wine-tag)
+- [2,5](number)
+- [pas de rouge](neg-wine-color)
+- [vegan](wine-tag)
+- je veux [un](number) vin [fleuri](appellation)
+- [Pas plus de](condition) [30](number) je suis en [galere](non_catching_words) en ce moment !
+- Vin [vegan](wine-tag)
+- [auvergne](appellation)
+- [mousseux brut](wine-tag)
+- [Chambertin](appellation)
+- [8](number)
+- t' as quoi a [12 eur](money)
+- un conseil pour [noel](occasion)
+- Budget [max](condition) [30 euros](money)
+- [2500 euros](money) [ou plus](condition)
+- [lanbrusco](appellation) [rosé](wine-color)
+- [moins de](condition) [10](number)
+- [casher](wine-tag)
+- [un](number) bon [chardonnay](cepage)
+- du [rouge](wine-color) , [pas du blanc](neg-wine-tag) , mais quelque chose de [fruité](wine-tag)
+- vin [blanc](wine-color) [demi sec sucré](wine-tag)
+- [Bonjour](hello) , [Pouilly Fuissé](appellation)
+- [moins de](condition) [10](number)
+- [3.50 euros](money)
+- [Blanc](wine-color) [minéral](wine-tag) , mais [pas trop sec](neg-wine-tag) , [20 à 50 euros](money_range)
+- [5 à 10](money_range)
+- moi j' aime les vins [rouges](wine-color) ayant du [caractère](wine-tag) , [pas puissants](neg-wine-tag) mais bien [tanniques](wine-tag)
+- [rosé](wine-color) [clair](wine-tag)
+- [environ](condition) [10 euros](money)
+- [3](number)
+- La [Roussette](appellation)
+- [un](number) [bourgogne](appellation) [pas trop fort](neg-wine-tag) et [pas trop cher](affordable)
+- j' aimerais [un](number) vin [corse](appellation)
+- plutot [rosé](wine-color)
+- je veux un [demi sec](wine-tag)
+- mon vin [blanc](wine-color) est [doux](wine-tag) mais [pas floral](neg-wine-tag) , [ni fruité](neg-wine-tag)
+- [amérique du sud](appellation)
+- Vin d' [Auvergne](appellation)
+- [menetou](appellation)
+- [côte du rhône](appellation) [pas trop fort](neg-wine-tag)
+- [afrique](appellation)
+- [pays d' oc](appellation)
+- [emilion](appellation)
+- [un](number) vin de [cote de gascogne](appellation)
+- Je cherche [un](number) vin d' agrculture [bio](wine-tag) , ayant du [corps](wine-tag) , [ample](wine-tag) , mais [pas trop sucré](neg-wine-tag)
+- [rivesaltes](appellation)
+- [un](number) vin [rouge](wine-color) [pas tannique](neg-wine-tag)
+- Bon [rouge](wine-color)
+- [10](number)
+- je ne veux [pas de rouge](neg-wine-color)
+- du [blanc](wine-color) , [pas du rosé](neg-wine-tag) , [puissant](wine-tag) , [pas léger](neg-wine-tag) , [moelleux](wine-tag) , [pas sucré](neg-wine-tag) , lisse , [pas trop rapeux](neg-wine-tag)
+- vin [rosé](wine-color) plus [léger](wine-tag)
+- [meursuault](appellation)
+- [biodynamique](wine-tag)
+- [Lanbrosco](appellation) vin [rosé](wine-color)
+- [gascogne](appellation)
+- je recherche des vins [vegan](wine-tag)
+- Disons [10 euros](money)
+- [Paris](appellation)
+- [roussette](appellation)
+- [un](number) [blanc](wine-color) [ni floral](neg-wine-tag) et [ni minéral](neg-wine-tag)
+- [champagne](appellation) [rosé](wine-color)
+- [Saint Emilio](appellation)
+- [un](number) vin de [gascogne](appellation)
+- je veux [un](number) [crement](wine-tag)
+- [fruits noirs](wine-tag)
+- [un](number) [rouge](wine-color) [pas très puissant](neg-wine-tag) mais [viril](wine-tag) quand même , mais [pas trop apre](neg-wine-tag) et [pas râpeux](neg-wine-tag)
+- [un](number) vin [pas trop sec](neg-wine-tag) [rosé](wine-color)
+- [un](number) [rouge](wine-color) [riche](wine-tag) et [équilibré](wine-tag)
+- [rouge](wine-color) , robe [claire](wine-tag) , [fruité](wine-tag)
+- [un](number) [blanc](wine-color) [minéral](wine-tag) mais [pas trop sec](neg-wine-tag) non plus prix [entre 20 et 50 €](money_range)
+- plus [fruité](wine-tag) stp
+- [petillant](wine-tag) pour cocktail
+- [Bordeaux](appellation) [longueur en bouche](wine-tag)
+- vin [boisé](wine-tag) vieillit en [fut de chene](wine-tag)
+- [cote du rhone](appellation) qui plait a tout le monde
+- Vous avez des vins [légers](wine-tag) et [vifs](wine-tag) , [pas très lourds](neg-wine-tag) et pas partout ?
+- vin [alsacien](appellation)
+- [Un](number) vin qui vient d' [Auvergne](appellation)
+- [pas de vin tanique](neg-wine-tag) si possible
+- conseillez moi [un](number) [blanc](wine-color)
+- [roussette de savoie](appellation)
+- [Sicilien](appellation)
+- [un](number) [resling](cepage)
+- [blanc](wine-color) de [charente maritime](appellation)
+- [Lambrusco](appellation) [rosé](wine-color)
+- [un](number) vin de [toul](appellation)
+- [Moscato d' Asti](appellation)
+- [champagne](appellation) [millésimé](vintage)
+- [Fuimicicoli](appellation)
+- [leognan pessac](appellation)
+- Supposons que mon budget [maximum](condition) est de [30 euros](money)
+- vin [blanc](wine-color) [sec](wine-tag) [chardonnay](cepage) ou [chablis](appellation)
+- T' as quoi de sympa [sans se ruiner](affordable) ?
+- [5](number)
+- [3](number)
+- [un](number) [bordeaux](appellation) [puissant](wine-tag) mais [pas trop tanninque](neg-wine-tag) , avec du [corps](wine-tag) mais [pas rapeux](neg-wine-tag)
+- vin [agréable](wine-tag)
+- [guéwurtraminer](cepage) [vendange tardif](wine-tag)
+- [Tous les budget](money_range)
+- [un](number) bon [rosé](wine-color)
+- vin [petillant](wine-tag) pour cocktail
+- vin [vegan](wine-tag)
+- voir [10-20](money_range)
+- [un](number) bon vin [blanc](wine-color) [pas trop cher](affordable)
+- [10](number)
+- [demisec](wine-tag)
+- Supposons que le budget [maximum](condition) est de 30 €
+- [pas de blanc](neg-wine-tag) ni de [chmpagne](appellation) , pluto quelque chose de [corsé](wine-tag)
+- [grand](assurer) [champagne](appellation)
+- [ni acide](neg-wine-tag) , ni amer , [pas sucré](neg-wine-tag) et surtout [pas floral](neg-wine-tag)
+- je veux [un](number) vin [fleuri](wine-tag)
+- et [un](number) vin de [russie](appellation) ?
+- vin d' [auvergne](appellation)
+- [15](number)
+- vin de gascogne
+- [moins de](condition) [10](number)
+- tu as du [rouge](wine-color)
+- [plus de](condition) [50](number)
+- [champagne](appellation) traditionnel [sous](condition) [30 e](custom-money)
+- t' as du [rose](wine-color)
+- il aime le [st emilion](appellation)
+- [rouge](wine-color) [10 e](custom-money)
+- Vin [mousseux doux](wine-tag)
+- tu as [rouge](wine-color)
+- [Champagne](appellation) [doux](wine-tag)
+- [champagne](appellation) [dessert](repas)
+- [mousseux sucré](wine-tag)
+- Vous avez [casher](wine-tag)
+- Vin [mousseux bio](wine-tag)
+- [Moins de](condition) [100](number)
+- [2](number)
+- [3](number)
+- [Blanc](wine-color) uniquement stp
+- [Rosé](wine-color) plutôt
+- [Rouge](wine-color) uniquement
+- En [blanc](wine-color) uniquement
+- achat [25 e](custom-money)
+- achat [moins](condition) [15 e](custom-money)
+- plus [10 es](custom-money)
+- achat [15 es](custom-money)
+- plus [10 e](custom-money)
+- [10 e](custom-money)
+- [5e](custom-money)
+- [20 e](custom-money)
+- achat [plus](condition) [10 e](custom-money)
+- 8 [ou 9 euros](money_range)
+- [6 OU 7](money_range) €
+- Du [langhe](appellation) j' aime bien en général
+- un [langhe](appellation)
+- [Un](number) [Gewürztraminer](cepage) d' [alsace](appellation)
+- [Gewürztraminer](cepage)
+- [Blanc](wine-color) [floral](wine-tag)
+- vin aux notes [florales](wine-tag)
+- vin note [florale](wine-tag)
+- vin [rouge](wine-color) sans prétention
+- vin [rouge](wine-color) de tous les jours
+- vin [rouge](wine-color) de semaine
+- Balance [un](number) [mousseux](wine-tag) stp
+- g envie de [mousseux](wine-tag)
+- [Un](number) [mousseux](wine-tag) [pas cher](affordable)
+- [mousseux](wine-tag)
+- [Un](number) bon [mousseux](wine-tag)
+- du [champagne](appellation) en masse
+- j' ai envie de [champagne](appellation)
+- j' ai besoin d' [un](number) [chenin](cepage)
+- j' ai besoin d' [un](number) [champagne](appellation)
+- mais en [blanc](wine-color) plutôt
+- [rouge](wine-color) epicé
+- [un](number) bon vin [rosé](wine-color)
+- mais en [rouge](wine-color)
+- je recherche un [côteau du layon](appellation) de [1988](vintage)
+- Bonne bouteille de vin [rouge](wine-color)
+- Et qui [coûte 10 entre 20 €](money_range)
+- [rosé](wine-color) 10 °
+- [bonjour](hello) , je souhaiterais un [moelleux](wine-tag)
+- [Salut](hello) , [haut médoc](appellation)
+- [Bonsoir](hello) [. Brouilly](appellation)
+- Trouve moi [un](number) [côte de beaune](appellation) please
+- [Côte de provence](appellation)
+- Trouve moi [un](number) [côte de castillon](appellation)
+- [Côte de castillon](appellation)
+- [Rouge](wine-color) bine [costaud](wine-tag) stp
+- du [rouge](wine-color) bien [costaud](wine-tag)
+- [Une](number) [roussette de savoie](appellation)
+- [Roussette savoie](appellation)
+- pour achat moins [15 e](custom-money)
+- [Pas d' idée](dont-know)
+- [Aucune idée](dont-know) .
+- [rien](dont-know)
+- [RIen](dont-know)
+- De l' [effervescent](wine-tag)
+- [Sud](appellation)
+- vin [rouge](wine-color) [long](wine-tag) en bouche
+- [chateau neuf du pape](appellation)
+- [gewurtzraminer](cepage) [vendanges tardives](wine-tag)
+- Vin [effervescent](wine-tag)
+- [Côte de gascogne](appellation)
+- donnez un moi un vin [fort](wine-tag)
+- [rosé](wine-color) [équiibré](wine-tag)
+- chantant [Pacherenc du Vil-Bilh](appellation)
+- [Blanc](wine-color) [sur lie](wine-tag)
+- Je veux [un](number) bon vin de [bordeaux](appellation) de haute qualité
+- [Rouge](wine-color) [sicilien](appellation)
+- [Chassagne](appellation)
+- [Un](number) vin [sicilien](appellation)
+- [Lalande](appellation)
+- [Un](number) [blanc](wine-color) [gazeux](wine-tag)
+- vin [rosé](wine-color) [gazeux](wine-tag)
+- [Rouge](wine-color) [fruité](wine-tag) , [puissant](wine-tag)
+- Vin [fruité](wine-tag) , [léger](wine-tag)
+- [fruité](wine-tag) , [rond](wine-tag)
+- [Bonjour](hello) je chercherai un [Pessac-Léognan](appellation) et [un](number) [Pomerol](appellation) dans les [25 à 30 €](money_range) la bouteille . Pourriez -vous me conseiller
+- C' est du [rosé](wine-color) qu' il me faut
+- J' ai envie d' [un](number) [rose](wine-color)
+- C' est du [blanc](wine-color) que je veux
+- non il me faut du [rosé](wine-color)
+- du [rose](wine-color)
+- Tu as des [roses](wine-color) ?
+- Je cherche [un](number) [rose](wine-color)
+- je veux [un](number) [rose](wine-color)
+- [Bordeaux](appellation) [plus](condition) [25 e](custom-money)
+- [Loire](appellation) [moins](condition) [20 e](custom-money)
+- achat [plus](condition) [15 e](custom-money)
+- [Chinon](appellation) [moins](condition) [40 e](custom-money)
+- [Sancerre](appellation) [plus](condition) [15 €](money)
+- quel [sauternes](appellation) me conseillez -vous ?
+- tu me conseilles quoi comme [chablis](appellation)
+- achat [plus de](condition) [7 eur](custom-money)
+- achat [moins](condition) [15 €](money)
+- [si on](non_catching_words) veut boire du [rosé](wine-color)
+- [si on](non_catching_words) veut [une](number) bouteille de [blanc](wine-color)
+- et [si on](non_catching_words) veut du vin [rouge](wine-color)
+- [un](number) vin avec du [corp](wine-tag)
+- [un](number) [rouge](wine-color) [expressif](wine-tag)
+- [Blanc](wine-color) boisé plus [15 euros](money)
+- [Syrah](cepage) stp , mais moins [12 €](money)
+- Des [loire](appellation) plus [8 €](money) stp
+- Donne moi [un](number) [sancerre](appellation) moins [20 €](money)
+- [Bordeaux plus](appellation) [10 e](custom-money)
+- [rosé](wine-color) moins [15 €](money)
+- [un](number) [rouge](wine-color) [grand cru](wine-tag) stp
+- [Un](number) [blanc](wine-color) [fleuri](wine-tag) à [min](condition) [7 €](money) ht
+- Vin à [15e](custom-money) hors [taxe](tva)
+- [6 eur ht](money)
+- [20 €](money) ht
+- [10 euros](money) HT
+- [grands crus](wine-tag)
+- et pour [max](condition) [30 €](money) ?
+- [n' importe lequel](dont-know)
+- [un](number) vin pour [max](condition) [50 €](money)
+- pour [max](condition) [20 €](money)
+- [25 eur](money) [max](condition)
+- [15 €](money) [max](condition)
+- et pour [max](condition) [30 euros](money) ?
+- conseil en [Bourgogne](appellation)
+- conseil en [pomerol](appellation)
+- VALLEE DE LA [LOIRE](appellation)
+- [POMEROL](appellation) [-](condition) [20 EUROS](money)
+- Des idées en [Alsace](appellation)
+- Quels conseils à [Sancerre](appellation) ?
+- Des conseil en [Saint-julien](appellation)
+- je voudrais des vins de [Pessac](appellation)
+- t' as du [pessac](appellation) ?
+- [un](number) [pessac](appellation) stp
+- des vins [organiques](wine-tag)
+- [un](number) vin [organic](wine-tag)
+- j' aime bien les vins [blancs](wine-color) [secs](wine-tag)
+- des [blancs](wine-color) [secs](wine-tag) please
+- [blanc](wine-color) [secs](wine-tag)
+- [un](number) [rouge](wine-color) qui a du [corp](wine-tag)
+- [un](number) vin avec du [corp](wine-tag)
+- [Côte du rhone](appellation)
+- je recherche des vins [blancs](wine-color) [secs](wine-tag)
+- t' as des [blanc](wine-color) [secs](wine-tag)
+- [Autour de](condition) [30 eur](money)
+- à [20 eur](money)
+- [un](number) vin des [alpes](appellation)
+- je cherche des [blancs](wine-color) [secs](wine-tag)
+- [un](number) vin à [un](number) [prix raisonnable](affordable)
+- [80 eur](money) [max](condition)
+- des vins [autour de](condition) [55 eur](money)
+- [une](number) sélection de vin à [12 eur](money)
+- [Un](number) bon [rouge](wine-color) qui tache
+- [un](number) [rouge](wine-color) à [50 eur](money)
+- t' as quoi comme vin à [8 eur](money)
+- [une](number) bouteille à [25 eur](money)
+- [un](number) vin de [côte du rhone](appellation) à [15 eur](money)
+- [une](number) selection de vin [BIO](wine-tag)
+- [un](number) [côte du rhone](appellation) [pas trop cher](affordable) stp
+- [pas trop cher](affordable)
+- [côte du rhone](appellation) stp
+- [Etat Unis](appellation)
+- [etat-unis](appellation)
+- [côte-du-rhone](appellation)
+- [Côte du rhone](appellation)
+- [côte du rhones](appellation)
+- [Pour 7-15 €](money_range)
+- à [plus de](condition) [2000 €](custom-money)
+- [plus de](condition) [2000 €](custom-money)
+- Balance [un](number) super [rouge](wine-color) [poivré](wine-tag) mec
+- Super ! Et du [rouge](wine-color) [poivré](wine-tag) ?
+- J' adore les vins [rouges](wine-color) [poivrés](wine-tag)
+- Tu as de jolis [rouges](wine-color) [poivrés](wine-tag) ?
+- je recherche [un](number) vin [poivré](wine-tag)
+- Que me proposes -tu comme vin [blanc](wine-color) ?
+- du [blanc](wine-color)
+- du [rouge](wine-color)
+- [Max](condition) [12 €](money)
+- [max](condition) [8 €](money)
+- [max](condition) [10 €](money)
+- [max](condition) [10 €](money)
+- [max](condition) [20 €](money)
+- [10 €](money) [maximum](condition)
+- [max](condition) [10 €](money)
+- J' aimerais [un](number) [St Joseph](appellation) stp !
+- T' as quoi en cave en [St Joseph](appellation) ?
+- Vous auriez du vin [étranger](wine-tag) ?
+- J' aimerais un [blanc](wine-color) du [nouveau monde](wine-tag)
+- Et si on changeait un peu ? Trouve un [rouge](wine-color) [étranger](wine-tag)
+- Des vins du [nouveau monde](wine-tag) ?
+- Je cherche des vins [étrangers](wine-tag)
+- Vous avez des vins [étrangers](wine-tag) ?
+- Je cherche des vins [nature](wine-tag)
+- Je ne bois que du [nature](wine-tag)
+- Balance moi des vins [sans souffre](wine-tag)
+- Des vins [naturels](wine-tag) c' est je préfère
+- Tu as du sans [sulfite](wine-tag) ?
+- J' aimerais des vins [natures](wine-tag) du [Languedoc](appellation) ?
+- Je trouve les [vieilles vignes](wine-tag) bien meilleurs
+- Et des [vieilles vignes](wine-tag) dans votre catalogue ?
+- Des [vieilles vignes](wine-tag) du [Rhône](appellation) ?
+- Un [bourgogne](appellation) [rouge](wine-color) [vieille vigne](wine-tag) svp
+- Vous avez des cuvées de [vieilles vignes](wine-tag) ?
+- Je cherche une cuvée [beurrée](wine-tag) de [bourgogne](appellation)
+- [15 €](money)
+- [15 €](money)
+- [15 €](money)
+- [15 €](money)
+- [30 e](custom-money)
+- [30 €](money)
+- [8 €](money)
+- [autour de](condition) [22 €](money)
+- [17 euros](money)
+- [16 €](money)
+- Je cherche du [Cahors](appellation) pas [une](number) capote
+- Vous avez du [Costière de Nimes](appellation) ?
+- Je suis à la recherche de [blanc](wine-color) de [provence](appellation)
+- Je suis à la recherche d' [un](number) [blanc](wine-color) [pas cher](affordable)
+- C' est parti pour [un](number) [Riesling](cepage) pour [petit budget](affordable) !
+- [Un](number) St-Emilion [pas très onéreux](affordable) tu as ?
+- et pour [max](condition) [10 €](money)
+- [Jusqu' à](condition) [25 €](money)
+- et pour [max](condition) [25 €](money)
+- [+ de](condition) [20 €](money)
+- [ce que tu veux](dont-know)
+- [n' importe](dont-know)
+- Peu [importe](dont-know)
+- tu as des vins [bios](wine-tag) ?
+- Des vins [bon marché](affordable)
+- Vous avez des vins [à petit prix](affordable) ?
+- Je cherche des cuvées [abordables](affordable)
+- [Une](number) bouteille [peu chère](affordable)
+- [n' importe](dont-know)
+- [Peu importe](dont-know)
+- je veux [un](number) vin de [lorraine](appellation)
+- tu peux aller me chercher [un](number) [petit chablis](appellation) ?
+- [Pessac Léognan](appellation)
+- Les [côtes du Rhône](appellation)
+- J' aime plutôt les [rouges](wine-color) [puissants](wine-tag) . Et pour le budget , disons [20 €](money) [max](condition)
+- Je cherche [un](number) [rosé](wine-color) [fruité](wine-tag) . Avec un budget de 10 € [environ](condition) , 15 € [max](condition) .
+- En général , j' aime plutôt le [blanc](wine-color) . Mais partons sur [un](number) [rouge](wine-color) [léger](wine-tag) !
+- Et si je veux du [rouge](wine-color) ?
+- Ca donne quoi en [rouge](wine-color) ?
+- Et en [rosé](wine-color) ?
+- Je préfère le [rouge](wine-color)
+- Je préfère un [blanc](wine-color)
+- Plutôt [15/20 €](money_range)
+- Plutôt [entre 10 et 15 €](money_range)
+- Plutôt [moins de](condition) [10 €](money)
+- Plutôt [autour de](condition) [10 €](money)
+- [Pessac Léognan](appellation)
+- [un](number) vin issu de l' agriculture [biologique](wine-tag)
+- [un](number) vin [bio](wine-tag)
+- [Moins de](condition) [10 €](money)
+- [10-15 €](money_range)
+- [Moins de](condition) [20 €](money)
+- [Environ](condition) [10 euros](money)
+- [blanc](wine-color)
+- [rouge](wine-color)
+- [rosé](wine-color) de [2016](vintage) uniquement
+- [Morgon](appellation) [2015](vintage) svp
+- [Italie](appellation)
+- [Sancerre](appellation)
+- [Vallée de la loire](appellation)
+- [sud ouest](appellation) [2013](vintage) ou [2014](vintage)
+- [entre 8 et 15 €](money_range)
+- [de 15 € à 30 €](money_range)
+- [20 euros](money)
+- Vers [40 euros](money)
+- Mon budget [max](condition) est de [40 €](money)
+- [25 €](money)
+- vers [18 €](money)
+- [Disons 15-20 €](money_range)
+- Partons sur [10 euros](money)
+- [Pas plus de](condition) [20 €](money)
+- Je ne veux [pas mettre plus de](condition) [10 €](money)
+- [- de](condition) [8 €](money)
+- vin [rouge](wine-color)
+- Du [blanc](wine-color) svp
+- [Un](number) [rosé](wine-color) ça me botte
+- pourquoi pas du [rouge](wine-color)
+- Allez des [bulles](wine-tag)
+- [Un](number) vin à huit euros
+- D' [une](number) bouteille à [moins de](condition) [20 euros](money)
+- [Un](number) vin [10 euros](money) [max](condition)
+- je veux [un](number) vin [rouge](wine-color) [léger](wine-tag)
+- Je veux [un](number) [rosé](wine-color) [pétillant](wine-tag)
+- [Rouge](wine-color) , à [15 euros](money)
+- [Peu importe](dont-know)
+- [Aucune idée](dont-know)
+- Donne moi [un](number) [blanc](wine-color) [fruité](wine-tag)
+- Je veux [un](number) [rouge](wine-color) [puissant](wine-tag)
+- Tu as [un](number) [rosé](wine-color) [pétillant](wine-tag) ?
+- [Un](number) [beaujolais](appellation) [blanc](wine-color) [2017](vintage) facile à boire
+- Vous avez des vins [blancs](wine-color) du [jura](appellation) ?
+- [Rosé](wine-color) [fruité](wine-tag) et [léger](wine-tag) à [10 euros](money) [environ](condition)
+- Des [bulles](wine-tag) tropicales à [moins de](condition) [20 euros](money)
+- [Un](number) [blanc](wine-color) [léger](wine-tag) de [Provence](appellation) [un](number) peu vieilli , par exemple [2012](vintage) ou [2011](vintage) ?
+- Des vins [sucrés](wine-tag) d' [Alsace](appellation) ?
+- Des [blancs](wine-color) [doux](wine-tag) d' [Allemagne](appellation) peut être ?
+- Je cherche du [blanc](wine-color) [exotique](wine-tag) et [sec](wine-tag) de [Loire](appellation)
+- [Rouge](wine-color) [puissant](wine-tag) et compoté à [12 €](money) [max](condition)
+- Trouve -moi du [crémant](wine-tag) à [- de](condition) [15 euros](money) stp
+- [Rouge](wine-color) [puissant](wine-tag) et [épicé](wine-tag) ?
+- Tu as des idées en [rouge](wine-color) [léger](wine-tag) [10 €](money)
+- je cherche [un](number) [rouge](wine-color)
+- [un](number) [bordeaux](appellation) [2007](vintage) ou [2008](vintage) [pas cher](affordable)
+- Et [un](number) [blanc](wine-color) glacé ?
+- Propose moi des vins [fruités](wine-tag) stp
+- Propose moi des vins [fruités](wine-tag)
+- Je veux [un](number) vin [fruité](wine-tag)
+- [une](number) bouteille de [rouge](wine-color)
+- [Une](number) caisse de [rosé](wine-color)
+- [Une](number) bouteille de [blanc](wine-color)
+- Je veux [un](number) vin [blanc](wine-color)
+- Je veux [un](number) vin [rouge](wine-color)
+- [Un](number) vin [rouge](wine-color)
+- D' [un](number) vin [léger](wine-tag)
+- D' [un](number) vin [pas cher](affordable)
+- De quelque chose à [moins de](condition) [8 euros](custom-money) ?
+- Des idées pour du [rosé](wine-color) [pas cher](affordable) ?
+- Tu as quoi comme vins [blancs](wine-color) ?
+- Je voudrais [un](number) [blanc](wine-color) bien sec [2015](vintage)
+- [illimité](dont-know)
+- Un [Pic St loup](appellation) en [blanc](wine-color) ça existe ?
+- [Un](number) [morgon](appellation) à [moins de](condition) [10 euros](money)
+- 15 euros je dirais
+- Quelles pistes pour du [St Julien](appellation) [2005](vintage) ?
+- Je cherche du [2009](vintage) ou [2010](vintage)
+- Vous avez quoi en [2000](vintage) ?
+- Vous auriez des [2015](vintage) en [loire](appellation) ?
+- Vous avez du [Cotes de Nuit](appellation) ?
+- Je veux [un](number) [rouge](wine-color) glacé
+- [Sais pas](dont-know)
+- [M' en fiche](dont-know)
+- Ca n' a [pas d' importance](dont-know)
+- [Pas d' importance](dont-know)
+- [Aucun budget](dont-know)
+- [Pas de préférence](dont-know)
+- [Aucune couleur](dont-know)
+- [j' aime tout](dont-know)
+- je ne sais pas
+- [Aucune idée](dont-know) franchement
+- [Aucune préférence](dont-know)
+- [Je n' en sais rien](dont-know)
+- [No idea](dont-know)
+- [Ca m' importe peu](dont-know)
+- [Ca m' importe pas](dont-know)
+- [Je ne sais](dont-know)
+- [Aucune id](dont-know)
+- Vous avez du [Muscadet](appellation) ?
+- Je cherche toujours du [Morgon](appellation)
+- Avez -vous du [Morgon](appellation) ?
+- [AOC Patrimonio](appellation) ?
+- Quel vin [blanc](wine-color) tu me conseilles ?
+- Quel [rouge](wine-color) tu me suggères à [environ](condition) [10 e](custom-money)
+- Je veux du [Champagne](appellation) ?
+- que peux -tu me proposer en vin [blanc](wine-color) ?
+- [environ](condition) [10 euros](money) c' est biens
+- conseille moi des vins
+- Je cherche [un](number) [Maranges 1er Cru](appellation)
+- [champagne](appellation)
+- je cherche du [Saint-Emilion](appellation) pour [une trentaine d' euros](money)
+- tu connais du bon [st emilion](appellation) ?
+- [pas de budget](dont-know)
+- [m' en fiche](dont-know)
+- [pas de limite](dont-know)
+- Quels [champagnes](appellation) as -tu ?
+- Est -ce que tu as des [blancs](wine-color) de [Loire](appellation) a me conseiller ?
+- Quel vins as -tu pour une vingtaine d' euros ?
+- est ce que t' as [un](number) [blanc](wine-color) pour [60 balles](money)
+- J' aimerais [un](number) bordeaux je pense
+- je cherche [un](number) bon vin [pétillant](wine-tag) à [une dizaine d' euros](money)
+- [pas trop cher](affordable) , genre [10 euros](money)
+- Je veux du [Bordeaux](appellation) à [une dizaine d' euros](money)
+- Vous avez du [Chablis GC](appellation) ?
+- Et du [Bordeaux](appellation) 3e cru classé ?
+- [Une quarantaine d' euros](money)
+- Qu' est ce que tu as comme [Pomerol](appellation) ?
+- Est ce que tu as du [Fitou](appellation) ?
+- Est ce que tu as du [bourgogne](appellation) [rouge](wine-color) à [environ](condition) [une dizaine €](money) ?
+- Ou est ce que je peux trouver du [Cornas](appellation) ?
+- Qu' est ce que t' as en [vin jaune](wine-tag) ?
+- Qu' est ce que tu as en [blanc](wine-color) type [crémant](wine-tag) ?
+- Plutôt en [rouge](wine-color) ?
+- Plutôt [blanc](wine-color)
+- mmm je ne voudrais pas dépenser plus que [10/15 euros](money_range)
+- + [20 €](money)
+- Et tu connais des [champagnes](appellation) ?
+- vin [rouge](wine-color) [fort](wine-tag) et [sec](wine-tag)
+- Je cherche des vins l' [AOC Fleurie](appellation) ?
+- Vous avez des [IGP Pays d' Oc](appellation) en [blanc](wine-color) ?
+- [AOP](appellation) ou [AOC Margaux](appellation)
+- Quelque chose de plus [doux](wine-tag) ?
+- [Un](number) bon petit [Saint Emilion](appellation)
+- [Un](number) vin de [Macon](appellation)
+- [- de](condition) [10 €](money)
+- [10 - 20 €](money_range)
+- [+ de](condition) [20 €](money)
+- [Blanc](wine-color) [sec puissant boisé](wine-tag)
+- Où est ce que je peux trouver du [champagne](appellation) [rosé](wine-color) ?
+- Vous avez quoi en [Saint-Estèphe](appellation) [autour de](condition) [25 €](money) ?
+- Je cherche des [Sauternes](appellation) à [moins de](condition) [20 €](money)
+- [Un](number) [blanc](wine-color) de [Nouvelle Zélande](appellation)
+- Il vous reste du [Fleurie](appellation) ou du [St Amour](appellation) ?
+- Je voudrais du [Pauillac](appellation)
+- Des [rouge](wine-color) de la [cote de nuit](appellation) [entre 20 et 30 euros](money_range)
+- [IGP Cèvennes](appellation) en [blanc](wine-color) ?
+- Magnum de [rosé](wine-color)
+- Magnum [rosé](wine-color)
+- Vous avez du [Côtes du Roussillon](appellation) [entre 10 et 15 euros](money_range)
+- [un](number) vin [maximum](condition) à [10 euros](money)
+- [un](number) vin [rouge](wine-color) [minimum](condition) [8 euros](money)
+- je veux boire de bonnes bouteilles
+- je veux [un](number) vin à [7 €](money)
+- Je voudrais un vin [blanc](wine-color)
+- Je voudrais un [rouge](wine-color)
+- je veux [un](number) vin avec [plein de fruits](wine-tag)
+- je voudrais du [rouge](wine-color)
+- Tu as du [champ](appellation) ?
+- Vous avez quoi comme [crémant](wine-tag) ?
+- Pour mon goût
+- [Un](number) [St Joseph](appellation) ?
+- [un](number) [saint joseph](appellation) ?
+- Je cherche [un](number) [Muscadet](appellation) à [moins de](condition) [10 €](money)
+- en [bourgogne](appellation) ?
+- [Bordeaux](appellation) ?
+- [Bourgogne](appellation) ?
+- et en [loire](appellation) ?
+- en [rouge](wine-color) ?
+- vin [puissant](wine-tag)
+- vin de [bordeaux](appellation)
+- et pour [30 €](money) ?
+- Vous avez la même chose venant de [Provence](appellation) ?
+- Je préfère les vins de la [vallée du Rhône](appellation)
+- J' aime plutôt la [Loire](appellation) et le [Beaujolais](appellation)
+- Et ça existe en [vin jaune](wine-tag) ?
+- Du côté du [Languedoc](appellation) ?
+- Et en [rouge](wine-color) toujours en [Alsace](appellation) ?
+- La même chose en vin [étranger](appellation) c' est possible ?
+- Je préfère [un](number) [blanc](wine-color) [italien](appellation)
+- J' aimerais [un](number) [Bordeaux](appellation)
+- Et les vins [Australiens](appellation) ?
+- pour [30 €](money)
+- tu as quoi en [rouge](wine-color) ?
+- [max](condition) [10 €](money)
+- [min](condition) [22 €](money)
+- [12-13](money_range)
+- [20 - 25](money_range)
+- et pour [20 - 30 €](money_range) ?
+- plutôt [15 - 17 €](money_range)
+- et [entre 30 et 45 €](money_range) ?
+- et [8-10 €](money_range)
+- [25 €](money)
+- à [35 €](money)
+- Vers [18 €](money)
+- Partons sur [10 €](money)
+- Je dirai [10-15 €](money_range)
+- Disons [12 €](money) [au maximum](condition)
+- Mon budget [max](condition) est de [9 €](money)
+- Je ne veux [pas mettre plus de](condition) 20 euros
+- J' ai [un](number) budget de [10 euros](money)
+- [10-12 euros](money_range)
+- [Autour de](condition) [15 €](money)
+- [Environ](condition) [20 €](money)
+- [Pas plus de](condition) [5 €](custom-money)
+- [Moins de](condition) [8 €](custom-money)
+- [Entre 7 et 15 €](money_range)
+- [Blancs](wine-color) secs et vifs
+- [Rouge](wine-color) [puissant](wine-tag) et compoté
+- J' aime bien découvrir de nouvelles régions : vous me conseillez quoi en [Suisse](appellation) ou en [Autriche](appellation) ?
+- Fais -moi découvrir des [bulles](wine-tag) , [un](number) vin [fruité](wine-tag) [entre 15 et 20 euros](money_range) !
+- vin [blanc](wine-color) [léger](wine-tag) - [10 euros](money)
+- vin [rouge](wine-color) [léger](wine-tag) ou [puissant](wine-tag)
+- vin [rosé](wine-color) [fruité](wine-tag) et [floral](wine-tag) à [8 €](money) [environ](condition)
+- Je veux des [blancs](wine-color) [exotiques](wine-tag) de [Loire](appellation)
+- Je cherche [un](number) vin [puissant](wine-tag) , [10 €](money) [max](condition)
+- Je veux [un](number) vin [rosé](wine-color) et [fruité](wine-tag) , [entre 5 et 8 euros](money_range)
+- [Un](number) vin [fruité](wine-tag) [rosé](wine-color) , du sud ?
+- Je voudrais [un](number) vin [rouge](wine-color) [léger](wine-tag) du [Jura](appellation)
+- Des vins [forts](wine-tag) et [puissants](wine-tag) en provenance d' [Espagne](appellation)
+- Des vins [doux](wine-tag) d' [Allemagne](appellation)
+- Des [bulles](wine-tag) tropicales , [entre 10 et 20 euros](money_range)
+- Des idées de vins [blancs](wine-color) vifs à [plus de](condition) [100 €](money)
+- Je voudrais [un](number) vin [rouge](wine-color) [puissant](wine-tag) , [corsé](wine-tag) et [boisé](wine-tag)
+- Je veux [un](number) [Italien](appellation) [blanc](wine-color) [floral](wine-tag) et [léger](wine-tag)
+- Je veux [un](number) vin [rouge](wine-color) facile [autour de](condition) [50 euros](money)
+- [Un](number) [bordeaux](appellation) [blanc](wine-color) facile à boire
+- Du [pétillant](wine-tag) [rosé](wine-color) , si possible de [Loire](appellation) ?
+- Aujourd'hui je suis pas difficile [un](number) vin [rouge](wine-color) [tannique](wine-tag) suffira !
+- Je suis plutôt triste aujourd'hui . Je veux [un](number) vin qui me mette du baume au coeur . Qu' as -tu comme vin [fruité](wine-tag) ?
+- Je cherche [un](number) vin [puissant](wine-tag) pour me donner du courage
+- J' aime beaucoup les vins vifs . Qu' aurais -tu en magasin ?
+- IGP Pays d' oc en [blanc](wine-color) ?
+- Du [cotes de nuit](appellation) ?
+- [Morgon](appellation) vous en avez ?
+- Il vous reste du [Fleurie](appellation) ou du St Amour ?
+- [Côtes de Toul](appellation) c' est dispo ?
+- [IGP cote de gascogne](appellation)
+- [AOP Haut Médoc](appellation) svp ?
+- Du [Saint Joseph](appellation) svp
+- IGP Costières de Nimes
+- AOC [Bandol](appellation)
+- Vins de l' AOP [Gigondas](appellation)
+- Je voudrais du [Pauillac](appellation)
+- Vous avez des vins de [sicile](appellation) ?
+- Quels vins du [Piémont](appellation) ?
+- Avez -vous du [Meursault](appellation) ?
+- Tu as du [Pic Saint loup](appellation) ?
+- Je veux du [Morgon](appellation)
+- [Argentine](appellation)
+- [Cotes du Rhone](appellation)
+- [Un](number) [Bourgogne rouge](appellation)
+- [Un](number) [blanc](wine-color) de [Nouvelle Zélande](appellation)
+- Je cherche du [rhône](appellation) nord [rouge](wine-color) [autour de](condition) [30 €](money)
+- Et en [Languedoc](appellation) vous avez quelque chose ?
+- Je veux un vin avec plein de [bulles](wine-tag) qui ravissent mes papilles
+- et pour [8 - 16 € ?](money_range)
+- [un](number) [petit chablis](appellation)
+- [pessac leognan](appellation)
+- Je veux un [blanc](wine-color) [bio](wine-tag) de [Loire](appellation)
+- J' aimerais [un](number) vin [sucré](wine-tag)
+- Je veux [un](number) [blanc](wine-color) bien [moelleux](wine-tag) d' [Alsace](appellation) !
+- Tu as des vins [liquoreux](wine-tag) ?
+- Je recherche [un](number) vin [sucré](wine-tag) de [Loire](appellation)
+- Donne moi des conseils sur des vins [Liquoreux](wine-tag) !
+- Et en [moelleux](wine-tag) ?
+- [Un](number) [rouge](wine-color) pour [petite bourse](affordable)
+- [Un](number) vin avec [un](number) bon rapport [qualité / prix](affordable)
+- Du [rouge](wine-color) [pas cher](affordable)
+- [Un](number) [blanc](wine-color) [bon marché](affordable)
+- Tu aurais [un](number) [Saint Joseph](appellation) pas trop cher ?
+- [Un](number) [rouge](wine-color) peu onéreux stp !
+- [Un](number) [Bordeaux](appellation) [abordable](affordable) pour mon [repas](repas) de jeudi
+- [Un](number) vin [économique](affordable) !
+- [Un](number) vin de [Loire](appellation) pour [un](number) [petit budget](affordable)
+- [Un](number) vin d' [Alsace](appellation) avec [un](number) [petit prix](affordable)
+- Je voudrais [un](number) [Cotes du Rhône](appellation) [sans me ruiner](affordable)
+- [Un](number) vin [rouge](wine-color) [abordable](affordable)
+- [Un](number) vin [blanc](wine-color) pour [un](number) [petit prix](affordable)
+- Boire [un](number) [Champagne](appellation) avec [un](number) [petit budget](affordable)
+- J' ai envie d' [un](number) Riesling mais [sans payer cher](affordable)
+- J' aimerais boire [un](number) vin [épicé](wine-tag)
+- Tu as des vins [épicés](wine-tag) en stock ?
+- [Un](number) [rouge](wine-color) [épicé](wine-tag) , c' est possible ?
+- [saint emilion grand cru](appellation)
+- [saint emilion grand cru](appellation)
+- Tu aurais [un](number) [Bordeaux](appellation) [rouge](wine-color) et [épicé](wine-tag) ?
+- J' ai envie de boire quelque chose d' [épicé](wine-tag) en [rouge](wine-color) . Tu aurais ça ?
+- [Un](number) [rouge](wine-color) [boisé](wine-tag) pour [accompagner](repas) ma viande à me conseiller ?
+- Je suis [un](number) fan de vins [épicés](wine-tag) . T' as des pistes ?
+- J' aimerais [un un](number) vin [brioché](wine-tag) stp Magnum !
+- Montre moi tout ce que tu as en vin [épicé](wine-tag) !
+- vin pour [10 €](money)
+- T' aurais [un](number) vin plutôt [épicé](wine-tag) ? J' adore !
+- T' as quoi à me conseiller en [rouge](wine-color) [épicé](wine-tag) ?
+- Les [rouges](wine-color) [épicés](wine-tag) sont ceux que je préfère . Tu en as en stock ?
+- [léger](wine-tag)
+- Je veux [un](number) vin de [St Peray](appellation)
+- [Un](number) vin [blanc](wine-color) très [vif](wine-tag)
+- je souhaite [un](number) [bordeaux](appellation)
+- [un](number) [cote du rhone](appellation)
+- [un](number) vin du [rhone](appellation)
+- j' aimerais [un](number) [blanc](wine-color) [sec tranquille](wine-tag)
+- [une](number) bouteille de [blanc](wine-color) [tranquille](wine-tag)
+- c' est [trop cher](affordable) !
+- Trouve moi quelque chose de [plus abordable](affordable) stp
+- t' as [une](number) bouteille plus [haut de gamme](affordable) ?
+- je veux [un](number) [côtes-du-rhône](appellation) stp
+- t' as des bouteilles de [côte du rhone](appellation) ou pas ?
+- j' adore les vin de [côtes du rhône](appellation) , tu m' en trouves [un](number) ?
+- ça rentre pas dans mon budget finalement , tu peux trouver quelques chose de plus [abordable](affordable) ?
+- j' ai envie d' [un](number) vin [blanc](wine-color) [tranquille](wine-tag) , t' as ça ?
+- [Un](number) [saint Emilion](appellation) please !
+- [St Emilion](appellation)
+- [une](number) bouteille de [saint -émilion](appellation)
+- je veux [un](number) [cote du rhone](appellation)
+- [une](number) bouteille de [rouge](wine-color) de [cotes du rhone](appellation)
+- [une](number) bouteille de vin [tranquille](wine-tag) [autour de](condition) [15 €](money)
+- je veux [une](number) cuvée de [blanc](wine-color) [sec](wine-tag) , [tranquille](wine-tag) à [moins de](condition) [20 €](money)
+- [un](number) [saint emilion](appellation) en [rouge](wine-color) t' as ça ?
+- [cote du rhone](appellation)
+- [un](number) [rosé](wine-color) [tranquille](wine-tag) please
+- t' aurais [une](number) jolie cuvée de [saint -emilion](appellation) ?
+- [un](number) [petillant](wine-tag)
+- [saint emilion](appellation)
+- [pas cher](affordable)
+- [pas plus de](condition) [12 €](money)
+- [à partir de](condition) [1500 €](money)
+- [st emilion](appellation)
+- [st émilion grand cru](appellation)
+- [un](number) [côte du Rhone](appellation)
+- vin [tranquille](wine-tag)
+- [un](number) [rouge](wine-color) [petillant](wine-tag)
+- [une](number) bouteille de [petillant](wine-tag)
+- [saint estephe](appellation)
+- [blanc](wine-color) [20 €](money)
+- [Pontet canet](wine-name)
+- [Pas cher](affordable)
+- j' aimerais mieux [un](number) [rouge](wine-color)
+- [une](number) bouteille de [rouge](wine-color) ce serait mieux
+- tu as quoi à [17 €](money)
+- [un](number) vin vers [25 €](money)
+- tu as des vins à [plus de](condition) [50 €](money) ?
+- je cherche [autour de](condition) [10 €](money)
+- [8 €](money)
+- je préférais du [blanc](wine-color)
+- j' ai envie d' avoir du [rouge](wine-color)
+- je préfèrerai [un](number) vin [pas cher](affordable)
+- [pas moins de](condition) [10 €](money)
+- [pas moins de](condition) [15 €](money)
+- je préférerais avoir des bouteilles de [rosé](wine-color)
+- j' aimerais [un](number) [blanc](wine-color) mais [pas plus de](condition) [30 €](money)
+- tu me trouves [un](number) [rosé](wine-color) , [pas plus de](condition) [12 €](money)
+- t' as [un](number) [rouge](wine-color) [puissant](wine-tag) [pas moins de](condition) [20 €](money)
+- [un](number) vin à [+ de](condition) [50 €](money)
+- [pas cher](affordable) stp
+- je veux du vin [pas cher](affordable)
+- pour [pas cher](affordable)
+- sans [me ruiner](affordable)
+- tu as des vins [pas chers](affordable) ?
+- à [pas cher](affordable) ?
+- et pour [pas cher](affordable) ?
+- pour [pas cher](affordable)
+- [Côtes du rhone](appellation)
+- [Côte du rhone](appellation)
+- [Moins de](condition) [9 €](custom-money)
+- tu as quoi [autour de](condition) [12 €](money) ?
+- [pas cher](affordable)
+- [côte du Rhone](appellation)
+- [Côte du](appellation) rhone
+- [un](number) ptit [rouge](wine-color) pour mon mari
+- et pour [max](condition) [15 €](money) ?
+- [côte-du-rhone](appellation)
+- [pas trop cher](affordable)
+- et pour [max](condition) [12 euro](money) ?
+- [un](number) [rouge](wine-color) qui a du [corp](wine-tag)
+- des [blanc](wine-color) [secs](wine-tag)
+- des [bordeaux](appellation) [blancs](wine-color) [secs](wine-tag)
+- [un](number) vin [organique](wine-tag)
+- t' as des vins [organics](wine-tag)
+- t' as quoi en [pessac](appellation) ?
+- [Pessac](appellation)
+- [pessac](appellation)
+- [un](number) vin avec beaucoup de [corp](wine-tag)
+- [blancs](wine-color) [secs](wine-tag)
+- t' as des vins de [pessac](appellation) sympa
+- [un](number) [rouge](wine-color)
+- [un](number) [blanc](wine-color)
+- [un](number) [rosé](wine-color)
+- [une](number) [bulle](wine-tag)
+- [un](number) [moelleux](wine-tag)
+- [un](number) jolie [rouge](wine-color)
+- [un](number) beau [blanc](wine-color)
+- [un](number) [rosé](wine-color) sympa
+- [un](number) [liquoreux](wine-tag)
+- [un](number) très grand [pauillac](appellation)
+- [liquoreux](wine-tag)
+- [Liquoreux](wine-tag)
+- quoi , [aucun](number) [moulis en médoc](appellation) ?
+- Quel [saint estephe](appellation) choisir ?
+- où sont les [blancs](wine-color) [secs](wine-tag)
+- [Pessac](appellation)
+- des [pessac](appellation)
+- [UN](number) [ROSE](wine-color)
+- [un](number) grand [pauillac](appellation) stp
+- quels [bourgogne](appellation) choisir ?
+- je ne sais pas quel [pessac](appellation) choisir
+- tu me conseilles quel [chinon](appellation) ?
+- [un](number) vin d' [autres pays](wine-tag)
+- [autres pays](wine-tag)
+- vin [étonnant](wine-tag)
+- vin [méconnus](wine-tag)
+- des bouteilles [étonnantes](wine-tag)
+- [cuvée](wine-name) [étonnante](wine-tag)
+- est -ce que t' as des bouteilles [étonnantes](wine-tag) ?
+- je voudrais [un](number) vin [étonnant](wine-tag)
+- vin [min](condition) [15 €](money)
+- en fait je voudrais [un](number) vin [étonnant](wine-tag)
+- en fait [une](number) cuvée [étonnante](wine-tag)
+- [peu importe ...](dont-know)
+- [Peu importe ...](dont-know)
+- ok alors [un](number) [rouge](wine-color)
+- Quel [Sancerre](appellation) [rouge](wine-color) pouvez -vous me conseiler ?
+- achat [5 €](money)
+- [peut importe](dont-know)
+- Vin [étonnant](wine-tag) [moins](condition) [15 eur](money)
+- [Bourgogne](appellation) [plus](condition) [60 €](money)
+- [une](number) bouteille de [blanc](wine-color) [moins](condition) [15 eur](money)
+- [un](number) vin [tannique](wine-tag) plus [15 eur](money)
+- Vin [2015](vintage)
+- [rouge](wine-color) [2004](vintage)
+- vin [suave puissant](wine-tag)
+- je préfère rester dans les vins [français](appellation) ... s' il y a [moins cher](affordable) je prends aussi lol
+- Non que du [blanc](wine-color)
+- Que du [rouge](wine-color) svp
+- Uniquement du [blanc](wine-color)
+- Seulement du [rosé](wine-color)
+- [Rouge](wine-color) [épicé](wine-tag)
+- [Un](number) [blanc](wine-color) [épicé](wine-tag)
+- J' aime bien les [rouges](wine-color) [épicés](wine-tag)
+- [Bordeaux](appellation) [bonne annee](bons-millesimes)
+- [Un](number) vin [rouge](wine-color) 15 degrés
+- Vin [Pyrénées orientales](appellation)
+- Un [Rhône septentrional](appellation) [2016](vintage)
+- [zero dosage](wine-tag)
+- [Champagne](appellation) [brut zero dosage](wine-tag)
+- [Un](number) bon [cote de CASTILLON](appellation)
+- vin de [haute garonne](appellation)
+- [Saint tropez](appellation)
+- [Rosé](wine-color) de [saint tropez](appellation)
+- je cherche [un](number) [très bon](coup-de-coeur) [rosé](wine-color)
+- [Un](number) [vouvray](appellation) [demi sec](wine-tag)
+- [Champagne](appellation) [demi-sec](wine-tag) please
+- [sans préférence](dont-know)
+- [Je m' en fous](dont-know)
+- [Ca m' est égal](dont-know)
+- bon vin [rouge](wine-color)
+- Vin [portugais](appellation)
+- Du [Portugal](appellation)
+- Les petits et les [1ers crus](wine-tag)
+- [un](number) [blanc](wine-color) gris
+- [un](number) [rose](wine-color) gris
+- [un](number) vin [rose](wine-color) [sec](wine-tag)
+- [un](number) [rose](wine-color) [sec](wine-tag)
+- [No sulphites](wine-tag)
+- vins [rouges](wine-color)
+- plus vers [un](number) [mousseux](wine-tag)
+- Plutôt [un](number) [mousseux](wine-tag)
+- Je préfère les [mousseux](wine-tag)
+- vin [rouge](wine-color) [équilibré](wine-tag)
+- vin [de soif](wine-tag)
+- vin [rouge](wine-color) [basque](appellation)
+- [Côte du Roussillon](appellation)
+- [Un](number) [blanc](wine-color) [équilibré](wine-tag) stp
+- [Rouge](wine-color) côte du [roussillon](appellation)
+- [Blanc](wine-color) du [pays basque](appellation)
+- Des [rouges](wine-color) [de soif](wine-tag)
+- [Une](number) cuvée [de soif](wine-tag)
+- Je cherche du [vin jaune](wine-tag)
+- [Vin jaune](wine-tag)
+- Des cuvées de [Vin Jaune](wine-tag)
+- [crozès hermitage](appellation)
+- [croze hermitage](appellation)
+- [Blanc](wine-color) [fruité](wine-tag) [de 5 à 10 €](money_range)
+- [Rosé](wine-color) [léger](wine-tag) [de 8 a 12 euros](money_range)
+- Je voudrais un [rouge](wine-color) [costaud](wine-tag) [de 5 à 10 €](money_range)
+- [Un](number) [blanc](wine-color) [costaud](wine-tag)
+- [Rouge](wine-color) très [costaud](wine-tag)
+- Des vins [costauds](wine-tag)
+- [gevrey](appellation)
+- [chambertin](appellation)
+- [sauternes](appellation)
+- [meursault](appellation)
+- [Carinu](cepage)
+- [rouge](wine-color) [sud france](appellation)
+- Il s' agit d' un [Castillon Côtes de Bordeaux](appellation)
+- C' est un [St Julien](appellation)
+- Il s' agit d' un [Barolo](appellation)
+- un [rosé](wine-color) [qui claque](wine-tag)
+- plus [léger](wine-tag)
+- je souhaiterai un [grave](appellation)
+- vins [libanais](appellation)
+- Je veux une bonne bouteille [qui tape](wine-tag)
+- pour chaque jour , [un](number) vin [rosé](wine-color) pas [fruité](wine-tag)
+- [grignan les adémar](appellation)
+- je veux un vin pour un fan de [sucre](wine-tag) ( pour rester poli )
+- Pour [un](number) amateur de vin [sucré](wine-tag)
+- Je veux [un](number) [VIN JAUNE](wine-tag)
+- J' adore le [vin jaune](wine-tag)
+- Mon dada c les [vins jaunes](wine-tag)
+- en [rosé](wine-color) sinon ?
+- et sinon en [blanc](wine-color)
+- LA bonne bouteille est à portée de [main](appellation)
+- Du [cava](appellation) ?
+- [Cava](appellation)
+- [pays d oc](appellation)
+- [rouge](wine-color) très [velouté](wine-tag)
+- vin de [vienne](appellation)
+- [jusqu' a](condition) [5 €](custom-money)
+- [jusqu' a](condition) [10 €](money)
+- [rouge](wine-color) de [bourgogne](appellation) merci
+- [blanc](wine-color) de [Loire](appellation) stp
+- [rouge](wine-color) d' [alsace](appellation)
+- [rosé](wine-color) de [provence](appellation)
+- [rosé](wine-color) d' [espagne](appellation)
+- [demi sec](wine-tag)
+- [Un](number) [blanc](wine-color) [demi-sec](wine-tag)
+- [Demi sec](wine-tag)
+- Non un [demi sec](wine-tag) stp
+- [ROUGE](wine-color) [DEMI SEC](wine-tag)
+- J’ aime les vins [aromatiques](wine-tag)
+- [rouge](wine-color) [parfumé](wine-tag)
+- [Un](number) [blanc](wine-color) [parfumé](wine-tag) ce serait parfait !
+- Que dirais -tu d' [un](number) [rouge](wine-color) [aromatique](wine-tag) ?
+- c' est [un](number) [sainte croix du mont](appellation)
+- [bourgongne](appellation)
+- Que me proposer vous comme vin de [Cahors](appellation)
+- Que proposez vous comme [sancerre](appellation) ?
+- j' aimerai [un](number) [condrieu](appellation)
+- Vins du [sud-ouest](appellation)
+- [un](number) vin sur le [fruit](wine-tag)
+- [rosé](wine-color) de [Narbonne](appellation)
+- [Fut de chêne](wine-tag)
+- [N' importe](dont-know)
+- [fuimicicoli](appellation)
+- [blanc](wine-color) [minéral](wine-tag)
+- [cote d' auxerre](appellation)
+- [floride](appellation)
+- [ardéchoix](appellation)
+- [3](number)
+- [un](number) [rouge](wine-color) au parfum [puissant](wine-tag) avec du [corps](wine-tag)
+- [Crémant](wine-tag) Ice
+- [vin de paille](wine-tag)
+- [Casher](wine-tag)
+- [5e](custom-money)
+- [Prosecco](appellation)
+- [rouge](wine-color) boisé budget [9 E](custom-money)
+- vin [casher](wine-tag)
+- je souhaiterais du [cerdon](appellation)
+- [duras](appellation)
+- [Moscato](cepage)
+- [grand cru](wine-tag) [saint amour](appellation)
+- [sud](wine-tag)
+- Hmmm [5 à 10 euros](money_range) c' est possible ?
+- vin du [sud ouest](appellation)
+- je sais pas je dirais [plus de](condition) [5 €](custom-money) ?
+- je dirais [6 à 10 euros](money_range) mais [pas plus](condition)
+- [un](number) [blanc](wine-color) [pétillant](wine-tag) [italien](appellation)
+- [rosé](wine-color) [saint tropez](appellation)
+- [crémant](wine-tag)
+- Du [sud](wine-tag)
+- [10](number)
+- Vin [occidental](appellation)
+- Je suis a la recherche de vin en [pichet](wine-tag)
+- [Bonjour](hello) , je cherche des vins en [demi-bouteille](wine-tag)
+- [bonjour](hello) , je veux des [cubis](wine-tag)
+- [bonjour](hello) je veux [un](number) [magnum](wine-tag) de [rouge](wine-color)
+- [bonjour](hello) , je veux des [grands format](wine-tag)
+- [bonjour](hello) , je cherche des vins [rouges](wine-color)
+- [bonjour](hello) , je recherche des vins en [magnum](wine-tag)
+- [bonjour](hello) je suis a la recherche de vin en [magnum](wine-tag)
+- bonjour je cherche des vins [puissant](wine-tag)
+- pour [plus de](condition) [450 euros](money)
+- roussette
+- [20](number)
+- [10](number)
+- [Rouge](wine-color) cépage [syrah](cepage)
+- vin [fruité](wine-tag) et [agrumes](wine-tag)
+- je veux [un](number) [coteaux d' aix](appellation)
+- [entre fruité](wine-tag) et agrumes
+- [agé](wine-tag)
+- [âgé](wine-tag)
+- [agés](wine-tag)
+- [âgés](wine-tag)
+- [âgé](wine-tag)
+- [un](number) vin [âgé](wine-tag)
+- [Agés](wine-tag)
+- des vins [agés](wine-tag)
+- des vins [âges](wine-tag)
+- vin [Â ge](wine-tag)
+- je cherche des [rouges](wine-color) [âgés](wine-tag)
+- tu as des vins assez [âgés](wine-tag)
+- [un](number) vin [agé](wine-tag)
+- [Beaujolais nouveau](appellation)
+- [bulle délicates](wine-tag)
+- [Bulle subtiles](wine-tag)
+- [un](number) [whisky](wine-tag) fumé
+- [whisky fumé](wine-tag)
+- [Bulles fines](wine-tag)
+- je veux [un](number) [whisky fumé](wine-tag)
+- j' aime les vins [fumés](wine-tag)
+- au gout de [fumé](wine-tag)
+- [35e](custom-money) [max](condition)
+- [un](number) [rouge](wine-color) pour [35e](custom-money) [max](condition)
+- J' aime le vin [fumé](wine-tag)
+- [brandy](wine-tag)
+- t' as des [brandy](wine-tag)
+- je cherche des [brandy](wine-tag) pour [moins de](condition) [20 e](custom-money)
+- je veux des [brandy](wine-tag)
+- [brandy](wine-tag) [50 €](money)
+- [Brandy](wine-tag) pour [moins de](condition) [50 e](money)
+- [brandy fumés](wine-tag)
+- [brandy agés](wine-tag)
+- montre moi d' [autres alools](wine-tag)
+- [autre alcool](wine-tag)
+- je veux voir d' [autres alcools](wine-tag)
+- [autres alcool](wine-tag) stp
+- [Salut](hello) je veux [un](number) [whisky léger](wine-tag)
+- [bonjour](hello) je veux [un](number) [whisky léger](wine-tag)
+- [hey](hello) je veux [un](number) [whisky léger](wine-tag)
+- [salut](hello) je cherche [un](number) [gin](wine-tag) pour mon frère
+- [salut](hello) t' as quoi en [vodka](wine-tag)
+- [30 - 40 €](money_range)
+- [25 - 30 €](money_range)
+- [25 - 40 €](money_range)
+
+## intent:coup-de-coeur
+- Je cherche de [délicieux](coup-de-coeur) vins [italiens](appellation) .
+- je veux voir les vins sélectionnés par le [jury](coup-de-coeur) de monoprix
+- je veux des vins monoprix [gourmet](coup-de-coeur)
+- un [bon vin](coup-de-coeur)
+- vin [italien](appellation) de qualité
+- [Jury](coup-de-coeur) Monoprix
+- [Gourmet](coup-de-coeur)
+- Monoprix vin [gourmet](coup-de-coeur)
+- [un](number) [tres bon](coup-de-coeur) vin
+- Je veux voir le vin choisi par le [juge](coup-de-coeur) monoprix .
+- [Jury Gourmet](coup-de-coeur)
+- tu preferes quoi toi
+- Je cherche de [bons](coup-de-coeur) vins [italiens](appellation) .
+- Vin [jury gourmet](coup-de-coeur)
+- vin monoprix [gourmet](coup-de-coeur)
+- [Bon](coup-de-coeur) vin
+- jury de [consommateurs](coup-de-coeur) Monoprix [Gourmet](coup-de-coeur)
+- Vins sélectionnés par le [jury de consommateurs](coup-de-coeur)
+- cherche un [excellent](coup-de-coeur) [crémant](wine-tag)
+- le [meilleur que tu as](coup-de-coeur)
+- Votre [meilleur](coup-de-coeur)
+- bonne qualité à [petit prix](affordable)
+- Vin du [jury](coup-de-coeur)
+- [Rouge](wine-color) [savoureux](coup-de-coeur)
+- Je cherche de [grands](coup-de-coeur) vins [italiens](appellation) .
+- vins selectionnés par le [jury consommateur](coup-de-coeur)
+- [excellent](coup-de-coeur) [cremant](wine-color)
+- Je cherche [un](number) vin [blanc](wine-color) [pétillant](wine-tag) type [vouvray](appellation) qui soit avec la mention [gourmet](coup-de-coeur) monoprix
+- je recherche un [excellent](coup-de-coeur) vin [italien](appellation)
+- [un](number) vin de bonne qualité
+- Je cherche un [excellent](coup-de-coeur) vin [italien](appellation) .
+- [Une](number) bouteille de vin [gourmet](coup-de-coeur)
+- [Rouge](wine-color) [et](condition) [délicieux](coup-de-coeur)
+- Panel de consommateurs Monoprix [Gourmet](coup-de-coeur)
+- [cremant](wine-tag) de qualité
+- Je souhaite voir les vins sélectionnés par le [jury](coup-de-coeur) de Monoprix .
+- [rouge](wine-color) [délicieux](coup-de-coeur)
+- le [meilleur que vous avez](coup-de-coeur)
+- [un](number) [super](coup-de-coeur) [St Emilion](appellation)
+- le [meilleur rouge](coup-de-coeur)
+- Les [meilleurs blancs](coup-de-coeur)
+- [une](number) cuvée [très bonne](coup-de-coeur) [min](condition) [50e](custom-money) HT
+- ton [rosé](wine-color) [préféré](coup-de-coeur) pour 18e Ht
+- [un](number) [très bon](coup-de-coeur) [haut médoc](appellation) stp
+- les [meilleures vin](coup-de-coeur) de [St Julien](appellation) stp
+- t' as des [suggestions](coup-de-coeur) de vin ?
+- t' as [un](number) vin à me [conseiller](coup-de-coeur)
+- tu me [conseilles](coup-de-coeur) quoi comme bon [St estèphe](appellation) ?
+- c' est quoi les meilleurs [margaux](appellation) ?
+- suggère moi [un](number) vin
+- les meilleures [st émilion](appellation)
+- le [meilleur vin](coup-de-coeur)
+- les meilleures bouteilles ?
+- tu peux me suggerer [un](number) vin
+- t' as [un](number) vin à me suggérer
+- tu me suggères quoi comme vin ?
+- Quel vin est -ce que vous [aimez](coup-de-coeur) ?
+- Ton [rosé](wine-color) [préféré](coup-de-coeur) [sans payer trop cher](affordable)
+- C' est quoi vos [coups de coeur](coup-de-coeur) en vins [rouges](wine-color) [puissants](wine-tag) ?
+- Si vous ne deviez en choisir qu' [un](number) ?
+- Vous avez [un](number) vin [blanc](wine-color) [préféré](coup-de-coeur) en ce moment ?
+- Et votre [sélection personnelle](coup-de-coeur) de [rosé](wine-color) [pas chers](affordable) , ce serait quoi ?
+- C' est quoi vos [préférences](coup-de-coeur) en [rouge](wine-color) de Loire ? Plutôt [entre 10 et 15 euros](money_range)
+- Indiquez moi les vins [blancs](wine-color) à [moins de](condition) [10 €](money) à ne [pas rater](coup-de-coeur)
+- C' est quoi vos cuvées en [rouge](wine-color) [à gouter absolument](coup-de-coeur) ?
+- Des [coups de coeur](coup-de-coeur) en [blancs](wine-color) [fruités](wine-tag) [autour de](condition) [8 €](custom-money) ?
+- Vous avez bien des [préférences](coup-de-coeur) en [Alsace](appellation) ? Je peux mettre [jusqu' à](condition) [15 €](money)
+- Des vins [préférés](coup-de-coeur) en [rouge](wine-color) ?
+- Des cuvées [favorites](coup-de-coeur) ?
+- C' est quoi votre [préféré](coup-de-coeur) ?
+- Vous avez [un](number) [péché mignon](coup-de-coeur) ?
+- Des cuvées [favorites](coup-de-coeur) en [blanc](wine-color) ?
+- Quel est ton [préféré](coup-de-coeur) ?
+- [Meilleur vin](coup-de-coeur) [rosé](wine-color)
+- Quel est le [meilleur vin](coup-de-coeur) [rosé](wine-color) ?
+- Tu [préfères](coup-de-coeur) quel vin ?
+- C' est quoi ta bouteille [favorite](coup-de-coeur) ?
+- C' est quoi ton vin [rouge](wine-color) [préféré](coup-de-coeur) ?
+- Tu as [une](number) [préférence](coup-de-coeur) parmi les [blancs](wine-color) ?
+- C' est lequel ton vin [favori](coup-de-coeur) ?
+- C' est quoi ton vin [chouchou](coup-de-coeur) ?
+- Ton vin [préféré](coup-de-coeur) c' est lequel ?
+- C' est quoi ton plus gros [coup de coeur](coup-de-coeur) ?
+- [Un](number) vin [coup de coeur](coup-de-coeur)
+- Ton vin [favori](coup-de-coeur)
+- Je veux [un](number) vin [coup de coeur](coup-de-coeur)
+- File moi ton vin [préféré](coup-de-coeur)
+- C' est quoi ton vin [favori](coup-de-coeur) ?
+- Peux tu me proposer ton [coup de coeur](coup-de-coeur) en [blanc](wine-color) ?
+- Je suis à la recherche d' [un](number) bon vin . C' est quoi ton [préféré](coup-de-coeur) ?
+- Est -ce que tu as des vins [rouges](wine-color) [coups de coeur](coup-de-coeur) ?
+- Ton vin [préféré](coup-de-coeur)
+- Je voudrais ton vin [préféré](coup-de-coeur)
+- Fais -moi goûter ton vin [préféré](coup-de-coeur)
+- Peux -tu me donner le nom de ton vin [préféré](coup-de-coeur) ?
+- On a tous [un](number) vin [préféré](coup-de-coeur) . Quel est le tien ?
+- Tu as du [coup de coeur](coup-de-coeur) ?
+- quelles sont les [stars](coup-de-coeur) de ce millesime [2017](vintage) ?
+- Tu recommandes quoi pour le millésime [2017](vintage)
+- T’ as des [préférences](coup-de-coeur) pour le millésime [2017](vintage) ?
+- C’ est quoi tes [coup de cœur](coup-de-coeur) ?
+- Qu’ est -ce que vous me conseillez ?
+- tu me [recommandes](coup-de-coeur) quoi comme vin ?
+- t' as des [recommandations](coup-de-coeur) pour moi ?
+- [coup de cœur](coup-de-coeur) pour ce millésime ?
+- [Coup de cœur](coup-de-coeur)
+- [Coups de coeur](coup-de-coeur)
+- [Coups de cœur](coup-de-coeur)
+- vous aimez quoi comme vin ?
+- quel vin vous [préférez](coup-de-coeur) ?
+- t' aimes quoi comme vin ?
+- vos [coups de cœurs](coup-de-coeur) c' est quoi ?
+- tes [coups des coeurs](coup-de-coeur) en primeurs ?
+- en primeurs vos vins [favoris](coup-de-coeur) c' est quoi ?
+- vos [recommandation](coup-de-coeur) ?
+- c' est quoi tes [recommandations](coup-de-coeur) pour les primeurs ?
+- [coup de coeur](coup-de-coeur) à [plus de](condition) [10 €](money)
+- [coup de coeur](coup-de-coeur) à [moins de](condition) [50 euros](money)
+- suggestions [autour de](condition) [€ 40](money)
+- [meilleurs vin](coup-de-coeur) du [medoc](appellation)
+- meilleurs bouteille de [bordeaux](appellation)
+- meilleurs [liquoreux](wine-tag) [2017](vintage)
+- t' as des [très bons](coup-de-coeur) vins ?
+- [un](number) [très bon](coup-de-coeur) [bourgogne](appellation)
+- [un](number) [très bon](coup-de-coeur) vin de [Loire](appellation)
+- [une](number) [trés bonne](coup-de-coeur) bouteille stp
+- [une](number) suggestion de vin ?
+- votre [meilleur vin](coup-de-coeur) !
+- vos meilleurs bouteille
+- c' est quoi tes conseils de [bon vins](coup-de-coeur) ?
+- que me conseilles -tu comme [rouge](wine-color) ?
+- que me conseillez -vous comme [st estèphe](appellation) ?
+- le meilleur primeur
+- Je veux les meilleurs primeurs
+- les [meilleurs vins](coup-de-coeur) [autour de](condition) [50 €](money)
+- les [meilleurs vins](coup-de-coeur) [rouges](wine-color)
+- meilleurs [blancs](wine-color) [secs](wine-tag)
+- le [meilleur vin](coup-de-coeur) des primeurs
+- le [meilleur vin](coup-de-coeur) que t' as
+- quel [meilleur vin](coup-de-coeur) à acheter en [2017](vintage)
+- c' est quoi les [meilleurs vin](coup-de-coeur) à acheter
+- en [très bons](coup-de-coeur) vin vous avez quoi ?
+- je voudrais vos meilleur primeur
+- vin [exceptionnel](coup-de-coeur)
+- [Un](number) vin [blanc](wine-color) de qualité
+- [Un](number) [rouge](wine-color) de [très bonne facture](coup-de-coeur)
+
+## intent:recherche-vin
+- [12 th of Never](wine-name)
+- [Mas de l' oncle](wine-name)
+- [Le Pertuis](wine-name)
+- [Esquisse de Nairac](wine-name)
+- [Emotion](wine-name)
+- [Te mata](wine-name)
+- [Domaine du grezas](wine-name)
+- je veux de la [villageoise](wine-name)
+- je cherche à savoir le prix du [muscador](wine-name) vin
+- [Maison le star](wine-name)
+- [Paix dieu](wine-name)
+- [Noilly Prat](wine-name)
+- [Menthe pastille Giffard](wine-name)
+- [Notre dame du bosquet](wine-name)
+- [Paul Louis Martin](wine-name)
+- [Akashi](wine-name)
+- [Bruichladdich](wine-name)
+- [Laphroaig](wine-name)
+- [Glenfarclas 10 ans](wine-name)
+- [Monkey shoulder](wine-name)
+- [Haig club](wine-name)
+- [Glenfarclas](wine-name)
+- [Tanqueray](wine-name)
+- [Roku](wine-name) [gin](wine-tag)
+- [Hendrick's](wine-name)
+- [Belvedere](wine-name) [Vodka](wine-tag)
+- [Patron silver](wine-name)
+- [Plantation Three stars](wine-name)
+- [Compagnie des Indes tricorne](wine-name)
+- [Diplomatico](wine-name)
+- [Diplomatico single vintage](wine-name)
+- [Plantation Pineapple](wine-name)
+- [Plantation](wine-name)
+- [L' envol](wine-name)
+- [Emotion](wine-name)
+- [N° 3](wine-name)
+- [Castelmaure](wine-name)
+- [Paix dieu](wine-name)
+- [plantapine](wine-name)
+- [jacquart](wine-name)
+- [Pol roger pur](wine-name)
+- [puech haut](wine-name)
+- [Croix de l' intendant](wine-name)
+- [Maison le star](wine-name)
+- [Don papa](wine-name)
+- [Nikka](wine-name) [whisky](wine-tag)
+- [Nikka from the barrel](wine-name)
+- [Jack Daniel's](wine-name)
+- [Jack Daniels](wine-name)
+- [Chateau aula](wine-name)
+- [113 mètres](wine-name)
+- [les tourterelles](wine-name)
+- [tour de safran](wine-name)
+- [tour de seran](wine-name)
+- [antithèse](wine-name)
+- [Château Negly](wine-name)
+- [willm](wine-name) [gewurztraminer](cepage) [réserve](wine-tag) [2017](vintage)
+- [Jaeger Meister](wine-name)
+- [Capitaine morgan](wine-name)
+- [Apérol](wine-name)
+- [Spritz](wine-name)
+- [Ricard](wine-name)
+- [Apérol spritz](wine-name)
+- [Peyrassol](wine-name)
+- [Jagermeister](wine-name)
+- [Captain Morgan](wine-name)
+- [petit soleil](wine-name)
+- [beausoleil](wine-name)
+- [Rosé](wine-color) [Trémoine](wine-name)
+- [chenet](wine-name)
+- [ksara reserve du couvent](wine-name)
+- [tariquet](wine-name)
+- [Château Latour](wine-name)
+- [Chateau de Brissac](wine-name)
+- [Tariquet](wine-name)
+- [Petra](wine-name) [blanca blanc](wine-color) [cuvée prestige](wine-name)
+- [chivas regal](wine-name)
+- [Opidum des cauvins](wine-name)
+- La [Croix du Chevalier](wine-name)
+- [Domaine de la vieille forge](wine-name)
+- Vin [Mumm](wine-name)
+- [listel st louis](wine-name)
+- [cantemerle](wine-name)
+- [Lété Vautrain](wine-name)
+- je recherche le [champagne](appellation) [Roederer](wine-name)
+- [chateau coufran](wine-name)
+- [chateau d' armaillac](wine-name)
+- [rouge](wine-color) de chez [gaubi](wine-name)
+- [Alba dolia](wine-name)
+- les [trois argiles](wine-name)
+- [freixenet](wine-name)
+- [Cibadies](wine-name)
+- [Kress Bleger](wine-name)
+- [Cotes du Rhone](appellation) [rose](wine-color) [expert club](wine-name) [5 l fontaine](wine-tag)
+- [canon du maréchal](wine-name)
+- [Chateau de penautier](wine-name)
+- [Bernard Magrez](wine-name)
+- [Baricci](wine-name)
+- [Cave fleury](wine-name)
+- [beauregard](wine-name)
+- [Champagne](appellation) [Mansart](wine-name)
+- [Clos des Orfeuilles](wine-name)
+- vin [rouge](wine-color) [sidi brahim](wine-name)
+- [minuty](wine-name)
+- [Cubi](wine-tag) [roche mazet](wine-name)
+- [Chateau Croix des pins Les trois villages](wine-name) [2017](vintage) [AOP Ventoux](appellation)
+- [Saparale](wine-name)
+- [cubi](wine-tag) [mazet](wine-name)
+- [Virant](wine-name)
+- [chasse spleen](wine-name)
+- [muscat de rivesaltes](appellation) [lafage](wine-name)
+- [gressier](wine-name)
+- [Esprit de Clocher](wine-name)
+- le [champagne](appellation) [mumm](wine-name)
+- [chateau chasse spleen](wine-name)
+- vin [colombo](wine-name)
+- [lachassagne](wine-name)
+- [Reignac](wine-name)
+- [Blaissac](wine-name)
+- [Mabillon](wine-name)
+- [Billecart](wine-name)
+- [la petite bete](wine-name) vin
+- [Tariquet](wine-name)
+- [drappier](wine-name)
+- [Chateau beau site](wine-name) [saint estephe](appellation)
+- [famille perrin](wine-name)
+- [Heidsieck](wine-name)
+- [Blue top monopole](wine-name)
+- [Zind humbrecht](wine-name)
+- [Tariquet 1ère grive](wine-name)
+- [Rosé](wine-color) [Minuty](wine-name)
+- [Château de l' Ascension](wine-name)
+- [roche mazet](wine-name)
+- [tresoriere](wine-name)
+- [Domaine cairanne](wine-name)
+- [première grives](wine-name)
+- [Crâne](wine-name)
+- [Domaine d' Uby](wine-name)
+- [chateau de brissac](wine-name)
+- [Ascension](wine-name)
+- Connaissez -vous le nom de [Brissac](wine-name) ?
+- [miraval](wine-name)
+- [coste blanche](wine-name)
+- Et le [château de Brissac](wine-name) tu connais ?
+- [fontaine](wine-tag) [listel](wine-name)
+- [Bonjour](hello) avez -vous le [haute cote de beaune](appellation) [parigot](wine-name) [2017](vintage) au [monoprix marcq croisé laroche](shop) ?
+- [cramoisay](wine-name)
+- [Messapi](wine-name) [Puglia](appellation)
+- [ubby](wine-name)
+- [Château d' Issan](wine-name)
+- [Terre Eulalie](wine-name) [Gris](wine-tag)
+- [Clos des mouches](wine-name)
+- [Champagne](appellation) [jeanmarie](wine-name)
+- [uby](wine-name)
+- [Domaine tourbillon](wine-name)
+- [cazeneuve](wine-name)
+- [Domaine des bernardins](wine-name)
+- [pey](wine-name) [blanc](wine-color)
+- je cherche du [tariquet premiere grive](wine-name)
+- [Beaucharme](wine-name)
+- [cap rosy](wine-name)
+- [gato negro](wine-name)
+- [champagne](appellation) [tieche morizet](wine-name)
+- [Uby 3](wine-name)
+- Berne
+- [Sidi Brahim](wine-name)
+- [Rosé](wine-color) [Berne Esprit di Mediterranée](wine-name)
+- [domaine de la Bonnetière la montée des Poyeux](wine-name) [2016](vintage) [AOP Saumur Champigny](appellation)
+- [Bordeaux](appellation) de la [maison Delor](wine-name)
+- [vincent gobert](wine-name)
+- [Charmes d' antan](wine-name)
+- [archeol de bruet](wine-name)
+- [Philipponat](wine-name) [Champagne](appellation) [Royale](wine-name) Réserve
+- [santa tersa frappato](wine-name)
+- [chappelle de la](wine-name) [mission](cepage) [haut brion](wine-name)
+- [Kefraya](wine-name)
+- [Vignes de la voûte](wine-name)
+- [Estoublon](wine-name)
+- [Grand regnard](wine-name)
+- L' [hospitalet](wine-name)
+- [hospitalet](wine-name)
+- [paternel](wine-name)
+- [Primo de Conti](wine-name)
+- [veuve amiot](wine-name)
+- [les aubiers](wine-name)
+- [baron haussman](wine-name)
+- [Baron de lestac](wine-name) [rosé](wine-color)
+- [figuiere](wine-name)
+- [pape clement](wine-name) [2015](vintage)
+- [Champagne](appellation) [Charles lecouvey](wine-name)
+- [Petite bête](wine-name)
+- [Sauza](wine-name)
+- [Royal Challenge](wine-name)
+- [Skyy](wine-name)
+- [Krupnik](wine-name)
+- [Honey Bee](wine-name)
+- [Pyat Ozer](wine-name)
+- [Grant's](wine-name)
+- [Gordon's](wine-name)
+- [JD & Cola RTD](wine-name)
+- [Ypioca](wine-name)
+- [Fernet Branca](wine-name)
+- [Champagne](appellation) [Billecart](wine-name)
+- [New Mix](wine-name)
+- [Zubrowka](wine-name)
+- [Chateau Haut Batailley](wine-name)
+- [Crown Royal](wine-name)
+- [domaine de rochemond](wine-name)
+- [Ballantine'](wine-name) s
+- [champagne](appellation) [ruinart](wine-name)
+- [Baileys](wine-name)
+- [Khlebny Dar](wine-name)
+- [Hayward 's Fine](wine-name)
+- [crémant](wine-tag) [Besthiem](wine-name)
+- [Khortytsa](wine-name)
+- [Jim Barn](wine-name)
+- [Ichiko](wine-name)
+- [Bagpiper](wine-name)
+- [gerard bertrand cote des roses](wine-name)
+- [Suntory Kakubin](wine-name)
+- [Martini](wine-name) [Vermouth](wine-tag)
+- [Velho Barreiro](wine-name)
+- [Pitù](wine-name)
+- [Old Tavern](wine-name)
+- [Jack Daniel's](wine-name)
+- [Fontaine](wine-name)
+- [Tanduay](wine-name)
+- [Cachaça 51](wine-name)
+- [McDowell’s No.1 Celebration](wine-name)
+- [McDowell’s No.1](wine-name)
+- [Minervois](appellation) [templier](wine-name)
+- [Emperador](wine-name)
+- [Officer 's](wine-name) Choice
+- [Jinro](wine-name)
+- [Johnnie Walker](wine-name)
+- [Clan Macgregor](wine-name)
+- [Eristoff](wine-name)
+- [William Lawson](wine-name)
+- [Paul Masson](wine-name)
+- [Grant's](wine-name)
+- [domaine pouretoux](wine-name)
+- [Russian Standard](wine-name)
+- [Disaronno](wine-name)
+- [Svedka](wine-name)
+- [Captain Morgan](wine-name)
+- [Smirnoff](wine-name)
+- [Picpoul de](appellation) [Pinet](wine-name)
+- [Domaine des Hautes Glaces](wine-name)
+- [Togouchi](wine-name)
+- [Lagavulin](wine-name)
+- [The Macallan](wine-name)
+- [Mackmyra](wine-name)
+- SYLVANER [CELLIER DES MAYMATTEN](wine-name) [2017](vintage) - Prestige
+- [Bruichladdich](wine-name)
+- [Redbreast](wine-name)
+- [Mars](wine-name)
+- [Benjamin Kuentz](wine-name)
+- [Dalmore](wine-name)
+- [The Chita](wine-name)
+- [Yamazakura](wine-name)
+- [Craigellachie](wine-name)
+- [yquem](wine-name)
+- [Ryoma](wine-name)
+- [Zacapa](wine-name)
+- [Hampden](wine-name)
+- [Camus](wine-name)
+- [chateau de Beaulieu](wine-name)
+- [Morand](wine-name)
+- [Malard](wine-name)
+- [Patron](wine-name)
+- [Caol Ila](wine-name)
+- Connetable de [Talbot](wine-name)
+- [Kavalan](wine-name)
+- [Knockando](wine-name)
+- [Highland Park](wine-name)
+- [barefoot](wine-name)
+- [Ardbeg](wine-name)
+- [Tour carnet](wine-name)
+- [cote des roses](wine-name)
+- [Bellevoye](wine-name)
+- [Toki](wine-name)
+- [Bunnahabhain](wine-name)
+- [mas du ministre](wine-name)
+- [Vodcap Ferret](wine-name)
+- [Monkey](wine-name)
+- [Generous](wine-name)
+- [les penitents](wine-name) [blanc](wine-color)
+- [Brockmans](wine-name)
+- [Domaine de Muret](wine-name)
+- [Bourgoin](wine-name)
+- [St Germain](wine-name)
+- [Nardini](wine-name)
+- [Union](wine-name)
+- [Aberfeldy](wine-name)
+- [Glenmorangie](wine-name)
+- [Eddu](wine-name)
+- [Bulleit](wine-name)
+- [Nikka](wine-name)
+- [Cardhu](wine-name)
+- [Glenfarclas](wine-name)
+- [Laphroaig](wine-name)
+- [Martel](wine-name)
+- [Hudson](wine-name) [Whiskey](wine-tag)
+- [Grey Goose](wine-name)
+- [Belvedere](wine-name)
+- [Beluga](wine-name)
+- [Arcane](wine-name)
+- [chateau quillet](wine-name)
+- [Appleton](wine-name)
+- [prosecco](appellation) [Ricadonna](wine-name)
+- [Montaudon](wine-name)
+- [Coloma](wine-name)
+- [El Dorado](wine-name)
+- [Compagnie des Indes](wine-name)
+- [Chateau Caroline](wine-name)
+- [Plantation](wine-name)
+- [Don Papa](wine-name)
+- [Diplomatico](wine-name)
+- je recherche [un](number) vin [Laurent Perrier](wine-name)
+- [Pyrat Xo](wine-name)
+- [Bumbu](wine-name)
+- [clos de la roilette](wine-name)
+- [Neisson](wine-name)
+- [Drouin](wine-name)
+- [Tanueray](wine-name)
+- [Hendrick's](wine-name)
+- [Roku](wine-name)
+- [Mare](wine-name)
+- [JP chenet](wine-name)
+- [G . Miclo](wine-name)
+- [Hennessy](wine-name)
+- [UBY](wine-name)
+- [Leblon](wine-name)
+- [Italicus](wine-name)
+- [La Botija](wine-name)
+- [Chartreuse](wine-name)
+- [Vecindad](wine-name)
+- [Monkey Shoulder](wine-name)
+- [bouysses](wine-name)
+- [Jack Daniel's](wine-name)
+- [chateau moulin a vent](wine-name)
+- [Akashi](wine-name)
+- [Aberlour](wine-name)
+- [Filliatreau](wine-name)
+- [besthiem](wine-name)
+- [Paul John](wine-name)
+- [42 Below](wine-name)
+- [Ti' ced](wine-name)
+- [Mount Gay](wine-name)
+- [Gunsbell](wine-name)
+- [Barbancourt](wine-name)
+- [Peaky Blinders](wine-name)
+- [Bombay Sapphire](wine-name)
+- [G' Vine](wine-name)
+- [Cointreau](wine-name)
+- [Luxardo](wine-name)
+- [Heering](wine-name)
+- [Cambusier](wine-name)
+- [Absente](wine-name)
+- en [rouge](wine-color) de [gerard bertrand](wine-name)
+- [Pampero](wine-name)
+- [Sailor Jerry](wine-name)
+- [Clément](wine-name)
+- [feuillate](wine-name)
+- [Rinquinquin](wine-name)
+- [Henri Bardouin](wine-name)
+- [Cana de Belem](wine-name)
+- [Chateau la gordonne](wine-name)
+- [Jagermeister](wine-name)
+- [Campari](wine-name)
+- [Noilly Prat](wine-name)
+- [Passport Scotch](wine-name)
+- [JP Wisers](wine-name)
+- [pipper](wine-name) [brut](wine-tag)
+- [Imperial](wine-name)
+- [Clan Campbell](wine-name)
+- constable de [Talbot](wine-name)
+- [Royal Stag](wine-name)
+- [Seagram 's Gin](wine-name)
+- [Olmeca](wine-name)
+- [100 pipers](wine-name)
+- [Kalhua](wine-name)
+- [Wyborowa](wine-name)
+- [Imperial Blue](wine-name)
+- [chateau margaux](wine-name)
+- [Blenders Pride](wine-name)
+- [Ararat](wine-name)
+- [haut brion](wine-name)
+- [Amaro Ramazzotti](wine-name)
+- [Martell](wine-name)
+- [Beefeater](wine-name)
+- [Domaine Saparale](wine-name)
+- [Jameson](wine-name)
+- [The Glenlivet](wine-name)
+- [Bailly lapierre](wine-name)
+- [Chivas Regal](wine-name)
+- [Royal Salute](wine-name)
+- [Pellaut](wine-name) [rouge](wine-color)
+- [Casanis](wine-name)
+- [Forcas hosten](wine-name)
+- [Duval](wine-name)
+- [Floranis](wine-name)
+- [Busnel](wine-name)
+- [Uby](wine-name)
+- [Tiscaz](wine-name)
+- [Gibson'](wine-name) s
+- [Gibson](wine-name)
+- [Côte de Gascogne](appellation) [Saint André](wine-name)
+- [Poliakov](wine-name)
+- [Louis Roederer](wine-name)
+- [Tour de Bigorre](wine-name)
+- [Olympio](wine-name)
+- [Rivière du Mât](wine-name)
+- avez -vous du [tariquet](wine-name)
+- [Saint James](wine-name)
+- [Sam Burton](wine-name)
+- [Pierre Chavin](wine-name)
+- [Old Virginia](wine-name)
+- [Bodegues Sumarroca](wine-name) " Penedès " [Tempranillo](cepage)
+- [Glen Turner](wine-name)
+- [Label 5](wine-name)
+- [Havana Club](wine-name)
+- [Ruinart](wine-name)
+- Bacardi
+- [Champagne](appellation) [Bollinger](wine-name)
+- [chateau courac](wine-name)
+- [tariquet](wine-name)
+- [Berne " Grande Récolte](wine-name) [" Rosé](wine-color) [2017](vintage)
+- [chateau de clavaire](wine-name) [bordeaux](appellation)
+- [Cochon volant](wine-name) [rouge](wine-color)
+- [Domaine de Tresbaudon](wine-name)
+- [Chateau Caban](wine-name)
+- [Lancers](wine-name) [rosé](wine-color)
+- [Gaillac](appellation) [Passion](wine-name)
+- [tariquet](wine-name)
+- [Malibu](wine-name)
+- [Grimaud](wine-name)
+- [Grant's](wine-name)
+- [chateau ermitage](wine-name)
+- [Get 27](wine-name)
+- [Ballantines](wine-name)
+- [Absolut](wine-name)
+- [Vallée du Rhone](appellation) [Tour des Abbesses](wine-name)
+- [Smirnoff](wine-name)
+- [Poliakov](wine-name)
+- [Jack Daniels](wine-name)
+- [La croix saint vincent](wine-name)
+- [JB](wine-name)
+- [Dom Perignon](wine-name)
+- [Cointreau](wine-name)
+- [Grand Marnier](wine-name)
+- [Campari](wine-name)
+- [tariquet](wine-name)
+- [Martini](wine-name)
+- je cherche [un](number) [chapoutier](wine-name)
+- [Paul Roger](wine-name)
+- [Capitoro](wine-name)
+- [chateau de ripaille](wine-name)
+- [winery parisienne](wine-name)
+- [chateau joliet](wine-name)
+- [tariquet](wine-name)
+- [tour des abbesses](wine-name)
+- [rosé](wine-color) piscine
+- [muscador](wine-name)
+- [Uby](wine-name) [rouge](wine-color)
+- Bonjour , je cherche du [crémant de loire](appellation) " [cuvée des anges de montlouis](wine-name) "
+- [clairet](appellation) [sainte marie](wine-name)
+- [un](number) vin [expert club](wine-name)
+- [Gobillard](wine-name)
+- [Pape Clément](wine-name)
+- la [sauvageonne](wine-name)
+- [chateau virou](wine-name)
+- [rosé](wine-color) de [Bargemone](wine-name)
+- je veux connaitre le tarif du [mouton rotschild](wine-name)
+- [uby 3](wine-name)
+- [tarani](wine-name)
+- [ramafort](wine-name)
+- grand terroir [montperoux](wine-name)
+- [uby](wine-name)
+- [blaissac](wine-name)
+- [casanova](wine-name)
+- [Montpezant](wine-name)
+- [chateau beau site](wine-name) [2012](vintage)
+- [Mouton Cadet](wine-name)
+- je voudrais [un](number) [crémant d' Alsace](appellation) [Besthiem](wine-name)
+- [Tariquet 1er Grive](wine-name)
+- [Menetou Salon](appellation) [premiere lune](wine-name)
+- [Château lymphus](wine-name) [2015](vintage)
+- je recherche la [cuvée alexandre](wine-name) [rouge](wine-color) [domaine tanella](wine-name)
+- [madiran](appellation) [darros](wine-name)
+- [champagne](appellation) [heidseick](wine-name) par 6
+- [marquis du peyret](wine-name)
+- le [virolys](wine-name)
+- [ursulines](wine-name)
+- [rosé](wine-color) vin [figuiere](wine-name)
+- [cadao](wine-name)
+- [Domus](wine-name)
+- [Tour](wine-name) [Saint-Joseph](appellation)
+- [Puech](wine-name)
+- [tarani](wine-name)
+- [Oustaou](wine-name)
+- le [rasteau](appellation)
+- [Taittinger](wine-name)
+- [hubert favier](wine-name)
+- [castries](wine-name)
+- [roquebrun](wine-name)
+- [croix du chevalier](wine-name)
+- [Pape Clément](wine-name) [2015](vintage)
+- [Corte adami](wine-name)
+- [Chateau Labatut](wine-name)
+- bonjour je cherche [un](number) [bourgogne](appellation) [chateau de nancelle](wine-name) avez vous ca , ou quelque chose [similaire](similaire) ?
+- [montaudon](wine-name)
+- [lambrusco](appellation) [amabile](wine-name)
+- [cuvée du golf de saint tropez](wine-name)
+- Les [Champs Vignons cuvée des Cherubins](wine-name)
+- [moet et chandon](wine-name)
+- [Domaine de la solitude](wine-name)
+- [bordeaux](appellation) [rosé](wine-color) [reserve noemie](wine-name)
+- [chateau bonnet](wine-name)
+- [Pierre goigoux](wine-name)
+- [Chateau Jean de Bertrand](wine-name)
+- [demoiselle sans gene](wine-name) vin [rosé](wine-color)
+- [chablis](appellation) [grand regnard](wine-name)
+- je veux [un](number) [cadao](wine-name) [rouge](wine-color) vin [portugais](appellation)
+- [chateau greysac](wine-name)
+- [chateau pillot](wine-name)
+- [cadao](wine-name) [portugal](appellation)
+- [champagne](appellation) [chanoine](wine-name)
+- [rasteau](appellation)
+- je cherche [un](number) vin [blanc](wine-color) " les [vignerons landais](wine-name) "
+- [Bestheim](wine-name)
+- [champagne](appellation) [marie degay](wine-name)
+- [Uby](wine-name)
+- [chateau lagrange](wine-name) [saint-julien](appellation)
+- [champagne](appellation) [chamoine](wine-name)
+- [Antoine Antier](wine-name)
+- [chanoine](wine-name)
+- [chateau avernus](wine-name)
+- [Couvent](wine-name)
+- [macvin](wine-name)
+- [andre gallois](wine-name)
+- [uby](wine-name)
+- [Mademoiselle Ladubay](wine-name)
+- [giscours](wine-name)
+- [domaine de](wine-name) la tours ou Saint - chinian ou [Saint-Loup](wine-name)
+- [Champagne](appellation) [Heidseik](wine-name)
+- un [veuve cliquot](wine-name)
+- [Champagne](appellation) [Launois la veuve clémence](wine-name)
+- [chai des grillons](wine-name)
+- [chateau ripaille](wine-name)
+- [chateau la louviere](wine-name)
+- [veuve clicquot](wine-name)
+- [La louviere](wine-name)
+- [monte velho](wine-name)
+- [la veuve cliquot](wine-name)
+- [Crémant](wine-tag) [Langlois](wine-name)
+- [champagne](appellation) [delage](wine-name)
+- [champagne](appellation) [Monopole](wine-name)
+- [Fourcas Hosten](wine-name) ?
+- [vieille ferme](wine-name)
+- [Les javeaux](wine-name)
+- [cibadies](wine-name)
+- je cherche le vin [joy](wine-name) cote de gascogne
+- Je veux [un](number) vin [cuvée émeraude](wine-name)
+- [Réserve du president](wine-name)
+- [guigal](wine-name)
+- [Champagne](appellation) [crucifix](wine-name)
+- [petrus](petrus)
+- [rouge](wine-color) [gerard bertrand](wine-name)
+- Avez vous du [tariquet](wine-name)
+- [Mumms](wine-name)
+- Je prendrai bien du [Clos La tour blanche](wine-name)
+- [domaine du duy](wine-name)
+- [Las Case](wine-name)
+- je souhaiterai boire [une](number) bouteille du [Domaine La Tour Vieille](wine-name)
+- [Las cases](wine-name)
+- [les ormes de pez](wine-name)
+- [Château Fonplégade](wine-name)
+- [Ormes de Pez](wine-name)
+- [Petit Faurie de Soutard](wine-name)
+- Tu aurais du [Château Rieussec](wine-name) ?
+- [château roc de cambes](wine-name)
+- [Uby](wine-name)
+- Tu as des [Château La Croix de Gay](wine-name) en rayon ?
+- [durfort vivens](wine-name)
+- [Ausone](wine-name)
+- J' aimerais bien goûter [un](number) [Château Lamartine](wine-name)
+- quand va sortir [Ausone](wine-name)
+- date sortie [ausone](wine-name)
+- Je veux mon [rosé](wine-color) préféré , le [Château Minuty](wine-name)
+- sortie de [ausone](wine-name) svp
+- [chateau ausone](wine-name)
+- Je trouve pas le [Clos Fieuzal](wine-name)
+- [ausone](wine-name)
+- [LA MONDOTE](wine-name)
+- Je voudrais quelques bouteilles du [Château Beauséjour](wine-name)
+- [ch la mondote](wine-name)
+- [Beauregard](wine-name)
+- Je suis à la recherche d' [un](number) vin très en vogue : le [château yquem](wine-name)
+- [La tour Carnet](wine-name)
+- [Ormes de pez](wine-name)
+- Tu as des bouteilles du [domaine la ferme saint martin](wine-name) ?
+- [la tour carnet](wine-name)
+- [ch La Tour Carnet](wine-name)
+- Je cherche le [domaine de la Roche bleue](wine-name)
+- [chateau beausejour duffau lagarosse](wine-name)
+- [Chasse slpeen](wine-name)
+- [domaine Lapierre](wine-name)
+- [château Chasse Spleen](wine-name)
+- [ch chasse slpeen](wine-name)
+- [La Grange des Pères](wine-name)
+- [ch lynch bages](wine-name)
+- [Lynch Bages](wine-name)
+- Est -ce que tu as des bouteilles du [domaine de la grange des pères](wine-name) ?
+- [les ormes de Pez](wine-name)
+- [ch ormes de pez](wine-name)
+- J' aime bien [la grange des pères](wine-name) , t' as des bouteilles en stock ?
+- [les Ormes de pez](wine-name)
+- [le pin](wine-name)
+- j' ai envie de bouteilles de [la grange des peres](wine-name)
+- [château le pin](wine-name)
+- [Fleur Cardinale](wine-name)
+- [baron de lestac](wine-name)
+- [fleur cardinal](wine-name) [2017](vintage)
+- avez vous encore des [carruades](wine-name)
+- [Petrus](wine-name)
+- vous avez les [carruades](wine-name) ?
+- [carruades de lafite](wine-name)
+- [Château Petrus](wine-name)
+- [une](number) bouteille de [latour](wine-name)
+- du [Latour](wine-name) stp
+- [latour](wine-name)
+- Allez , [un](number) [rouge](wine-color) du [domaine Milan](wine-name) pour conclure !
+- [Latour](wine-name)
+- [château Latour](wine-name)
+- [ch Fleur Cardinale](wine-name)
+- vous avez des infos sur la sortie de [haut marbuzet](wine-name) ?
+- [château fleur cardinale](wine-name)
+- [Fleur cardinale](wine-name)
+- [Cheval Blanc](wine-name)
+- est -ce que [Lafite](wine-name) sort aujourd'hui ?
+- du [chateau cheval blanc](wine-name) stp
+- [une](number) bouteille de [Cheval Blanc](wine-name)
+- [cheval blanc](wine-name)
+- c' est quoi les dates pour [Dauzac](wine-name) ?
+- [Château cheval blanc](wine-name)
+- [Branaire Ducru](wine-name)
+- [Château Branaire ducru](wine-name)
+- [branaire ducru](wine-name)
+- [château rieussec](wine-name)
+- [rieussec](wine-name)
+- quelle est la date de commercialisation de [chateau margaux](wine-name) pour les primeurs
+- [olivier](wine-name)
+- t' as de [l' esprit de saint pierre](wine-name) ??
+- [figeac](wine-name)
+- Vous avez du [Chateau Pétrus](wine-name) 2010 ?
+- Est -ce que vous avez en stock le [1er cru Pallu](wine-name) à [Puligny](appellation) ? C' est délicieux !
+- Je cherche le [rouge](wine-color) du [domaine Zibul](wine-name) , c' est un vin [italien](appellation) [puissant](wine-tag) et [épicé](wine-tag)
+- quelle sera la date de sortie de [Dauzac](wine-name) ?
+- Il vous reste du [blanc](wine-color) du [Chateau Miro](wine-name) ?
+- J' aimerais trouver la [cuvée Intuition de chez Pilrd](wine-name)
+- Avez -vous des vins du [domaine Montrecul](wine-name) ?
+- J' aimerais [6](number) bouteilles du [blanc](wine-color) de [Chateau Mirate](wine-name) dans l' appellation [Pouilly-Fumé](appellation)
+- [Une](number) bouteille du [domaine Tiza](wine-name) en [rosé](wine-color)
+- Je cherche le [clos St Peyroux](wine-name) de la [vallée du Rhône](appellation) , vous savez celui qui fait les [rouges](wine-color) [croquants](wine-tag) et qui commence par Télégraphe ?
+- A quand la sortie primeur [Figeac](wine-name) ?
+- [Un](number) [Chateau d' Aussières](wine-name)
+- Je cherche [un](number) [Clos du Vougeot](wine-name)
+- Je veux la [Cuvée Prestige](wine-name)
+- D' [un](number) [Chateau Haut-Brion](wine-name)
+- Je veux [un](number) Mouton Cadet
+- Vous avez du [domaine des Pallus](wine-name) ?
+- savez vous quand le [chateau pouget](wine-name) sera disponible en primeur ?
+- Je cherche des vins de [chez Ganevat](wine-name)
+- est -ce que tu as des vins de [Francois Chidaine](wine-name) ?
+- Le [rouge](wine-color) de [chez Zapi](wine-name) , il est dispo ?
+- T' as du [Veuve Cliquot](wine-name) ?
+- C' est possible d' avoir du [château Fieuzac](wine-name) ?
+- Tu peux me proposer du [Ruinard](wine-name) stp
+- quand va enfin sortir le [leoville poyferre](wine-name) ?
+- Je voudrais le dernier millésime du [château La Consolante](wine-name)
+- Je cherche du [Pol Roger](wine-name) tu en as ?
+- Je boirais bien [un](number) verre de [Pétrus](wine-name)
+- [haut marbuzet](wine-name) sera disponible a quelle date ?
+- Est -ce que tu as des vins du [Domaine du Tariquet](wine-name) ?
+- [1](number) bouteille [Château Puech-Haut](wine-name)
+- [Rouge](wine-color) [Domaine Richaud](wine-name)
+- [Haut Marbuzet](wine-name) est il sorti en primeur ?
+- [3](number) bouteilles de [Bollinger](wine-name)
+- Je boirai bien [un](number) verre de [Châteauneuf-Du-Pape](wine-name) ce soir
+- Aujourd'hui , je souhaite avoir du [Domaine Vacheron](wine-name)
+- Quand [Petrus](wine-name) devrait il sortir ?
+- avez -vous la date de sortie de [mouton](wine-name) ?
+- savez vous quand le primeur [Chateau Margaux](wine-name) sera ouvert ?
+- [Calon-ségur](wine-name) sort aujourd'hui ?
+- Quand sortira [Vieux Château Saint André](wine-name)
+- avez vous une date estimative pour [Smith Haut lafftie](wine-name) ?
+- [Le châteaux de Fargues](wine-name) sort quand svp ?
+- Quand [salon ségur](wine-name) sort ? merci
+- savez -vous quelle est la date de sortie de [Mouton Rothschild](wine-name) ?
+- [château canon](wine-name) est -il sorti ?
+- tu sais quand [Pontet Canet](wine-name) arrivera ?
+- [Ducru beaucaillou](wine-name)
+- [Prieuré Lichine](wine-name)
+- [clos floridene](wine-name)
+- [cantenac brown](wine-name)
+- t' as quoi comme [cuvée de margaux](wine-name)
+- [Branaire Ducru](wine-name)
+- [giscours](wine-name)
+- [Chapoutier](wine-name)
+- [Pape clément](wine-name)
+- [palmer](wine-name)
+- [Gruaud Larose](wine-name)
+- [miraval](wine-name)
+- [lynch bages](wine-name)
+- [cuvée les hauts du tertre](wine-name)
+- [un](number) bouteille de la [cuvée l' esprit de saint pierre](wine-name)
+- [Léoville Las Cases](wine-name)
+- [notre terre mas amiel](wine-name)
+- [deutz](wine-name) [rosé](wine-color)
+- [Sidi Brahim](wine-name)
+- [angélus](wine-name)
+- [chateau pape clément](wine-name)
+- [une](number) bouteille de [margaux](wine-name) stp
+- [ducru beaucaillou](wine-name)
+- [Chanson](wine-name)
+- [Château Moulin du Cadet](wine-name)
+- [cuvée de la lagune](wine-name)
+- [sainte philomène](wine-name)
+- [Philipponnat](wine-name)
+- je voudrais du [henessy](wine-name)
+- [Chateau d' Arcole](wine-name)
+- [clos de bouard](wine-name)
+- [pédesclaux](wine-name)
+- [Chanson](wine-name) [viré clissé](appellation)
+- [ch Pape clement](wine-name)
+- [Amiral de Beychevelle](wine-name) stp
+- [rosé](wine-color) [gem](wine-name)
+- [ayala](wine-name)
+- [Un](number) bon vieux [Sidi Brahim](wine-name)
+- j' aimerais avoir [une](number) bouteille des [fiefs de lagrange](wine-name)
+- t' as quoi comme [cuvée de château margaux](wine-name) ?
+- [philipponat](wine-name)
+- [Le Pin](wine-name)
+- [château pomys](wine-name)
+- [domaine herie](wine-name)
+- [château Margaux](wine-name)
+- [Clos Puy Arnaud](wine-name) est un [Côtes de Castillon](appellation)
+- [Les , demoiselles](wine-name) [pessac leognan](appellation)
+- [domaine irancy](wine-name)
+- [une](number) [cuvée de la dame de montrose](wine-name)
+- [billecart](wine-name)
+- [Moulin du Cadet](wine-name)
+- [Haut brion](wine-name)
+- [cuvée les arômes de pavie](wine-name)
+- [gold mountain](wine-name)
+- Je veux du [Listel](wine-name) en cubitener
+- vin [rose](wine-color) [casanova](wine-name)
+- [chateau margaux](wine-name)
+- [pape clement](wine-name)
+- [Tariquet](wine-name)
+- [Bordeaux](appellation) [chateau d' Arcins](wine-name)
+- [le petit lion du marquis de las cases](wine-name)
+- [Montrose](wine-name)
+- [bordeaux](appellation) [regan](wine-name)
+- [anglade](wine-name)
+- [cos labory](wine-name)
+- [Mas D' escals](wine-name)
+- [une](number) bouteille de [fleur cardinale](wine-name)
+- [haut brion](wine-name)
+- [couleur du sud](wine-name)
+- [cuvée amiral de beychevelle](wine-name)
+- [ANTICA](wine-name)
+- [Les galets](wine-name) en [rouge](wine-color)
+- [l' esprit de saint pierre](wine-name)
+- [Domaine du vieux télégraphe](wine-name)
+- je recherche spécialement [Les 3 mômes](wine-name)
+- [roche mazet](wine-name)
+- [vieux certan](wine-name)
+- [bel air](wine-name)
+- Bonjour , je cherche les vins du [Clos Puy Arnaud](wine-name) à acheter en ligne mais je peine à le trouver . Est -il en rupture de stock ou épuisé ? Merci ! Emile Abinal
+- avez -vous le [6ème sens](wine-name) en stock ?
+- je recherche des [millésimes](bons-millesimes) de [chateau margaux](wine-name)
+- [Liebart-visneux](wine-name)
+- [moulin camus](wine-name)
+- [Riesling](cepage) [2016](vintage) [Josmeyer](wine-name)
+- [Chambre d' amour](wine-name)
+- [une](number) bouteille de [chasse spleen](wine-name)
+- [lacrima del cristo](wine-name)
+- [della piuma](wine-name)
+- [Planeta Segreta](wine-name)
+- [caronne st](wine-name) [gemme](appellation)
+- [Pomys](wine-name)
+- [marquis du grez](wine-name)
+- [Château Haut brion](wine-name)
+- Je recherche vin surmature de [abbaye de valmagne](wine-name)
+- [Chateau d' Oran](wine-name)
+- [cos d' estournel](wine-name)
+- [Kirwan](wine-name)
+- [Joguet](wine-name)
+- [Haut-Brion](wine-name)
+- [ch vieux certan](wine-name)
+- [champagne](appellation) [alaya](wine-name)
+- [listel](wine-name)
+- [soutiran](wine-name)
+- [Clos Puy Arnaud Les Ormeaux](wine-name)
+- [une](number) [cuvée de carbonnieux](wine-name)
+- Le [carillon d' angelus](wine-name)
+- bonjour , je souhaite acheter le [rosé](wine-color) de [chateau la rame](wine-name) , etes vous sur qu' il reste des stock sur le millésime [2016](vintage) ?
+- Artesan
+- [Abymes](appellation)
+- [les ormes de cambras](wine-name)
+- [domaine de l' A](wine-name)
+- [camille chaves](wine-name)
+- [tariquet](wine-name)
+- [bordeaux](appellation) [petite lune](wine-name)
+- [julienas](appellation) [bottiere](wine-name)
+- [black mountain](wine-name)
+- [Mas Lavail Terres d’ Ardoise](wine-name)
+- [Domaine de l' a](wine-name)
+- la [cuvée l' esprit de chevalier](wine-name) stp
+- [Carillon](wine-name)
+- [chablis](appellation) [club expert](wine-name)
+- et c' est donc quoi les [notes](award) de [canon](wine-name) [2017](vintage) ?
+- [joseph des haires](wine-name)
+- [Lucile](wine-name)
+- Vin du [ventoux](appellation) [Lucile](wine-name)
+- [Domaine des preaux](wine-name)
+- [gold mountain](wine-name)
+- [Dagueneau](wine-name)
+- [Veuve Cliquot](wine-name)
+- [Listel](wine-name)
+- [Freixenet](wine-name)
+- les [Ormes de Pez](wine-name) [2017](vintage)
+- [Château Margaux](wine-name)
+- t' as des bouteille de [la conseillante](wine-name) ?
+- [chateau baudichaud](wine-name)
+- [estandon](wine-name)
+- [Pape Clément](wine-name)
+- [JP cheney](wine-name)
+- [Deleuze](wine-name)
+- [chateau haut bana](wine-name)
+- [chateau st nabor](wine-name)
+- [saint hilaire](wine-name)
+- [clair d' été](wine-name) [comté tolosan](appellation)
+- chat [La Lagune](wine-name)
+- [Puech haut](wine-name)
+- [Luis Canas Crianza](wine-name)
+- [Rose des Carmes](wine-name)
+- [Fabien Renaud](wine-name)
+- [Jean Bernard](wine-name)
+- [Estrella](wine-name) vin [rosé](wine-color)
+- [FIUMICICOLI](wine-name)
+- [Pibarnon](wine-name)
+- [Aegerter](wine-name)
+- [monestier la tour](wine-name) [rouge](wine-color)
+- [chateau bouquey](wine-name)
+- [chateau la lagune](wine-name)
+- [Domaine de l' abbaye prebayon](wine-name)
+- [Relais de la poste](wine-name)
+- [prudencia](wine-name)
+- [chateau des biscarets](wine-name)
+- la [roche mazet](wine-name) [rouge](wine-color)
+- [chateau la gordonne](wine-name)
+- [la lagune](wine-name)
+- non je veux le [chateau gordonne](wine-name) [rosé](wine-color)
+- [tariquet premiere grive](wine-name)
+- [Listel](wine-name)
+- [Bastion](wine-name)
+- [B de maucaillou](wine-name) [rouge](wine-color)
+- [les sorcières](wine-name)
+- [Ascension](wine-name)
+- [château saint-martin](wine-name)
+- [chateau saint martin](wine-name)
+- [Estandon](wine-name)
+- [domaine des bernardins](wine-name)
+- [Château St Martin](wine-name)
+- [Château la raze](wine-name)
+- je veux du ballantines
+- je cherche du [ballantines](wine-name)
+- je veux du [ballantines](wine-name)
+- et du [captain morgan](wine-name) ?
+- t' as du [captain morgan](wine-name) ?
+- et du [jager meister](wine-name)
+- ok et du [cointreau](wine-name)
+
+## intent:appellation-similaire
+- [comme](similaire) [malesan](appellation) le
+- [un](number) vin [qui ressemble](similaire) au [quincy](appellation) mais [moins](condition) [coûteux](affordable)
+- [un](number) vin [qui ressemble](similaire) au [quincy](appellation) mais [moins](condition) [cher](affordable)
+- [rosé](wine-color) [style](similaire) [cabernet d' anjou](appellation)
+- vin [type](similaire) [marange](appellation)
+- [un](number) vin [blanc](wine-color) [autour](condition) des 10 euros qui s' [apparente](similaire) au [pouilly fumé](appellation) que j' apprécie beaucoup
+- [un](number) vin [rouge](wine-color) [similaire](similaire) à [un](number) [medoc](appellation)
+- [comme](similaire) le [bourgeuil](appellation)
+- [type](similaire) [pécharmant](appellation)
+- [un](number) [blanc](wine-color) [pétillant](wine-tag) qui [remplace](similaire) le [champagne](appellation)
+- [un](number) vin [ressemblant](similaire) au [montagne saint emilion](appellation)
+- vin [blanc](wine-color) [genre](similaire) [chablis](appellation)
+- Trouvez quelque chose [comme](similaire) [Pouilly Fuiss](appellation) .
+- Trouve moi quelque chose [semblable au](similaire) [pouilly fuissé](appellation)
+- Trouver quelque chose [comme](similaire) [Pouillyfuissé](appellation)
+- des vins [de preference](similaire) [chinon](appellation)
+- Trouvez quelque chose de [similaire](similaire) à [Pouilly Fuiss](appellation) .
+- vin [semblable](similaire) au [pouilly fumé](appellation)
+- J AIME VIN [ROUGE](wine-color) [POMEROL](appellation) QUEL VIN ME CONSEILLEZ VOUS
+- Un [rouge](wine-color) qui [ressemble au](similaire) [graves](appellation)
+- [blanc](wine-color) [sec](wine-tag) comme [sancerre](appellation)
+- En général , j' aime bien le Sancerre [rouge](wine-color) et [croquant](wine-tag) . Vous avez quoi de [ressemblant](similaire) ?
+- Je cherche [un](number) vin [rouge](wine-color) boisé dans le style [Bordeaux](appellation) [autour de](condition) [12 €](money)
+- Qu' est -ce qui est [proche](similaire) d' [un](number) Pouilly [Fumé](appellation) bien [minéral](wine-tag) ?
+- Tu me [conseilles quoi si j' aime](similaire) le [Bourgogne](appellation) [blanc](wine-color) [fruité](wine-tag) ?
+- J' aime bien le [Côtes de Jura](appellation) bien [tendu](wine-tag) , vif . Vous avez quoi [dans le même genre](similaire) ?
+- J' ai eu [un](number) coup de coeur pour le côté [velouté](wine-tag) et [tannique](wine-tag) des [Bandol](appellation) [rouge](wine-color) , des idées de vins [similaires](similaire) ?
+- Vous avez [des vins qui ressemblent](similaire) au Bordeaux [blanc](wine-color) ?
+- quels [vins similaires](similaire) aurais -tu ?
+- Je cherche [un](number) vin [rouge](wine-color) qui [ressemblerait](similaire) à [un](number) [bordeaux](appellation) [tannique](wine-tag)
+- Tu as quoi comme vin qui [ressemble](similaire) à du [sauternes](appellation) ?
+- Je suis à la recherche d' [un](number) vin pas trop cher qui ressemblerait à [un](number) [Bordeaux](appellation)
+- Je voudrais [un](number) vin [semblable](similaire) à [un](number) [Médoc](appellation)
+- Tu as des vins qui [ressemblent](similaire) à [un](number) [chablis](appellation) ?
+- Est -ce que tu as des vins qui s' [apparentent](similaire) à des [blancs](wine-color) d' [Alsace](appellation) ?
+- Je voudrais boire quelque chose qui [ressemble](similaire) à [un](number) [Saint-Estèphe](appellation)
+- Je voudrais [une](number) bouteille qui [ressemble](similaire) à [un](number) [château Yquem](wine-name)
+- Je veux [un](number) vin [blanc](wine-color) pas trop cher [sec](wine-tag) et [minéral](wine-tag) semblable aux [bourgognes](appellation)
+- Tu connais des vins qui ressemblent au vin [rouge](wine-color) de [Provence](appellation) ?
+- Est -ce que tu aurais des vins qui s' [approchent](similaire) des [Chinon](appellation) ?
+- Je suis à la recherche d' [un](number) vin qui [ressemblerait](similaire) à [un](number) [bourgogne](appellation) [rouge](wine-color)
+- [type](similaire) [chablis](appellation)
+- Tu aurais [un](number) vin qui ait le [même goût](similaire) qu' [un](number) [Beaujolais-Village](appellation)
+- [équivalent](similaire) au [nuit st georges](appellation)
+- Je cherche [un](number) vin avec des arômes [ressemblant](similaire) à celui du [Beaujolais](appellation)
+- [Un](number) vin semblable à [un](number) [Pouilly-Fuissé](similaire)
+- Millesime [2013](vintage) [proche](similaire) [Bordeaux](appellation)
+- J' aime bien le [Morgon](appellation) , vous me proposer quoi de [semblable](similaire) ?
+- [style](similaire) [médoc](appellation)
+- Tu as [un](number) vin dont les arômes et le pétillant sont semblables à la [Clairette de Die](appellation) ?
+- Un [rouge](wine-color) [proche](similaire) [bourgogne](appellation)
+- Je voudrais [un](number) vin dans le [même style](similaire) que le [Cadillac](appellation)
+- Tu as quoi comme vin qui [ressemble](similaire) aux vins d' [Anjou](appellation) ?
+- J' aime beaucoup les vins de [sauternes](appellation) tu en aurais pas [un](number) qui [ressemblerait](similaire) ?
+- Un [riesling](cepage) [proche](similaire) [Alsace](appellation)
+- [type](similaire) [Crozes](appellation)
+- Je suis toujours conquise par le vins du [Médoc](appellation) et je voudrais déguster [un](number) vin qui lui [ressemble](similaire)
+- Est -ce que tu aurais [un](number) [rouge](wine-color) à [10 €](money) qui ressemble à [un](number) [Barsac](appellation) ?
+- [équivalent](similaire) [nuits st georges](appellation)
+- Je suis très pressée , peux -tu me donner [un](number) vin qui soit [du même genre](similaire) qu' [un](number) [Sauternes](appellation)
+- J' aime le [Chablis](appellation) , conseille -moi [un](number) vin [semblable](similaire)
+- BONJOUR J AIME [SAUVIGNON](cepage) EN [BLANC](wine-color) QUEL VIN ME CONSEILLEZ VOUS MERCI
+- J' aime beaucoup les [rouges](wine-color) de [Bourgogne](appellation) , est ce que tu en aurais qui [ressembleraient](similaire) ?
+- [Rouge](wine-color) [léger](wine-tag) [genre](similaire) [saint Nicolas de bourgueil](appellation)
+- [équivalent](similaire) [beaume de venise](appellation)
+- [un](number) vin [pétillant](wine-tag) mais [léger](wine-tag) [type](similaire) [lambrusco](appellation)
+- [similaire](similaire) à [saint-joseph](appellation)
+- [Semblable](similaire) à [saint joseph](appellation)
+
+## intent:bons-millesimes
+- les [meilleures années](bons-millesimes)
+- millésime [2009](vintage)
+- [meilleurs annee](bons-millesimes)
+- les [meilleurs millésimes](bons-millesimes) de [loire](appellation)
+- Je voudrais [un](number) vin avec [une](number) [année cotée](bons-millesimes)
+- [Un](number) [millésime réputé](bons-millesimes)
+- [Bons millésimes](bons-millesimes)
+- Aurais -tu [un](number) vin dont le [millésime est réputé](bons-millesimes) ?
+- Des [bons millésimes](bons-millesimes)
+- Est -ce que tu aurais [un](number) vin avec [un](number) [millésime d' exception](bons-millesimes) ?
+- Vous avez quoi comme [bons millésimes](bons-millesimes) en [Languedoc Roussillon](appellation) ?
+- Je voudrais des [bon millésimes](bons-millesimes)
+- je voudrais dénicher [un](number) [bon millésime](bons-millesimes)
+- J' adore les vins avec [un](number) [bon millésime](bons-millesimes) ! Tu en as ?
+- Je ne cherche que les [bonnes années](bons-millesimes) de vins d' [Alsace](appellation)
+- Je suis un [chasseur de millésimes](bons-millesimes) ! Vous avez quoi en [2016](vintage) à [Bordeaux](appellation) ?
+- Je ne suis intéressé que par les [meilleurs millésimes](bons-millesimes) [ensoleillés](wine-tag) de la [vallée du Rhône](appellation)
+- Je suis [une](number) vraie amatrice de vin et j' aimerais goûter [un](number) [bon millésime](bons-millesimes)
+- Je cherche des [millésimes](bons-millesimes) top en [Bourgogne](appellation) [blancs](wine-color) !
+- Sélectionnez moi uniquement des [supers millésimes](bons-millesimes) de [Loire](appellation) en [moelleux](wine-tag) ou [liquoreux](wine-tag)
+- Je n' achète que des [bons millésimes](bons-millesimes) . Vous avez quoi en [Bourgogne](appellation) [rouge](wine-color) ? [2015](vintage) par exemple ?
+- Pour faire [simple](wine-tag) , je veux les [meilleures années](bons-millesimes) en [Bordeaux](appellation) à [moins de](condition) [20 €](money)
+- Je cherche [un](number) vin avec [un](number) [millésime connu](bons-millesimes)
+- Indiquez -moi une sélection de vins de [supers années](bons-millesimes) en vin [blanc](wine-color) [espagnol](appellation) !
+- J' aimerais les [bonnes années](bons-millesimes) en [Médoc](appellation) , vous avez quoi ?
+- Je veux [un](number) vin d' une [bonne année](bons-millesimes)
+
+## intent:cepage
+- cepage [grolleau](cepage)
+- [gewurtz](cepage)
+- cépages du [sud](appellation)
+- bonjour , je cherche la [clairette](cepage)
+- [Savagnin](cepage)
+- [Gerwistraminer](cepage)
+- J' adore le [cabernet franc](cepage) tu en as à me proposer ?
+- Je suis très pressée de déguster le [cab franc](cepage) que tu vas me proposer
+- Je suis [une](number) vraie fan de vin mais surtout du [cab franc](cepage)
+- Je veux du [cabernet franc](cepage)
+- vin avec [cabernet](cepage) pour [10 €](money)
+- [sauvignon](cepage)
+- [chenin](cepage) 20 €
+- Je cherche un [zinfandel](cepage) pour demain soir
+- [Un](number) [rouge](wine-color) avec du [syrah](cepage) pour [pas cher](affordable) !
+- Je suis chaud pour avoir [un](number) verre de [cab franc](cepage) !
+- [Un](number) [cabernet](cepage) [franc](wine-tag) [sans se ruiner](affordable) c' est possible ?
+- Vous avez quoi en [cabernet sauvignon](cepage) ?
+- Par cépages
+- Du [cab sauvignon](cepage) [pas cher](affordable) ?
+- Tu peux me proposer des vins [rouges](wine-color) avec du [cab franc](cepage) ?
+- Cépage
+- par cepage
+- Tu as du [cabernet franc](cepage) en magasin ?
+- Qu' as -tu comme [carménère](cepage) à [moins de](condition) 20 euros ?
+- Cépage
+- J' aime le [pinot](cepage)
+- Je peux avoir du [cab franc](cepage) ?
+- Je veux du [pineau d' aunis](cepage)
+- J' aime bien le [merlot](cepage) : vous en avez ?
+- Tu as des vins avec du [cabernet franc](cepage) ?
+- selon les cépage
+- Je vais prendre [un](number) vin avec du [cabernet sauvignon](cepage)
+- Je veux du [chenin blanc](cepage)
+- Balance moi tes meilleurs [pinot noir](cepage)
+- Cépage
+- [Un](number) vin [rouge](wine-color) de [cabernet sauvignon](cepage)
+- Fais péter le [cab franc](cepage) !
+- Par cépage
+- Je cherche du [grüner veltliner](cepage) à [- de](condition) [15 euros](money)
+- Je suis vraiment [une](number) grande amatrice de [cabernet franc](cepage)
+- Je voudrais [un](number) vin avec du [cab franc](cepage)
+- du [pinot](cepage) please
+- J' aimerais du cépage [cabernet sauvignon](cepage)
+- Vous avez des cuvées à base de [syrah](cepage) [autour de](condition) [10 euros](money) ?
+- Tiens conseille moi [un](number) [gamay](cepage)
+- Je cherche [un](number) vin à base de [romorantin](cepage)
+- [Un](number) vin [rouge](wine-color) de [cabernet franc](cepage)
+- Par cépage
+- Je cherche du romorantin , c' est rare mais j' adore
+- Est -ce que tu peux me proposer [un](number) [cab franc](cepage) stp ?
+- selon le cepage
+- Je vais prendre [un](number) vin avec du [cabernet franc](cepage)
+- [Grenache](cepage) ou [Syrah](cepage)
+- [Loin de l' œil](cepage) stp
+- cepage
+- Je sais pas quoi prendre entre [une](number) [cab sauvignon](cepage) et [un](number) [cab franc](cepage)
+- J' aimerais [un](number) vin avec du [syrah](cepage)
+- [Un](number) [merlot](cepage)
+- [Pinot](cepage)
+- Est -ce que tu as du [cabernet franc](cepage) à me proposer ?
+- Je cherche du [grenache](cepage) ou du [carignan](cepage)
+- D' [un](number) [riesling](cepage) ou même [un](number) [sylvaner](cepage) , j' adore les vins [alsaciens](appellation)
+- Par cépage
+- Cépage [loin de l' œil](cepage)
+- Tu as des vins avec le cépage [viognier](cepage) ?
+- Je suis [une](number) grande fan du [cab sauvignon](cepage) tu en as en rayon ?
+- Je voudrais du [loin de l' œil](cepage)
+- D' [un](number) [pinot noir](cepage)
+- [Un](number) vin [peu onéreux](affordable) avec du [Mourvèdre](cepage)
+- Je voudrais du [carignan](cepage)
+- Maintenant , je vais opter pour [un](number) vin avec du [cabernet franc](cepage) s' il te plait
+- Je cherche du [sauvignon blanc](cepage) . En [France](appellation) ou en NZ , [20 €](money) [max](condition)
+- [Pinot](cepage) à [moins de](condition) [10 euros](money)
+- Je voudrais [un](number) vin [blanc](wine-color) avec du [muscat](cepage)
+- J' apprécie les [rouges](wine-color) à base de [cabernet franc](cepage) . Vous en avez à [10-15 €](money_range) ?
+- Tu as du [cab franc](cepage) ?
+- Tu as quoi en [cabernet franc](cepage) ?
+- File -moi du [cab franc](cepage) , please !
+- J' aime bien le [merlot](cepage) . Vous avez quoi dans le style ?
+- [Cabernet](cepage)
+- [Un](number) [grenache](cepage) [10 €](money)
+- Peux -tu me trouver [un](number) vin [rouge](wine-color) avec du [gamay](cepage) ?
+- [Un](number) vin à base de [sauvignon blanc](cepage)
+- Des vins à [base de Shiraz](cepage) ?
+- J' ai jamais bu de [cabernet franc](cepage)
+- Des cuvées de [petit verdot](cepage) ?
+- Avez -vous du [pinot gris](cepage) [autour de](condition) [20 euros](money) ?
+- J' adore le [cabernet franc](cepage) tu en as ?
+- Je veux du [chardonnay](cepage) [français](appellation)
+- Peux -tu me proposer du [Cabernet Franc](cepage) ?
+
+## intent:amateur
+- J' ai une [soirée](soiree) [entre amateurs](amateur) , que proposes -tu ?
+- Quel vin pour [un](number) [connaisseur](amateur) ?
+- J' ai [un](number) problème d' envergure ! Peux -tu me trouver [une](number) bouteille pour des [spécialistes du vin](amateur) ?
+- Je m' y [connais en vin](amateur) , qu' est -ce que tu me proposes ?
+- Je suis complètement perdue ! Tu peux m' aider à trouver [une](number) bonne bouteille pour des connaisseurs ?
+- J' ai des [experts](amateur) [à ma table](repas) ce midi , qu' est -ce que je leur sers ?
+- Je veux pas avoir la honte ! J' achète quoi pour des [passionnés du vin](amateur) ? [Une](number) bouteille qui fasse bien quoi
+- Ce soir j' ai [une](number) [dégustation entre amis](soiree) . Il faut que j' apporte [une](number) bouteille pour des [passionnés](amateur) . Tu me proposes quoi ?
+- Je dois trouver une bouteille pour boire avec des [connaisseurs](amateur)
+- Au secours ! J' achète quoi pour des amis qui [s' y connaissent en vin](amateur) ?
+- Je vais chez quelqu' un qui s' [y connait](amateur) en vin , quel vin dois -je acheter ?
+- Quelle bouteille pour [un](number) [professionnel du vin](amateur) ?
+- J' ai [une](number) dégustation avec des [connaisseurs](amateur) , quel vin [complexe](wine-tag) pourrais -je acheter ?
+- Je suis déboussolé , je sais pas quoi acheter pour des [professionnels du vin](amateur) !
+- J' ai [un](number) [dîner](repas) avec des [amateurs de vin](amateur) , j' achète quoi ?
+- Je cherche [une](number) bouteille pour [un](number) [pro du vin](amateur)
+- Je suis très pressée ! Donne -moi [une](number) bouteille pour des [passionnés du vin](amateur)
+- J' ai [un](number) [dîner](repas) avec des [passionnés de vin](amateur) , je sais pas quoi leur apporter
+- Je voudrais [une](number) bouteille intéressante pour [une](number) dégustation , histoire que les [pros du vin](amateur) aient [un](number) peu de mal
+- J' ai peur de faire [une](number) boulette je sais pas quoi acheter pour des [pros du vin](amateur)
+
+## intent:impressionner
+- pour [épater](impressionner) mes amis , [un](number) [rouge](wine-color) [classique](classique) , [pas un rosé](neg-wine-color)
+- pour [impressionner](impressionner) [Josette](wine-name) , [un](number) vin [viril](wine-tag) mais [pas trop puissant](neg-wine-tag) , [ni trop tanique](neg-wine-tag)
+- [Un](number) vin [grandiose](impressionner)
+- Vous avez [un](number) [vin qui en jette](impressionner) ?
+- Aujourd'hui j' ai envie de [me la péter](impressionner) au diner ! Tu as quoi comme [bouteille qui en jette](impressionner) ?
+- La classe pour [pas cher](affordable) , c' est possible ?
+- [epater](impressionner) la [galerie](non_catching_words)
+- Du [luxe](impressionner)
+- T' as [un](number) vin pour fair le barbo à [prix mini](affordable) ?
+- Je veux [un](number) [vin qui pose](impressionner)
+- Je voudrais [un](number) vin [pas trop cher](affordable) mais qui me permette de [me la péter](impressionner)
+- je dine chez ma [belle](non_catching_words) mère ce soir
+- [Une](number) bouteille pour [en mettre plein la vue](impressionner)
+- [Une](number) bouteille pour [me la péter](impressionner) tu aurais en rayon ?
+- je voudrais [un](number) [blanc](wine-color) de [prestige](impressionner) !
+- [Un](number) [rouge](wine-color) de [luxe](impressionner)
+- je veux [épater](impressionner) la [galerie](non_catching_words)
+- Je veux [laisser tout le monde sans voix](impressionner)
+- Je voudrai [une](number) bouteille qui [impressionne](impressionner)
+- [invitation](impressionner)
+- ma [belle](non_catching_words) mère m' invite je ramène quoi ?
+- Je veux [un](number) vin pour [choper](impressionner)
+- Ce soir je veux rayonner ! Tu aurais pas [une](number) bouteille de vin à me conseiller pour [impressionner](impressionner) tout le monde ?
+- je vais [diner](repas) chez ma [belle](non_catching_words) mère
+- je cherche [une](number) bouteille pour [épater](impressionner) la [galerie](non_catching_words)
+- je veux [faire semblant](impressionner) d' être riche
+- [Un](number) vin pour [me la péter](impressionner)
+- Ce soir c' est moi la star ! Fais péter la bouteille pour [impressionner](impressionner) la [galerie](non_catching_words) !
+- je cherche [un](number) vin [pour séduire](impressionner)
+- j' aimerais [une](number) cuvée de [prestige](impressionner)
+- [soirée](soiree) chez ma belle-mère
+- quel bouteille pour [un](number) [dîner](repas) chez ma belle-mère ?
+- Vin [effervescent](wine-tag) [luxe](impressionner)
+- je suis invitée à [diner](occasion) chez mes beaux-parents
+- Je veux [épater](impressionner) mes amis
+- je suis invitée chez un [amateur](impressionner) de vin [rouge](wine-color) il aime les [bourgognes](appellation) et les [cotes du rhone](appellation)
+- Je voudrais [un](number) vin qui [impressionnerait](impressionner) mes amis
+- je veux que ma bouteille [stupéfie](impressionner) mes amis
+- [epater](impressionner) la [galerie](non_catching_words) !!
+- [un](number) vin de [prestige](impressionner)
+- [un](number) vin de [prestige](impressionner) stp
+- je veux [un](number) vin pour [me la raconter](impressionner)
+- [Un](number) [blanc](wine-color) [pour un amateur](impressionner) de [loire](appellation)
+- [un](number) vin qui [impressionnera](impressionner) ma [belle](non_catching_words) mere
+- As -tu des vins pour [se la raconter](impressionner) ?
+- je veux [un](number) vin [prestigieux](impressionner)
+- Je veux [un](number) vin qui [envoie le pâté](impressionner)
+- Je veux [épater](impressionner) la [galerie](non_catching_words) , t' as quoi ?
+- Je veux [impressionner](impressionner) ma copine qui préfère le [blanc](wine-color) [floral](wine-tag) , [un](number) conseil ?
+- t' as [une](number) bouteille de [prestige](impressionner) pour moi
+- Je veux [en mettre plein la vue](impressionner) à mon beau-père qui aime le [Bourgogne](appellation) [rouge](wine-color) , des idées ?
+- et si j' ai envie d' [épater](impressionner) la [galerie](non_catching_words) ?
+- Je veux acheter [un](number) vin à [moins de](condition) [15 €](money) pour frimer
+- [une](number) cuvée de [prestige](impressionner) stp
+- Je veux [impressionner](impressionner)
+- Quel vin [rouge](wine-color) [impressionnera](impressionner) mes parents ?
+- ma [belle](non_catching_words) mère m' invite à [diner](repas) , je ramène quoi comme vin ?
+- en vin de [prestige](impressionner) t' as quoi ?
+- Je veux [une](number) bouteille de [champagne](appellation) qui en [impose](impressionner)
+
+## intent:decouverte-choice
+- je veux [découvrir](decouverte) des nouvelles [bières](wine-tag)
+- [bières](wine-tag) [originales](decouverte)
+- [découvrir](decouverte) des [bieres](wine-tag)
+- je veux [découvrir](decouverte) des [bières](wine-tag)
+- [liqueur](wine-tag) [originale](decouverte)
+- je veux [découvrir](decouverte) de nouveaux vins
+- Je voudrais [un](number) vin [amusant](decouverte)
+- je recherche [un](number) vin [blanc](wine-color) [original](decouverte)
+- [amuses](decouverte) moi !
+- [amuse](decouverte) moi
+- [Surprendre](decouverte) avec [un](number) [sauternes](appellation)
+- [un](number) vin [insolite](decouverte)
+- cuvée [insolite](decouverte)
+- [un](number) vin [amusant](decouverte)
+- [Fais moi rêver](decouverte) !
+- [un](number) vin de [loire](appellation) [à découvrir](decouverte)
+- J' ai envie de boire [un](number) vin qui me [fasse rêver](decouverte)
+- [Découvrir](decouverte)
+- [Envoie moi du rêve](decouverte)
+- Je boirais bien du [blanc](wine-color) un peu [original](decouverte)
+- Il faut que tu m' aides ! J' ai envie d' [une](number) bouteille qui me [surprenne](decouverte) !
+- Sors moi de mon quotidien ! Je veux [découvrir](decouverte) des vins !
+- Fais moi [rêver](decouverte)
+- C' est l' [anniversaire](occasion) de mon père j' aimerais lui faire [découvrir](decouverte) de nouveaux vins
+- J' en ai marre de boire toujours les mêmes bouteilles ... Tu aurais pas [une](number) bouteille qui pourrait [me surprendre](decouverte) ?
+- Je vais faire [une](number) dégustation ce soir j' aimerais faire de belles [découvertes](decouverte)
+- Je goûterais bien de [nouveaux vins](decouverte)
+- [découvrir](decouverte)
+- peux tu me proposer des vins [a découvrir](decouverte) ?
+- Je suis amatrice de vin et je veux faire de nouvelles [découvertes](decouverte)
+- [découvertes](decouverte) de [bourgogne](appellation)
+- Fais -moi [découvrir](decouverte) des bouteilles extraordinaires
+- J' en ai marre de la routine ! Est -ce que tu aurais [une](number) bouteille pour [voyager](decouverte) ?
+- J' adore le domaine du vin peux tu me faire [découvrir](decouverte) quelques vins ?
+- Allez , donne moi un [rouge](wine-color) [original](decouverte)
+- Fais moi [voyager](decouverte) !
+- [Surprends](decouverte) moi
+- [Decouvrir](decouverte)
+- la [découverte](decouverte)
+- Peux -tu me faire [découvrir](decouverte) des vins ,
+- Je voudrais [un](number) vin qui me fasse [découvrir](decouverte) de nouveaux arômes
+- Des [bulles](wine-tag) [originales](decouverte) ça me plairiait bien !
+- J' ai envie de partir au soleil ! Tu as quoi comme vin pour [m' évader](decouverte) ?
+- Je suis super pressée mais j' aimerais bien que tu me files [un](number) vin qui [sorte de l' ordinaire](decouverte)
+- [Bourgogne](appellation) [insolite](decouverte) [30 e](custom-money)
+- propose moi [quelque-chose de nouveau](decouverte)
+- je voudrais [un](number) vin [original](decouverte)
+- [Découvrir](decouverte)
+- [Découverte](decouverte)
+- [Suprends](decouverte) moi
+- Je voudrais faire des [découvertes](decouverte)
+- [Surprenez -moi](decouverte) !
+- [Découvrir](decouverte)
+- Je veux [découvrir](decouverte)
+- Aurais -tu des vins [à découvrir](decouverte) pour mes amis ?
+- [découverte](decouverte)
+- Et si tu me conseillais des trucs [originaux](decouverte) ?
+- Je voudrais [une](number) bouteille [surprenante](decouverte)
+- Je te fais confiance propose moi des vins qui soit [originaux](decouverte)
+- Fais -moi [découvrir](decouverte) [un](number) vin
+- [Loire](appellation) [original](decouverte) [15 eur](money)
+- t' as des vins [originaux](decouverte)
+- Plus [original](decouverte) stp
+- [DECOUVRIR](decouverte)
+- [Découvertes](decouverte)
+- [découverte](decouverte)
+- Je vais commencer des études dans le vin . Quel vin je peux acheter pour [découvrir](decouverte) ?
+- J' ai envie de faire [voyager](decouverte) mes papilles
+- Fais -moi [rêver](decouverte)
+- Envoie mes papilles aux [septième ciel](decouverte)
+- J' aimerais bien des vins [à](a-garder) [découvrir](decouverte) à offrir mes amis
+- Propose moi des vins qui [sortent de l' ordinaire](decouverte) !
+- Quel vin est -ce que je peux [decouvrir](decouverte) dans le [Roussillon](appellation) ?
+- j' ai envie de bouteilles [insolites](decouverte) !
+- je veux [découvrir](decouverte) [un](number) vin
+- Les [découvertes](decouverte)
+- [un](number) [liquoreux](wine-tag) qui [sort de l' ordinaire](decouverte)
+- Fais moi [découvrir](decouverte) [une](number) bouteille
+- Fais moi [découvrir](decouverte) des vins
+- j' aimerais [découvrir](decouverte) de nouvelles bouteilles
+- [Fais moi voyager](decouverte) avec [une](number) bouteille de vin
+- les [découvertes](decouverte)
+- Je veux découvrir de [nouveaux horizons](decouverte)
+- [decouvrir](decouverte)
+- J' ai envie de nouveauté et de [découvrir](decouverte) d' autres vins
+- Peux -tu me proposer des vins qui me [fassent voyager](decouverte) ?
+- t' as des cuvées [un](number) peu [insolites](decouverte) ?
+- [A decouvrir](decouverte)
+- Je suis très curieuse et j' aimerais boire [un](number) verre qui me [surprenne](decouverte) !
+- [Surprends -moi](decouverte) !
+- [découvrir](decouverte)
+- J' en ai marre d' acheter toujours la même bouteille . Fais moi [découvrir](decouverte) de nouveaux vins !
+- [Surprenez](decouverte) -moi avec des [blancs](wine-color) [originaux](decouverte) !
+- [à découvrir](decouverte)
+- des vins [originaux](decouverte) [autour de](condition) [10 €](money)
+- Vends moi du [rêve](decouverte) !
+- De la [découverte](decouverte)
+- [Rouge](wine-color) [puissant](wine-tag) pour [découvrir](decouverte)
+- vous proposez quoi comme vin [surprenant](decouverte) ?
+- [A découvrir](decouverte)
+- [un](number) vin [à découvrir](decouverte)
+- J' ai envie de [découverte](decouverte)
+- [Découvrir](decouverte) de nouvelles bouteilles
+- [Rosé](wine-color) [à découvrir](decouverte)
+- [un](number) vin qui [n' est pas ordinaire](decouverte)
+- [un](number) [rouge](wine-color) qui [sorte de l' ordinaire](decouverte)
+- Cuvées [originales](decouverte) [autour de](condition) [13 € HT](money)
+- Pour [découvrir](decouverte)
+- [Rouge](wine-color) [découverte](decouverte)
+- T' as du vin qui [sort de l' ordinaire](decouverte)
+- [blanc](wine-color) pour [découverte](decouverte)
+- Pour [decouvrir](decouverte)
+- [une](number) cuvée qui [sorte de l' ordinaire](decouverte)
+- [un](number) vin pour [découvrir](decouverte)
+- pour [découvrir](decouverte)
+- je veux [un](number) vin qui [dépayse](decouverte)
+- vin [qui](decouverte) depayse
+- [mezcla](wine-tag) [originale](decouverte)
+- alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais [un](number) [rhum](wine-tag) [étonnant](decouverte)
+- je cherche [une](number) [vodka](wine-tag) [etonnante](decouverte)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [un](number) [rhum](wine-tag) [étonnant](decouverte)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [une](number) [vodka](wine-tag) [étonnante](decouverte)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [un](number) [whisky](wine-tag) [étonnant](decouverte)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [un](number) [rhum](wine-tag) [étonnant](decouverte)
+- Je ne connais rien aux [spiritueux](wine-tag) , mais j' adore le bon [rhum](wine-tag) [étonnant](decouverte)
+- Alors voilà je n' y connais rien mais je voudrais avoir [un](number) [rhum](wine-tag)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [un](number) [rhum blanc léger](wine-tag)
+- Alors voilà je n' y connais rien en [spiritueux](wine-tag) mais je voudrais avoir [un](number) [whisky](wine-tag) à [moins de](condition) [50 e](money)
+
+## intent:cadeau
+- [Whisky](wine-tag) de [Noël](occasion)
+- [whisky](wine-tag) pour [un](number) ami
+- [whisky](wine-tag) pour [anniversaire](occasion)
+- [bonjour](hello) [magnum](wine-tag) je voudrais [un](number) [champagne](appellation) pour [offrir](cadeau) stp
+- [hello hello](hello) ! je veux [un](number) [spiritueux](wine-tag) à [offrir](cadeau)
+- Pour mon entreprise
+- Pour ma copine
+- c' est pour [remercier](cadeau) quelqu' un
+- il me faut [un](number) joli [Bordeaux](appellation) [puissant](wine-tag) pour [faire un cadeau](cadeau)
+- pour [remercier](cadeau)
+- [Assurer](assurer) le coup
+- Des [rhum ambrés](wine-tag) pour [offrir](cadeau) , [autour de](condition) [30 €](money)
+- [remercier](cadeau)
+- [remercier](cadeau) quelqu' un
+- Pour ma petite amie
+- autant [surprendre](surprendre)
+- autant essayer de le [surprendre](surprendre)
+- Ce soir je suis invitée à [un](number) [dîner](repas) , il faudrait que je ramène [une](number) bouteille pour leur [offrir](cadeau)
+- J' ai besoin d' aide ! Je sais pas quoi acheter comme [cadeau](cadeau) pour [un](number) ami .
+- Je suis trop occupée et j' ai pas le temps de chercher . Tu as quoi comme bouteille à [offrir](cadeau) pour ce soir ?
+- J' ai [un](number) [anniversaire](occasion) ce soir , mais je sais pas quoi acheter comme [cadeau](cadeau) ... tu as [une](number) idée ?
+- Je voudrais être conseillé pour [faire un cadeau](cadeau) à mon ami
+- Je sais pas quoi acheter pour [faire plaisir](cadeau) à mon père . Des idées ?
+- Qu' est -ce que je pourrais acheter à ma mère pour lui faire [un](number) [cadeaux](cadeau) ?
+- Je cherche [un](number) vin [blanc](wine-color) à [offrir](cadeau) pour l' [anniversaire](occasion) d' [un](number) ami
+- Je veux faire [un](number) [présent](cadeau) à ma mère , quelle bouteille acheter ?
+- Donne moi des idées pour [faire un cadeau](cadeau)
+- Si je veux faire [un](number) [cadeau](cadeau) à [un](number) amateur de [blanc](wine-color) [sucré](wine-tag) , vous me conseillez quel vin ?
+- Je veux [offrir](cadeau) du vin à [une](number) personne qui aime le [Sancerre](appellation) [rouge](wine-color) , vous m' aidez ?
+- J' ai envie de faire [une](number) [surprise](cadeau) , vous me conseillez quoi comme cuvée de [rosé](wine-color) [entre 10 et 15 euros](money_range) ?
+- Je dois trouver [un](number) vin pour [un](number) [cadeau](cadeau) , des idées ?
+- Si je dois [offrir](cadeau) [une](number) belle bouteille de [bulles](wine-tag) , mais pas forcément du [Champagne](appellation) ?
+- J' aimerais trouver [un](number) beau flacon de [blanc](wine-color) , par exemple en [Loire](appellation) , pour [offrir](cadeau)
+- Selon vous , quelle est la parfaite bouteille de [rouge](wine-color) pour [un](number) [cadeau](cadeau) ? Mon budget est de 10 euros
+- Je veux [un](number) [cadeau](cadeau) pour ma mère
+- [Un](number) [cadeau](cadeau) d' [anniversaire](occasion)
+- C' est pour [un](number) [cadeau](cadeau)
+- vin [rouge](wine-color) pour [cadeau](cadeau) [entre 10 et 150 €](money_range)
+- Je cherche un vin pour [faire plaisir à](cadeau) mon ami Thomas
+- Je cherche [un](number) [blanc](wine-color) d' [Alsace](appellation) pour [offrir](cadeau)
+- je veux du vin pour ma mère
+- je veux du vin pour mon oncle
+- du vin pour ma tante
+- assuré
+- Je voudrais [une](number) [offrir](cadeau) [une](number) bouteille pour ma meilleure amie
+- d' [assurer](assurer)
+- [Assurer](assurer) le coup
+- Pour [assurer](assurer) le coup
+- Je voudrais faire [un](number) [super cadeau](cadeau) à [une](number) copine , elle aime les vins [blancs](wine-color)
+- [suprendre](surprendre)
+- Pour [surprendre](surprendre)
+- pour [surprendre](surprendre)
+- J' aimerais [acheter un vin pour l' anniversaire](cadeau) de mon père
+- pour [surprendre](surprendre)
+- partons sur la [surprise](surprendre)
+- Je veux faire [un](number) [cadeau](cadeau) à mon père pour son [anniversaire](occasion)
+- Est -ce que tu as des cuvées spéciales à [offrir](cadeau) ?
+- Que me proposes -tu comme bouteille à [offrir](cadeau) à [un](number) copain ?
+- Je veux acheter [un](number) [cadeau](cadeau) [pas trop cher](affordable) à mon frère
+- Tu as quoi comme vin à [offrir](cadeau) ?
+- Je souhaite faire [un](number) [cadeau](cadeau) à ma mère et je me suis dit qu' [une](number) bouteille de vin pouvait convenir
+- Tu as quoi dans ton catalogue comme vin [blanc](wine-color) pour [faire un cadeau](cadeau) ?
+- Peux -tu me proposer des vins dans le but de les [offrir](cadeau)
+- Je suis super excitée c' est l' [anniversaire](occasion) d' [un](number) ami mais je sais pas quoi lui [offrir](cadeau)
+- Je voudrais [un](number) [cadeau](cadeau) mais [autour de](condition) [10 euros](money)
+- Est -ce que tu peux me faciliter la tâche en trouvant le [cadeau](cadeau) pour ma mère ?
+- Qu' est -ce que je pourrai [offrir](cadeau) comme vin pour pas paraitre trop ridicule ?
+- [Assurer](assurer)
+- J' ai envie de faire [une](number) [surprise](cadeau) à ma copine . Tu conseilles quoi comme vin ?
+- [surprendre](surprendre)
+- Je veux faire [une](number) [belle surprise](cadeau) à ma mère pour mon retour
+- pour [offrir](cadeau) à [une](number) personne [aventureuse](surprendre)
+- J' aimerais impressioner tout le monde en faisant [un](number) [cadeau](cadeau) qui déchire
+- [assurer](assurer)
+- J' ai envie d' [offrir](cadeau) [un](number) [rouge](wine-color) [surprenant](decouverte)
+- [Surprendre](surprendre)
+- Surprendre
+- Je dois faire [un](number) [cadeau](cadeau) pour la [fête](occasion) de ma soeur . Je sais pas quoi acheter ...
+- Je voudrais faire [un](number) [cadeau](cadeau) à ma voisine pour la remercier mais je sais pas quoi acheter
+- je voudrais [offrir](cadeau) [un](number) bon vin pour l' [anniversaire](occasion) de ma copine
+- la [surprendre](surprendre)
+- faire [un](number) [cadeau](cadeau) [une](number) personne [aventureuse](surprendre)
+- [surprendre](surprendre)
+- Ce soir c' est l' [anniversaire](occasion) d' [une](number) amie , tu aurais pas [une](number) idée de [cadeau](cadeau) ?
+- [Surprendre](surprendre)
+- je veux le [surprendre](surprendre)
+- pour [surprendre](surprendre)
+- [cadeau](cadeau) à [moins de](condition) [30 euros](money)
+- [surprendre](surprendre)
+- [Assurer](assurer) stp
+- [Surprendre](surprendre) !
+- Je suis [un](number) peu perdue , je ne sais pas quoi [offrir](cadeau) à mon ami
+- pourquoi pas [surprendre](surprendre)
+- J' aimerais [offrir](cadeau) [un](number) vin [épicé](wine-tag) à mon papa , tu peux m' en conseiller ?
+- [suprendre](surprendre)
+- pour la [surprendre](surprendre)
+- pour [faire un cadeau](cadeau) à [une](number) personne [aventureuse](surprendre)
+- [Surprendre](surprendre)
+- je voudrais [offrir](cadeau) [un](number) vin [pétillant](wine-tag) [surprenant](decouverte)
+- Ma mère aime les vins [briochées](wine-tag) . Tu en as ?
+- j' ai pas d' idées de [cadeau](cadeau)
+- pour [surprendre](surprendre)
+- J' assure
+- Partons sur la [surprise](surprendre)
+- As -tu des idées de [cadeaux](cadeau) ?
+- [Surprendre](surprendre)
+- autant [assurer](assurer)
+- [Surprendre](surprendre)
+- [un](number) [cadeau](cadeau) qui [rassure](assurer)
+- pour [surprendre](surprendre)
+- [Une](number) idée [cadeau](cadeau) [pas cher](affordable) ?
+- [assurer](assurer)
+- pour le [surprendre](surprendre)
+- je veux [offrir](cadeau) [un](number) vin [surprenant](surprendre)
+- pour [surprendre](surprendre)
+- [Assurer](assurer)
+- [SURPRENDRE](surprendre)
+- je veux faire [cadeau](cadeau) d' [un](number) [gin](wine-tag) d' [une](number) [marque connue](classique)
+- je veux faire [cadeau](cadeau) d' [un](number) [whisky](wine-tag) d' [une](number) [marque connue](classique)
+- je veux faire [cadeau](cadeau) d' [un](number) [rhum](wine-tag) d' [une](number) [marque connue](classique)
+- je veux faire [cadeau](cadeau) d' [un](number) [gin](wine-tag) d' [une](number) [marque connue](classique)
+
+## intent:a-garder
+- [un](number) [rouge](wine-color) [étranger complexe](wine-tag) issu de sol schisteux à [environ](condition) [20 euros](money) [à garder](a-garder) pendant 10 ans
+- Vins [rouges](wine-color) [de garde](a-garder) [de 30 a 60 euros](money_range)
+- t' as quoi comme [vin de garde](a-garder)
+- [un](number) [rouge](wine-color) qui [se garde](a-garder)
+- [une](number) cuvée que je [garde](a-garder) quelques années dans ma [cave](cave)
+- [de garde](a-garder)
+- [garde](a-garder)
+- [une](number) bouteille qui [se garde](a-garder)
+- Je cherche les vins [rouges](wine-color) avec le plus long [temps de garde](a-garder)
+- [un](number) [liquoreux](wine-tag) qui [se garde](a-garder) longtemps
+- [un](number) [liquoreux](wine-tag) avec [un](number) long [temps de garde](a-garder)
+- je cherche [un](number) [moulis](appellation) dans [un](number) budget de [30 €](money) pour [une](number) [garde](a-garder) de 10 ans
+- [meilleur potentiel de garde](a-garder) des primeurs [2017](vintage)
+- quel vin a le meilleur [potentiel de garde](a-garder)
+- [pour investir](a-garder)
+- [un](number) jolie [vin de garde](a-garder) stp
+- Je veux des vins [blancs](wine-color) [secs](wine-tag) [à oublier longtemps](a-garder) : des suggestions ?
+- Tu as du vin que je pourrais [conserver](a-garder) ?
+- En vin [de garde](a-garder) t’ as quoi ?
+- Idéalement , je voudrais [un](number) vin de [Beaujolais](appellation) [à boire plus tard](a-garder)
+- [un](number) [rouge](wine-color) qui a [un](number) [très bon](coup-de-coeur) [potentiel de vieillissement](a-garder)
+- [une](number) [belle](non_catching_words) bouteille [autour de](condition) 40 € [à faire vieillir](a-garder) longtemps
+- Je veux des [Bordeaux](appellation) [à garder](a-garder) . En [rouge](wine-color) + [15 €](money) [max](condition)
+- Je recherche des vins [blancs](wine-color) [de garde](a-garder) , aux [alentours de](condition) [15 euros](money)
+- [de garde](a-garder)
+- [un](number) vin [rouge](wine-color) [de garde](a-garder)
+- Je veux des vins [rouges](wine-color) du [rhône](appellation) [à garder](a-garder)
+- [un](number) [liquoreux](wine-tag) avec [un](number) grand [potentiel de vieillissement](a-garder)
+- je veux [un](number) vin [à garder](a-garder) , [30 €](money) [max](condition)
+- je veux [faire vieillir](a-garder) [un](number) vin
+- [vin de garde](a-garder)
+- Des idées de [Bordeaux](appellation) [à boire dans quelques années](a-garder) ?
+- [une](number) bouteille qui soit [un](number) [bon investissement](a-garder)
+- Des vins [autour de](condition) [20 €](money) [à oublier](a-garder) en cave ?
+- [un](number) vin avec [un](number) bon [potentiel de garde](a-garder)
+- Des reco des bouteilles [entre 15 et 20 €](money_range) [à attendre](a-garder) ?
+- [A garder](a-garder)
+- je veux [un](number) vin [rouge](wine-color) [à garder](a-garder) [entre 10 et 20 €](money_range)
+- vin [rouge](wine-color) [de garde](a-garder) en primeur stp ?
+- [Garder](a-garder) [un](number) vin
+- Des cuvées de [rouge](wine-color) [puissant](wine-tag) [à faire vieillir](a-garder)
+- t' as des [blancs](wine-color) [de garde](a-garder) sympa ?
+- [Pour investir](a-garder)
+- [à garder](a-garder) !
+- Si je cherche des cuvées de [blanc](wine-color) [épicé](wine-tag) [à conserver](a-garder) , vous me conseillez -quoi ?
+- [un](number) vin [pour investir](a-garder)
+- des [rouges](wine-color) [de garde](a-garder)
+- je veux [un](number) vin [à garder](a-garder) pour [10 €](money)
+- Quels vins [blancs](wine-color) [pour garder](a-garder) ?
+- [une](number) bouteille [pas cher](affordable) [à garder](a-garder)
+- [une](number) bonne bouteille [à garder](a-garder)
+- [un](number) côte du [rhone](appellation) [de garde](a-garder)
+- [un](number) [rouge](wine-color) [à garder](a-garder) [pas cher](affordable)
+- Vins [à oublier en cave](a-garder)
+- J' ai vraiment [une](number) grande cave et je cherche des vins [à garder](a-garder)
+- et en vin [à garder](a-garder) tu me conseilles quoi ?
+- [un](number) [bordeaux](appellation) [de garde](a-garder)
+- J' aimerais déguster [un](number) bon vin [dans quelques années](a-garder) , qu' est -ce que je pourrais acheter ?
+- Jolies cuvées [pour conserver](a-garder)
+- [un](number) [ptit rouge](cepage) [à laisser vieillir](a-garder) en [cave](cave)
+- Je cherche [un](number) vin [à faire vieillir](a-garder) soigneusement
+- des [vins de garde](a-garder)
+- [une](number) cuvée qui [vieillira](a-garder) bien ?
+- As -tu des vins à [boire dans plusieurs années](a-garder) ?
+- Je cherche [un](number) vin [à garder](a-garder) en [cave](cave)
+- Ce qui me botte c' est les grands vins [rouge](wine-color) [de garde](a-garder)
+- j' ai envie d' [un](number) [blanc](wine-color) [à garder](a-garder) dans ma [cave](cave)
+- Je veux [un](number) vin qui puisse [se conserver](a-garder) plusieurs années
+- Peux -tu me trouver [un](number) [classique](wine-tag) [à garder](a-garder) en cave ?
+- Je voudrais vin [pour garder](a-garder)
+- Je voudrais [une](number) cuvée [à faire vieillir](a-garder)
+- Je cherche [un](number) vin [à conserver](a-garder)
+
+## intent:bien-notes
+- vin [medaille](award) stp
+- je veux [un](number) vin [medaillé](award)
+- Vin [primé](award)
+- vin [medaillé](award)
+- Vins [CGA](award)
+- [Concours général agricole](award)
+- Vin avec [une](number) [bonne note](award)
+- les [réussites](award) de [margaux](appellation)
+- Je veux [un](number) vin avec des [médailles](award)
+- les meilleures [reussites](award) sur [pauillac](appellation)
+- Je veux [un](number) vin avec des [bonnes notes](award)
+- [un](number) [saint emilion](appellation) [bien noté](award) [pas trop cher](affordable)
+- Je suis à la recherche d' [un](number) vin très bon [médaillé](award)
+- Je ne me fie qu' aux [guides vin](award) , je voudrais des vins [rouge](wine-color) [délicats](wine-tag) de [côtes de nuit](appellation)
+- Avez -vous des [Chablis](appellation) [médaillés](award) ?
+- > [90](number)
+- [meilleures notes](award) !
+- [margaux](appellation) [bien noté](award) à [moins de](condition) [50 euros](money)
+- Peux -tu me proposer des vins [médaillés](award) ?
+- Je recherche [un](number) vin [rouge](wine-color) [tannique](wine-tag) [français](appellation) qui ait [une](number) [médaille](award) pour être sûre de sa qualité
+- Dites -moi , avez -vous en stock des vins [récompensés](award) à [moins de](condition) [10 €](money) ?
+- Vous avez des vins [médaillés](award) ?
+- [Meilleures notes](award)
+- des [liquoreux](wine-tag) [bien notés](award)
+- Rassurez -moi avec des vins [médaillés](award) , à [moins de](condition) [20 euros](money) !
+- Je voudrais [un](number) vin avec des [médailles](award)
+- [Les meilleurs notes](award)
+- Quels sont vos vins [rouges](wine-color) et [tanniques](wine-tag) [bien notés](award) ?
+- [Bien notés](award)
+- [les meilleures notes](award)
+- Je trouve que les vins [médaillés](award) sont vraiment très bons . En aurais -tu ?
+- Vin avec [médaille](award)
+- des bien [notes](award) à [moins de](condition) [150 €](money) stp
+- Je suis très compliquée en vin , je n' aime que les bons . Est -ce que tu as des vins [médaillés](award) ?
+- [Les meilleures notes](award)
+- [Médailles](award) et vin
+- Donnez -moi uniquement des vins [médaillés](award) [entre 10 et 15 euros](money_range)
+- [les meilleures notes](award)
+- J' ai peur , je n' achète que des vins de [Bordeaux](appellation) [bien notés](award)
+- Je cherche [un](number) vin avec [une](number) ou plusieurs [médailles](award)
+- [les meilleures notes](award)
+- Rassurez -moi avec des vins [blancs](wine-color) [primés](award) de la région [Loire](appellation) ?
+- plus [bonnes notes](award)
+- Indiquez -moi des [rouges](wine-color) du [sud ouest](appellation) [bien notés](award) par les guides
+- [un](number) vin avec [une](number) [note](award) supérieur à [90](number)
+- [meilleur note](award)
+- J' aime beaucoup me fier aux [médailles](award) ! Qu' as -tu comme vin [médaillé](award) ?
+- Je cherche [un](number) vin plutôt [bien noté](award)
+- [Bien notés](award)
+- Je sais jamais quoi acheter ... du coup je demande toujours des vins [bien notés](award) .
+- [note excellente](award)
+- je veux [un](number) vin [rouge](wine-color) [poivré](wine-tag) [médaillé](award)
+- Je cherche des vins oranges à [environ](condition) [20 euros](money) avec des [médailles](award)
+- [meilleures notes](award)
+- les vins qui ont obtenu les [meilleurs notes](award)
+- Ce qui compte pour moi , c' est les vins [puissants](wine-tag) [bien notés](award)
+- Vin [bien noté](award)
+- [notes élevées](award)
+- Si je veux des vins [rosés](wine-color) [récompensés](award) , vous pouvez m' aider ?
+- je cherche des bouteilles qui ont obtenues les [meilleure notes](award)
+- [Les meilleures notes](award)
+- [les meilleures notes](award) des primeurs
+- J' aimerais des [Meursault](appellation) présents dans des [guides vin](award)
+- je voudrais les vin avec [les meilleures notes](award)
+- les vins avec [les meilleures notes](award)
+- c' est quoi les château qui on obtenus les [meilleures notes](award)
+- les bouteilles avec les [meilleures notes](award) par les critiques
+
+## intent:soiree
+- [Un](number) [rouge](wine-color) [peu tannique](neg-wine-tag) pour une [soirée](soiree)
+- Je vais à une [soirée](soiree) tu penses que j' achète quoi comme vin ?
+- Je veux décompresser de ma semaine , du coup je pars en [soirée](soiree) ! Tu aurais [une](number) idée de bouteille ?
+- Allez , donne boire des vins [rouge](wine-color) [léger](wine-tag) à [boire entre amis](soiree) ?
+- Je voudrais [un](number) [blanc](wine-color) [fruité](wine-tag) pour une [soirée](soiree) aux chandelles
+- Je pars faire la [nuba](soiree) , file moi [un](number) conseil pour la bouteille
+- J' achète quoi pour [une](number) [teuf](soiree) ?
+- Des idées de vin de [Loire](appellation) à [10 euros](money) pour une [soirée](soiree) ?
+- Je suis dans le supermarché mais je sais pas quoi acheter comme vin pour ma [soirée](soiree) . Des idées ?
+- [Un](number) vin pour la [soirée](soiree) de mercredi , [léger](wine-tag) et [pas cher](affordable) stp !
+- Je dois ramener [une](number) bouteille en [soirée](soiree) , j' achète quoi ?
+- J' ai [un](number) gros truc à [fêter](soiree) ce soir , tu as [une](number) idée de bonne bouteille ?
+- Je vais en [soirée](soiree) demain
+- J' ai envie de faire une super [soirée](soiree) . Tu as [une](number) idée du vin que je pourrais acheter ?
+- Je veux aller en [soirée](soiree) , tu as quoi comme vin pour me motiver ?
+- Tu as quoi pour faire [un](number) petit [before](soiree) ?
+- Ce soir je vais voir des amis pour faire une petite [soirée](soiree) . Mais je sais pas quoi acheter comme vin .
+- Ce soir je vais faire la [nuba](soiree) !!! Alors je veux [un](number) vin à la hauteur !
+- [Une](number) quille de [blanc](wine-color) pour une [soirée entre potes](soiree)
+- Bon , je veux des vins [blancs](wine-color) [fruités](wine-tag) pas prise de tête , pour une [soirée](soiree)
+- Je cherche [un](number) vin pour faire la [fête](soiree)
+- Ce soir c' est la [fiesta](soiree) ! Tous mes amis sont conviés à ma [soirée](soiree) , ne manque plus que la boisson !
+- [Soirée](soiree)
+- [Un](number) vin [épicé](wine-tag) pour une [soirée](soiree) caliente ! Tu as ça ?
+- [Une](number) bouteille de [rouge](wine-color) du [sud](appellation) pour [boire entre amis](soiree) ?
+- Je sors [avec des amis](soiree) , quel vin [rosé](wine-color) et [fruité](wine-tag) je peux boire ?
+- Vin de [soirée](soiree)
+- [Un](number) [champagne](appellation) à me conseiller pour ma [soirée](soiree) de vendredi ?
+- C' est quoi le vin [blanc](wine-color) idéal pour [célébrer](soiree) ?
+- Je suis [un](number) vrai [fêtard](soiree) , tu me proposes quoi comme bouteille ?
+- J' adore le [champagne](appellation) ! Je prends quoi pour [un](number) [anniversaire](occasion) ?
+- Je cherche quelque chose de [puissant](wine-tag) et [compoté](wine-tag) pour prendre en [soirée](soiree)
+- Mon pote organise une [soirée](soiree) j' achète quoi ?
+- Je [sors](soiree) souvent : des idées de quilles [légères](wine-color) à apporter ?
+- [un](number) vin pour une [soirée](soiree) [à un prix raisonnable](affordable)
+- Tu as quoi comme cuvée [festive](soiree) ?
+- C' est la grosse [teuf](soiree) ! Je prends quoi comme vin ?
+- J' aime bien faire la [teuf](soiree)
+- Aujourd'hui je n' ai pas d' inspiration . Je sais pas quoi acheter pour ma [soirée](soiree) .
+- [Un](number) vin pour [un](number) large groupe
+- Je sais pas quoi prendre pour la [soirée](soiree) de Julien
+- Quelle bulle pour apporter en [soirée](soiree) [14-17 euros](money_range) ?
+- vin pour [soirée](soiree)
+- J' aime bien faire la [fête](soiree) : vous avez des vins [fruités](wine-tag) [pas cher](affordable) pour ça ?
+- [blanc](wine-color) [soirée](soiree) 20 €
+
+## intent:accords
+- accord sur [choucroute à la provençale](plat) [entre 8 et 15 euros](money_range)
+- [flan vanille](plat)
+- [glace à la vanille](plat)
+- Quel vin [liquoreux](wine-tag) pour mon [Bleu d' Auvergne](plat) ?
+- [hachis parmentier](plat)
+- [daurade](plat)
+- vin pour [panini](plat)
+- [panini](plat)
+- vin pour [big mac](plat)
+- [big mac](plat)
+- vin pour le [morbier](plat)
+- [Oeufs](plat)
+- [kebab](plat)
+- [œufs benedicte](plat)
+- je veux cuisiner de l' [aubergine](plat)
+- [Mont d' or](plat)
+- [choripan](plat)
+- [plat libanais](plat)
+- Il y a du [saumon fumé](plat)
+- Ce sera du [saumon fumé](plat)
+- [Plat de saumon fumé](plat)
+- je fais du [saumon fumé](plat)
+- du [saumon fumé](plat) pour l' [entrée](repas)
+- [un](number) accord avec le [saumon fumé](plat)
+- Il y aura du [saumon fumé](plat)
+- [je](plat) cuisine du [saumon fumé](plat)
+- Faire du [thon épicé et de la sauce soja](plat)
+- [Thon salé et sauce soja](plat)
+- [Thon et marinade](plat)
+- [Mariné au thon et sauce soja](plat)
+- je cuisine [un](number) [thon mariné et shoyu](plat)
+- [thon mariné et shoyu](plat)
+- [Tomme de Savoie](plat)
+- [pavé de saumon](plat)
+- [pave de saumon](plat)
+- [buche](plat)
+- [buche de noel](plat)
+- [Bouchées](plat)
+- pour [foie gras](plat) [moins de](condition) [10 €](money)
+- [blanc](wine-color) pour [foie gras](plat)
+- [rouge](wine-color) pour [foie gras](plat)
+- accompagner [un](number) [foie gras](plat)
+- Quel vin avec [une](number) [île flottante](plat) ?
+- je veux [un](number) vin à [moins de](condition) [5 euros](custom-money) pour mon [poisson](plat)
+- pour [accompagner](repas) [un](number) [stroganoff](plat)
+- Et si je veux accompagner la [buche](plat) , des idées ?
+- [Vacherin glacé à la vanille](plat) stp
+- vin pour [foie gras](plat) [entre 10 et 20 euros](money_range)
+- vin pour [foie gras](plat)
+- [foie gras](plat)
+- Je veux de l' [agneau](plat)
+- [agneau](plat)
+- Je veux [un](number) vin pour [un](number) [agneau](plat)
+- [volaille](plat)
+- avec de la [volaille](plat)
+- On mange des [patates avec du poulet](plat)
+- j' aime [pas le rouge](neg-wine-color) j' aime [pas le blanc](neg-wine-color) je veux du [rosé](wine-color) pour [accompagner](repas) de la [viande](plat)
+- Je cherche [un](number) vin pour demain [midi](repas)
+- [Vacherin glacé à la vanille](plat)
+- je cuisine du [lieu](plat)
+- [roblochon](plat)
+- [moule mariniere](plat)
+- [saumon au champagne](plat)
+- [palette a la moutarde](plat)
+- je fais [un](number) [buffet](repas) pour mes invités
+- [Fondue chinoise](plat) pour le [dîner](repas)
+- [Jambon sauce madere](plat)
+- [langoustes à l' américaine](plat)
+- [Filet Mignon](plat) [Dîner](repas)
+- un [chapon](plat)
+- je cuisine de la [pintade](plat)
+- du vin pour [un](number) [filet mignon sauce madere](plat)
+- [escargots au champagne](plat)
+- on va a [un](number) [buffet](repas)
+- [Oursin](plat)
+- [foie gras](plat) avec du [rouge](wine-color)
+- [foie gras](plat)
+- on cuisine du [zebre](plat)
+- je veux [un](number) vin [gras](wine-tag) pour boire avec du [foie gras](plat)
+- je veux du vin pour mon [foie gras](plat)
+- [rumsteack](plat)
+- on mange des [langoustes à l' américaine](plat)
+- [poulet en robe de jambon sauce chasseur](plat)
+- un [menu](repas) vegetarien , [legumes](plat) surtout
+- [un](number) [bar](plat)
+- [une](number) [sole meuniere](plat)
+- [saumon sauce citron](plat)
+- [croques](plat)
+- nous avons besoin d' [un](number) vin qui aille avec des [petits fours salés ou sucrés](plat)
+- Du [chapon](plat)
+- vin [rouge](wine-color) pour [en cas sale](plat)
+- [cari poulet](plat)
+- [salade césar](plat)
+- je veux [un](number) vin avec des [croques monsieur au babybel](plat)
+- [Babybel](plat)
+- Je voudrais des [magnums](wine-tag) pour des [supremes de volaille et de la purée](plat) maison
+- [faux filet](plat)
+- des [fruits de mer](plat) en [entrée](repas)
+- [raclette](plat)
+- [pic nique](repas)
+- [Yo](hello) . [Un](number) vin pr ma [raclette](plat) de ce soir !
+- [st jacques](plat)
+- du vin pour [un](number) [pique nique](repas)
+- on mange des [oursins](plat)
+- [Saltimbocca a la romana](plat)
+- [chili concarne](plat)
+- [fondue chinoise](plat)
+- [oeuf cocotte au neufchatel](plat)
+- du vin pour [une](number) [entrée](repas)
+- [cuisine libanaise](plat)
+- [Dîner](repas) de [fondue chinoise](plat)
+- [brunch](plat)
+- [indien](plat)
+- [buffet](repas)
+- [boeuf wellington](plat)
+- [végétarien](repas)
+- [gruyère](plat)
+- on fait des [profiterolles](plat) pour le [dessert](repas)
+- [un](number) [cari de poulet](plat)
+- [Porc au miel](plat)
+- et pour l' [entrée](repas) , [saumon et foie gras](plat)
+- [un](number) vin [blanc](wine-color) accompagnant le [mont d' or](plat) mais [pas sucré](neg-wine-tag) plutot [sec](wine-tag)
+- quel vin pour [un](number) [méchoui](plat)
+- [filet mignon](plat) [10 €](money)
+- [salade césar](plat)
+- [Foie gras](plat) vin d' [Alsace](appellation)
+- [legumes](plat)
+- je recherche un [crement](wine-name) à servir pour le [dessert](repas)
+- [bbq](repas)
+- On fait des [cailles](plat)
+- [végétarien](repas)
+- [lotte à laméricaine](plat)
+- Du [cheval](plat)
+- vin [alsace](appellation) [foie gras](plat)
+- Je cuisine une [lotte à l' américaine](plat)
+- on mange [une](number) [sole meuniere](plat)
+- [risotto](plat)
+- et pour [un](number) [barbecue](plat)
+- quel vin pour les [croques monsieur](plat)
+- [saint jacques](plat)
+- [chapon](plat)
+- on mange des [lentille](plat)
+- [salade cesar](plat)
+- vin de [dessert](repas)
+- [padthaï](plat)
+- J' ai cuisiné [un](number) [loup](plat)
+- vin [rouge](wine-color) pour [toast](plat)
+- cool , merci ! et en [dessert](repas) , on fera des [crepes suzette](plat)
+- [marchand de vin](plat)
+- pour [un](number) [paté chinois](plat)
+- quel vin pour [un](number) [coucous](plat)
+- [un](number) [boeuf wellington](plat)
+- [entrecôte sauce marchand de vin](plat)
+- on mange [une](number) [forêt noire](plat) ce soir
+- [champagne](appellation) pour [dessert](repas)
+- [crepes](plat)
+- [jusseen](plat)
+- [encas salé](plat)
+- [basse côte](plat)
+- [lieu](plat)
+- [rose](wine-color) pour [pique nique](repas)
+- vin [rouge](wine-color) pour accompagnement [toasts](plat)
+- [epaule de mouton mogettes](plat)
+- [jarret de veau](plat)
+- c' est pour [un](number) [risotto](plat) donc [pas hors de prix](affordable) non plus
+- [hampe](plat)
+- [rillettes de poisson](plat)
+- [une](number) [sole meuniere](plat) pour le [diner](repas)
+- [rillettes de maquereaux](plat)
+- [Filet mignon](plat)
+- [st jaques](plat)
+- [lotte à l' américaine](plat)
+- [bbq](repas)
+- ce sera du [porc](plat) !
+- [st jacques](plat)
+- vin pour [pont leveque](plat)
+- vin pour [lentille](plat)
+- [lentille](plat)
+- de la [sole meuniere](plat)
+- [une](number) [salade césar](plat)
+- [ris de veau sauce mader](plat)
+- Je fais [un](number) [loup](plat)
+- [une](number) foret noir
+- [melon jambon](plat)
+- [rognon et ris de veau a la sauce madere](plat)
+- [pintade](plat)
+- vin [rosé](wine-color) [pique nique](repas)
+- [plat](repas) asiatique
+- pour [un](number) [brunch](repas)
+- quel vin avec du [pont l' évêque](plat)
+- [rognons](plat) et [ris de veau a la sauce madere](plat)
+- [chili con carne](plat)
+- [une](number) [sole meuniere](plat)
+- [pique nique](repas)
+- [rognons sauce madère](plat)
+- je fais la cuisine ce soir
+- [glace fraise melba](plat)
+- des [lardon](plat)
+- [boeuf wellington](plat)
+- Quel vin pour des [lasagnes](plat) ?
+- [un](number) [merlu sauce beurre blanc](plat)
+- des [langoustes](plat)
+- Je cuisine des [cuisses de grenouilles](plat) .
+- [escargots](plat)
+- [zebre](plat)
+- vins pour [une](number) [entrée](repas)
+- je cuisine du [loup](plat)
+- [croques](plat) monsieur
+- du [lapin](plat) !
+- Nous faisons des [profiteroles](plat) pour le [dessert](repas) .
+- [flamenkuche](plat)
+- [barbecue](plat)
+- [plat](repas) [réunionnais](plat)
+- [un](number) [plat épicé](plat)
+- [coquilles st jacques](plat)
+- [flamenkuche](plat)
+- un [sot l' y laisse a la creme](plat)
+- vin pour [plat mexicain](plat)
+- je veux [un](number) vin pour [un](number) [brunch](repas)
+- [xiaolonbao](plat)
+- on cuisine du [cheval](plat)
+- pour [un](number) [buffet](repas)
+- quel [crémant](wine-tag) pour le [dessert](repas)
+- [ribs](plat)
+- [boeuf-carottes](plat)
+- [st jacques](plat)
+- pour [accompagner](repas) les [rillettes](plat)
+- [fusilis](plat)
+- [un](number) vin pour la [pintade](plat)
+- [poulet en robe de jambon](plat)
+- [sole meuniere](plat)
+- [hachis parmentier](plat)
+- [Trilogie surprise au chocolat](plat)
+- on aime le [boeuf-carotte](plat)
+- vin pour aller avec des [tacos](plat)
+- [wraps](plat)
+- [assiette oceane](plat)
+- pour le [dessert](repas) on fera des [crepes](plat)
+- [Forêt noire](plat)
+- Pour [un](number) [stroganoff](plat)
+- [lotte à l' américaine](plat)
+- des [rillettes](plat) pour l' [apéro](aperitif)
+- [Trilogie de chocolats](plat) surprises
+- Bon [risotto](plat)
+- du vin pour [brunch](repas)
+- on fait un [boeuf-carotte](plat)
+- [un](number) [plat mexicain](plat)
+- vin pour [jambon italien](plat)
+- [glace](plat)
+- [oursins](plat)
+- [lardon](plat)
+- du [riz](plat) !
+- [palette de porc au miel](plat)
+- [poulet mexicain](plat)
+- je veux [un](number) [rouge](wine-color) [leger](wine-tag) pour le [diner](repas)
+- pour du [paté chinois](plat)
+- [lotte à l' américaine](plat)
+- [un](number) [tacos](plat)
+- pour [un](number) [chapon](plat)
+- [crepes salées](plat)
+- [un](number) [loup](plat)
+- [Saint jacques](plat)
+- une [fondue chinoise](plat) ce [midi](repas)
+- [menu campagnard](plat)
+- [rosé](wine-color) pour [entrée](repas) ?
+- [Assiette Océane](plat)
+- [chili con carne](plat)
+- Intéressant , et pour le [dessert](repas) ce sera des [profiterolles](plat) !
+- [pate](plat)
+- [un](number) [saumon au champagne](plat) pour le [diner](repas)
+- Nous faisons du [poulet mexicain .](plat)
+- je cuisine des [cuisse de grenouilles](plat)
+- [st jacques](plat)
+- [saint jaques](plat)
+- [Cheval](plat)
+- [Oeufs truffés](plat)
+- Nous allons [manger](repas) un [plat](repas) végétarien avec des [légumes](plat)
+- je fais une [lotte à l' américaine](plat) ce soir
+- [un](number) [rouge](wine-color) apprécié lors d' [un](number) [pique nique](repas) [un](number) midi
+- [saumon marine](plat)
+- avec [cannelés](plat)
+- vin pour [hachis](plat)
+- on mange des [bouchées a la reine](plat)
+- [coquilles saint jacques](plat)
+- [une](number) [sole meuniere](plat)
+- [repas](repas) [libanais](plat)
+- vin de [dessert](repas) [petillant](wine-tag) pour [gateau chocolat verrine vanille et cannelé](plat)
+- on fait du [poulet mexicain](plat)
+- Je voudrais [un](number) vin [blanc](wine-color) [sec](wine-tag) , [pas minéral](neg-wine-tag) , pour [accompagner](repas) des [verrines](plat) , à [moins de](condition) [12 euros](money)
+- [plat](repas) de [pates avec jambon italien](plat)
+- [un filet mignon](plat) pour le [diner](repas)
+- [Langouste](plat)
+- [lentille](plat)
+- [filet mignon sauce madere](plat)
+- ce soir c' est [buffet](repas)
+- [buffet](repas) dinatoire
+- [poulet pruneaux sauce muscat](plat)
+- [crevettes 100 pieces](plat)
+- [tome de savoie](plat)
+- on mange des [galettes complètes](plat)
+- avec [nems](plat)
+- [brunch](repas)
+- [une](number) [sole meuniere](plat) pour le [diner](repas)
+- Nous mangeons des [oursins](plat) .
+- [cuisse de grenouilles](plat)
+- [fourme d' ambert](plat)
+- [risotto aux noix de saint-jacques](plat)
+- [coucous](plat)
+- [croque monsieur](plat)
+- [un](number) bon [risotto](plat)
+- [bouchées à la reine](plat)
+- quel vin avec [fruit de mer](plat)
+- [lentilles](plat)
+- je fais [une](number) [fondue chinoise](plat)
+- [melon saumon](plat)
+- vin avec des [nems](plat)
+- de la [sole meunière](plat)
+- [parillade](plat)
+- des [fusilis](plat)
+- [une](number) [fondue chinoise](plat) pour le [diner](repas)
+- loup
+- on fait des [galettes completes](plat)
+- des [muffins](plat)
+- on mange des [fruits de mer](plat)
+- [une](number) [fondue chinoise](plat)
+- [Galette complete](plat)
+- [muffins](plat)
+- je fais du [saumon mariné](plat)
+- du [chili con carne](plat)
+- [un](number) vin pour les [langoustes à l' américaine](plat)
+- vin [rouge](wine-color) pour [tapas](plat)
+- quel vin avec du [fromage pont l' eveque](plat)
+- Je mange [une](number) [tartiflette](plat) ce soir
+- je souhaite [un](number) vin pour [un](number) gros [kebab](plat)
+- je cuisine [un](number) [filet mignon au riesling](plat)
+- [Boudin de suprême de caille aux ris de veau , pâte à truffes , purée de cerfeuil tubéreux et jus de porto au poivre rose](plat)
+- [lapin](plat)
+- Je mange une [dinde](plat)
+- [Filet mignon](plat) à [midi](repas) , j' amène quoi comme vin ?
+- Qu' est ce que tu me proposes avec [une](number) [lotte à l' armoricaine](plat) ?
+- Mes [accords mets](repas) & vins
+- Je suis super pressée , tu pourrais me donner [un](number) vin pour mes [tomates farcies](plat) ?
+- Quel accord avec [une](number) [lotte à l' armoricaine](plat) ?
+- Comme d' habitude je fais [une](number) [blanquette de veau](plat) et comme d' habitude je ne sais pas quel vin choisir .
+- je bois quoi avec des [nems](plat) mec ?
+- Aujourd'hui c' est dimanche , j' ai décidé de faire [un](number) [coq au vin](plat) mais je sais pas quoi boire avec . Tu as des idées ?
+- Je mange des [nems au poulet](plat) : tu me conseilles quoi ?
+- Tu conseilles quoi pour [un](number) [risotto](plat) ?
+- J' ai trop envie d' [un](number) [coq au vin](plat) , je choisis quel vin ?
+- J' adore les [nem](plat) : je bois quoi avec ?
+- quel est le meilleur [Bordeaux](appellation) avec [une](number) [côte de boeuf](plat)
+- Tu as des vins pour [accompagner](repas) des [pomme de terre](plat) ?
+- Avec [une](number) [tarte au chèvre et épinard](plat) , quel vin servir ?
+- J' adore un [plat](repas) , le [chili con carne](plat)
+- Qu' est ce qu' on boit avec des [pomme de terre](plat) ?
+- J' ai très envie de boire du [blanc](wine-color) avec mon ma [cassoulet](plat) !
+- du [pigeon](plat)
+- Je veux [une](number) bouteille de vin à [+ de](condition) [20 €](money) pour [accompagner](repas) mon [couscous aux légumes](plat)
+- Simplement des [coquille st jacques](plat)
+- T' as quoi en cave pour boire avec des [pomme de terre](plat) ?
+- [pigeon](plat)
+- Je [cuisine](repas) [une](number) [anguille fumée](plat) , [une](number) bouteille de [rouge](wine-color) ?
+- [coquille saint jacques et fondue de poireaux](plat)
+- J' ai envie de manger du [Mont d' Or](plat) ! Je l' accompagne avec quoi ?
+- [une](number) [pavlova](plat)
+- Mon [menu](repas) : [soupe](plat) en [entrée](repas) et [lasagnes](plat) en [plat](repas) . J' ouvre quel vin [bourguignon](appellation) ?
+- [Coquille saint-jacques](plat)
+- Qu' est ce que tu peux me conseiller pour sublimer mon [Mont d' Or](plat) ?
+- Je fais [un](number) [gratin de carottes](plat) , je dois acheter quoi ?
+- [une](number) [parillada](plat)
+- Quel vin [blanc](wine-color) sec boire avec [une](number) [fondue](plat) ?
+- De belles [coquilles saint jacques](plat)
+- Avec quoi ça se boit [un](number) [Mont d' Or](plat) ?
+- [parmigiana](plat)
+- Je n' aime pas les [blancs](wine-color) : quel vin du [gâteau au chocolat](plat) ?
+- [coquilles saint jacques snackées](plat)
+- [Un](number) [Mont d' Or](plat) s' accompagne d' [un](number) bon vin ! Mais lequel ?
+- [papaye](plat)
+- Et [un](number) [blanc](wine-color) avec des notes marines pour [accompagner](repas) ma [salade de crabe](plat) ?
+- C' est la saison des [coquille saint jacques](plat)
+- Niveau accord , tu me conseilles quoi avec [un](number) [Mont d' Or](plat) ?
+- Que servir avec [un](number) [risotto à la truffe](plat) ?
+- [brie](plat)
+- Du [pain aux herbes](plat)
+- Avec quel vin déguste -t-on des [noix de saint jacques](plat) ?
+- Vous me recommandez quoi avec [un](number) [boeuf mijoté](plat) ? [Entre 20 et 30 euros](money_range) !
+- j' adooore le [bœuf](plat) , tu me conseilles quoi ?
+- [coquille saint jacques](plat)
+- J' adore le [Mont d' Or](plat) , je sais juste pas l' accorder ... T' as quoi en cave ?
+- [Volaille rôtie accompagnée d' une purée de légumes d' antan](plat)
+- [cantal](plat)
+- [Pain perdu](plat)
+- Quel [accord](repas) avec mes [tripes à la mode de Caen](plat) ? Je n' aime pas les [rouges](wine-color) [puissants](wine-tag)
+- Je cherche un vin pour le [dîner](repas)
+- [indien](plat)
+- [vegetarien](plat)
+- Le bonheur , du [pain et du fromage](plat)
+- [Meilleurs](coup-de-coeur) vins [doux](wine-tag) à [moins de](condition) [15 euros](money) avec [un](number) [cheese cake](plat) ?
+- [un](number) [chili con carne](plat) bien pimenté !
+- pour aller avec [une](number) [buche](plat)
+- Je [mange](repas) des [noix de saint jacques](plat) ce soir et je sais pas quel vin boire avec . Help !
+- [Côte de boeuf et pommes de terre](plat) pour [midi](repas) ! On boit quoi avec ça ?
+- [couscous](plat)
+- [emmental](plat)
+- tu me conseille quoi avec [un](number) [bleu d' auvergne](plat) ?
+- Hello Je vais préparer du [poulet cuit au four avec une sauce échalotes champignon moutarde](plat)
+- [un](number) [chili con carne](plat) bien gourmand
+- Je [mange](repas) [une](number) [salade césar](plat) , quel vin [rosé](wine-color) ira le mieux ?
+- [un](number) petit vin pour aller avec de [la dinde](plat) stp
+- [Filet mignon de porc aux pommes cuites et à la rhubarbe](plat)
+- [Port-salut](plat)
+- [Un](number) bon [mechoui grillé](plat)
+- Je vais me régaler d' [une](number) [andouille grillée](plat) , des idées de vin ?
+- [Pain frotté à l' ail et tomate](plat)
+- Tu me donnes [un](number) accord [pommes de terre](plat) et vin ?
+- Donne moi la bonne bouteille pour accompagner ma [viande à la bière](plat) !
+- Quel vin [liquoreux](wine-tag) pour mon [Bleu d' Auvergne](plat) ?
+- je me fais [un](number) gros [chili con carne](plat)
+- Quel vin pour mon [plat](repas) ?
+- Je débouche quel vin pour [accompagner](repas) des [pommes de terre](plat) ?
+- [hot dog](plat)
+- [boudin blanc](plat)
+- Avec quoi [marier](repas) [une](number) [tarte aux pommes ?](plat)
+- Et avec un [Mc Do](plat) alors ?
+- [Pain aux olives](plat)
+- Tu proposes quoi avec des [coquilles saint jacques](plat) ?
+- [quatre quart](plat)
+- [reblochon](plat)
+- Juste du [pain](plat)
+- [Poulet au thym et pommes de terre](plat)
+- [Nouilles froides à la chinoise , au sarrasin et concombre](plat)
+- du [poulet cuit au four avec une sauce moutarde](plat)
+- quel vin pour [steak haché avec des haricots verts](plat)
+- [Paris Brest](plat)
+- J' adore les [noix de saint jacques](plat) ! T' as quoi en cave pour l' accompagner ?
+- [entremet](repas)
+- [Fritures de filet de perche](plat)
+- [saint agur](plat)
+- Je fais une bonne [quiche lorraine](plat)
+- [Repas](repas) avec des amis
+- [tuiles de parmesan](plat)
+- [Pain](plat)
+- Si je [cuisine](repas) [un](number) [boeuf bourguignon](plat) , je prends quoi comme vin [bordelais](appellation) ?
+- g envie d' [un](number) [chili con carne](plat)
+- Quel vin pour ma [recette](repas) ?
+- C' est parti pour [un](number) accord stp : [un](number) vin pour des [pommes de terre](plat)
+- du [skagen toast](plat)
+- [poitrine](plat)
+- [Entrecote maturée](plat)
+- [st jacques](plat)
+- [rouge](wine-color) pour [une](number) [entrecôte](plat) à [plus de](condition) [10 euros](money)
+- du [pain](plat)
+- Moi ce qui me branche c' est de trouver le bon vin pas cher pour ma [recette](repas) !
+- [Bleu d' Auvergne](plat)
+- J' aimerais bien [manger](repas) [de l' agneau avec des pommes de terre](plat) mais je ne sais pas quel vin choisir ... Des conseils ?
+- [viande rouge](plat)
+- [welsh](plat)
+- [vegetarien](plat)
+- J' aimerais trouver [un](number) vin [rouge](wine-color) à [moins de](condition) 10 € pour mon [dîner](repas)
+- [un](number) [poulet cuit au four avec une sauce aux champignons](plat)
+- vin pour [canard aux morilles](plat) à [15 €](money)
+- [fois gras](plat)
+- [plateau de crudite avec sauce](plat) en [aperitif](aperitif)
+- Je manque des [crudité](plat)
+- [fondue savoyarde](plat) en vue !
+- J' ai envie de [manger](repas) [un](number) [cheeseburger](plat) . Avez -vous [un](number) bon vin pour me conseiller ?
+- [Roquefort](plat)
+- J' ai du mal à voir quel vin boire avec mes [pommes de terre](plat) ... Tu peux m' aider ?
+- [Un](number) [velouté de pommes de terre](plat) s' accompagne de quel vin ?
+- [Hamburger classique à base de cheddar](plat)
+- [Féra poêlée , citron et sauce onctueuse au miel de bourgeon de sapin](plat)
+- [faux filet](plat)
+- Et avec [un](number) [plateau de fromage](plat)
+- Que dirais -tu d' [une](number) [quiche lorraine](plat) ?
+- [carottes rapées](plat)
+- je mange des [pâtes](plat) ce soir , tu me proposes quoi pour aller avec ?
+- Je cherche un accord pour un [foie gras](plat) du [sud ouest](appellation) [poêlé](plat) de préférence qui vient de la même région
+- [bo bun végétarien](plat)
+- [Chou rouge](plat)
+- Ma [recette](repas) favorite est le [chili con carne](plat)
+- Juste du [pain](plat)
+- [steack au poivre](plat)
+- [Une](number) sélection de vins des [US](appellation) qui iront bien avec [une](number) [tarte aux poires](plat)
+- Quel vin pour [un](number) [dessert fruité](plat)
+- [un](number) vin pour mon [déjeuner](repas) stp
+- [une dinde au marrons](plat)
+- J' ai envie de cuisiner [un](number) [plat épicé](plat) , tu me conseilles quoi pour boire avec ?
+- J' ai trouvé [une](number) super [recette](repas) ! Le seul problème c' est que je ne sais pas quel vin choisir .
+- [Chili con carne](plat)
+- Dis moi quel vin mettre avec mon [plat](repas) ?
+- [Fruit de mer](plat)
+- Dis moi Magnum , ça s' accorde avec quoi [un](number) [Mont d' Or](plat) ?
+- [saucisse de morteau](plat)
+- [plat](repas) [indien](plat) et [libanais](plat)
+- [falafel](plat)
+- [boudin blanc](plat)
+- Quel vin [blanc](wine-color) d' [Italie](appellation) pour [accompagner](repas) [un](number) [risotto](plat) ?
+- [Pain grillé confitures](plat)
+- [bleu d' auvergne](plat)
+- Avec des [st jacques](plat) ?
+- [pop corn](plat)
+- [Mont d' Or et pommes de terre](plat) ! Quel vin avec ça ?
+- J' ouvre quoi avec [un](number) [bo bun](plat) ?
+- [piment](plat)
+- avec de la [dinde](plat)
+- [bo bun](plat)
+- vin [rouge](wine-color) pour accompagné un [couscous](plat)
+- [Quel vin](plat) [blanc](wine-color) pour ma [recette](repas) ?
+- [Risotto](plat)
+- [Une](number) [dinde](plat)
+- Avec du [boeuf à la mexicaine](plat)
+- [un](number) vin pour de la [volaille](plat)
+- Vin pour [un](number) [repas](repas)
+- [Dinde sauté au cumin](plat)
+- vin pour du [foie gras](plat)
+- [une](number) [fondue](plat)
+- Je déguste des [pommes de terre grillées](plat) ce soir , j' accompagne le tout de quel vin ?
+- [pho au boeuf](plat)
+- Avec quoi on accompagne du [porc à la bière](plat) ?
+- [Epoisse](plat)
+- On cuisine des [pommes de terre](plat) avec [une](number) [côte de boeuf](plat) ce [midi](repas) , on achète quoi à boire ?
+- [Carpaccio de langoustine , pointe de citron et d’ huile d’ olive , jeunes pousses de coriandre et de cerfeuil](plat)
+- Fais moi [rêver](decouverte) sur mon [big mac](plat)
+- [Cote à l' os](plat)
+- [un](number) vin [rouge](wine-color) qui irait avec du [bleu et pain aux noix](plat)
+- [Poulet au thym et pommes de terre](plat)
+- [Verrine](plat)
+- [Ragoût de veau à la crème et aux carottes](plat) [moins de](condition) [20 €](money)
+- J' ai bien envie d' [une](number) [quiche lorraine](plat)
+- [Cardine](plat)
+- [comté](plat)
+- [paté en croute](plat)
+- Ce soir c' est [coquilles de saint jacques](plat) , reste plus qu' à savoir quoi boire . Tu m' aides stp ?
+- [cari de poulet](plat)
+- tu me conseilles [un](number) [blanc](wine-color) à [8 €](money) pour boire avec du [poisson](plat) stp
+- [seiche](plat)
+- [tuile aux amandes](plat)
+- [Foie gras sur pain](plat)
+- Je fais des [lasagnes .](plat) Quel vin dois -je prendre ?
+- [profiterole](plat) en [dessert](repas) !
+- [un](number) [yorkshire pudding](plat)
+- [buche de noel](plat)
+- [LANGUE](plat)
+- [bleu d' auvergne](plat)
+- [sainte maure](plat)
+- Que boire avec mon [dîner](repas) ?
+- [bûche de noël](plat)
+- [méchoui d' agneau](plat)
+- De l' [anguille fumée](plat)
+- [boudin blanc](plat)
+- Avec quel vin iraient mes [pommes de terre](plat) ?
+- Et pour une [sole sauce au beurre blanc](plat) ?
+- [saucisse de morteau](plat)
+- Mes [accords mets](repas) & vin
+- [Tarte de légumes](plat) . Vin [rouge](wine-color) [bio](wine-tag)
+- [Pain au seigle](plat)
+- Avec du [pain perdu](plat)
+- [fondue au vin blanc](plat)
+- [crudité](plat)
+- Quel vin pour [un](number) [kebab](plat) ?
+- Des [st jacques grillées](plat)
+- J' ai fait [un](number) [velouté de légumes](plat) pour ce soir . Je sers quel vin ?
+- J' aimerais bien boire [un](number) verre de vin avec mon [velouté de potiron](plat) . T' as quelque chose de sympa ?
+- [Cochon de lait en papillotte](plat)
+- [saltimbocca](plat)
+- [boudin noir](plat)
+- On boit quoi avec des [fruits de mer](plat) ?
+- Du [fromage](plat)
+- de la [truffe blanche](plat)
+- [blanc](wine-color) [moule](plat)
+- [entrecote](plat)
+- [bo bun porc](plat)
+- [Coeur de veau](plat)
+- Je cherche un vin de [Bourgogne](appellation) pour mon [dîner](repas)
+- Hello je veux [un](number) vin pour mon [moelleux au chocolat](plat)
+- des [profiteroles](plat)
+- [vol au vent](plat)
+- D' [un](number) vin [blanc](wine-color) pour [un](number) [saumon grillé](plat)
+- [fruits de mer](plat)
+- je cuisine [un filet mignon de porc et un gratin dauphinois](plat)
+- [tripes à la mode de caen](plat)
+- [Couscous](plat)
+- [lasagne](plat) [max](condition) 50 e
+- j' adore la [dinde](plat)
+- je vais cuisiner des [croques-monsieur](plat) et je cherche [un](number) vin pour aller avec
+- J' adore les [plats épicés](plat) mais je bois quoi avec ?
+- [Valençay](plat)
+- Avec [un](number) [buffet froid](plat)
+- vin pour [foie gras](plat)
+- accord sur [coq au vin](plat)
+- Un [plat](repas) à base de [porc salé](plat)
+- [mechoui](plat)
+- Quel vin pour des [huîtres](plat) ?
+- [un](number) bon [pho](plat) vietnamien
+- Pas facile d' accorder [un](number) [Mont d' Or..](plat) Tu as des idées ?
+- [Un](number) [blanc](wine-color) pour des [ormeaux](plat) ?
+- Un bon plat d' hiver , un [pot au feu](plat)
+- [Katsudon](plat)
+- [puree](plat)
+- Des [pommes de terre en gratin](plat) , ça se déguste avec quel genre de vin ?
+- Je me taperai bien [un](number) bon [vacherin](plat)
+- [Veau au chocolat façon mole](plat)
+- [Volaille sauce](plat) au [vin jaune](wine-tag)
+- [pomme de terre](plat)
+- Donnez -moi des idées de [rouge](wine-color) du [SO](appellation) pour boire avec des [pates bolognaises](plat)
+- Vin [rouge](wine-color) [fromage](plat)
+- [dinde](plat)
+- [Côte à l' os](plat)
+- [sainte-maure](plat)
+- [chili con carné](plat)
+- Je veux [un](number) vin pour [saumon](plat) rosé avec tagliatelles
+- Les [croque-monsieur](plat) , c' est tellement bon ! Mais de quoi je l' accompagne ?
+- un vin [rouge](wine-color) avec de la [charcuterie](plat) ?
+- J' ai envie d' [un](number) [bo bun](plat) . Quel vin ?
+- [Un](number) délicieux [bo bun](plat)
+- [une](number) [bûche de Noël](plat)
+- [Chips](plat)
+- [un](number) vin pour aller avec de la [soupe](plat)
+- [Bo bun](plat)
+- [Soupe](plat)
+- de la [tête de veau](plat)
+- [boudin blanc truffé sur courge butternut * - brisures de truffe](plat)
+- du [saumon mariné](plat)
+- [Sachertorte](plat)
+- [un](number) [poisson sauce blanche](plat)
+- je cherche [une](number) bouteille de [rouge](wine-color) à 20 € pour aller avec [une](number) [côte de boeuf](plat)
+- J' ai [faim](repas) !
+- je mange de la [dinde](plat) , je peux boire quoi avec
+- [Poulet sauce mexicaine](plat)
+- quel vin pour aller avec du [Chaource](plat)
+- [Rouge](wine-color) sur un [cassoulet](plat)
+- [Chèvre](plat)
+- [Fromage et pain](plat)
+- Je cherche [un](number) vin de [Bourgogne](appellation) pour mon [dîner](repas)
+- [quiche lorraine](plat)
+- [Pain et du comté](plat)
+- [Une](number) [recette](repas) [marocaine](appellation)
+- Tu me conseilles sur [un](number) accord [Mont d' Or](plat) et vin stp ?
+- Propose -moi [un](number) vin [rouge](wine-color) [léger](wine-tag) pour ma [fondue de poireaux ,](plat) je n' aime pas le [blanc](wine-color)
+- Quel vin pour [tartare de bœuf](plat) ?
+- Quel vin se marie le mieux avec des [pommes de terre](plat) ?
+- [un](number) vin pour aller avec [un](number) [dessert](repas)
+- Je sais jamais avec quoi accorder mon [roquefort](plat) . Qu' est -ce que tu proposes Magnum ?
+- [Soupe de concombre et menthe](plat)
+- [Fromage](plat)
+- Je mange [un](number) [paella](plat) ce soir , t' as quelque chose d' [abordable](affordable) ?
+- [couscous](plat)
+- Je suis sûr qu' il y a une bouteille parfaite pour un [big mac](plat)
+- [un](number) [rouge](wine-color) pour [midi](repas)
+- bonjour , un bon vin [rouge](wine-color) [pour accompagner](repas) un [repas](repas) à base de [viandes rouges](plat) . Merci
+- [Un](number) [blanc](wine-color) avec de la [saumure](appellation)
+- [Fève Tonka](plat)
+- [fruit de mer](plat)
+- un [plateau de sushi](plat)
+- [bobun](plat)
+- [Parmentier de canard , pommes de terre en robe des champs](plat)
+- [un](number) vin pour des [fruits de mer](plat)
+- [Piment Jalape ñ o](plat)
+- t' [as un vin rouge](neg-wine-tag) [en dessous de](condition) [15 €](money) pour boire avec des [sushis](plat) ?
+- [Côte de boeuf pommes de terre](plat) ce soir stp
+- [méchoui](plat) cuit 10 h
+- Avec [un](number) [comté](plat) 18 mois ?
+- [Un](number) [moelleux au chocolat](plat)
+- Je suis nul en accord ... On boit quoi avec des [noix de saint jacques](plat) ?
+- [buffet](repas) campagnard
+- Que boire avec [une](number) [tarte au chèvre](plat) ?
+- [plat](repas) [indien](plat)
+- [Un](number) vin [rouge](wine-color) pour mon [hamburger](plat)
+- [mousse au chocolat](plat)
+- [selles sur cher](plat)
+- du [risotto](plat) [min](condition) 7e
+- Je ne sais pas quel vin choisir pour [accompagner](repas) mes [pommes de terre](plat) . [Un](number) conseil ?
+- [diner](repas) entre amis
+- Quel [accord](repas) pour [un](number) [boeuf à la bière](plat) et du vin ?
+- [Curry à l’ indienne avec gingembre et citron vert](plat)
+- du [Waterzooï](plat)
+- [Soupe](plat)
+- [buffet froid](plat)
+- Un [blanc](wine-color) pour des [huitres](plat)
+- je cuisine [deux](number) [poulets](plat)
+- Quel vin se marie le mieux avec du [Mont d' Or](plat) ?
+- J' adore le [pot au feu](plat) ! Mais je ne sais pas quel vin choisir pour l' accompagner ...
+- [boudin blanc truffé sur courge butternut * brisures de truffe](plat)
+- [Pain et beurre salé](plat)
+- J' aime le [vacherin](plat) , [un](number) conseil côté vin ?
+- [une](number) [welsh](plat)
+- [veau aux baies roses](plat)
+- [Pommes de terre aux truffes](plat)
+- [Escargots , risotto thé vert et tuiles de parmesan](plat)
+- Nous sommes invychez des amis pour la 1ère fois pour une [raclettes](plat)
+- [Assiette de charcuteries](plat)
+- recevoir des amis
+- [mousse de fruit](plat)
+- [pintade](plat)
+- Un fat [chili con carné](plat)
+- Je [cuisine](repas) , j' ai besoin d' un conseil vin pour un [blanc](wine-color) [10-12 €](money_range)
+- Je veux [un](number) vin pour [un](number) [jambon à la chablisienne](plat)
+- [Pour cuisiner](repas)
+- quoi pour aller avec mon [bleu d' auvergne](plat)
+- Tu me conseilles quel vin pour [accompagner](repas) [un](number) [velouté](plat) ?
+- Je prépare des [croque-monsieur](plat) ! Tu me conseilles quoi pour les accompagner ?
+- [Mousse de chèvre et tuiles de parmesan](plat)
+- tu propose quoi pour aller avec de [la Fourme d' Ambert et des poires](plat) ?
+- [maki](plat)
+- du [paté](plat)
+- [bavette d' aloyau](plat)
+- [carbonara](plat)
+- je chercher quelque chose à boire avec [un](number) [bleu d' Auvergne](plat)
+- Plateau de [fruits de mer](plat)
+- [burritos](plat)
+- Donne moi à [manger](repas)
+- Je cherche [un](number) vin pour [un](number) [dîner](repas) , t' as des idées ?
+- J' aimerais trouver [un](number) vin [rouge](wine-color) à [moins de](condition) [10 €](money) pour mon [dîner](repas)
+- Un [Mont d' Or](plat)
+- [jimbalaya](plat)
+- quel vin avec [un](number) [bleu](plat) ?
+- [Pain type fougasse](plat)
+- Quel accord avec mon [plat](repas) ?
+- [recette](repas) asiatique
+- [un](number) [pokebowl](plat)
+- [Un](number) [plat](repas) africain
+- [rognons](plat)
+- [Pain pita](plat)
+- [Un](number) vin pour [un](number) [katsudon](plat)
+- [Une](number) belle [entrecote](plat)
+- Les [huîtres](plat)
+- [Tartiflette au chèvre](plat)
+- [ris de veau](plat)
+- Sublime mon [roquefort](plat) avec [un](number) bon vin stp !
+- T' as des conseils pour [un](number) accord avec [un](number) [velouté de légumes](plat) ?
+- [Quel](plat) [accord](repas) avec mon [plat](repas) ?
+- [Fromages](plat) et [rouge](wine-color) , je prends quoi ?
+- [Tournedos de saumon au romarin et épices](plat)
+- La [purée](plat)
+- [un](number) [tagine](plat)
+- [raie](plat)
+- pour [un](number) [apero libanais](plat)
+- [Fromage de brebis](plat)
+- [fromage de savoie](plat)
+- Avec [une](number) [sole](plat)
+- Du [frometon](plat)
+- [sushi](plat)
+- [Un](number) [poisson](plat) avec des [pdt](plat)
+- quel vin pour aller avec du [boeuf](plat)
+- [becasses roties](plat)
+- [fromage](plat) ?
+- [Dolmars](plat)
+- J' ai super envie d' [un](number) [moelleux au chocolat](plat)
+- vin pour [manger](repas) [un](number) [gâteau au chocolat](plat)
+- quel vin pour aller avec [un](number) barbecue ?
+- [repas](repas) amis
+- Quel [accord](repas) pour mon [poulet mafé](plat) ?
+- [fondue](plat)
+- [tripe à la mode de caen](plat)
+- Avec des [crudités](plat)
+- Et [si on](non_catching_words) veut qqch pour [une](number) [raclette](plat) ?
+- [sushis](plat)
+- un [tian de légume](plat)
+- je [dine](repas) chez des amies
+- des [Wontons](plat)
+- [Maquereau mariné au vin blanc , carottes croquantes , coriandre , citron confit , gingembre et thym](plat)
+- T' as des idées de bouteilles pour aller avec [un](number) [plat épicé](plat) ?
+- Un [méchoui de mouton](plat)
+- J' ai quelques [pommes de terre](plat) pour [accompagner](repas) [un](number) [Mont d' Or](plat) . Tu me conseilles quel vin ?
+- [Tarte camembert et poireaux](plat)
+- Du [saumon](plat)
+- [canard à l' orange](plat)
+- Je bois quoi avec des [pommes de terre](plat) ?
+- Tu peux m' aiguiller sur [un](number) vin afin d' accompagner mon [Mont d' Or](plat) stp ?
+- Je mange [un](number) [pot au feu](plat) ce soir ! J' achète quoi à [manger](repas) ?
+- Avec qq [fromages](plat)
+- Quel vin avec des [sushi aux pommes](plat) ?
+- [Un](number) bon [katsudon](plat)
+- Je bois quoi avec [un](number) [vacherin](plat) moi ?
+- [Plateau de charcuterie](plat)
+- Et du [blanc](wine-color) [pas cher](affordable) pour mon [risotto](plat) tu as ?
+- Je reçois des amis à [dîner](repas)
+- [Sandre](plat) au [vin jaune](wine-tag)
+- Quelle bouteille du [Jura](appellation) pour sublimer ma [blanquette](plat) ?
+- [bo bun](plat)
+- je vais [manger](repas) chez [un](number) [pote](non_catching_words)
+- [lasagne](plat)
+- [Chou marin](plat)
+- [un](number) [tartare de boeuf , moule et mousse de fruit de mer](plat)
+- Du [chili con carne](plat)
+- [Croque-monsieur](plat)
+- [lasagne](plat)
+- Tu me conseilles quoi avec [bo bun crevettes](plat) ?
+- [une](number) bouteille avec [un](number) [Bleu d' auvergne](plat)
+- [Joue de porc](plat)
+- [un](number) bon gros [tablier de sapeur](plat)
+- [purée](plat)
+- [Mont d’ Or](plat)
+- [moelleux au chocolat](plat)
+- [pâtes carbo](plat)
+- [une](number) [basse côte de boeuf](plat)
+- [Thazard tacheté](plat)
+- Je suis vraiment [une](number) pro de la cuisine mais quand il s' agit de trouver le bon vin pour le [repas](repas) je suis complètement perdue . Tu as pas [une](number) idée pour m' aider ?
+- [Nourris](repas) moi
+- je voudrais [une](number) bouteille pour [un](number) [diner](repas)
+- Que boire avec mon [dîner](repas) ?
+- Sur [un](number) [buffet froid](plat)
+- [Mont d' or](plat) , un [blanc](wine-color)
+- Je cuisine [un](number) [plat](repas) péruvien
+- [Andouille](plat)
+- J' ai besoin de conseils pour [accompagner](repas) mon [Mont d' Or](plat) !
+- [Steak pommes de terre](plat) pour le [diner](repas) ! Je bois quoi ?
+- [Pain beurré](plat)
+- Quel [rouge](wine-color) avec des [fromages](plat) ?
+- Je bois quoi avec un délicieux [big mac](plat)
+- J' aimerais bien acheter [une](number) bouteille de vin pour [accompagner](repas) les [huîtres](plat) !
+- [lapin de garenne](plat)
+- quel vin pour aller avec mon [barbecue](plat) ?
+- [Suhshi](plat)
+- Je mange [un](number) [bo bun](plat) ce soir , ça se déguste avec quel genre de vin stp ?
+- [terre-mer de canard aux huitres](plat)
+- [rouge](wine-color) [fromages](plat)
+- [Hijiki](plat)
+- [wrap](plat)
+- Sur [un](number) [comté](plat) vieux
+- [Boeuf de l' Aubrac](plat)
+- pour [un](number) [apéro grec](plat)
+- Magnum , qu' est ce que je peux boire avec des [pâtes](plat) ?
+- De la [barbue](plat)
+- [soupe](plat)
+- Que boire cher ami avec un [pot au feu](plat) ?
+- [ravioli vietnamien](plat)
+- T' as [un](number) vin [abordable](affordable) avec [un](number) [agneau](plat) ?
+- tu bois quoi avec du [bœuf](plat) ?
+- [un](number) [turbot](plat)
+- [un](number) joli [dos de cabillaud](plat)
+- [saumon marine](plat)
+- Je mange du [comté](plat)
+- tu bois quoi avec [un](number) [tartare de boeuf accompagné de moule et fruit de mer](plat)
+- J' ai la [dalle](repas)
+- [profiterolles](plat)
+- Wesh , c quoi le meilleur vin pour mes [pâtes au fromage](plat) ?
+- jai du [Sainte Maure](plat) , quel vin pour boire avec
+- [un](number) [tartare de boeuf](plat) [min](condition) [20 €](money)
+- [Poulet](plat) au vin jaune
+- je vais [manger](repas) chez mes parents
+- Quel vin [blanc](wine-color) pour ma [recette](repas) ?
+- [Porc sale](plat)
+- On boit quoi avec du [pain](plat) ?
+- [un](number) [Presskopf](plat)
+- [Magret de canard aux figues nappé d’ une sauce légèrement douce](plat)
+- [plat](repas) asiatique
+- [saint jacques grillées aux agrumes](plat)
+- J' ai envie de [manger](repas) [un](number) [burger](plat) . Avez -vous [un](number) bon vin pour me conseiller ?
+- Quel vin pour du [poisson blanc](plat) ?
+- Allez Magnum , donne moi [un](number) vin pour aller avec mon [Mont d' Or](plat) stp !
+- [Souris d' agneau parfumée à la menthe](plat)
+- [Mont d' Or](plat) à gogo pour [midi](repas) ! Quid du vin ?
+- [Un](number) [rouge](wine-color) [peu onéreux](affordable) pour aller avec mon [agneau](plat) stp !
+- [Fromages](plat)
+- Je mange [une](number) belle [côte de veau](plat) , je bois quoi ?
+- [viande rouge](plat)
+- [saumure de poisson](plat)
+- Quel vin avec du [vacherin](plat) ?
+- [Fideuada](plat)
+- Avec de la [charcuterie](plat)
+- Recevoir des [potes](non_catching_words) à [déjeuner](repas)
+- [Bœuf bourguignon](plat)
+- [un](number) vin [rouge](wine-color) pour [manger](repas) avec du [bar](plat)
+- [un](number) bon petit vin pour du bleu stp
+- je vais cuisiner [un](number) welsh ce soir , et j' ai besoin d' [un](number) vin [autour de](condition) [8 €](custom-money) stp
+- [toast pain d' épices foie gras confiture](plat)
+- [soirée](soiree) [raclette](plat)
+- Que manger avec des [pommes de terre](plat) ?
+- du [speck](plat)
+- je veux [un](number) vin pour mon [barbecue](plat)
+- [Une](number) [carbonara](plat) bien crémeuse
+- quoi pour aller avec de la [dinde](plat)
+- Un [accord](plat) pour mon [dîner](repas) ?
+- j' ai [un](number) [diner](repas) de prévu tu me conseilles quoi ?
+- Je [cuisine](repas) , j' ai besoin d' [un](number) conseil vin pour [un](number) [blanc](wine-color) [10-12 €](money_range)
+- Je prépare [une](number) [recette](repas) ivoirienne
+- [Pot au feu](plat) ou [pot-au-feu](plat) , j' aime les deux !
+- [Un](number) vin pour boire avec mon [big mac](plat)
+- [bouchées à la reine](plat)
+- [Rouge](wine-color) avec [fromages](plat)
+- [Sole](plat)
+- [endive](plat)
+- [bo bun](plat)
+- [Morille](plat)
+- pour [un](number) [buffet libanais](plat)
+- mes parents m' invite à [diner](repas)
+- [Poulet au thym et pommes de terre](plat)
+- [Viande rouge](plat) svp
+- [un](number) petit [repas](repas) rapide entre amis
+- AVEC DU [VEAU](plat) VIN [ROUGE](wine-color)
+- [un](number) [risotto aux asperges](plat) [max](condition) [15 €](money)
+- Balance le vin pour un [suprême de dinde au maroilles](plat)
+- [Ogei](plat)
+- Bonjour . Peut on boire du [tavel](appellation) avec une [paëla](plat) ou conseillez vous autre chose ?
+- vin [barbecue](plat)
+- [Saint jacques au safran](plat)
+- vin [grillades](plat)
+- [filet de boeuf au poivre](plat)
+- Quel [accord](repas) pour [une](number) [viande blanche](plat) ?
+- je veux [un](number) vin du [Chili](appellation) pour mon [barbecue](plat)
+- [boudhaball](plat)
+- Ma mère cuisine [un](number) [civet de porc](plat) avec des [pommes de terre](plat) , j' apporte quelle bouteille ?
+- [salade césar](plat)
+- [Moule frite](plat)
+- De la [dinde](plat) au menu ce soir , qu' est -ce que je [bois](wine-tag) ?
+- recevoir Paul
+- [bo bun](plat)
+- [filet rouget agrumes](plat)
+- [FAUX-FILET](plat)
+- [mexicain](plat)
+- de la [volialle](plat)
+- [Choucroute de la mer](plat)
+- tu conseilles quoi sur du bleu ?
+- je veux [un](number) vin [blanc](wine-color) à 15 euros pour [une](number) [blanquette de veau](plat)
+- Pour [un](number) [plat](repas)
+- [un](number) [selles sur cher](plat)
+- Quelle bouteille avec [une](number) [viande rouge](plat) ?
+- [une](number) [buche](plat)
+- J' aimerais [une](number) bouteille pour mon [dîner](repas) de ce soir
+- Qu' est -ce que je peux boire avec mon [repas](repas) ?
+- [dîner](repas)
+- Accord sur le [saumon fumé](plat)
+- vin [rouge](wine-color) pour [wrap](plat)
+- Je veux [un](number) [rouge](wine-color) à accorder avec du [fromage](plat)
+- je recherche [un](number) vin [blancu](wine-color) qui s' accorderait sur [un](number) [cabillaud dans un bouillon de légumes](plat) , et [un](number) vin [rouge](wine-color) qui s' accorderait sur des [polpette de boeuf et pâtes](plat) ...
+- J' aimerais [un](number) [accord](repas) pour [accompagner](repas) [mes pomme de terre et mon Mont d' Or](plat) stp Magnum !
+- [bo bun](plat)
+- [Moqueca de peixe](plat)
+- [Sanglier](plat) vin [rouge](wine-color)
+- quel vin pour des [tripes à la mode de Caen](plat)
+- [Poulet au thym et pommes de terre](plat)
+- [Œ uf à la coque](plat)
+- Le meilleur vin avec [une](number) bonne [viande rouge](plat) ?
+- pour [accompagner](repas) des [fruit de mer](plat)
+- [une](number) [soupe](plat)
+- [un](number) vin pour [une](number) [purée aux morilles](plat) à [plus de](condition) [2000 euros](custom-money)
+- du [karpatka](plat)
+- vin pour une [raclette veggie](plat) svp
+- Je mange des [petits farçous](plat)
+- [bisque de crevette et saint jacques sauce safrané , médaillon de cabillaud sauce armoricaine](plat)
+- Pour [un](number) [plat](repas)
+- du [fromage corse](plat)
+- [Une](number) idée d' [accord](repas) pour de la [viande rouge](plat) ?
+- [buffet](repas)
+- [Poulet et pommes de terre](plat) dimanche . Des idées de vin pour apprécier encore plus le [plat](repas) ?
+- du [rôti avec du riz](plat)
+- Je déguste une [dinde](plat) pour le [déjeuner](repas) , je l' accompagne de quel vin ?
+- [bo bun](plat)
+- Du [faux filet](plat)
+- par [plat](repas)
+- [Choucroutte allemande](plat)
+- et avec du bleu je [bois](wine-tag) quoi ?
+- t' as [un](number) vin [rouge](wine-color) [autour de](condition) 10 € pour des [lasagnes](plat) ?
+- [une](number) [morteau](plat)
+- Je suis [un](number) viandard : que boire avec de la [viande rouge](plat) ?
+- j' ai besoin d' [un](number) bouteille pour [midi](repas)
+- Ce soir , c' est [risotto](plat) au menu !
+- de la [dinde](plat)
+- Quelle bouteille avec mon [diner](repas) ?
+- [Un](number) vin [épicé](wine-tag) pour [accompagner](repas) ma [lotte à l' armoricaine](plat)
+- [déjeuneur](repas)
+- [Un](number) [blanc](wine-color) [pas cher](affordable) pour [accompagner](repas) la [dinde](plat) ce soir !
+- Quel vin avec du [fromage corse](plat) ?
+- Je mange [une](number) bonne [fondue chinoise](plat) . Je bois quoi
+- J' adore le [St Joseph](appellation) , t' as ça en stock pour [accompagner](repas) mon [agneau](plat) ?
+- [Fondue chinoise](plat)
+- [saucisse de toulouse](plat)
+- [Poulet au thym et pommes de terre](plat)
+- [bo bun](plat)
+- [Mozzarella di Buffala](plat)
+- [bourgogne](appellation) [pinot noir](cepage) pour [poisson](plat)
+- [Cantucci](plat)
+- [un](number) vin pour des [fruit de mer](plat)
+- de la [soupe](plat)
+- Aujourd'hui j' ai décidé de cuisiner [un](number) bon petit plat pour toute ma famille . Qu' aurais -tu en rayon ?
+- Food & Wine
+- [une](number) [salade césar](plat)
+- J' aime bien les [veloutés de légumes](plat)
+- pour aller [un](number) des [fromages de savoie](plat) stp
+- je prépare des [tapas](plat) pour ce soir
+- [Fondue chinoise](plat)
+- [Palet breton](plat)
+- [farçous aveyronnais](plat)
+- Je veux [manger](repas) du [boeuf](plat)
+- pour [un](number) [bleu](plat) tu proposes quoi ?
+- Je mange de la [raie au beurre noir](plat)
+- Avec [un](number) [blanc](wine-color) [puissant](wine-tag) à [15 euros](money) , quel [plat](repas) , quel accord ?
+- [fruits de mer](plat)
+- du [saint nectaure](plat)
+- Qu' est -ce qu' on boit avec de la [dinde](plat) ?
+- [Bardane](plat)
+- [Pieds et paquets](plat)
+- [seche](plat)
+- [pommes de terre sautées aux lardons](plat)
+- Demain je déguste des [gambas](plat)
+- vin pr [plancha](plat) de ce soir
+- [truite](plat)
+- [mousse de fruit de mer](plat)
+- [Osso bucco](plat)
+- je [bois](wine-tag) quoi avec [un](number) bon [bleu](plat)
+- [Fruits de mer](plat) ce soir !
+- [un](number) [saint honoré](plat)
+- Que dois je prendre avec [un](number) [velouté de poireaux au bleu](plat)
+- je cuisine
+- du [boeuf de koe](plat)
+- Pour [un](number) [dîner](repas)
+- Je sais pas quoi boire avec mon [plat](repas)
+- je mange
+- Pour [un](number) plat
+- Et avec [une](number) [fondue chinoise](plat) ?
+- [Fruits de mer](plat)
+- J' adore le [sauté de veau à la crème](plat)
+- [purée de pommes de terre , bavette saignante](plat)
+- [Basboussa](plat)
+- [Pad thai](plat)
+- J' ai comme [une](number) envie de cuisiner [un](number) bon [repas](repas) . Mais je sais pas quoi boire avec tu aurais des idées ?
+- Pour [un](number) [déjeuner](repas)
+- avec [un](number) [bleu](plat) tu proposes quoi ?
+- j' aime bien le bleu
+- Pour ma [recette](repas)
+- qu' est -ce que tu me proposerais pour aller avec des [tapas](plat) ?
+- [saint félicien](plat)
+- [Un](number) [pho](plat)
+- du [rogan josh](plat)
+- [Couscous](plat)
+- mets & vins
+- [Pieds de mouton](plat)
+- Je cuisine [un](number) [osso bucco](plat)
+- Et avec [un](number) [velouté de courges aux noix](plat) ?
+- [bourguignon](plat)
+- [Une](number) [belle](non_catching_words) [côte à l' os](plat)
+- [Dinde](plat)
+- Je suis pas [une](number) grande cuisinière mais ce soir je fais [un](number) effort . Est -ce que tu sais ce que je pourrais boire avec mon [plat](repas) ?
+- Quel vin pour mes [pommes de terre](plat) ?
+- Je mange des [PDT](plat) , je bois quoi avec ?
+- [un](number) vin pour mes [escargots , risotto thé vert et tuiles de parmesan](plat)
+- [soupe froide de tomate et basilic](plat)
+- je mange du [bleu](plat) , quel vin je peux boire avec ?
+- Hello je veux [un](number) accord pour [un](number) [poulet roti](plat) [entre 5 et 10 euros](money_range)
+- [Un](number) vin pour allez avec de l' [anguille fumee](plat) [pas trop cher](affordable)
+- des [pasteis de nata](plat)
+- [un](number) [vacherin](plat)
+- on aura [des frites avec du steak](plat)
+- [chili con carne](plat)
+- [du roti avec des pommes de terre dauphine](plat)
+- [japonais](plat)
+- [repas](repas) [japonais](plat)
+- [Nourriture japonaise](plat)
+- accord sur [saumon fumé](plat) [entre 18 et 20 euros](money_range)
+- je veux [un](number) vin a [10 €](money) pour le [diner de](occasion) samedi
+- je veux [un](number) vin a [10 €](money) pour le [diner](repas) de samedi
+- Je veux [un](number) vin à [10 euros](money) pour [un](number) [dîner](repas) le samedi .
+- c' est pour le [diner](repas)
+- pour le [diner](repas)
+- Le [dîner](repas)
+- pour le [diner](occasion) de demain
+- pour le [diner](repas) de mardi
+- [un](number) vin [rouge](wine-color) pour le [diner](repas) de mercredi
+- [diner](repas) de demain soir
+- [diner](repas) de jeudi avec ma copine
+- [chapon](wine-name)
+- je cherche [un](number) vin pour le [chapon](plat)
+- [un](number) vin [âgé](wine-tag) pour [une](number) [entrecôte](plat)
+- [agneau de 7 h](plat)
+- [chapon](plat)
+- [echine de porc](plat)
+- Je cuisine [un](number) [thon mariné et shoyu](plat)
+- [Thon mariné à la sauce soja](plat)
+- Faire [une](number) [marinade de thon et de sauce soja](plat)
+- je cuisine [un](number) [thon](plat) [mariné](appellation) [et shoyu](plat)
+- [Thon mariné et shoyu](plat)
+- je cuisine [un](number) [thon mariné et shoyu](plat)
+- du [boeuf mariné](plat) pour le [diner](repas)
+- Faire du [thon mariné et de la sauce soja](plat)
+- du [saumon fumé](plat)
+- on a acheté du [saumon fumé](plat) , quel vin pour aller avec ?
+- je bois quoi avec du [saumon fumé](plat)
+- [saumon fumé et huitres](plat)
+- [Saumon fumé](plat)
+- Qu' est -ce que je bois avec du [saumon fumé](plat) ?
+- on boit quoi avec du [saumon fumé](plat) ?
+- Que bois -tu avec du [saumon fumé](plat) ?
+- [saumon fumé](plat)
+- [andouille fumée](plat)
+- [saumon fumé](plat) pour le [repas](repas)
+- on mange du [saumon fumé](plat)
+- je mange du [saumon fumé](plat)
+- Nous mangeons du [saumon fumé](plat)
+- on cherche [un](number) vin pour notre [saumon fumé](plat)
+- Nous recherchons du vin de [saumon fumé](plat)
+- Vous cherchez du vin de [saumon fumé](plat)
+
+## intent:best-deals
+- 50 % de [réduction](deal) sur [une](number) autre bouteille
+- Deuxième bouteille 50 % de [promotion](deal)
+- [réduction](deal) monoprix
+- Je veux du [rouge](wine-color) dans la [promotion](deal) .
+- je voulais savoir si vous aviez des vins [en promo](deal) en [champagne](appellation)
+- [Réduction](deal)
+- [Foire aux vins](deal) Monoprix
+- [Remise](deal) sur Monoprix
+- [remises](deal)
+- [Remise](deal) sur la deuxième bouteille
+- [Foire aux vins](deal)
+- Deuxième bouteille [promotion](deal) 50 %
+- [réductions](deal) sur deuxieme bouteille
+- [promo](deal)
+- les [reductions](deal)
+- [Promotion](deal) 50 % sur la deuxième bouteille
+- Y a t il des [promotions](deal) en ce moment ?
+- je veux [un](number) [rouge](wine-color) [en promotion](deal)
+- [Bon plan](deal)
+- [Remise](deal)
+- je veux les [promos foire aux vins](deal) [a moins de](condition) [8 euros](custom-money)
+- [Promotion](deal)
+- [remises](deal) monoprix
+- 50 % de [promotion](deal) sur la deuxième bouteille
+- Vous avez quoi [en promotion](deal) sur des [bulles](wine-tag) de [Loire](appellation) ?
+- Les vins [en solde](deal)
+- Je cherche les [meilleurs rapports qualité prix](decouverte) en [rouge](wine-color) [boisé](wine-tag)
+- Donnez -moi des [bons plans](deal) de [Montlouis](appellation)
+- C' est parti pour [un](number) [rosé](wine-color) [pas cher](affordable) !
+- [Promotions](deal)
+- Moi ce qui m' intéresse , ce sont les [bonnes affaires](deal) [autour de](condition) [10 balles](money)
+- Vos vins [rosé](wine-color) [fruité](wine-tag) [en promotion](deal) , [7 €](money) [au plus](condition)
+- Je te consulte car je suis toujours à la recherche de la perle rare . Aurais -tu des [bonnes affaires](deal) à faire ?
+- Je ne regarde que les [bons deals](deal) du [rhône](appellation)
+- Merci de me donner vos [meilleurs plans](decouverte) [5-10 €](money_range)
+- T' as du [rouge](wine-color) [bon marché](affordable) en stock ?
+- Je suis à l' affût de [promos](deal) de [blancs](wine-color) !
+- Je suis [une](number) vraie radine , moins je paie mieux je me porte je veux le vin avec le [meilleur rapport qualité prix](deal)
+- Allez , sortez -moi vos [bonnes affaires](deal) à [moins de](condition) [8 €](custom-money)
+- [Promotion 3](deal) pour [2](number)
+- C' est quoi les [bons plans](deal)
+- J' adore dénicher la bonne affaire . Alors est -ce que tu as [un](number) vin [bon rapport qualité prix](deal) ?
+- Je craque pour les [rouges](wine-color) avec un [bon rapport QP](deal)
+- Du vin [peu onéreux](affordable) stp !
+- [Un](number) bon vin [pas cher](affordable)
+- J' ai envie d' [un](number) vin avec [un](number) [bon rapport qualité prix](cepage)
+- [bons plans](deal)
+- Envoie le [bon rapport qualité prix](deal)
+- [pas cher](affordable) et bon
+- [un](number) vin [pas cher](affordable) et plutot bon
+- j' aurais aimé une [promo](deal)
+- Je veux [un](number) vin raisonnable , conseille -moi [un](number) [bon rapport qualité-prix](deal) !
+- [Un](number) vin [blanc](wine-color) [en offre](deal)
+- J' ai pas trop d' argent alors donne moi le meilleur [rapport qualité prix](deal) de ta cave
+- [Un](number) vin [blanc](wine-color) en [offre promotionnelle](deal)
+- Je cherche le meilleur [rapport qualité prix](deal)
+- un [bordeaux](appellation) avec le meilleur [qualité / prix](affordable)
+- Je veux [un](number) [bon rapport qualité prix](deal)
+- [Prix cassés](deal)
+- Je recherche une [promotion](deal) sur le [champagne](appellation) ?
+- File moi les [bons plans](deal)
+- Tu as quoi en [bon rapport qualité prix](deal) ?
+- [promotion](deal) 30 % pour 6 identiques
+- Je cherche les [bons plans](deal) du moment
+
+## intent:aperitif
+- Jé besoin d' 1 [rosé](wine-color) pr l' [apéro](aperitif)
+- [rose](wine-color) pour [aperos](aperitif)
+- [Un](number) [rosé](wine-color) pour l' [apéro](aperitif)
+- [Une](number) [bière ambrée](wine-tag) pour [un](number) [apéritif](aperitif)
+- Je cherche [une](number) [bière](wine-tag) assez [légère](wine-tag) pour [un](number) [apéritif](aperitif)
+- [une](number) [bière](wine-tag) pour l' [apero](aperitif)
+- je cherche [une](number) [bière rousse](wine-tag) pour l' [apéro](aperitif)
+- [une](number) [bière légère](wine-tag) pour [un](number) [aperitif](aperitif)
+- je veux [une](number) [bière](wine-tag) sympa pour l' [apéro](aperitif)
+- Et sinon [une](number) [blanc](wine-color) [sec](wine-tag) sur le fruit [blanc](wine-color) et [fruité](wine-tag) pour l' [apéritif](aperitif) à [moins de](condition) [10 €](money) !
+- [apero](aperitif) [blanc](wine-color) [leger](wine-tag) [8 €](money)
+- [un](number) vin pour l' [apéritif](aperitif) à [plus de](condition) [250 €](money)
+- quel [rosé](wine-color) pour l' [apero](aperitif)
+- Conseille -moi [un](number) [whisky](wine-tag) [classique](classique) pour boire à l' [apéritif](aperitif) .
+- Conseille -moi [un](number) [gin](wine-tag) [classique](classique) pour [un](number) [apéritif](aperitif)
+- [Apéritif](aperitif) [classique](classique)
+- Je veux [un](number) [whisky](wine-tag) pour l' [apéritif](aperitif) [autour de](condition) [25 €](money)
+- [Apéritifs](aperitif) [classiques](classique)
+- [Apéritifs](aperitif) [classiques](classique)
+- [bonjour](hello) , je voudrais [un](number) vin [rouge](wine-color) que je peu déguster en [apéritif](aperitif) [pas trop fort](neg-wine-tag) !
+- vin [effervescent](wine-tag) pour l' [aperitif](aperitif)
+- quel [rosé](wine-color) pour [un](number) [aperitif](aperitif)
+- [Un](number) [rose](wine-color) [un](number) peut [sucrer](wine-tag) mais pas trop à déguster sans modération à l' [apéro](aperitif)
+- [un](number) [champagne](appellation) pour [trinquer](aperitif)
+- Je veux [un](number) vin pour [un](number) [before](aperitif)
+- Tu as quoi pour l' [apéro](aperitif) de pas trop cher ?
+- [un](number) [rosé](wine-color) [apéritif](aperitif) [à prix raisonnable](affordable)
+- Vin [blanc](wine-color) d' [apéro](aperitif) à [8 euros](money)
+- Je cherche [un](number) vin pour [un](number) [apéritif entre](aperitif) amis
+- Je suis sûre qu' ils vont organiser [un](number) [apéritif](aperitif) ce soir
+- Que me proposez -vous en [crémant](wine-tag) [rosé](wine-color) pour [un](number) [apéritif](aperitif) ?
+- Je voudrais trouver [un](number) vin pour l' [apéritif](aperitif) . Tu proposes quoi ?
+- [apero](aperitif)
+- Je voudrais acheter [3](number) bouteilles de [blanc](wine-color) pour [un](number) [apéritif](aperitif) au bord d' [un](number) lac
+- J' ai pris [un](number) peu de saucissons pour l' [apéro](aperitif) et je voudrais trouver [un](number) vin pour l' accompagner
+- [Apéritif](aperitif) ! C' est ma tournée
+- vin [rouge](wine-color) [bourgogne](appellation) [apéro](aperitif)
+- [Apéro](aperitif) fromage ce soir , t' as quoi pour pas [cher](affordable) ?
+- Des idées de vin de [Loire](appellation) à [10 euros](money) pour [un](number) [pique-nique](aperitif) ?
+- Je voudrais acheter [un](number) vin pour l' [apéritif](aperitif) !
+- vin [apéro](aperitif)
+- [apéro](aperitif)
+- Tu as [une](number) idée pour [un](number) [apéro](aperitif) ?
+- [Un](number) [rouge](wine-color) [léger](wine-tag) [pour tous les jours](aperitif)
+- C' est ma tournée à l' [apéritif](aperitif)
+- [Apéritif](aperitif) et que ça saute
+- [un](number) [blanc](wine-color) d' [apéro](aperitif) à [24e](custom-money) HT
+- vin [blanc](wine-color) d' [apéro](aperitif) [autour de](condition) [10 €](money)
+- Vin [blanc](wine-color) [floral](wine-tag) pour [lapéro](aperitif)
+- A l' [apéro](aperitif) je sais jamais quoi boire
+- Après le boulot c' est toujours agréable de faire [un](number) petit [apéro](aperitif)
+- [blanc](wine-color) [apéritif](aperitif) de [loire](appellation)
+- [un](number) vin pour l' [apéritif](aperitif) vers [20e](custom-money) ht
+- Il y a mon oncle et ma tante qui viennent manger mais je sais pas quoi leur servir en [apéro](aperitif)
+- [Apéro](aperitif) avec les copains ce soir , t' as [un](number) [rosé](wine-color) [bon marché](affordable) ?
+- Qui dit [apéro](aperitif) dit bouteille de vin ! Tu proposes quoi ?
+- Je veux faire [un](number) [apéro entre](aperitif) [potes](non_catching_words) ! Tu conseilles quoi ?
+- Ce soir [apéro](aperitif)
+- Je prends l' [apéro](aperitif) avec mes [potes](non_catching_words) ce soir , t' as du [blanc](wine-color) [pas cher](affordable) ?
+- [Un](number) vin qui se boit facilement
+- J' adore l' [apéritif](aperitif) mais je ne sais jamais quoi acheter à boire
+- Tu as quoi pour [un](number) [apéritif](aperitif) ?
+- [Un](number) vin pour [apero](aperitif)
+- Je veux un vin d' [apéro](aperitif)
+- [apéritif](aperitif) [cotes du rhone](appellation) [5 €](money)
+- [Pour se détendre](aperitif) en fin de journée
+- [Un](number) vin [épicé](wine-tag) et [pas cher](affordable) pour l' [apéro](aperitif) ça existe ?
+- Je cherche [un](number) vin qui impressionne mes amis [avant le repas](aperitif)
+- A l' [apéritif](aperitif) j' adore prendre [un](number) verre de vin [blanc](wine-color)
+- Vin [rouge](wine-color) pour [apéro](aperitif) [moins de](condition) [10 euros](money) et [puissant](wine-tag)
+- J' aimerais faire [un](number) [apéritif dinatoire](aperitif) avec des amis mais je sais pas quoi acheter comme vin
+- J' ai de prendre l' [apéro](aperitif)
+- Ce soir c' est [apéritif](aperitif) pour tout le monde
+- [Un](number) vin d' [apéro](aperitif) [sans se ruiner](affordable) c' est possible ?
+- Je veux [un](number) vin [avant le diner](aperitif)
+- [Un](number) vin pour l' [apéritif](aperitif)
+- Je suis à la recherche d' [un](number) vin [rouge](wine-color) [fruité](wine-tag) et [tannique](wine-tag) pour l' [apéro](aperitif)
+- Pour [après une durée journée](aperitif)
+- [ruoge](wine-color) de [loire](appellation) pour l' [apéro](aperitif)
+- Quelque chose aux [notes](award) [épicées](wine-tag) pour l' [apéro](aperitif) avec mes [potes](non_catching_words) stp
+- [apéritif](aperitif) [15 euro](money)
+- Tu as des vins d' [apéritif](aperitif) ?
+- J' invite les copains ce soir pour l' [apéro](aperitif) ! Tu as quelques vins [épicés](wine-tag) sous le coude ?
+- Tu as quoi pour l' [apéro](aperitif) ?
+- Je veux organiser [un](number) [apéro dinatoire](aperitif) demain soir mais je sais pas quoi proposer comme boisson
+- L' [apéro](aperitif) et moi ça ne fait qu' [un](number)
+- vin [blanc](wine-color) de [Bordeaux](appellation) pour [apéro](aperitif) à [10 €](money)
+- Je suis trop contente ma famille vient me voir du coup j' organise [un](number) grand [apéro](aperitif) mais je sais pas quoi acheter comme bouteille
+- Je veux [un](number) vin [rouge](wine-color) [léger](wine-tag) pour [un](number) [apéro](aperitif) sur les quais
+- vin [rouge](wine-color) [apero](aperitif) [5 €](money)
+- Trouve moi [un](number) vin [rouge](wine-color) pour [apéro](aperitif)
+- C' est parti pour l' [apéro](aperitif) ?
+- [Truc à grignoter](aperitif)
+- J' aime avoir [un](number) [apéritif](aperitif) vin [blanc](wine-color)
+- Tu as du choix en vin [épicé](wine-tag) ?
+- C' est l' heure de l' [apero](aperitif) ! Quelle bouteille ?
+- J' ai tous mes [potes](non_catching_words) qui viennent à la maison . Au programme gros [apéritif dinatoire](aperitif) . Tu aurais des idées de vin ?
+- Je voudrais prendre [un](number) [apéritif](aperitif) tu proposes quoi comme vin ?
+- Est -ce que tu as des [rouges](wine-color) pour l' [apéritif](aperitif) pas trop cher ?
+- [Detente](aperitif) apres le travail
+- [Apéro](aperitif) chez la belle famille demain , ils aiment les vins [épicés](wine-tag)
+- Tu proposes quoi en [apéro](aperitif) ?
+- je veux [un](number) vin [rouge](wine-color) pour [un](number) [apéritif](aperitif) à [10 €](money)
+- J' aimerais [un](number) vin [rouge](wine-color) avec des notes [épicées](wine-tag) de préférence
+- [Snacks](aperitif)
+- vin pour [apéritif](aperitif)
+- Je suis complètement perdue , je veux simplement [un](number) vin [blanc](wine-color) pour faire [un](number) [apéritif entre](aperitif) [copines](soiree)
+- j' organise [un](number) [apero](aperitif) avec mes copines , je ramène quoi comme vin ?
+- Qui dit [apéro](aperitif) dit [champagne](appellation) !
+- vin [blanc](wine-color) d' [apéro](aperitif) à [plus de](condition) [10 euros](money)
+- Je veux du vin [rouge](wine-color) [délicat](wine-tag) pour l' [apéritif](aperitif) [entre 5 et 10 euros](money_range)
+- je fais [un](number) [apero](aperitif)
+- [Des petits snacks](aperitif)
+- J' aime bien prendre l' [apéro](aperitif) , des conseils ?
+- en [apéritif](aperitif) que me conseillez vous
+- Tu proposes quoi comme vin à [moins de](condition) [10 euros](money) pour [un](number) [apéro](aperitif) ?
+- [apero](aperitif) avec les copines !!
+- Amatrice d' [apéritif](aperitif) en tout genre
+- Je cherche [une](number) bouteille de [rouge](wine-color) [léger](wine-tag) pour l' [apéritif](aperitif) , des idées ?
+- Pour l' [apéritif](aperitif)
+- en [apéritif](aperitif) que me conseiller vous
+- Du [snacking](aperitif)
+- [un](number) [blanc](wine-color) [pour le quotidien](aperitif)
+- [Une](number) bouteille de [St Pourçain](appellation) à boire en [début de repas](aperitif) ?
+- pour [apero](aperitif)
+- Pour l' [apéritif](aperitif)
+- [Aperoooo](aperitif)
+- [Apero](aperitif)
+- pour l' [apéro](aperitif)
+- [Aperitif](aperitif)
+
+## intent:grandes-occasions
+- pour la [saint valentin](occasion)
+- Pour le [nouvel an](occasion) chinois
+- [Boire avec des amis](soiree)
+- pour [un](number) [anniversaire](occasion)
+- [Un](number) [blanc](wine-color) svp , pour [un](number) [évènement spécial](occasion)
+- pour [un](number) [anniversaire](occasion)
+- pour la [noel](occasion)
+- [événements](occasion)
+- Pour des [événements](occasion)
+- Pour [un](number) [evenement](occasion)
+- Pour [un](number) [évènement](occasion)
+- pour [une](number) grande [fête](occasion)
+- feter le [permis](occasion)
+- [un](number) [blanc](wine-color) [doux](wine-tag) pour [un](number) [anniversaire](occasion)
+- [départ en retraite](occasion)
+- je voudrais [un](number) vin pour [un](number) [rdv galant](occasion)
+- pour la [victoire](occasion)
+- [pot de depart](occasion)
+- Des [bulles](wine-tag) pour [un](number) [évènement spécial](occasion)
+- pour [feter la victoire](occasion)
+- pour [une](number) [fete](occasion)
+- [st valentin](occasion)
+- [Rouge](wine-color) pour les [événements spéciaux](occasion)
+- feter le [permis de conduire](occasion)
+- [diner chic](occasion)
+- un [crémant](wine-tag) pour la [victoire](occasion)
+- pour [un](number) [vin d' honneur](occasion)
+- [inauguration professionnelle](occasion)
+- je cherche [un](number) vin pour ce soir
+- pour le [permis](occasion)
+- [Boire du vin avec des amis](soiree)
+- pour le [jour de l' an](occasion)
+- [jour de l' an](occasion)
+- trouver un vin pour une [fete](occasion)
+- [entre amis](soiree)
+- pour [un](number) [pot de depart](occasion)
+- c' est pour un [pot de départ](occasion)
+- pour [un](number) [aniversaire](occasion)
+- pour [un](number) [rdv](occasion)
+- [FETE](occasion)
+- pour [anniversaire](occasion)
+- on a [un](number) [pot de depart](occasion)
+- pour [une](number) [anniversaire](occasion)
+- le [permis de conduire](occasion)
+- du vin pour [boire entre amis](soiree)
+- [saint valentin](occasion)
+- pour la [saint valentin](occasion)
+- pour [un](number) [bapteme](occasion) [un](number) [vouvray](appellation) [methode traditionnelle](wine-tag)
+- pour [Noel](occasion)
+- des [retrouvailles](occasion) entre soeurs
+- [un](number) [rouge](wine-color) pour [un](number) [rdv](occasion)
+- [Un](number) [rouge](wine-color) pour [un](number) [évènement spécial](occasion)
+- [pot de retraite](occasion)
+- [pot de départ](occasion)
+- [bulles](wine-tag) grande occasion
+- pour se faire [plaisir](occasion)
+- pour [un](number) [repas de fin d' année](occasion)
+- pour [une](number) [fete](occasion)
+- une [fete](occasion)
+- [champagne](appellation) pour [soirée de fin d' année](occasion)
+- Aperitif [Noel](occasion)
+- [reveillon](occasion)
+- une [reunion d' affaire](occasion)
+- à boire en [soiree](soiree) avec des copains
+- pouvez vous me [conseiller](coup-de-coeur) pour [Noel](occasion)
+- J' aime bien avoir [un](number) vin de [bulles](wine-tag) réservé aux occasions spéciales
+- Des idées du vin [blanc](wine-color) parfait à [moins de](condition) [10 €](money) pour les occasions spéciales ?
+- Je cherche [une](number) caisse de vin [rouge](wine-color) [épicé](wine-tag) pour mon [pot de départ](occasion) ?
+- Que peux -tu me proposer des [bulles](wine-tag) pour mon [mariage](occasion) ?
+- J' organise [une](number) [fête](occasion) pour des amis , je prends quel vin ?
+- Quels vins servir à [un](number) [mariage](occasion) ?
+- [Un](number) vin [pour fêter](occasion)
+- vin [rouge](wine-color) pour [anniversaire](occasion) [entre 10 et 150 €](money_range)
+- [Un](number) vin [rouge](wine-color) pour mon [anniversaire](occasion)
+- J' aimerais [un](number) vin [entre 5 et 10 €](money_range) pour le [baptême](occasion) de mon fils
+- Je voudrais des vins de table pour mon [marriage](occasion)
+- [Un](number) vin [rouge](wine-color) [tannique fruité](wine-tag) à [moins de](condition) [10 €](money) pour [fêter](occasion) le bac
+- Je vais faire [un](number) barbecue pour [fêter](occasion) le retour de ma soeur . Quel vin j' achète ?
+- Je cherche du [rouge](wine-color) pour [un](number) [repas de fête](occasion)
+- Grande occasion
+- [Un](number) [rosé](wine-color) [pas cher](affordable) pour ma [soirée](soiree) de ce soir ?
+- Je recherche [un](number) vins [rouge](wine-color) à voir avec ma compagne
+- [Un](number) [Champagne](appellation) [bon marché](affordable) pour l' [anniversaire](occasion) de ma mère
+- [Un](number) beau [rouge](wine-color) pour [noel](occasion)
+- Tu as [un](number) [blanc](wine-color) à [petit prix](affordable) pour la [fête des pères](occasion) demain ?
+- Je dois apporter [une](number) bouteille pour [Noël](occasion) , aide moi !
+- Je suis très contrariée , j' ai raté ma commande et du coup je n' ai pas de vins pour le [baptême](occasion) de mon fils
+- J' achète pour quoi [noel](occasion)
+- [Un](number) vin [sucré](wine-tag) pour [noel](occasion)
+- Pour les [fêtes de noel](occasion)
+- c' est l' [anniversaire](occasion) de ma femme , je cherche [un](number) [blanc](wine-color) à [moins de](condition) [50 euros](money)
+- C' est partie pour une super journée ! C' est mon [mariage](occasion) mais le problème c' est que je n' ai pas acheter les vins . Des idées ?
+- Je suis à la recherche d' [un](number) vin [épicé](wine-tag) pour mon [anniversaire](occasion) !
+- J' en ai marre c' est toujours moi qui organise [noël](occasion) et à chaque fois je sais jamais quoi leur faire boire . Tu as quoi en rayon ?
+- [Pendre la crémaillère](occasion)
+- [romantique](occasion)
+- Tu proposes quoi pour le diner d' [un](number) [mariage](occasion) ?
+- On boit quoi à [Noel](occasion) ?
+- Conseillez moi un [champagne](appellation) pour une [naissance](occasion)
+- Je bois quoi à [noel](occasion)
+- j' aimerais [un](number) vin [corsé](wine-tag) pour [un](number) [mariage](occasion) svp
+- je voudrais [une](number) bouteille de [rouge](wine-color) pour l' [anniversaire](occasion) de mon chérie
+- [Crémaillère](occasion)
+- Vous avez quoi pour [une](number) [communion](occasion) ?
+- J' achète quoi pour mon [mariage](occasion) ?
+- [Un](number) grand vin [épicé](wine-tag) pour [une](number) grande occasion stp
+- [Cette année](bons-millesimes) c' est moi qui organise [Noel](occasion) mais je sais pas quoi acheter comme vin
+- c' est pour la [fête des mères](occasion)
+- [un](number) [rosé](wine-color) pour la [fete des meres](occasion)
+- [Fêter une naissance](occasion)
+- [en amoureux](occasion)
+- Je sais pas quoi acheter pour l' [anniversaire](occasion) de mon père
+- je fais ma [crémaillère](occasion) ce soir
+- ma chérie fête son [anniversaire](occasion) , j' ai donc besoin d' [une](number) bonne bouteille !
+- Je voudrais [un](number) vin pour mon [anniversaire](occasion)
+- Pour [une](number) [naissance](occasion)
+- J’ ai [un](number) [mariage](occasion) demain , je veux du [champagne](appellation)
+- C' est pour [un](number) [anniversaire](occasion) , [un](number) [blanc](wine-color) [prestigieux](wine-tag)
+- [naissance](occasion)
+- [noel](occasion)
+- Il y a [un](number) vin [doux](wine-tag) idéal pour [Noël](occasion) , budget de [10-15 €](money_range) ?
+- [18 ans](occasion)
+- [un](number) vin pour [un](number) rendez-vous avec [une](number) fille ?
+- [Un](number) vin pour [noel](occasion)
+- Je veux du vin [rouge](wine-color) [casher](wine-tag) pour le [bar-mitzvah](occasion) de mon fils
+- pour [un](number) groupe
+- [Champagne](appellation) pour [Noël](occasion)
+- [bapteme](occasion)
+- je veux [un](number) vin pour la [bar mitzvah](occasion) de mon fils
+- pour [un](number) [baptême](occasion)
+- Je voudrais acheter du vin pour [Noel](occasion)
+- groupe
+- je veux [un](number) vin pour l' [anniv](occasion) de mon fils
 
 ## intent:goodbye
+- rien merci
+- super merci et bonne soirée
+- fini
+- non merci aurevoir
+- tant pis merci
+- choix fait ! merci
+- ok ciao
+- J' ai envie de rien merci
+- non merci
+- Arivederci
+- à la revoyure
+- fermer la conversation
+- comment puis -je fermer cette conversation ? Merci beaucoup Aurevoir .
+- la bise
+- Biz
+- bisous
+- J' y vais au revoir
+- Adieux .
+- A la prochaine fois :)
+- a bientot
+- A plus
+- ciao
+- Hasta la vista
+- AU revoir
+- Au revoir !
+- je te dis à la prochaine
+- A +
+- Tu es vraiment génial ! Merci
+- allez ciao
+- A bientôt
+- aurevoir
+- A la semaine prochaine !
+- cordialement
+- a toutes
+- A la prochaine
+- Salut a toute
+- adieu
+- good bye
 - bye
-- goodbye
-- see you around
-- see you later
+- Au revoir M. le bot
+- bonne soirée
+- Bon tu es pas terrible ! Salut
+- Ciao
+- J' en ai marre
+- au plaisir
+- à la revoyure
+- Passe une bonne journée
+- Bye-Bye
+- Adieux
+- a [une](number) prochaine
+- au revoir
+- J' ai terminé
+- bisous
+- Bonne journée toi
+- je dois m' en aller
+- chusss
+- Bon j' y vais a la prochaine
+- a toute
+- Bon week end
+- Je te souhaite [un](number) bon week-end
+- Bye bye
+- A la prochaine
+- bonne après-midi
+- bye bye magnum
+- bonne journée à toi
+- On se dit à demain
+- Assez parlé ! Salut mec
+- je m' endors , bonne nuit
+- Au revoir le bot
+- Bonne soiree
+- Bonne soirée
+- bonne journee
+- j' arrive
+- Passe une bonne journée salut
+- bonne jounrée
+- salut merci
+- passe une bonne journée
+- Bonne journee
+- je pars , merci
+- Bon weekend
+- Tchao
+- a ++
+- bonne nuit
+- Ok merci bonne nuit
+- ++
+- Bon week-end
+- Excellente journee
+- ++ dans l' bus
+- bonsoir
+- Tcho
+- a chao bonsoir
+- a +
+- bonne semaine
+- A plus
+- chao
+- a toute à l' heure
+- à très vite
+- chao chao
+- a plus tard
+- Hola
+- A++
+- A plus bot !
+- a toute de suite
+- à demain
+- Tchau
+- Hallo
+- chao bye
+- chuss
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:greetings
+- [ouech](hello)
+- [ouech ouech](hello)
+- [ouech](hello) bien ?
+- [ouech](hello)
+- [bonjour](hello) j' y connais rien
+- [bonjour](hello) !
+- [hello](hello)
+- [ouech](hello)
+- [cc](hello)
+- [bjr](hello)
+- [coucou](hello)
+- [bonjour](hello)
+- [kikou](hello)
+- [slt](hello)
+- [wesh](hello)
+- [Kikou](hello)
+- [Démarrer](hello) l' expérience
+- [hi](hello)
+- [hi](hello)
+- [hi](hello)
+- [Bonsoir ,](hello) [Magnum](wine-tag) !
+- [Yo](hello) !
+- Bien le [bonjour](hello)
+- [Hi](hello)
+- [hi](hello)
+- [Salut](hello) [magnum](wine-tag) !
+- [Coucou](hello)
+- [commençons](hello)
+- [Bonjour](hello) :-)
+- Vous êtes là ?
+- [hi](hello)
+- [ouech](hello)
+- [hi](hello)
+- [Coucou](hello) [Magnum](wine-tag) !
+- [slt](hello)
+- [Hallo](hello)
+- [salu toi](hello)
+- [hi](hello)
+- [Salut](hello) !
+- [Démarrer](hello)
+- [lu](hello)
+- [hi](hello)
+- [HI](hello)
+- [yo](hello)
+- comment t' appelles tu ?
+- [coucou toi](hello)
+- [Bjr](hello)
+- [Lu](hello)
+- [Démarrer](hello)
+- Cordialement
+- [hi](hello)
+- t' es là
+- [hi](hello)
+- [salut](hello)
+- [Bonjour](hello)
+- [Hey](hello) fréro !
+- [cc](hello)
+- [Lu](hello)
+- [Hi](hello)
+- [hi](hello)
+- [salut loustic](hello)
+- [hi](hello)
+- [Aloa](hello)
+- [Salut](hello) [Magnum](wine-tag)
+- [Bonsoir](hello)
+- [coucou](hello)
+- [debut](hello)
+- [hey yo](hello)
+- [Ouech cousin](hello)
+- [bonjout](hello)
+- [wesh](hello)
+- [hi](hello)
+- [ola](hello)
+- [Get started](hello)
+- [salut salut](hello)
+- [hey](hello) bro
+- [Hello](hello) bot
+- [bjr](hello)
+- [waiche](hello)
+- [Hi](hello)
+- [hi](hello)
+- [hi](hello)
+- [hello](hello)
+- [B' jour](hello)
+- [salut](hello) toi
+- [coucou](hello)
+- [Enchanté](hello)
+- [Allô](hello) !
+- [hi](hello)
+- [Hey](hello) you
+- [Bonjur](hello)
+- [hi](hello)
+- [yo](hello)
+- [commencer](hello)
+- [bonsoir](hello) :-)
+- [Salut](hello) vieux
+- [Bonjour](hello) [Magnum](wine-tag)
+- [wesh](hello)
+- [hi](hello)
+- [Yo](hello) p' tit mec
+- [Salutation](hello)
+- [hi](hello)
+- [Bijour](hello)
+- [Coucou](hello)
+- [Slt](hello)
+- [yo](hello) ma gueule
+- [démarre](hello)
+- [salu](hello)
+- [hey](hello) , Bianca
+- [wesh](hello)
+- [bjr](hello)
+- [hi](hello)
+- Mes sincères [salutations](hello)
+- [hello](hello) toi
+- [bonjour bonjour](hello)
+- [Bonsoir](hello) !
+- [wesh wesh](hello)
+- [Greetings](hello)
+- [Hello](hello) mec
+- [Salut](hello) robot !
+- [hi](hello)
+- [hi](hello) you
+- [bonjour](hello) l' ami
+- [bonsoir](hello) bot
+- [Salut](hello) [Magnum](wine-tag) !
+- [saloute](hello)
+- [Sup](hello)
+- [Hi](hello) !
+- [Hello](hello) Matcha
+- [Hey](hello)
+- [yo](hello) man
+- [Bonjour](hello) le bot
+- [salam aleikoum](hello)
+- [Bonjour](hello) Madame
+- [Salut](hello) le bot
+- Je veux te dire [bonjour](hello)
+- [Salut](hello) Matcha !
+- [bonjour](hello)
+- [Yop](hello)
+- [Bonjour le bot](hello)
+- je cherche [un](number) vin
+- [bonjour](hello) monsieur
+- je vous [salue](hello)
+- [Salut le bot](hello)
+- [hi](hello)
+- [couco](hello)
+- [bonjou](hello)
+- [kikoo](hello)
+- [Bien le bonjour](hello)
+- [bonjour](hello) vous
+- [salutations](hello)
+- Je vous [salue](hello) M. le bot
+- [bonjour bonjour](hello)
+- [bonzour](hello)
+- [wesh](hello) gros
+- [Kikou](hello)
+- [bonjour](hello) !
+- [hello](hello) [magnum](wine-tag)
+- [coucou](hello) [magnum](wine-tag)
+- [coucouuu](hello)
+- [salutations](hello) [magnum](wine-tag)
+- [salut](hello) [magnum](wine-tag)
+- bien le [bonjour](hello) [magnum](wine-tag)
+- [yo](hello) [magnum](wine-tag)
+- [Bonjour](hello) à toi
+- [Buenos Dias](hello)
+- [wesh](hello)
